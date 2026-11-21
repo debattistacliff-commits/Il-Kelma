@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="mt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il-Kelma · Tkellem. Isma'. Ikteb.</title>
+<meta name="description" content="Il-Kelma: a free voice helper for people with dyslexia. Maltese first, open to every language.">
+<link rel="icon" href="img/icon.png">
+
+<style>
+@font-face{font-family:'Plus Jakarta Sans';src:url('fonts/PlusJakartaSans.ttf') format('truetype');font-weight:100 900}
+:root{--bg:#070B1A;--card:rgba(255,255,255,.05);--line:rgba(140,210,255,.28);--fg:#EEF1FA;--sub:#A9B3D6;--hi:#FFE066}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:19px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px 60px}
+.hero{display:block;width:100%;border-radius:0 0 28px 28px}
+h2{font-size:28px;margin:44px 0 14px}
+.grad{background:linear-gradient(90deg,#7CF4FF,#8B9BFF 45%,#FF7AD9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card{background:var(--card);border:1px solid var(--line);border-radius:26px;box-shadow:0 0 30px rgba(120,90,255,.18);padding:22px}
+.players{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.play{display:flex;align-items:center;gap:16px;border:none;cursor:pointer;border-radius:999px;padding:16px 26px;color:#fff;font:800 22px 'Plus Jakarta Sans',sans-serif;transition:transform .15s,box-shadow .15s}
+.play:hover{transform:translateY(-3px)}
+.play .dot{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.18);font-size:26px;flex:none}
+.play small{display:block;font-weight:600;font-size:15px;opacity:.85}
+.mt{background:linear-gradient(135deg,#E3263E,#B0102A);box-shadow:0 12px 30px rgba(227,38,62,.4)}
+.en{background:linear-gradient(135deg,#3B8FF0,#6C4BF0);box-shadow:0 12px 30px rgba(91,99,255,.4)}
+.bar{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.ctl{border:1px solid var(--line);background:rgba(255,255,255,.06);color:var(--fg);border-radius:999px;padding:10px 18px;font:700 16px 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.ctl:hover{background:rgba(255,255,255,.12)}
+.status{color:var(--sub);font-size:16px;margin-left:6px}
+.script p{margin:0;padding:10px 14px;border-radius:14px;cursor:pointer;transition:background .25s,color .25s}
+.script p:hover{background:rgba(255,255,255,.05)}
+.script p.now{background:rgba(255,224,102,.16);box-shadow:inset 4px 0 0 var(--hi);color:#fff}
+.script.big p{font-size:25px}
+.keys{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.key{display:flex;align-items:center;gap:14px;padding:14px 16px}
+.kbd{min-width:62px;height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;font:800 20px 'Plus Jakarta Sans';color:#0A0F22;background:linear-gradient(180deg,#fff,#cfd7ef);box-shadow:0 4px 0 #8790b0}
+.key b{display:block;font-size:18px}.key span{color:var(--sub);font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.step{padding:18px}.step .n{font:800 15px 'Plus Jakarta Sans';color:#7CF4FF;letter-spacing:.08em}
+.flags{display:flex;gap:10px;align-items:center;margin:8px 0 4px}
+.flag{width:40px;height:40px;border-radius:50%;box-shadow:0 0 0 3px rgba(255,255,255,.2)}
+.dl{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px}
+.big{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font:800 22px 'Plus Jakarta Sans';padding:18px 30px;border-radius:999px;background:linear-gradient(135deg,#00C2FF,#8B5CFF 55%,#FF4FD8);box-shadow:0 0 30px rgba(139,92,255,.6)}
+.ghost{background:none;border:2px solid var(--line);box-shadow:none}
+footer{margin-top:50px;color:var(--sub);font-size:15px;text-align:center}
+@media (max-width:720px){.players,.keys,.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<img class="hero" src="img/hero.png" alt="Kelma Buddy, a friendly speech bubble with a light bulb, above the name Il-Kelma">
+<div class="wrap">
+
+  <div class="players">
+    <button class="play mt" id="p-mt"><span class="dot">▶</span><span>Isma' din il-paġna<small>bil-Malti</small></span></button>
+    <button class="play en" id="p-en"><span class="dot">▶</span><span>Listen to this page<small>in English</small></span></button>
+  </div>
+  <div class="bar">
+    <button class="ctl" id="pause">⏸ Pause · Waqqaf</button>
+    <button class="ctl" id="prev">⏮ Back · Lura</button>
+    <button class="ctl" id="next">⏭ Next · Li jmiss</button>
+    <button class="ctl" id="bigger">🔠 Bigger text · Ittri kbar</button>
+    <span class="status" id="status">Press a big button to listen. · Agħfas buttuna kbira biex tisma'.</span>
+  </div>
+
+  <h2>📖 <span class="grad" id="script-title">Il-paġna · The page</span></h2>
+  <div class="card script" id="script"></div>
+
+  <h2>⌨️ <span class="grad">Shortcut keys · Il-buttuni</span></h2>
+  <div class="keys">
+    <div class="card key"><div class="kbd">F9</div><div><b>Write · Ikteb</b><span>Speak, it writes for you</span></div></div>
+    <div class="card key"><div class="kbd">F11</div><div><b>Read · Aqra</b><span>Select text, hear it</span></div></div>
+    <div class="card key"><div class="kbd">F7</div><div><b>Point · Ipponta</b><span>Point at text, hear it</span></div></div>
+    <div class="card key"><div class="kbd">F6</div><div><b>Comments · Kummenti</b><span>Read new live chat comments</span></div></div>
+    <div class="card key"><div class="kbd">F8</div><div><b>Help me · Għinni</b><span>Help me say it in Maltese</span></div></div>
+    <div class="card key"><div class="kbd">F4</div><div><b>Pad · Il-Karta</b><span>Open the writing pad</span></div></div>
+  </div>
+
+  <h2>🌍 <span class="grad">Change the language · Ibdel il-lingwa</span></h2>
+  <div class="card">
+    <div class="flags">
+      <svg class="flag" viewBox="0 0 24 24"><rect width="24" height="24" fill="#fff"/><rect x="12" width="12" height="24" fill="#CF142B"/><rect x="3" y="3" width="5" height="5" fill="#B5B5B5"/></svg>
+      <span style="font-size:24px">→</span>
+      <svg class="flag" viewBox="0 0 24 24"><rect width="24" height="24" fill="#012169"/><path d="M0 0L24 24M24 0L0 24" stroke="#fff" stroke-width="5"/><path d="M0 0L24 24M24 0L0 24" stroke="#C8102E" stroke-width="2"/><path d="M12 0V24M0 12H24" stroke="#fff" stroke-width="8"/><path d="M12 0V24M0 12H24" stroke="#C8102E" stroke-width="5"/></svg>
+      <span style="font-size:24px">→</span>
+      <svg class="flag" viewBox="0 0 24 24"><rect width="8" height="24" fill="#009246"/><rect x="8" width="8" height="24" fill="#fff"/><rect x="16" width="8" height="24" fill="#CE2B37"/></svg>
+    </div>
+    <p style="margin:8px 0 0">Click <b>Kelma Buddy</b> in the corner of your screen, then press the <b>flag</b> button. Each press changes the language: <b>Malti → English → Italiano</b>. Buddy tells you the new language out loud.</p>
+    <p style="margin:6px 0 0;color:var(--sub)">Agħfas fuq il-ħabib Kelma fil-kantuniera tal-iskrin, imbagħad agħfas il-bandiera. Kull darba tinbidel il-lingwa: Malti → English → Italiano.</p>
+  </div>
+
+  <h2>⬇️ <span class="grad">Get Il-Kelma · Niżżel Il-Kelma</span></h2>
+  <div class="steps">
+    <div class="card step"><div class="n">STEP 1</div><b>Download</b><br><span style="color:var(--sub)">Press the big button below and unzip the folder.</span></div>
+    <div class="card step"><div class="n">STEP 2</div><b>Install</b><br><span style="color:var(--sub)">Double-click <b>Install Il-Kelma</b>. It sets everything up.</span></div>
+    <div class="card step"><div class="n">STEP 3</div><b>Start</b><br><span style="color:var(--sub)">Double-click the <b>Il-Kelma</b> icon on your desktop.</span></div>
+  </div>
+  <div class="dl">
+    <a class="big" href="https://github.com/debattistacliff-commits/Il-Kelma/archive/refs/heads/main.zip">⬇ Download Il-Kelma</a>
+    <a class="big ghost" href="https://github.com/debattistacliff-commits/Il-Kelma">📁 See the project</a>
+  </div>
+
+  <h2>☕ <span class="grad">Support Il-Kelma · Appoġġa lil Il-Kelma</span></h2>
+  <div class="card" style="display:flex;align-items:center;gap:22px;flex-wrap:wrap">
+    <a href="https://buymeacoffee.com/debattistaj"><img src="img/coffee.png" alt="Buy me a coffee · Ixtrili kafè" width="330"></a>
+    <p style="margin:0;flex:1;min-width:260px">Il-Kelma is free. If it helps you, a coffee helps it grow. <span style="color:var(--sub)">Il-Kelma hija b'xejn. Jekk tgħinek, kafè jgħinha tikber. Grazzi!</span></p>
+  </div>
+
+  <footer>Il-Kelma is free and not for sale · Il-Kelma hija b'xejn u mhix għall-bejgħ<br>Tkellem. Isma'. Ikteb.</footer>
+</div>
+
+<audio id="audio" preload="auto"></audio>
+<script>
+const audio = document.getElementById("audio"), script = document.getElementById("script"), statusEl = document.getElementById("status");
+let data = null, lang = "mt", i = 0, playing = false;
+function render() {
+  script.innerHTML = "";
+  data[lang].forEach((item, n) => {
+    const p = document.createElement("p"); p.textContent = item.text; p.id = "s" + n;
+    p.onclick = () => { i = n; start(); };
+    script.appendChild(p);
+  });
+  document.getElementById("script-title").textContent = lang === "mt" ? "Il-paġna bil-Malti" : "The page in English";
+}
+function mark() {
+  script.querySelectorAll("p").forEach((p, n) => p.classList.toggle("now", n === i && playing));
+  const cur = document.getElementById("s" + i);
+  if (cur && playing) cur.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+function start() {
+  if (!data) return;
+  playing = true; audio.src = data[lang][i].audio; audio.play();
+  statusEl.textContent = (lang === "mt" ? "Qed naqra… " : "Reading… ") + (i + 1) + " / " + data[lang].length;
+  mark();
+}
+audio.onended = () => { if (i < data[lang].length - 1) { i++; start(); } else { playing = false; mark(); statusEl.textContent = lang === "mt" ? "Lest! Grazzi talli smajt." : "Done! Thank you for listening."; } };
+function choose(l) { lang = l; i = 0; render(); start(); }
+document.getElementById("p-mt").onclick = () => choose("mt");
+document.getElementById("p-en").onclick = () => choose("en");
+document.getElementById("pause").onclick = () => { if (audio.paused) { audio.play(); playing = true; } else { audio.pause(); playing = false; statusEl.textContent = lang === "mt" ? "Waqaft." : "Paused."; } mark(); };
+document.getElementById("prev").onclick = () => { i = Math.max(0, i - 1); start(); };
+document.getElementById("next").onclick = () => { i = Math.min(data[lang].length - 1, i + 1); start(); };
+document.getElementById("bigger").onclick = () => script.classList.toggle("big");
+fetch("narration.json").then(r => r.json()).then(d => { data = d; render(); })
+  .catch(() => { statusEl.textContent = "Could not load the reading."; });
+</script>
+</body>
+</html>

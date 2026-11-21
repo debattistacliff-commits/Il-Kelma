@@ -1,0 +1,47 @@
+{
+  "sources": {
+    "kfb": "sources/spell-mt/kotbafilbut_1.train.csv, corrected text",
+    "bank_grammar": "Clifford’s language bank, grammar/structural_foundations.json",
+    "bank_expressions": "Clifford’s language bank, expressions/entries.json",
+    "bank_conversation": "Clifford’s language bank, conversation/patterns.json"
+  },
+  "pronouns": [
+    {"maltese": "jien", "english": "I", "italian": "io", "source": "kfb#KFB1-4340"},
+    {"maltese": "int", "english": "you (singular)", "italian": "tu", "source": "kfb#KFB1-2380"},
+    {"maltese": "hu", "english": "he", "italian": "lui", "source": "kfb#KFB1-3134"},
+    {"maltese": "hi", "english": "she", "italian": "lei", "source": "kfb#KFB1-2825"},
+    {"maltese": "aħna", "english": "we", "italian": "noi", "source": "kfb#KFB1-69"},
+    {"maltese": "intom", "english": "you (plural)", "italian": "voi", "source": "kfb#KFB1-2978"},
+    {"maltese": "huma", "english": "they", "italian": "loro", "source": "kfb#KFB1-4068"}
+  ],
+  "attached_pronouns": [
+    {"person": "jien", "object": ["-ni"], "possessive": ["-i", "-j", "-ja"], "english": "me / my", "italian": "mi / mio", "source": ["bank_grammar#foundation-s7a-d-003", "bank_grammar#foundation-s7a-d-007"]},
+    {"person": "int", "object": ["-k", "-ek", "-ak", "-ok"], "possessive": ["-k"], "english": "you / your", "italian": "ti / tuo", "source": ["bank_grammar#foundation-s7a-d-003", "bank_grammar#foundation-s7a-d-006"]},
+    {"person": "hu", "object": ["-h", "-u"], "possessive": ["-h", "-u"], "english": "him / his", "italian": "lo / suo", "source": ["bank_grammar#foundation-s7a-d-003", "bank_grammar#foundation-s7a-d-005"]},
+    {"person": "hi", "object": ["-ha"], "possessive": ["-ha"], "english": "her / her", "italian": "la / suo", "source": ["bank_grammar#foundation-s7a-d-003", "bank_grammar#foundation-s7a-d-005"]},
+    {"person": "aħna", "object": ["-na"], "possessive": ["-na"], "english": "us / our", "italian": "ci / nostro", "source": "bank_grammar#foundation-s7a-d-003"},
+    {"person": "intom", "object": ["-kom"], "possessive": ["-kom"], "english": "you / your (plural)", "italian": "vi / vostro", "source": "bank_grammar#foundation-s7a-d-003"},
+    {"person": "huma", "object": ["-hom"], "possessive": ["-hom"], "english": "them / their", "italian": "li, le / loro", "source": ["bank_grammar#foundation-s7a-d-003", "bank_grammar#foundation-s7a-d-005"]}
+  ],
+  "phrases": [
+    {"id": "good-morning", "topic": "greeting", "maltese": "Bonġu", "english": "Good morning", "italian": "Buongiorno", "source": "bank_conversation#conversation-stage4-001"},
+    {"id": "hello", "topic": "greeting", "maltese": "Bong.", "english": "Hello.", "italian": "Ciao.", "source": "bank_expressions#expr-stage2-001"},
+    {"id": "bye", "topic": "farewell", "maltese": "Ċaw", "english": "Bye", "italian": "Ciao", "source": "bank_conversation#conversation-stage4-007"},
+    {"id": "goodbye", "topic": "farewell", "maltese": "Saħħa", "english": "Goodbye", "italian": "Arrivederci", "source": "bank_conversation#conversation-stage4-008"},
+    {"id": "how-are-you", "topic": "chat", "maltese": "Kif int?", "english": "How are you?", "italian": "Come stai?", "source": "bank_conversation#conversation-stage4-002"},
+    {"id": "well-m", "topic": "chat", "maltese": "Jien tajjeb grazzi. U int?", "english": "I’m fine, thanks. And you?", "italian": "Sto bene, grazie. E tu?", "speaker": "masculine", "source": "bank_conversation#conversation-stage4-002"},
+    {"id": "well-f", "topic": "chat", "maltese": "Jiena tajba grazzi. U int?", "english": "I’m fine, thanks. And you?", "italian": "Sto bene, grazie. E tu?", "speaker": "feminine", "source": "bank_conversation#conversation-stage4-002"},
+    {"id": "thanks", "topic": "chat", "maltese": "Grazzi", "english": "Thanks", "italian": "Grazie", "source": "bank_conversation#conversation-stage4-004"},
+    {"id": "thanks-a-lot", "topic": "chat", "maltese": "Grazzi ħafna", "english": "Thanks a lot", "italian": "Grazie mille", "source": "bank_conversation#conversation-stage4-005"},
+    {"id": "welcome", "topic": "chat", "maltese": "Ta’ xejn", "english": "You’re welcome", "italian": "Di niente", "source": "bank_conversation#conversation-stage4-004"},
+    {"id": "maybe", "topic": "chat", "maltese": "Forsi", "english": "Maybe", "italian": "Forse", "source": "bank_conversation#conversation-stage4-011"},
+    {"id": "help", "topic": "chat", "maltese": "Tista’ tgħinni?", "english": "Can you help me?", "italian": "Puoi aiutarmi?", "source": "bank_expressions#expr-stage2-013"},
+    {"id": "repeat", "topic": "chat", "maltese": "Erġa’ għidli jekk jogħġbok", "english": "Please say that again", "italian": "Ripeti, per favore", "source": "bank_conversation#conversation-stage4-015"}
+  ],
+  "dialogues": [
+    {"turns": ["good-morning", "good-morning"], "source": "bank_conversation#conversation-stage4-001"},
+    {"turns": ["how-are-you", "well-m"], "source": "bank_conversation#conversation-stage4-002"},
+    {"turns": ["how-are-you", "well-f"], "source": "bank_conversation#conversation-stage4-002"},
+    {"turns": ["thanks", "welcome"], "source": "bank_conversation#conversation-stage4-004"}
+  ]
+}

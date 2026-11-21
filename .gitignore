@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+tests/audio/
+models/
+out/
+data/settings.json
+data/history.json
+data/ilkelma.lock
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/corpora/
+data/sentences.sqlite
+data/macocu_words.sqlite
+data/learned_words.sqlite
+data/pad/
+
+# --- private to Clifford: never public ---
+data/my_corrections.json
+data/my_words.txt
+data/phrasebook.json
+data/comment_boxes.json
+data/maltese_words.sqlite
+data/*.sqlite
+TASK_*.md
+REPORT_*.md
+codex_*.log
+docs/*PROPOSAL*.md
+docs/GABRA_PERMISSION.md
+config.local.json
+*.local.json
+
+# internal, not public
+VISION.md
+benchmark*.py
+PUBLIC_EXCLUDE.txt

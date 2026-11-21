@@ -1,0 +1,41 @@
+Il-Kelma. Speak it. Hear it. Write it.
+A free voice helper for people with dyslexia.
+Made in Malta, Maltese first, and open to every language.
+You speak, it writes. You point, it reads. And the letters ċ, ġ, ħ, ż and għ are always right.
+Why Il-Kelma?
+The Maltese language deserves its place in the digital world.
+For many years, Maltese speakers were told that our language was too small for modern technology.
+Voice typing, reading aloud and spelling help arrived for the world's big languages. Maltese was too often left behind.
+Artificial intelligence is changing that.
+Il-Kelma shows that a computer can listen to Maltese, write it correctly and read it back.
+It works in the chat boxes people use every day, on different platforms.
+The founder, Clifford Debattista, says: "I started Il-Kelma to make everyday writing in Maltese easier. Now I want it to help others too, so that nobody is left behind because of reading or writing."
+Not only Maltese.
+Il-Kelma already understands and speaks English and Italian too, and every comment or message is read in its own language.
+Each language is a simple language pack, so more languages can join.
+Our hope is that any community whose language was left behind can bring its own.
+What does Il-Kelma do?
+F9, Write: speak in Maltese, English or Italian, and Il-Kelma writes it into the chat box. It never presses send. You check it and send it yourself.
+F11, Read: select any text and hear it in a natural voice.
+F7, Point and read: point at text you cannot select, such as live chat comments, and hear it.
+F6, Read new comments: draw a box around a live chat once, and every new comment is read aloud in its own language.
+F8, Help me say it: say what you mean, and it suggests a clear sentence in Maltese.
+F4, the Kelma Pad: a calm writing pad made for dyslexia, with big letters, easy fonts, colours, a reading ruler, and a button to fix the letters.
+It learns with you: it learns everyday Maltese words from what it reads, but only single words, and never names or messages.
+Kelma Buddy sits quietly in the corner of your screen. He shows you what is happening with his moods and talks to you, instead of popping up boxes.
+Now, the shortcut keys. These are keys on your keyboard, so you can work quickly.
+F9 to write with your voice. F11 to read the selected text. F7 to point and listen. F6 to start or stop reading comments. F8 for Help me say it. And F4 to open the Kelma Pad.
+To change the language: click Kelma Buddy, then press the flag. Each press changes it: Maltese, English, Italian. Buddy tells you the new language out loud.
+Privacy and respect.
+Your voice is turned into text on your own computer.
+Il-Kelma never sends a message for you, and it never keeps other people's names or messages.
+Work in progress.
+Il-Kelma is young and growing. Every test, idea and correction makes it better.
+For assistive technology: makers of software or equipment for people with disabilities can add Il-Kelma's Maltese voice to their own products.
+Support and partners.
+We warmly welcome European Union programmes, governments and public entities, universities, schools, organisations, foundations, companies small and large, and people from every corner of the world.
+You are welcome to fork the project, suggest ideas, fix things or add a new language. Every bit of help is received with real gratitude.
+To install it: download the project, double-click "Install Il-Kelma", and then double-click the Il-Kelma icon on your desktop.
+If Il-Kelma helps you, you can support it with a coffee. Press the orange button, Buy me a coffee. Every coffee helps Il-Kelma grow. Thank you from the heart.
+Il-Kelma is free and not for sale. Thank you to MLRS at the University of Malta, and to everyone who helped.
+Il-Kelma. Speak it. Hear it. Write it.

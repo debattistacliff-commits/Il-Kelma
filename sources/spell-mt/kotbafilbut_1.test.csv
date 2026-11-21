@@ -1,0 +1,920 @@
+﻿ID,src_sent,tgt_sent,origin,error_type
+KFB1-1,Id-Dinja l-Mitlufa,Id-Dinja l-Mitlufa,kotbafilbut_1,KOR
+KFB1-4440,Issa stajt nara l-wiċċ biss.,Issa stajt nara l-wiċċ biss.,kotbafilbut_1,KOR
+KFB1-4581,Stapleton ħa l-kelb lura fil-moħba tiegħu.,Stapleton ħa l-kelb lura fil-moħba tiegħu.,kotbafilbut_1,KOR
+KFB1-1951,"Tesew inħeba wara din il-liwja, u sejjaħ lill-Minotawr.","Tesew inħeba wara din il-liwja, u sejjaħ lill-minotawru.",kotbafilbut_1,ORT
+KFB1-3768,"Jonathan telaq il-pala minn idejh u lebbet 'il barra mill-kripta, bogħod kemm jista' jkun minn dak il-mostru.","Jonathan telaq il-pala minn idejh u lebbet 'il barra mill-kripta, bogħod kemm jista' jkun minn dak il-mostru.",kotbafilbut_1,KOR
+KFB1-3783,"U issa x'kienu se jagħmlulu, ladarba Dracula ma kienx hemm biex iwaqqafhom milli jagħmlu għalih?","U issa x'kienu se jagħmlulu, ladarba Dracula ma kienx hemm biex iwaqqafhom milli jagħmlu għalih?",kotbafilbut_1,KOR
+KFB1-2720,"Mhix qrib ħafna, imma ma niflaħx nibqa' fuq in-Nautilus iktar.","Mhix qrib ħafna, imma ma niflaħx nibqa' fuq in-Nautilus iktar.",kotbafilbut_1,KOR
+KFB1-3238,"Sejħet lil tużżana mill-ilsiera Winkis li kellha, armathom bil-lanez u ordnatilhom biex jeqirdu lil Dorothy u lil sħabha.","Sejħet lil tużżana mill-ilsiera Winkies li kellha, armathom bil-lanez u ordnatilhom biex jeqirdu lil Dorothy u lil sħabha.",kotbafilbut_1,ORT
+KFB1-1109,"Collodi qatta' l-parti l-kbira ta' tfulitu f'Collodi, fejn kien jgħix ma' nanntu.","Collodi qatta' l-parti l-kbira ta' tfulitu f'Collodi, fejn kien jgħix ma' nanntu.",kotbafilbut_1,KOR
+KFB1-3035,"Nies bla qalb imisshom joqogħdu attenti biex ma jkunux kattivi lejn ħaddieħor.""","Nies bla qalb imisshom joqogħdu attenti biex ma jkunux kattivi lejn ħaddieħor.""",kotbafilbut_1,KOR
+KFB1-591,Ma kienx għadu fil-kamra tas-sodda f'daru.,Ma kienx għadu fil-kamra tas-sodda f'daru.,kotbafilbut_1,KOR
+KFB1-1695,Dawn dlonk bdew jitilgħu mal-bażi tal-ġebel tat-torri sakemm waslu ħdejn it-taraġ tal-injam.,"Dawn dlonk bdew jitilgħu mal-bażi tal-ġebel tat-torri, sakemm waslu ħdejn it-taraġ tal-injam.",kotbafilbut_1,ORT
+KFB1-3633,"Il-karozzin waqaf ħesrem u Jonathan tkexkex hekk kif ħares barra mit-tieqa u ntebaħ li kienu mdawrin b'ilpup, kollha bi lsienhom barra u bi snienhom mikxufin jiddu fid-dawl tal-qamar.","Il-karozzin waqaf ħesrem u Jonathan tkexkex hekk kif ħares barra mit-tieqa u ntebaħ li kienu mdawrin bi lpup, kollha bi lsienhom barra u bi snienhom mikxufin jiddu fid-dawl tal-qamar.",kotbafilbut_1,ORT
+KFB1-2884,"""Kif nista' nasal f'Belt l-Iżmeraldi?""","""Kif nista' nasal f'Belt l-Iżmeraldi?""",kotbafilbut_1,KOR
+KFB1-1576,"Billi l-bumbardament qalil kien qed jinstama' minn madwar il-gżira kollha, il-Gvernatur tal-Imdina, il-Kavallier don Mesquita, basar li kien qed isir attakk qalil fuq iż-żewġt ibliet tal-Port il-Kbir.","Billi l-bumbardament qalil kien qed jinstama' minn madwar il-gżira kollha, il-Gvernatur tal-Imdina, il-Kavallier don Mesquita, basar li kien qed isir attakk qalil fuq iż-żewġt ibliet tal-Port il-Kbir.",kotbafilbut_1,KOR
+KFB1-3793,F'ġurnata waħda mhux inqas minn tliet ġuvintur kienu takbuha tiżżewwiġhom.,F'ġurnata waħda mhux inqas minn tliet ġuvintur kienu talbuha tiżżewwiġhom.,kotbafilbut_1,ORT
+KFB1-213,"""Ma nistax inneżżagħlu l-ġlekk.""","""Ma nistax inneżżagħlu l-ġlekk.""",kotbafilbut_1,KOR
+KFB1-778,"""Iva ħadd m'għandu ftit simpatija lejn dan il-proxxmu f'mewtu?","""Iva ħadd m'għandu ftit simpatija lejn dan il-proxxmu f'mewtu?",kotbafilbut_1,KOR
+KFB1-4449,Għada filgħaxija biħsiebni nwaqqgħu f'nasba.,Għada filgħaxija biħsiebni nwaqqgħu f'nasba.,kotbafilbut_1,KOR
+KFB1-3491,"""It-triq hija lejn in-nofsinhar.","""It-triq hija lejn in-Nofsinhar.",kotbafilbut_1,ORT
+KFB1-2043,"""Mela għażiż tiegħi, għax ma titlaqx ma' Eliża inti wkoll?","""Mela, għażiż tiegħi, għax ma titlaqx ma' Eliża inti wkoll?",kotbafilbut_1,ORT
+KFB1-4171,"Hekk kif għamel dan, wiċċhom deher fil-paċi għal ftit sekondi u minnufih ġisimhom sar trab.","Hekk kif għamel dan, wiċċhom deher fil-paċi għal ftit sekondi u minnufih ġisimhom sar trab.",kotbafilbut_1,KOR
+KFB1-4040,"Mill-kamra tagħha fid-dar ta' Seward, Mina semgħet lill-klieb jinbħu.","Mill-kamra tagħha fid-dar ta' Seward, Mina semgħet lill-klieb jinbħu.",kotbafilbut_1,KOR
+KFB1-3220,Tant inkorlat malli lemħithom li nefħet bil-qawwa kollha f'suffara tal-fidda.,Tant inkorlat malli lemħithom li nefħet bil-qawwa kollha f'suffara tal-fidda.,kotbafilbut_1,KOR
+KFB1-1567,"Minflok, baqgħu f'posthom u minnufih bdew isewwu l-bini mġarrab.","Minflok, baqgħu f'posthom u minnufih bdew isewwu l-bini mġarrab.",kotbafilbut_1,KOR
+KFB1-3916,Darba kienu mixjin fit-toroq ta' Londra meta Jonathan waqaf ħesrem.,Darba kienu mixjin fit-toroq ta' Londra meta Jonathan waqaf ħesrem.,kotbafilbut_1,KOR
+KFB1-4339,"F'dak is-skiet u b'dik il-burdata, domt ħafna qabel ma għajni marret bija.","F'dak is-skiet u b'dik il-burdata, domt ħafna qabel ma għajni marret bija.",kotbafilbut_1,KOR
+KFB1-3112,Bid-dwiefer kbar li kellu l-għarnuq ħataf lir-raġel tat-tiben u f'kemm ilna ngħidu ġabu lura lejn sħabu.,"Bid-dwiefer kbar li kellu, l-għarnuq ħataf lir-raġel tat-tiben u f'kemm ilna ngħidu ġabu lura lejn sħabu.",kotbafilbut_1,ORT
+KFB1-4527,"Instemgħet karba qawwija, imma l-kelb ma waqqafx il-ġirja tiegħu.","Instemgħet karba qawwija, imma l-kelb ma waqqafx il-ġirja tiegħu.",kotbafilbut_1,KOR
+KFB1-1343,Nhar it-18 ta' Ġunju hu u Mustafà marru fuq l-Għolja Xiberras biex jaraw kif setgħu jżidu l-bumbardamenti fuq il-forti.,Nhar it-18 ta' Ġunju hu u Mustafà marru fuq l-Għolja Xiberras biex jaraw kif setgħu jżidu l-bumbardamenti fuq il-forti.,kotbafilbut_1,KOR
+KFB1-2013,U ried lit-tifel ukoll!,U ried lit-tifel ukoll!,kotbafilbut_1,KOR
+KFB1-273,"""Grazzi Sinjura Nemla,"" għajjat is-seqer mill-għoli.","""Grazzi, Sinjura Nemla,"" għajjat is-seqer mill-għoli.",kotbafilbut_1,ORT
+KFB1-71,Tagħlima: L-għorrief ma tidħaqx bihom malajr.,Tagħlima: L-għorrief ma tidħaqx bihom malajr.,kotbafilbut_1,KOR
+KFB1-4099,Skont l-avviżi vapur wieħed biss kien hemm li x'aktarx kien se jaqbad ir-rotta li kienu qed jissuspettaw huma.,"Skont l-avviżi, vapur wieħed biss kien hemm, li x'aktarx kien se jaqbad ir-rotta li kienu qed jissuspettaw huma.",kotbafilbut_1,ORT
+KFB1-1087,"Darba minnhom, waqt kutrumbajsa, Pinokkjo tfixkel u waqa'.","Darba minnhom, waqt kutrumbajsa, Pinokkjo tfixkel u waqa'.",kotbafilbut_1,KOR
+KFB1-394,B'dan il-kliem in-nassab ħa l-ħaġla daru għall-ikel.,B'dan il-kliem in-nassab ħa l-ħaġla daru għall-ikel.,kotbafilbut_1,KOR
+KFB1-583,"""L-Imgħoddi?"" tenna Scrooge.","""L-imgħoddi?"" tenna Scrooge.",kotbafilbut_1,ORT
+KFB1-1367,M'azzardawx ikomplu jisparaw bil-biża' li jolqtu lil sħabhom.,M'azzardawx ikomplu jisparaw bil-biża' li jolqtu lil sħabhom.,kotbafilbut_1,KOR
+KFB1-4583,"Din żgur kienet ħaġa mhix mistennija, għax kellu jerġa' jippjana mewt oħra.","Din żgur kienet ħaġa mhix mistennija, għax kellu jerġa' jippjana mewt oħra.",kotbafilbut_1,KOR
+KFB1-3808,Is-sajjied kemmex wiċċu.,Is-sajjied qarras wiċċu.,kotbafilbut_1,QTP_H
+KFB1-2548,"Teżisti mina taħt il-baħar.""","Teżisti mina taħt il-baħar.""",kotbafilbut_1,KOR
+KFB1-4089,"""Nistgħu nippruvaw, u naraw x'jiġri,"" lissen.","""Nistgħu nippruvaw, u naraw x'jiġri,"" lissen.",kotbafilbut_1,KOR
+KFB1-4503,Din biċċa serja.,Din biċċa serja.,kotbafilbut_1,KOR
+KFB1-4401,Kienet għaddiet xi siegħa meta barra l-għarix smajt il-passi ta' xi ħadd qed joqrob.,Kienet għaddiet xi siegħa meta barra l-għarix smajt il-passi ta' xi ħadd qed joqrob.,kotbafilbut_1,KOR
+KFB1-3380,"Ejjew għada, għax għandi bżonn naħsibha ftit.""","Ejjew għada, għax għandi bżonn naħsibha ftit.""",kotbafilbut_1,KOR
+KFB1-2990,Għalhekk ir-raġel tal-landa talab lil Dorothy tpoġġilu l-landa taż-żejt fil-qoffa tagħha fil-każ li jinqabad f'xi xita u jerġa' jissaddad.,Għalhekk ir-raġel tal-landa talab lil Dorothy tpoġġilu l-landa taż-żejt fil-qoffa tagħha fil-każ li jinqabad f'xi xita u jerġa' jissaddad.,kotbafilbut_1,KOR
+KFB1-1763,"Wara, ħallew lil wieħed mill-priġunieri jaħrab.","Wara, ħallew lil wieħed mill-priġunieri jaħrab.",kotbafilbut_1,KOR
+KFB1-3897,"""U għalfejn?""","""U għalfejn?""",kotbafilbut_1,KOR
+KFB1-1259,"Biex jiddefendi l-forti kellu b'kollox 80 ruħ, fosthom 15-il Kavallier tal-Ordni.","Biex jiddefendi l-forti kellu b'kollox 80 ruħ, fosthom 15-il Kavallier tal-Ordni.",kotbafilbut_1,KOR
+KFB1-4167,Fuqu kien hemm kelma waħda mnaqqxa!,Fuqu kien hemm kelma waħda mnaqqxa: 'DRACULA'.,kotbafilbut_1,ORT
+KFB1-2253,"Minnufih, mingħajr ma lissen kelma oħra, George ġera lejn il-gabbana.","Minnufih, mingħajr ma lissen kelma oħra, George ġera lejn il-gabbana.",kotbafilbut_1,KOR
+KFB1-2781,Dumas qara r-reċti ta' Verne u qatagħha li jipproduċi waħda minnhom.,Dumas qara r-reċti ta' Verne u qatagħha li jipproduċi waħda minnhom.,kotbafilbut_1,KOR
+KFB1-526,"Malli qal hekk il-qanpiena fuq il-fuklar - li kienet ilha s-snin ma tintuża - bdiet iddoqq, titbandal 'l hawn u 'l hinn, u baqgħet sejra hekk għal xi minuta.","Malli qal hekk il-qanpiena fuq il-fuklar - li kienet ilha s-snin ma tintuża - bdiet iddoqq, titbandal 'l hawn u 'l hinn, u baqgħet sejra hekk għal xi minuta.",kotbafilbut_1,KOR
+KFB1-377,"Jekk ma tridux nista' nieklu jien."" U kiel il-platt tiegħu u dak tal-għarnuq.","Jekk ma tridux nista' nieklu jien."" U kiel il-platt tiegħu u dak tal-għarnuq.",kotbafilbut_1,KOR
+KFB1-1559,"Meta fl-aħħar Mustafà ordnalhom jieqfu, u d-dħaħen u t-trab bdew joqogħdu, l-Insara setgħu jaraw li kienu kompletament imdawrin mill-għadu, u li issa ftit li xejn kellhom ċans isalvaw.","Meta fl-aħħar Mustafà ordnalhom jieqfu, u d-dħaħen u t-trab bdew joqogħdu, l-Insara setgħu jaraw li kienu kompletament imdawrin mill-għadu, u li issa ftit li xejn kellhom ċans isalvaw.",kotbafilbut_1,KOR
+KFB1-3226,B'xorti tajba ir-raġel tal-landa kien attent u semagħhom joqorbu.,"B'xorti tajba, ir-raġel tal-landa kien attent u semagħhom joqorbu.",kotbafilbut_1,ORT
+KFB1-1963,"Tassew li Arjadne kienet tfajla sabiħa, imma Tesew kien diġà għarus ma' prinċipessa minn pajjiż ieħor.","Tassew li Arjadne kienet tfajla sabiħa, imma Tesew kien diġà għarus ma' prinċipessa minn pajjiż ieħor.",kotbafilbut_1,KOR
+KFB1-4355,"Imma nagħtik parir, jekk inti ġdid f'dawn l-inħawi, tersaqx lejhom, għax ma trid xejn biex tinqabad u l-art tibilgħek."" Għal ftit sekondi bqajna nħarsu 'l fejn il-poni kien sparixxa, imma ma ċċaqlaq xejn aktar, għajr par ċawlun fuq blata.","Imma nagħtik parir, jekk inti ġdid f'dawn l-inħawi, tersaqx lejhom, għax ma trid xejn biex tinqabad u l-art tibilgħek."" Għal ftit sekondi bqajna nħarsu 'l",kotbafilbut_1,ORT
+KFB1-348,"Din id-darba, il-volpi lanqas ittanta jaħrab.","Din id-darba, il-volpi lanqas ittanta jaħrab.",kotbafilbut_1,KOR
+KFB1-2434,"Nies il-Kaptan urewna l-kmamar il-ġodda tagħna, u wara kilt mal-Kaptan.","Nies il-Kaptan urewna l-kmamar il-ġodda tagħna, u wara kilt mal-Kaptan.",kotbafilbut_1,KOR
+KFB1-2246,"Ftit snin ilu kien jaħdem għal missieri, u nixtieq inkun naf hux possibbli nixtrihx minn għandek biex nieħdu lura.""","Ftit snin ilu kien jaħdem għal missieri, u nixtieq inkun naf hux possibbli nixtrih mingħandek biex nieħdu lura.""",kotbafilbut_1,ORT
+KFB1-3576,"""U jien qatt ma kien ikolli l-qalb tajba li għandi,"" kompla r-raġel tal-landa.","""U jien qatt ma kien ikolli l-qalb tajba li għandi,"" kompla r-raġel tal-landa.",kotbafilbut_1,KOR
+KFB1-1709,"Kien jemmen li jekk jabbandunaw il-Birgu, Senglea kienet taqa' wkoll wara ftit, għax il-post kien issa dgħajjef wisq biex jiddefenduh sew.","Kien jemmen li jekk jabbandunaw il-Birgu, Senglea kienet taqa' wkoll wara ftit, għax il-post kien issa dgħajjef wisq biex jiddefenduh sew.",kotbafilbut_1,KOR
+KFB1-1050,"Għalkemm Pinokkjo kien jidher imqareb, is-saħħâra ħadet grazzja miegħu, u xtaqet li jibqa' magħha.","Għalkemm Pinokkjo kien jidher imqareb, is-saħħara ħadet grazzja miegħu, u xtaqet li jibqa' magħha.",kotbafilbut_1,ORT
+KFB1-590,F'daqqa waħda x-xena nbidlet għal kollox.,F'daqqa waħda x-xena nbidlet għalkollox.,kotbafilbut_1,ORT
+KFB1-519,U lanqas taħt il-mejda.,U lanqas taħt il-mejda.,kotbafilbut_1,KOR
+KFB1-4179,Van Helsing għannaqha.,Van Helsing għannaqha.,kotbafilbut_1,KOR
+KFB1-3504,"F'dak il-waqt semgħu xi ħsejjes, bħal ta' ħafna annimali flimkien.","F'dak il-waqt semgħu xi ħsejjes, bħal ta' ħafna annimali flimkien.",kotbafilbut_1,KOR
+KFB1-2477,Kellna biss problema waħda.,Kellna biss problema waħda.,kotbafilbut_1,KOR
+KFB1-1083,"Malli Pinokkjo sar ħmar għal kollox, inbiegħ lil ċirku, fejn sid iċ-ċirku beda jġiegħlu jagħmel il-kutrumbajsi perikolużi quddiem in-nies.","Malli Pinokkjo sar ħmar għalkollox, inbiegħ lil ċirku, fejn sid iċ-ċirku beda jġiegħlu jagħmel il-kutrumbajsi perikolużi quddiem in-nies.",kotbafilbut_1,ORT
+KFB1-3036,Ftit ħin wara bdew jisimgħu ħafna għajjat stramb u li jwaħħax.,"Ftit ħin wara, bdew jisimgħu ħafna għajjat stramb u li jwaħħax.",kotbafilbut_1,ORT
+KFB1-4392,Tgħid dak ir-raġel kellu x'jaqsam mal-biċċa tal-kelb?,Tgħid dak ir-raġel kellu x'jaqsam mal-biċċa tal-kelb?,kotbafilbut_1,KOR
+KFB1-4148,"""Ejja, oħt.","""Ejja, oħt.",kotbafilbut_1,KOR
+KFB1-1294,Kull min kien ibaħħar fil-Mediterran - speċjalment l-Insara - kien jibża' minnu u mir-reputazzjoni tiegħu.,Kull min kien ibaħħar fil-Mediterran - speċjalment l-Insara - kien jibża' minnu u mir-reputazzjoni tiegħu.,kotbafilbut_1,KOR
+KFB1-1809,Ir-reazzjoni ta' Sulejman madankollu ma kenitx terribbli daqskemm beżgħu.,"Ir-reazzjoni ta' Sulejman, madankollu, ma kenitx terribbli daqskemm beżgħu.",kotbafilbut_1,ORT
+KFB1-791,"Imma Scrooge kien għadu ma jafx fuq min kienu qed jitkellmu, dawn in-nies kollha.",Imma Scrooge kien għadu ma jafx fuq min kienu qed jitkellmu dawn in-nies kollha.,kotbafilbut_1,ORT
+KFB1-792,Talab lill-Ispirtu jurih lil xi ħadd li seta' juri ftit aktar ħniena lejn din il-persuna mejta.,Talab lill-ispirtu jurih lil xi ħadd li seta' juri ftit aktar ħniena lejn din il-persuna mejta.,kotbafilbut_1,ORT
+KFB1-4102,"Xi nies tal-port qalulhom li kienu raw raġel twila tiela' abbord, u uħud kienu raw kaxxa kbira qed titgħabba wkoll.","Xi nies tal-port qalulhom li kienu raw raġel twil tiela' abbord, u wħud kienu raw kaxxa kbira qed titgħabba wkoll.",kotbafilbut_1,ORT
+KFB1-1980,"Hekk kif ix-xini beda joqrob Ateni, xi sajjieda raw il-qalgħa mill-bogħod, u fis il-kelma ġriet li Tesew kien miet.","Hekk kif ix-xini beda joqrob Ateni, xi sajjieda raw il-qala' mill-bogħod, u fis il-kelma ġriet li Tesew kien miet.",kotbafilbut_1,ORT
+KFB1-3303,"""Ma kontx taf li l-ilma biss jeqridni?","""Ma kontx taf li l-ilma biss jeqridni?",kotbafilbut_1,KOR
+KFB1-4306,"Aħna nixtiquh jiġi ħalli jkun jista' jkompli x-xogħol filantropiku li Sir Charles ilu jagħmel fil-komunità tagħna.""","Aħna nixtiquh jiġi ħalli jkun jista' jkompli x-xogħol filantropiku li Sir Charles ilu jagħmel fil-komunità tagħna.""",kotbafilbut_1,KOR
+KFB1-1530,"Tista' tgħid inqerdu għal kollox, u l-Ġannizzeri tilfu mat-800 ruħ.","Tista' tgħid inqerdu għalkollox, u l-Ġannizzari tilfu mat-800 ruħ.",kotbafilbut_1,ORT
+KFB1-1410,B'hekk il-biċċiet tal-baħar kollha tal-Ordni kienu ankrati bejn iż-żewġ ktajjen għal aktar protezzjoni.,"B'hekk, il-biċċiet tal-baħar kollha tal-Ordni, kienu ankrati bejn iż-żewġ ktajjen għal aktar protezzjoni.",kotbafilbut_1,ORT
+KFB1-3781,"Dracula issa kien fi triqtu lejn Carfax u Londra, u hu ma seta' jagħmel xejn biex iwaqqfu.","Dracula issa kien fi triqtu lejn Carfax u Londra, u hu ma seta' jagħmel xejn biex iwaqqfu.",kotbafilbut_1,KOR
+KFB1-4277,Dan kien it-tmiem tad-dokument li qrajt ma' Holmes.,Dan kien it-tmiem tad-dokument li qrajt ma' Holmes.,kotbafilbut_1,KOR
+KFB1-83,"Minflok qalilhom, ""Mhux veru ġej il-lupu!","Minflok qalilhom,",kotbafilbut_1,QTP_H
+KFB1-4058,Ried jieħu d-demm tas-Sinjura Harker.,Ried jieħu d-demm tas-Sinjura Harker.,kotbafilbut_1,KOR
+KFB1-2350,Matul il-lejl il-baliena baqgħet wieqfa.,Matul il-lejl il-baliena baqgħet wieqfa.,kotbafilbut_1,KOR
+KFB1-20,"Fil-parti l-aktar imbegħda l-blat kien jieqaf ħesrem u warajh kien hemm blata daqstant għolja, imma maqtugħa għal kollox mill-kumplament, qisha kolonna wieqfa.","Fil-parti l-aktar imbiegħda l-blat kien jieqaf ħesrem u warajh kien hemm blata daqstant għolja, imma maqtugħa għalkollox mill-kumplament, qisha kolonna wieqfa.",kotbafilbut_1,ORT
+KFB1-3880,"Barra mill-fatt li l-karnaġġjon tagħha kienet ftit bajdanija, ma seta' jsib xejn ħażin.","Barra mill-fatt li l-karnaġġjon tagħha kien ftit bajdani, ma seta' jsib xejn ħażin.",kotbafilbut_1,ORT
+KFB1-3756,"Kollha kienu magħluqin b'għotjien, għajr waħda fuq wara nett.","Kollha kienu magħluqin b'għotjien, għajr waħda fuq wara nett.",kotbafilbut_1,KOR
+KFB1-1562,"It-tifrik tas-swar kien kważi mela sa fuq il-fossa li kien hemm bejn il-ħitan, tant li t-Torok setgħu jgħaddu minn fuqu.","It-tifrik tas-swar kien kważi mela sa fuq il-fossa li kien hemm bejn il-ħitan, tant li t-Torok setgħu jgħaddu minn fuqu.",kotbafilbut_1,KOR
+KFB1-973,Jekk ma nagħmilx hekk ikolli mmur l-iskola bħat-tfal l-oħra.,Jekk ma nagħmilx hekk ikolli mmur l-iskola bħat-tfal l-oħra.,kotbafilbut_1,KOR
+KFB1-1710,"Barra minn hekk, Sant' Anġlu kien żgħir wisq biex iżomm kemm lill-Kavallieri kif ukoll il-poplu Malti kollu, inklużi nisa u tfal.","Barra minn hekk, Sant'Anġlu kien żgħir wisq biex iżomm kemm lill-Kavallieri kif ukoll il-poplu Malti kollu, inklużi nisa u tfal.",kotbafilbut_1,ORT
+KFB1-3366,"Semgħu leħen li dehrilhom li kien ġej mis-saqaf, għalkemm ma setgħu jaraw 'il ħadd hemm fuq.","Semgħu leħen li dehrilhom li kien ġej mis-saqaf, għalkemm ma setgħu jaraw 'il ħadd hemm fuq.",kotbafilbut_1,KOR
+KFB1-1098,"Imm' issa Ġeppetto kien batut wisq, u Pinokkjo għamel minn kollox biex idur bih.","Imm'issa Ġeppetto kien batut wisq, u Pinokkjo għamel minn kollox biex idur bih.",kotbafilbut_1,ORT
+KFB1-3566,"""Bil-qalb kollha,"" qabżet Dorothy fil-pront.","""Bil-qalb kollha,"" qabżet Dorothy fil-pront.",kotbafilbut_1,KOR
+KFB1-2844,"Dorothy semgħet dan kollu, iżda ma setgħet tifhem xejn mill-kliem tax-xwejħa liebsa l-abjad.","Dorothy semgħet dan kollu, iżda ma setgħet tifhem xejn mill-kliem tax-xwejħa liebsa l-abjad.",kotbafilbut_1,KOR
+KFB1-886,"""Jiddispjaċini, Sur Scrooge.","""Jiddispjaċini, Sur Scrooge.",kotbafilbut_1,KOR
+KFB1-4397,Kien jidher ċar li xi ħadd kien qiegħed joqgħod hemm.,Kien jidher ċar li xi ħadd kien qiegħed joqgħod hemm.,kotbafilbut_1,KOR
+KFB1-4214,Imma s-sagrifiċċju tiegħu ma kienx għalxejn.,Imma s-sagrifiċċju tiegħu ma kienx għalxejn.,kotbafilbut_1,KOR
+KFB1-3994,"Issa, Lucy kienet mejta tassew.",Issa Lucy kienet mejta tassew!,kotbafilbut_1,ORT
+KFB1-515,Issa stħajjel li xi ħadd kien tiela' quddiemu.,Issa stħajjel li xi ħadd kien tiela' quddiemu.,kotbafilbut_1,KOR
+KFB1-737,L-arloġġ daqq nofsillejl.,L-arloġġ daqq nofsillejl.,kotbafilbut_1,KOR
+KFB1-1453,Għalhekk bagħat lil wieħed mill-ilsiera Nsara tiegħu personali.,"Għalhekk, bagħat lil wieħed mill-ilsiera Nsara personali tiegħu .",kotbafilbut_1,ORT
+KFB1-3358,"Minflok, Oż ta ordnijiet biex il-ħbieb tagħna jingħatawlhom xi kmamar komdi biex jistrieħu.","Minflok, Oż ta ordnijiet biex il-ħbieb tagħna jingħatawlhom xi kmamar komdi biex jistrieħu.",kotbafilbut_1,KOR
+KFB1-4325,"Il-vjaġġ kien wieħed komdu u sabiħ, u sakemm wasalna kont drajt sew il-kumpanija kemm ta' Dr Mortimer kif ukoll ta' Sir Henry.","Il-vjaġġ kien wieħed komdu u sabiħ, u sakemm wasalna kont drajt sew il-kumpanija, kemm ta' Dr Mortimer kif ukoll ta' Sir Henry.",kotbafilbut_1,ORT
+KFB1-2506,"Għalhekk jien, Ned u Conseil morna fuq l-art, u għal xi jiem m'għamilna xejn ħlief nieklu.","Għalhekk jien, Ned u Conseil morna fuq l-art, u għal xi sigħat m'għamilna xejn ħlief nieklu.",kotbafilbut_1,QTP_H
+KFB1-2126,"Wara l-esperjenza terribbli li għaddiet minnha fuq is-silġ, ħaduha fid-dar ta' sinjur li darba kien is-sid ta' ħafna skjavi fl-istat ta' Kentucky.","Wara l-esperjenza terribbli li għaddiet minnha fuq is-silġ, ħaduha fid-dar ta' raġel sinjur li darba kien is-sid ta' ħafna skjavi fl-istat ta' Kentucky.",kotbafilbut_1,ORT
+KFB1-906,Ħmistax-il xelin: Madwar €52 ta' llum.,Ħmistax-il xelin: Madwar €52 tal-lum.,kotbafilbut_1,ORT
+KFB1-3575,"""Tassew, iżda li kieku ma kienx hekk, jien qatt ma kien ikolli l-moħħ kbir li għandi issa,"" stqarr ir-raġel tat-tiben.","""Tassew, iżda li kieku ma kienx hekk, jien qatt ma kien ikolli l-moħħ kbir li għandi issa,"" stqarr ir-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-3801,"Iż-żmien għadda malajr f'Whitby hekk kif iż-żewġt iħbieb qattgħu il-ħin flimkien, jippassiġġaw viċin l-irdum ħdejn il-baħar, jew fit-toroq tal-belt.","Iż-żmien għadda malajr f'Whitby hekk kif iż-żewġt iħbieb qattgħu l-ħin flimkien jippassiġġaw viċin l-irdum ħdejn il-baħar, jew fit-toroq tal-belt.",kotbafilbut_1,ORT
+KFB1-2507,"Fuq is-siġar kien hemm frott ta' kull tip, kollu bnin.","Fuq is-siġar kien hemm frott ta' kull tip, kollu bnin.",kotbafilbut_1,KOR
+KFB1-2428,"""Tistgħu tmorru issa stess jekk tridu, imma se jkun diffiċli għax m'għandkomx dgħajsa.","""Tistgħu tmorru issa stess jekk tridu, imma se tkun diffiċli għax m'għandkomx dgħajsa.",kotbafilbut_1,ORT
+KFB1-947,"Issa Antonio tassew kien imwerwer, imma f'dak il-waqt daħal fil-ħanut il-ħabib tiegħu Ġeppetto.","Issa Antonio tassew kien imwerwer, imma f'dak il-waqt daħal fil-ħanut il-ħabib tiegħu Ġeppetto.",kotbafilbut_1,KOR
+KFB1-3214,Imxew b'għaġla kbira u f'qasir żmien tbiegħdu sew minn Belt l-Iżmeraldi.,Imxew b'għaġla kbira u f'qasir żmien tbiegħdu sew minn Belt l-Iżmeraldi.,kotbafilbut_1,KOR
+KFB1-3441,"Biss dan ma kinux jafuh!""",Biss dan ma kinux jafuh!',kotbafilbut_1,ORT
+KFB1-715,"Le, ma kienx jgħix f'żu.","Le, ma kienx jgħix f'żu.",kotbafilbut_1,KOR
+KFB1-3430,Ir-raġel tal-landa wkoll mar għand Oż.,Ir-raġel tal-landa wkoll mar għand Oż.,kotbafilbut_1,KOR
+KFB1-686,"Wara, kollha qalu li qatt ma kienu tiegħmu wiżża daqshekk tajba.","Wara, kollha qalu li qatt ma kienu tiegħmu wiżża daqshekk tajba.",kotbafilbut_1,KOR
+KFB1-703,"Bil-mistħija, ma weġibx.","Bil-mistħija, ma weġibx.",kotbafilbut_1,KOR
+KFB1-2353,Mument wara sibt ruħi fl-ilma!,Mument wara sibt ruħi fl-ilma!,kotbafilbut_1,KOR
+KFB1-2257,"X'għamlulek, jaħasra!""","X'għamlulek, jaħasra!""",kotbafilbut_1,KOR
+KFB1-3812,"Ħafna nies marru x-xatt biex jimmiraw il-veduta, u Lucy u Mina marru wkoll.","Ħafna nies marru x-xatt biex jammiraw il-veduta, u Lucy u Mina marru wkoll.",kotbafilbut_1,ORT
+KFB1-21,Fil-quċċata ta' din il-blata kien hemm siġra waħda.,Fil-quċċata ta' din il-blata kien hemm siġra waħda.,kotbafilbut_1,KOR
+KFB1-2752,M'għaddiex jum li ma tkellimniex dwar in-Nautilus.,M'għaddiex jum li ma tkellimniex dwar in-Nautilus.,kotbafilbut_1,KOR
+KFB1-885,"""X'jiġifieri tidħol ix-xogħol kwarta tard!"" beda jgerger.","""X'jiġifieri tidħol ix-xogħol kwarta tard!"" beda jgerger.",kotbafilbut_1,KOR
+KFB1-3944,"Filgħodu jsibuhom mejtin, bojod karti bħalma kienet Lucy.""","Filgħodu jsibuhom mejtin, bojod karti bħalma kienet Lucy.""",kotbafilbut_1,KOR
+KFB1-917,Kienet magħrufa għall-ħila tagħha biex tirrakkonta l-istejjer.,Kienet magħrufa għall-ħila tagħha biex tirrakkonta l-istejjer.,kotbafilbut_1,KOR
+KFB1-4312,"Meta Mortimer telaq, dort fuq Holmes u staqsejtu x'ħaseb dwar il-fatt li Sir Charles kien qed jimxi fuq il-ponot ta' saqajh.","Meta Mortimer telaq, dort fuq Holmes u staqsejtu x'jaħseb dwar il-fatt li Sir Charles kien qed jimxi fuq il-ponot ta' saqajh.",kotbafilbut_1,ORT
+KFB1-3169,"Il-leħen saqsa lil Dorothy minn fejn kienet ġabet dak il-par żarbun tal-fidda, u kif kellha dik il-marka fuq moħħha.","Il-leħen saqsa lil Dorothy minn fejn kienet ġabet dak il-par żarbun tal-fidda, u kif kellha dik il-marka fuq moħħha.",kotbafilbut_1,KOR
+KFB1-2239,"""U jien ċert li l-maħrubin ma telgħux fuq il-lanċa.""","""U jien ċert li l-maħrubin ma telgħux fuq il-lanċa.""",kotbafilbut_1,KOR
+KFB1-3388,"Tassew, jiena raġel komuni bħalkom, fil-fatt.""","Tassew, jiena raġel komuni bħalkom, fil-fatt.""",kotbafilbut_1,KOR
+KFB1-1265,"Żewġ [diżerturi] mill-armata Ottomana kienu għarrfu li de Valette bin-nuqqas ta' ftehim bejn Mustafà u Pjalì, u l-Granmastru kien qed jobsor li minflok isaħħu l-attakk fuq Kastilja, l-Ottomani kienu se jbiddlu t-tattika.","Żewġ diżerturi mill-armata Ottomana kienu għarrfu lil de Valette bin-nuqqas ta' ftehim bejn Mustafà u Pialì, u l-Gran Mastru kien qed jobsor li minflok isaħħu l-attakk fuq Kastilja, l-Ottomani kienu se jbiddlu t-tattika.",kotbafilbut_1,ORT
+KFB1-483,"Imorru joqogħdu hemm!""","Imorru joqogħdu hemm!""",kotbafilbut_1,KOR
+KFB1-3868,Imma ma jgħix ħadd fiha.,Imma ma jgħix ħadd fiha.,kotbafilbut_1,KOR
+KFB1-1219,"Sadattant, it-tħejjijiet għad-difiża ma waqfux.","Sadanittant, it-tħejjijiet għad-difiża ma waqfux.",kotbafilbut_1,ORT
+KFB1-277,Darba erba' subien marru jilagħbu ħdejn għadira.,Darba erba' subien marru jilagħbu ħdejn għadira.,kotbafilbut_1,KOR
+KFB1-988,"Imma saqajn Pinokkjo kienu tal-injam, u dawn bdew jinħarqulu bil-qajla waqt li kien rieqed...","Imma saqajn Pinokkjo kienu tal-injam, u dawn bdew jinħarqulu bil-qajla waqt li kien rieqed...",kotbafilbut_1,KOR
+KFB1-2084,Imma Eliża ma waqfitx hemm.,Imma Eliża ma waqfitx hemm.,kotbafilbut_1,KOR
+KFB1-1245,Għalhekk Mustafà ordna li liż-żewġ priġunieri jittorturawhom.,Għalhekk Mustafà ordna li liż-żewġ priġunieri jittorturawhom.,kotbafilbut_1,KOR
+KFB1-2382,"Għalissa m'aħniex f'periklu, imma dan is-sottomarin jista' jfettillu jogħdos fil-qiegħ, u x'jiġri minna mbagħad?""","Għalissa m'aħniex f'periklu, imma dan is-sottomarin jista' jfettillu jogħdos fil-qiegħ, u x'jiġri minna mbagħad?""",kotbafilbut_1,KOR
+KFB1-571,Daħal fis-sodda u minnufih għajnu marret bih.,Daħal fis-sodda u minnufih għajnu marret bih.,kotbafilbut_1,KOR
+KFB1-1435,De Robles bagħat spija quddiem biex ikun jaf bil-qagħda tal-assedju qabel de Cardona.,"De Robles bagħat spija quddiem, biex ikun jaf bil-qagħda tal-assedju qabel de Cardona.",kotbafilbut_1,ORT
+KFB1-993,"Għalhekk Ġeppetto kellu jidħol mit-tieqa, u kien irrabjat ħafna, għax ħaseb li Pinokkjo kien qed jidhaq bih.","Għalhekk Ġeppetto kellu jidħol mit-tieqa, u kien irrabjat ħafna, għax ħaseb li Pinokkjo kien qed jidħaq bih.",kotbafilbut_1,ORT
+KFB1-2921,Niżżik ħajr.,Niżżik ħajr.,kotbafilbut_1,KOR
+KFB1-2917,"Jekk taqlagħni minn ma' din il-lasta nibqa' nafulek.""","Jekk taqlagħni minn ma' din il-lasta nibqa' nafulek.""",kotbafilbut_1,KOR
+KFB1-585,"""X'ġejt tagħmel hawn?""","""X'ġejt tagħmel hawn?""",kotbafilbut_1,KOR
+KFB1-4369,"L-għada filgħodu jien u Sir Henry morna sar-raħal ta' Grimpen, fejn kien joqgħod Dr Mortimer.","L-għada filgħodu jien u Sir Henry morna sar-raħal ta' Grimpen, fejn kien joqgħod Dr Mortimer.",kotbafilbut_1,KOR
+KFB1-2514,"""Hemm xi nies hemm, armati b'lanez.","""Hemm xi nies hemm, armati b'lanez.",kotbafilbut_1,KOR
+KFB1-1349,"Sadattant kannunata oħra splodiet qalb il-grupp, u qatlet fuq il-post lill-kap tal-Ġannizzeri.","Sadanittant, kannunata oħra splodiet qalb il-grupp, u qatlet fuq il-post lill-kap tal-Ġannizzari.",kotbafilbut_1,ORT
+KFB1-1007,"Hu u sejjer beda jaħseb kif, meta jikber, isib xogħol biex jaqla' ħafna flus u jkun jista' jixtri kowt ġdid fjamant għal Ġeppetto.","Hu u sejjer beda jaħseb kif, meta jikber, isib xogħol biex jaqla' ħafna flus u jkun jista' jixtri kowt ġdid fjamant għal Ġeppetto.",kotbafilbut_1,KOR
+KFB1-674,Żewġt itfal oħra żgħar daħlu jiġru fil-kamra jgħajtu bil-ferħ li setgħu jxommu l-wiżża tagħhom qed tissajjar għand il-furnar.,Żewġt itfal oħra żgħar daħlu jiġru fil-kamra jgħajtu bil-ferħ li setgħu jxommu l-wiżża tagħhom qed tissajjar għand il-furnar.,kotbafilbut_1,KOR
+KFB1-2412,"""Se nipprova naħrab minn hawn."" qal fl-aħħar.","""Se nipprova naħrab minn hawn,"" qal fl-aħħar.",kotbafilbut_1,ORT
+KFB1-2903,Kien miżmum wieqaf fuq il-qamħ permezz ta' lasta mdeffsa f'dahru.,Kien miżmum wieqaf fuq il-qamħ permezz ta' lasta mdeffsa f'dahru.,kotbafilbut_1,KOR
+KFB1-447,Il-kmamar kienu mkebbsin bid-dwal dgħajfa tax-xemgħat.,Il-kmamar kienu mkebbsin bid-dwal dgħajfa tax-xemgħat.,kotbafilbut_1,KOR
+KFB1-2940,"Ir-raġel tat-tiben, mill-banda l-oħra, kien jibqa' għaddej minn ġo fihom, u kemm-il darba waqa' tulu fl-art.","Ir-raġel tat-tiben, mill-banda l-oħra, kien jibqa' għaddej minn ġo fihom, u kemm-il darba waqa' għal tulu fl-art.",kotbafilbut_1,ORT
+KFB1-3176,"""Kif?!","""Kif?!",kotbafilbut_1,KOR
+KFB1-3873,"""Imma int qed tidher inkwetat ukoll, Arthur.","""Imma int qed tidher inkwetat ukoll, Arthur.",kotbafilbut_1,KOR
+KFB1-2064,Ħadet ir-ruħ għax kienet taf li kieku jirnexxilha taqsam ix-xmara kienet tkun f'inqas periklu.,Ħadet ir-ruħ għax kienet taf li kieku jirnexxilha taqsam ix-xmara kienet tkun f'inqas periklu.,kotbafilbut_1,KOR
+KFB1-4093,Nista' nisma' l-ilma jċafċaf barra.,Nista' nisma' l-ilma jċafċaf barra.,kotbafilbut_1,KOR
+KFB1-3218,"Waqt li kienet f'waħda mit-twieqi tal-kastell safrani tagħha, lemħet lil Dorothy u 'l sħabha ħafna qabel ma dawn kienu waslu qrib il-kastell.","Waqt li kienet f'waħda mit-twieqi tal-kastell safrani tagħha, lemħet lil Dorothy u 'l sħabha, ħafna qabel ma dawn kienu waslu qrib il-kastell.",kotbafilbut_1,ORT
+KFB1-1690,Issa l-għedewwa tant kienu viċin xulxin li kien hemm biss ċint żgħir qed jifridhom.,Issa l-għedewwa tant kienu viċin xulxin li kien hemm biss ċint żgħir qed jifridhom.,kotbafilbut_1,KOR
+KFB1-1548,"Fuq in-naħa tal-baħar, biex jagħmel ostakli bħalma sar bil-palizzata fuq in-naħa ta' Senglea, ordna li jpoġġu ħafna ġebel fuq dgħajjes tat-tagħbija biex dawn jgħarrquhom mat-tul tal-Bajja tal-Kalkara.","Fuq in-naħa tal-baħar, biex jagħmel ostakli bħalma sar bil-palizzata fuq in-naħa ta' Senglea, ordna li jpoġġu ħafna ġebel fuq dgħajjes tat-tagħbija biex dawn jgħarrquhom mat-tul tal-Bajja tal-Kalkara.",kotbafilbut_1,KOR
+KFB1-1247,"Mingħandhom Mustafà sar jaf li l-bastjun ta' Kastilja, li kien qed iħares il-Birgu, kien l-aktar parti dgħajfa tal-fortifikazzjonijiet, u qatagħha li jaħbat hemm l-ewwel.","Mingħandhom Mustafà sar jaf li l-bastjun ta' Kastilja, li kien qed iħares il-Birgu, kien l-aktar parti dgħajfa tal-fortifikazzjonijiet u qatagħha li jaħbat hemm l-ewwel.",kotbafilbut_1,ORT
+KFB1-1985,Il-Gabbana taz-Ziju Tom,Il-Gabbana taz-Ziju Tom,kotbafilbut_1,KOR
+KFB1-294,"Għalhekk tefgħet oħra, u oħra, u oħra, sakemm l-ilma kien għoli biżżejjed li setgħet tilħqu b'munqarha.","Għalhekk tefgħet oħra, u oħra, u oħra, sakemm l-ilma kien għoli biżżejjed li setgħet tilħqu b'munqarha.",kotbafilbut_1,KOR
+KFB1-1547,"Seta' jobsor li issa kien imiss attakk fuq il-Birgu u ra kif jagħmel biex isaħħaħ id-difiżi hemm, kemm fuq in-naħa tal-baħar kif ukoll dik tal-art.","Seta' jobsor li issa kien imiss attakk fuq il-Birgu u ra kif jagħmel biex isaħħaħ id-difiżi hemm, kemm fuq in-naħa tal-baħar kif ukoll dik tal-art.",kotbafilbut_1,KOR
+KFB1-2012,Fejn qatt bsart li niġi fis-sitwazzjoni li jkolli nbiegħlu lil Tom?,Fejn qatt bsart li niġi fis-sitwazzjoni li jkolli nbigħlu lil Tom?,kotbafilbut_1,ORT
+KFB1-588,"Qum u ejja miegħi.""","Qum u ejja miegħi.""",kotbafilbut_1,KOR
+KFB1-2403,"""Ned, ipprova int, forsi jifhem l-Ingliż.""","""Ned, ipprova int, forsi jifhem l-Ingliż.""",kotbafilbut_1,KOR
+KFB1-2129,U hemmhekk sabet lil żewġha George.,U hemmhekk sabet lil żewġha George.,kotbafilbut_1,KOR
+KFB1-3961,M'għaddhiex ħafna ħin.,M'għaddiex ħafna ħin.,kotbafilbut_1,ORT
+KFB1-3796,"It-tieni kien Amerikan mill-istat ta' Texas, Quincey P.","It-tieni kien Amerikan mill-istat ta' Texas, Quincey P.",kotbafilbut_1,KOR
+KFB1-2719,"""Nista' nara l-kosta.","""Nista' nara l-kosta.",kotbafilbut_1,KOR
+KFB1-425,"Tifel żgħir, b'imnieħru aħmar bil-kesħa, ħares mit-toqba tas-serratura tal-bieb tal-uffiċċju u beda jkanta għanja tal-Milied.","Tifel żgħir, bi mnieħru aħmar bil-kesħa, ħares mit-toqba tas-serratura tal-bieb tal-uffiċċju u beda jkanta għanja tal-Milied.",kotbafilbut_1,ORT
+KFB1-2582,"Ħafna mill-baħrin tal-Kaptan kienu barra, libsin l-ilbies tal-għadis, u kienu ġejjin u sejrin mix-xwieni għas-sottomarin.","Ħafna mill-baħrin tal-Kaptan kienu barra, libsin l-ilbies tal-għadis, u kienu ġejjin u sejrin mix-xwieni għas-sottomarin.",kotbafilbut_1,KOR
+KFB1-1054,"Il-volpi u l-qattus reġgħu sabuh, u din id-darba rnexxielhom jisirqulu l-muniti.","Il-volpi u l-qattus reġgħu sabuh, u din id-darba rnexxielhom jisirqulu l-muniti.",kotbafilbut_1,KOR
+KFB1-4012,"Dracula għandu bżonn xi mkien fejn jistrieħ, u kull waħda minn dawk il-kaxxi tipprovdilu kenn u sigurtà.""","Dracula għandu bżonn xi mkien fejn jistrieħ, u kull waħda minn dawk il-kaxxi tipprovdilu kenn u sigurtà.""",kotbafilbut_1,KOR
+KFB1-4196,"Iż-żingari kienu qed joqorbu malajr, aktar u aktar, u issa kienu inqas minn mitt metru 'l bogħod.","Iż-żingari kienu qed joqorbu malajr aktar u aktar, u issa kienu inqas minn mitt metru 'l bogħod.",kotbafilbut_1,ORT
+KFB1-556,"""Negozju!","""Negozju!",kotbafilbut_1,KOR
+KFB1-3906,Holmwood kellu qalbu maqsuma.,Holmwood kellu qalbu maqsuma.,kotbafilbut_1,KOR
+KFB1-3329,Lil Dorothy tawha l-kappa tad-deheb.,Lil Dorothy tawha l-kappa tad-deheb.,kotbafilbut_1,KOR
+KFB1-4337,"Meta ħarist 'il barra mit-tieqa ta' kamarti, sibt li x-xagħra kienet faċċata, fil-bogħod.","Meta ħarist 'il barra mit-tieqa ta' kamarti, sibt li x-xagħra kienet faċċata, fil-bogħod.",kotbafilbut_1,KOR
+KFB1-3599,"""Iżda kemm jien kuntenta li wasalt lura hawn, fl-aħħar!""","""Iżda kemm jien kuntenta li wasalt lura hawn, fl-aħħar!""",kotbafilbut_1,KOR
+KFB1-4335,"""Ma tidhirx ferrieħa ħafna,"" qal Sir Henry.","""Ma tidhirx ferrieħa ħafna,"" qal Sir Henry.",kotbafilbut_1,KOR
+KFB1-4217,Il-Konti Dracula issa kien inqered għal kollox.,Il-Konti Dracula issa kien inqered darba għal dejjem.,kotbafilbut_1,QTP_H
+KFB1-1193,Barra minn hekk irridu nsejħu lil dawk ħutna li bħalissa qegħdin f'pajjiżhom fl-Ewropa.,"Barra minn hekk, irridu nsejħu lil dawk ħutna li bħalissa qegħdin f'pajjiżhom fl-Ewropa.",kotbafilbut_1,ORT
+KFB1-1716,l-Imdina,l-Imdina,kotbafilbut_1,KOR
+KFB1-2604,Konna qed nimxu fuq is-soqfa ta' bini: bini mgħarraq taħt il-baħar!,Konna qed nimxu fuq is-soqfa ta' xi bini: bini mgħarraq taħt il-baħar!,kotbafilbut_1,ORT
+KFB1-4438,Tela' bil-wieqfa fuq siġġu biex jilħaq il-kwadru.,Tela' bilwieqfa fuq siġġu biex jilħaq il-kwadru.,kotbafilbut_1,ORT
+KFB1-2828,"Fl-aħħar resqet lejn is-sodda ċ-ċkejkna tagħha, ħaddnet lill-maħbub Toto magħha, u għajnha marret biha.","Fl-aħħar resqet lejn is-sodda ċ-ċkejkna tagħha, ħaddnet lill-maħbub Toto magħha, u għajnha marret biha.",kotbafilbut_1,KOR
+KFB1-1704,It-Torok kienu qed iħaffru aktar mini.,It-Torok kienu qed iħaffru aktar mini.,kotbafilbut_1,KOR
+KFB1-2863,"Iżda issa li qtilt lil waħda minnhom, saħħara ħażina waħda biss baqa' fl-art kollha ta' Oż!""","Iżda issa li qtilt lil waħda minnhom, saħħara ħażina waħda biss baqa' fl-art kollha ta' Oż!""",kotbafilbut_1,KOR
+KFB1-2618,Iżda mbagħad l-arja bdiet tiksaħ u bdejna nilmħu s-silġ f'wiċċ l-ilma.,Iżda mbagħad l-arja bdiet tiksaħ u bdejna nilmħu s-silġ f'wiċċ l-ilma.,kotbafilbut_1,KOR
+KFB1-2400,Tajtu isimna u tlabtu għal xi ikel.,Tajtu isimna u tlabtu għal xi ikel.,kotbafilbut_1,KOR
+KFB1-2139,"Il-kaċċaturi malajr laħquhom, u billi kienu rawhom telgħin il-blat, niżlu minn fuq iż-żwiemel tagħhom u bdew telgħin warajhom.","Il-kaċċaturi malajr laħquhom, u billi kienu rawhom telgħin il-blat, niżlu minn fuq iż-żwiemel tagħhom u bdew telgħin warajhom.",kotbafilbut_1,KOR
+KFB1-2383,Kien f'dak il-waqt li s-sottomarin beda jiċċaqlaq.,Kien f'dak il-waqt li s-sottomarin beda jiċċaqlaq.,kotbafilbut_1,KOR
+KFB1-3164,"Il-ħalq beda jiċċaqlaq, u t-tifla semgħet leħen jgħid:",Il-ħalq beda jiċċaqlaq u t-tifla semgħet leħen jgħid:,kotbafilbut_1,ORT
+KFB1-1285,"Kienu jinħatfu mill-familji tagħhom bħala lsiera minn età żgħira, jikkonvertuhom għall-Iżlam u jħarrġuhom għall-gwerra.","Kienu jinħatfu mill-familji tagħhom bħala lsiera minn età żgħira, jikkonvertuhom għall-Iżlam, u jħarrġuhom għall-gwerra.",kotbafilbut_1,ORT
+KFB1-3516,"Kien hawn xi ftit, iżda l-mostru kielhom kollha.","Kien hawn xi ftit, iżda l-mostru kielhom kollha.",kotbafilbut_1,KOR
+KFB1-4486,Holmes waqaf madwar mitejn metru mir-razzett ta' Stapleton.,Holmes waqaf madwar mitejn metru mir-razzett ta' Stapleton.,kotbafilbut_1,KOR
+KFB1-4111,"""John, hemm bżonn li naqbdu lil Dracula mill-aktar fis possibbli.","""John, hemm bżonn li naqbdu lil Dracula mill-aktar fis possibbli.",kotbafilbut_1,KOR
+KFB1-2087,Saqajha kienu mdemmija.,Saqajha kienu mdemmija.,kotbafilbut_1,KOR
+KFB1-1889,"L-aktar ħaġa tal-biżgħa kienet li l-Minotawr kien beda jogħġbu l-laħam tal-bnedmin, u f'mumenti ta' disprament u korla, ma kienx jaħsibha darbtejn qabel ma jiekol lil xi ħadd.","L-aktar ħaġa tal-biża' kienet li l-minotawru kien beda jogħġbu l-laħam tal-bnedmin, u f'mumenti ta' disprament u korla, ma kienx jaħsibha darbtejn biex jiekol lil xi ħadd.",kotbafilbut_1,QTP_H
+KFB1-1591,Miniex qed nistenna li mill-Ewropa se jaslu aktar truppi fil-ħin biex isalvawna.,"M'iniex qed nistenna li, mill-Ewropa, se jaslu aktar truppi fil-ħin biex isalvawna.",kotbafilbut_1,ORT
+KFB1-1346,Il-kap tal-artillerija basar li dawk in-nies kienu xi rjus kbar u qatagħha li jispara kannunata fuqhom.,Il-kap tal-artillerija basar li dawk in-nies kienu xi rjus kbar u qatagħha li jispara kannunata fuqhom.,kotbafilbut_1,KOR
+KFB1-4063,L-irġiel bdew resqin lejh.,L-irġiel bdew resqin lejh.,kotbafilbut_1,KOR
+KFB1-2162,U hekk se nagħmel.,U hekk se nagħmel.,kotbafilbut_1,KOR
+KFB1-2396,"F'daqqa waħda xi ħadd xegħel id-dawl, u raġel daħal fil-kamra.","F'daqqa waħda xi ħadd xegħel id-dawl, u raġel daħal fil-kamra.",kotbafilbut_1,KOR
+KFB1-3082,"Ir-raġel tal-landa qabad jaħdem minnufih b'dik il-mannara tiegħu, u ftit sigħat wara, kellhom ċattra mibnija minn ħafna zkuk ta' siġar marbutin flimkien.","Ir-raġel tal-landa qabad jaħdem minnufih b'dik il-mannara tiegħu, u ftit sigħat wara, kellhom ċattra mibnija minn ħafna zkuk ta' siġar marbutin flimkien.",kotbafilbut_1,KOR
+KFB1-2271,Dan huwa omiċidju.,Dan huwa omiċidju.,kotbafilbut_1,KOR
+KFB1-4130,Seward u Quincey jikru xi żwiemel biex isegwu lid-dgħajsa minn fuq l-art.,Seward u Quincey jikru xi żwiemel biex isegwu lid-dgħajsa minn fuq l-art.,kotbafilbut_1,KOR
+KFB1-1137,"Minħabba d-daqs tagħhom u t-tagħbija li kienu jġorru, kien diffiċli għall-iġfna Ottomani jiżgiċċaw minn taħt idejn ix-xwieni żgħar u ħfief tal-Kavallieri.","Minħabba d-daqs tagħhom u t-tagħbija li kienu jġorru, kien diffiċli għall-iġfna Ottomani jiżgiċċaw minn taħt idejn ix-xwieni żgħar u ħfief tal-Kavallieri.",kotbafilbut_1,KOR
+KFB1-3291,"Bil-waqgħa tagħha, waħda miż-żraben ħarġitilha minn sieqha.","Bil-waqgħa tagħha, waħda miż-żraben ħarġitilha minn sieqha.",kotbafilbut_1,KOR
+KFB1-972,Għada se nitlaq minn hawn għal kollox.,Għada se nitlaq minn hawn għalkollox.,kotbafilbut_1,ORT
+KFB1-795,Is-Sinjura Cratchit kienet qed tħit.,Is-Sinjura Cratchit kienet qed tħit.,kotbafilbut_1,KOR
+KFB1-1711,Għalhekk de Valette qatagħha li jibqgħu jżommu l-Birgu sal-aħħar.,Għalhekk de Valette qatagħha li jibqgħu jżommu l-Birgu sal-aħħar.,kotbafilbut_1,KOR
+KFB1-36,Quddiem il-ħlejqa kien hemm xbiha ċkejkna ta' bniedem iħares 'il fuq lejha.,Quddiem il-ħlejqa kien hemm xbieha ċkejkna ta' bniedem iħares 'il fuq lejha.,kotbafilbut_1,ORT
+KFB1-453,Il-bieb tal-uffiċċju ta' Scrooge infetaħ beraħ f'daqqa waħda.,Il-bieb tal-uffiċċju ta' Scrooge nfetaħ beraħ f'daqqa waħda.,kotbafilbut_1,ORT
+KFB1-913,Stuta: Speċi ta' lembut li jużawh biex jitfu x-xemgħat bih.,Stuta: Speċi ta' lembut li jużawh biex jitfu x-xemgħat bih.,kotbafilbut_1,KOR
+KFB1-3452,Ġriet l-aħbar f'Belt l-Iżmeraldi li s-Saħħar ta' Oż kien se jmur fis-smewwiet iżur lil saħħar ieħor li kien jgħix qalb is-sħab.,Ġriet l-aħbar f'Belt l-Iżmeraldi li s-Saħħar ta' Oż kien se jmur fis-smewwiet iżur lil saħħar ieħor li kien jgħix qalb is-sħab.,kotbafilbut_1,KOR
+KFB1-1199,"Għalhekk jekk it-Torok riedu jdaħħlu l-iġfna tagħhom għall-kenn ta' wieħed minn dawn il-portijiet, kien ikollhom jaħbtu għal dan il-forti qabel kollox.","Għalhekk, jekk it-Torok riedu jdaħħlu l-iġfna tagħhom għall-kenn ta' wieħed minn dawn il-portijiet, kien ikollhom jaħbtu għal dan il-forti qabel kollox.",kotbafilbut_1,ORT
+KFB1-1274,"""Ma nistgħux nirriskjaw nitilfuh.","""Ma nistgħux nirriskjaw li nitilfuh.",kotbafilbut_1,ORT
+KFB1-2375,"""Qegħdin fuq dahar il-baliena,"" qabeż Ned.","""Qegħdin fuq dahar il-baliena,"" qabeż Ned.",kotbafilbut_1,KOR
+KFB1-37,"""X'taħseb li ġiegħelu jpenġi annimal bħal dak?"" staqsa Challenger.","""X'taħseb li ġiegħlu jpinġi annimal bħal dak?"" staqsa Challenger.",kotbafilbut_1,ORT
+KFB1-974,Ma rridx nitgħallem.,Ma rridx nitgħallem.,kotbafilbut_1,KOR
+KFB1-983,Għalhekk kellu joħroġ fix-xita biex jara jsibx x'jiekol.,Għalhekk kellu joħroġ fix-xita biex jara jsibx x'jiekol.,kotbafilbut_1,KOR
+KFB1-3443,Imma ma qatax qalbu.,Imma ma qatax qalbu.,kotbafilbut_1,KOR
+KFB1-1418,"Biex kemm jista' jkun ma jaħlux minn dan l-ikel, de Valette ordna li l-klieb kollha fil-Birgu u f'Senglea jinqatlu.","Biex kemm jista' jkun ma jaħlux minn dan l-ikel, de Valette ordna li l-klieb kollha fil-Birgu u f'Senglea jinqatlu.",kotbafilbut_1,KOR
+KFB1-1560,Il-bumbardament kontinwu kien għamel ħafna ħsara lis-swar.,Il-bumbardament kontinwu kien għamel ħafna ħsara lis-swar.,kotbafilbut_1,KOR
+KFB1-39,"""Għaliex, x'inhi l-opinjoni tiegħek?""","""Għaliex, x'inhi l-opinjoni tiegħek?""",kotbafilbut_1,KOR
+KFB1-1486,"Mustafà ppjana li jaħbat għall-Birgu u Senglea minn bosta naħat fl-istess ħin, kemm mill-baħar kif ukoll mill-art.","Mustafà ppjana li jaħbat għall-Birgu u Senglea minn bosta naħat fl-istess ħin, kemm mill-baħar, kif ukoll mill-art.",kotbafilbut_1,ORT
+KFB1-3282,Bdiet tibża' li jekk ma tagħmilx dak li kienet tgħidilha s-saħħara din kienet issawwatha.,"Bdiet tibża' li jekk ma tagħmilx dak li kienet tgħidilha s-saħħara, din kienet issawwatha.",kotbafilbut_1,ORT
+KFB1-169,"""Insomma, jien nista' nieklok, u hekk se nagħmel.","""Insomma, jien nista' nieklok, u hekk se nagħmel.",kotbafilbut_1,KOR
+KFB1-1355,"L-artillerija tal-Kavallieri kienet għadha qed tispara minn Sant' Anġlu, u l-uffiċjali l-oħra ħeġġew lil Mustafà biex imur għall-kenn biex ma jintlaqatx hu wkoll, imma Mustafà baqa' hemm sakemm ra li l-ordnijiet tiegħu kienu qed jobduhom.","L-uffiċjali l-oħra ħeġġew lil Mustafà biex imur għall-kenn biex ma jintlaqatx hu wkoll, imma Mustafà baqa' hemm sakemm ra li l-ordnijiet tiegħu kienu qed jobduhom.",kotbafilbut_1,ORT
+KFB1-3929,"""Le, ħabib, ma ħlomt xejn,"" wieġeb Van Helsing b'leħen sod.","""Le, ħabib, ma ħlomt xejn,"" wieġeb Van Helsing b'leħen sod.",kotbafilbut_1,KOR
+KFB1-3469,"""Liema belt oħra,"" bdew jgħidu n-nies, ""hija mmexxija minn raġel tat-tiben?""","""Liema belt oħra,"" bdew jgħidu n-nies, ""hija mmexxija minn raġel tat-tiben?""",kotbafilbut_1,KOR
+KFB1-4367,"Ħadna fuq ix-xagħra, u uriena l-post fejn, skont il-leġġenda, kienu jgħidu li kien miet Sir Hugo Baskerville.","Ħadna fuq ix-xagħra, u wriena l-post fejn, skont il-leġġenda, kienu jgħidu li kien miet Sir Hugo Baskerville.",kotbafilbut_1,ORT
+KFB1-3384,Baqgħu skantati hekk kif malli waqa' l-paraventu lemħu warajh xwejjaħ qasir.,"Baqgħu skantati, hekk kif malli waqa' l-paraventu, lemħu warajh xwejjaħ qasir.",kotbafilbut_1,ORT
+KFB1-2682,In-Nautilus baħħar biswit il-kosta tal-Amerka t'Isfel u ta' Fuq.,In-Nautilus baħħar maġenb il-kosta tal-Amerka t'Isfel u ta' Fuq.,kotbafilbut_1,QTP_H
+KFB1-3404,"Kien faċli ħafna li nqarraq bikom kollha.""","Kien faċli ħafna li nqarraq bikom kollha.""",kotbafilbut_1,KOR
+KFB1-1640,"Kien hemm splużjoni enormi, u l-art taħt parti mis-swar ċediet u sfronda kollox.","Kien hemm splużjoni enormi, u l-art taħt parti mis-swar ċediet u sfronda kollox.",kotbafilbut_1,KOR
+KFB1-1290,"Madankollu, baqgħu jżommu sod.","Madankollu, baqgħu jżommu sod.",kotbafilbut_1,KOR
+KFB1-1380,Ix-xwieni mbagħad ħaffu għall-kenn tal-port ta' Marsamxett.,"Ix-xwieni, imbagħad, ħaffu għall-kenn tal-port ta' Marsamxett.",kotbafilbut_1,ORT
+KFB1-1933,"U lanqas kieku, din l-ispaga mhix b'saħħitha biżżejjed biex iżżomm mostru bħal dak!""","U lanqas kieku, din l-ispaga mhix b'saħħitha biżżejjed biex iżżomm mostru bħal dak!""",kotbafilbut_1,KOR
+KFB1-579,"Quddiem is-sodda ta' Scrooge feġġet forma ċkejkna, tifla bajda karti minn rasha sa saqajha.","Quddiem is-sodda ta' Scrooge feġġet forma ċkejkna, tifla bajda karti minn rasha sa saqajha.",kotbafilbut_1,KOR
+KFB1-3652,"Kien hemm fuklar imqabbad fuq il-ħajt ta' faċċata, u f'nofs il-kamra kien hemm mejda ppreparata bl-ikel.","Kien hemm fuklar imqabbad fil-ħajt ta' faċċata, u f'nofs il-kamra kien hemm mejda ppreparata bl-ikel.",kotbafilbut_1,ORT
+KFB1-2030,"Is-Sid biegħu!""","Is-Sid biegħu!""",kotbafilbut_1,KOR
+KFB1-892,Imma wiċċ Scrooge tbiddel fi tbissima.,Imma wiċċ Scrooge tbiddel fi tbissima.,kotbafilbut_1,KOR
+KFB1-780,"Bi tweġiba, l-Ispirtu fetaħ driegħu u l-mant tiegħu tbiddel f'siparju u tfaċċat viżjoni oħra.","Bi tweġiba, l-ispirtu fetaħ driegħu u l-mant tiegħu tbiddel f'siparju u tfaċċat viżjoni oħra.",kotbafilbut_1,ORT
+KFB1-159,Imma ma riedx jieklu minnufih.,Imma ma riedx jieklu minnufih.,kotbafilbut_1,KOR
+KFB1-2,L-Ewwel Kapitlu,L-Ewwel Kapitlu,kotbafilbut_1,KOR
+KFB1-3542,Ras oħra sparat 'il quddiem u l-iljun ukoll instabet mal-art b'daqqa ta' ras li kienet qawwija daqs balla ta' kanun.,Ras oħra sparat 'il quddiem u l-iljun ukoll instabat mal-art b'daqqa ta' ras li kienet qawwija daqs balla ta' kanun.,kotbafilbut_1,ORT
+KFB1-2109,"Waqt dan il-vjaġġ Haley nnota li dak li s-Sur Shelby kien qallu dwar Tom kien tassew, u beda bil-mod jitgħallem jafdah.","Waqt dan il-vjaġġ Haley innota li dak li s-Sur Shelby kien qallu dwar Tom kien tassew, u beda bil-mod jitgħallem jafdah.",kotbafilbut_1,ORT
+KFB1-849,Sejjaħ lil tifel li kien miexi fit-triq.,Sejjaħ lil tifel li kien miexi fit-triq.,kotbafilbut_1,KOR
+KFB1-2737,"F'dak il-post kien hemm ħofra kbira bl-ilma jdur madwarha, li kienet tiġbed kollox lejn qiegħ il-baħar.","F'dak il-post kien hemm ħofra kbira bl-ilma jdur madwarha, li kienet tiġbed kollox lejn qiegħ il-baħar.",kotbafilbut_1,KOR
+KFB1-2466,"Darba l-Kaptan qalilna, ""Hemm ħafna speċi differenti ta' annimali qalb is-siġar ta' Crespo.","Darba l-Kaptan qalilna, ""Hemm ħafna speċi differenti ta' annimali qalb is-siġar ta' Crespo.",kotbafilbut_1,KOR
+KFB1-3256,"""Għintuni biex injassar lill-Winkis u biex inkeċċi lil Oż mill-art tiegħi!","""Għintuni biex injassar lill-Winkies u biex inkeċċi lil Oż mill-art tiegħi!",kotbafilbut_1,ORT
+KFB1-1596,"""Jiġri x'jiġri se nispiċċaw maqtulin xorta.","""Jiġri x'jiġri, se nispiċċaw maqtulin xorta.",kotbafilbut_1,ORT
+KFB1-1776,Kwiet biss.,Kwiet biss!,kotbafilbut_1,ORT
+KFB1-1913,"Arjadne rat li Tesew kien sabiħ u b'saħħtu, u ħadet grazzja miegħu.","Arjadne rat li Tesew kien sabiħ u b'saħħtu, u ħadet grazzja miegħu.",kotbafilbut_1,KOR
+KFB1-1043,"Ma qalilhiex li kienu għadhom f'butu, imma li kien tilifhom.","Ma qalilhiex li kienu għadhom f'butu, imma li kien tilifhom.",kotbafilbut_1,KOR
+KFB1-1544,"Mustafà qassam lill-uffiċjali tiegħu b'tali mod li Pjalì jieħu l-kmand tal-attakk fuq il-Birgu, waqt li Candelissa jieħu postu bħala kmandant tal-flotta.","Mustafà qassam lill-uffiċjali tiegħu b'tali mod li Pialì jieħu l-kmand tal-attakk fuq il-Birgu, waqt li Candelissa jieħu postu bħala kmandant tal-flotta.",kotbafilbut_1,ORT
+KFB1-2736,"Xi ftit mill-ibħra tal-Artiku kellhom kurrent qawwi ħafna, u kien hemm post fejn dawn il-kurrenti fil-baħar kienu jiltaqgħu.","Xi ftit mill-ibħra tal-Artiku kellhom kurrent qawwi ħafna, u kien hemm post fejn dawn il-kurrenti fil-baħar kienu jiltaqgħu.",kotbafilbut_1,KOR
+KFB1-3132,"""Huma importanti ħafna.","""Huma importanti ħafna.",kotbafilbut_1,KOR
+KFB1-53,"Ġew ippubblikati fl-Ingliż fil-ħmistax-il seklu, imma minn dak iż-żmien 'l hawn inqraw madwar id-dinja kollha.","Ġew ippubblikati bl-Ingliż fil-ħmistax-il seklu, imma minn dak iż-żmien 'l hawn inqraw madwar id-dinja kollha.",kotbafilbut_1,ORT
+KFB1-1796,"Ħassem ukoll baqa' fuq wara, jagħti l-ordnijiet lill-miraturi jippruvaw iwaqqfu l-avvanz tal-Insara.","Hassem ukoll baqa' fuq wara, jagħti l-ordnijiet lill-miraturi biex jippruvaw iwaqqfu l-avvanz tal-Insara.",kotbafilbut_1,ORT
+KFB1-1911,"Naturalment, billi Tesew kien Prinċep, Minos ittrattah aħjar miż-żgħażagħ l-oħra - ħallieh joqgħod fil-palazz miegħu, ippreparalu kamra daqsiex biex joqgħod fiha u dawru b'ħafna sefturi - sakemm kellu jasal iż-żmien li jibagħtu fil-labirint mal-kumplament ta' niesu.","Naturalment, billi Tesew kien prinċep, Minos laqgħu aħjar miż-żgħażagħ l-oħra - ħallieh joqgħod fil-palazz miegħu, ippreparalu kamra daqsiex biex joqgħod fiha u dawru b'ħafna sefturi - sakemm kellu jasal iż-żmien li jibagħtu fil-labirint mal-kumplament ta' niesu.",kotbafilbut_1,QTP_H
+KFB1-3668,"Madankollu nixtieq navżak, orqod fil-kamra tiegħek biss.",Madankollu nixtieq navżak biex torqod fil-kamra tiegħek biss.,kotbafilbut_1,ORT
+KFB1-2553,"Ftakart li kont qrajt ħafna stejjer fil-gazzetti dwar Kreta: kif f'dak il-ġranet il-ġżira kienet taħt idejn it-Turkija imma ħafna mill-Kretani riedu jkunu taħt gvern Grieg, u kif ħafna Kretani kienu mietu minħabba l-ħruxija tat-Torok.","Ftakart li kont qrajt ħafna stejjer fil-gazzetti dwar Kreta: kif f'dak iż-żmien il-gżira kienet taħt idejn it-Turkija imma ħafna mill-Kretani riedu jkunu taħt gvern Grieg, u kif ħafna Kretani kienu mietu minħabba l-ħruxija tat-Torok.",kotbafilbut_1,QTP_H
+KFB1-2800,"Għaldaqstant, kull meta kienet toħroġ mid-dar żgħira tagħhom, ma kienet tara xejn madwarha ħlief art ċatta, ma tispiċċa qatt, tikwi taħt dik ix-xemx tiżreġ.","Għaldaqstant, kull meta kienet toħroġ mid-dar żgħira tagħhom, ma kienet tara xejn madwarha; ħlief art ċatta, ma tispiċċa qatt, tikwi taħt dik ix-xemx tisreġ.",kotbafilbut_1,ORT
+KFB1-3456,"Wara dan rikeb ġol-basket, u għajjat lill-poplu tiegħu, ""Sakemm ma nkunx hawn, inħalli lir-raġel tat-tiben bħala l-mexxej tagħkom.","Wara dan, rikeb ġol-basket u għajjat lill-poplu tiegħu: ""Sakemm ma nkunx hawn, inħalli lir-raġel tat-tiben bħala l-mexxej tagħkom.",kotbafilbut_1,ORT
+KFB1-3508,"Iżda l-iljun spjegalhom li l-annimali kellhom laqgħa, u seta' jara minn kif bdew igergru li kellhom xi nkwiet kbir.","Iżda, l-iljun spjegalhom li l-annimali kellhom laqgħa, u seta' jara minn kif bdew igergru, li kellhom xi inkwiet kbir.",kotbafilbut_1,ORT
+KFB1-824,Imma l-Ispirtu baqa' ma tniffissx.,Imma l-ispirtu baqa' ma tniffisx.,kotbafilbut_1,ORT
+KFB1-4356,"F'daqqa waħda nstemgħet karba oħra, aktar ħoxna u itwal.","F'daqqa waħda nstemgħet karba oħra, aktar ħoxna u itwal.",kotbafilbut_1,KOR
+KFB1-1389,"Minn Sant' Anġlu, de Valette u l-uffiċjali tiegħu raw il-bandiera Torka tittella' fuq it-tifrik tal-forti.","Minn Sant'Anġlu, de Valette u l-uffiċjali tiegħu raw il-bandiera Torka tittella' fuq it-tifrik tal-forti.",kotbafilbut_1,ORT
+KFB1-884,"Scrooge beda jgħajjat miegħu, taparsi kien irrabjat.","Scrooge beda jgħajjat miegħu, taparsi kien irrabjat.",kotbafilbut_1,KOR
+KFB1-3213,"Iżda ħaġa tal-iskantament, issa, bogħod mid-dija tal-iżmeraldi tal-belt, kienet tidher lixxa u bajda.","Iżda ħaġa tal-iskantament, issa, bogħod mid-dija tal-iżmeraldi tal-belt, kienet tidher lixxa u bajda.",kotbafilbut_1,KOR
+KFB1-1607,"Bla dubju ta' xejn għajnejn l-Imperu Ottoman kienu se jaqgħu fuq il-kumplament tal-Ewropa Nisranija, speċjalment Sqallija u l-Italja t'Isfel kif ukoll Vjenna fiċ-ċentru tal-Ewropa.","Bla dubju ta' xejn, għajnejn l-Imperu Ottoman kienu se jaqgħu fuq il-kumplament tal-Ewropa Nisranija, speċjalment Sqallija u l-Italja t'Isfel, kif ukoll Vjenna fiċ-ċentru tal-Ewropa.",kotbafilbut_1,ORT
+KFB1-1594,"""Jew nispiċċaw priġunieri biex jeħduna Kostantinopli,"" qabeż wieħed mill-uffiċjali.","""Jew nispiċċaw priġunieri biex jeħduna Kostantinopli,"" qabeż wieħed mill-uffiċjali.",kotbafilbut_1,KOR
+KFB1-771,"""Ir-raġel li ħadniehom mingħandu mhux se jkollu bżonnhom iktar,"" wieġbet il-mara.","""Ir-raġel li ħadniehom mingħandu mhux se jkollu bżonnhom iktar,"" wieġbet il-mara.",kotbafilbut_1,KOR
+KFB1-2611,"Ħarist 'l isfel, u tassew stajt nara li kien hemm belt sħiħa taħt il-baħar.","Ħarist 'l isfel, u tassew stajt nara li kien hemm belt sħiħa taħt il-baħar.",kotbafilbut_1,KOR
+KFB1-2273,Legree xejjer idu b'disprezz.,Legree xejjer idu b'disprezz.,kotbafilbut_1,KOR
+KFB1-1868,"Per eżempju, meta Minos ried jibni palazz li qatt bħalu ma kienet rat id-dinja qabel - palazz biex jgħaġġeb lil kull min jarah - saqsa lill-kaptani tal-flotta tiegħu, ""Mill-postijiet kollha li rajtu fil-vjaġġi tagħkom, liema kien l-aktar palazz meraviljuż li rajtu?""","Pereżempju, meta Minos ried jibni palazz li qatt bħalu ma kienet rat id-dinja qabel - palazz biex jgħaġġeb lil kull min jarah - staqsa lill-kaptani tal-flotta tiegħu, ""Mill-postijiet kollha li rajtu fil-vjaġġi tagħkom, liema kien l-aktar palazz meraviljuż li rajtu?""",kotbafilbut_1,ORT
+KFB1-1085,Pinokkjo kien jaħdem lejl u nhar għas-sid kiefer tiegħu.,Pinokkjo kien jaħdem lejl u nhar għas-sid kiefer tiegħu.,kotbafilbut_1,KOR
+KFB1-3521,"Sabha rieqda mimduda mal-art, ftit 'il bogħod.","Sabha rieqda mimduda mal-art, ftit 'il bogħod.",kotbafilbut_1,KOR
+KFB1-1325,Fil-lejl tat-8 ta' Ġunju messaġġier irnexxielu jiżgiċċa u jwassal messaġġ lil de Valette fil-Birgu.,"Fil-lejl tat-8 ta' Ġunju, messaġġier irnexxielu jiżgiċċa u jwassal messaġġ lil de Valette fil-Birgu.",kotbafilbut_1,ORT
+KFB1-1463,Fl-istess żmien Mustafà waslulu xi rinforzi wkoll.,"Fl-istess żmien, Mustafà waslulu xi rinforzi wkoll.",kotbafilbut_1,ORT
+KFB1-806,"""Kont wegħidt liċ-Ċkejken Tim li nieħdu hemm kull nhar ta' Ħadd.""","""Kont wegħidt liċ-ċkejken Tim li nieħdu hemm kull nhar ta' Ħadd.""",kotbafilbut_1,ORT
+KFB1-3155,Iżda tridu tidħlu wieħed wieħed.,Iżda tridu tidħlu wieħed wieħed.,kotbafilbut_1,KOR
+KFB1-3187,"Kollha ddispjaċihom malli saru jafu x'risposta kien taha s-Saħħar ta' Oż, iżda ħadd minnhom ma seta' jgħinha.","Kollha ddispjaċiehom malli saru jafu x'risposta kien taha s-Saħħar ta' Oż, iżda ħadd minnhom ma seta' jgħinha.",kotbafilbut_1,ORT
+KFB1-2108,"Ftit jiem wara, Tom u xi skjavi oħra li kien xtara Haley kienu fuq lanċa fuq ix-xmara Mississippi, fi treqithom lejn New Orleans, fejn Haley kien biħsiebu jbiegħhom.","Ftit jiem wara, Tom u xi skjavi oħra li kien xtara Haley kienu fuq lanċa fuq ix-Xmara Mississippi, fi triqithom lejn New Orleans, fejn Haley kien biħsiebu jbigħhom.",kotbafilbut_1,ORT
+KFB1-3674,"Il-Konti Dracula ma kien jidher imkien, u lanqas kien jidher imqar seftur wieħed.","Il-Konti Dracula ma kien jidher imkien, u lanqas kien jidher imqar seftur wieħed.",kotbafilbut_1,KOR
+KFB1-4554,Mhux darba nżilna fit-tajn sa rkobbtejna sakemm qsamna minn hemm.,Mhux darba nżilna fit-tajn sa rkopptejna sakemm qsamna minn hemm.,kotbafilbut_1,ORT
+KFB1-2234,"Iż-żewġt 'irġiel' baqgħu flimkien, waqt li lil 'Harriet' avdawha ma' tfajla li kienet sejra l-Kanada wkoll, u li ftehmet magħhom li tgħinhom.","Iż-żewġt 'irġiel' baqgħu flimkien, waqt li lil 'Harriet' fdawha ma' tfajla li kienet sejra l-Kanada wkoll, u li ftiehmet magħhom li tgħinhom.",kotbafilbut_1,ORT
+KFB1-963,"Imma n-nies fit-triq kienu qed josservaw, tħassru lill-pupazz, u bdew jgħidu li Ġeppetto kien buli.","Imma n-nies fit-triq kienu qed josservaw, tħassru lill-pupazz, u bdew jgħidu li Ġeppetto kien bulì.",kotbafilbut_1,ORT
+KFB1-4589,Kien ilu jgħix fl-inħawi għal madwar sentejn u l-ġirien kienu jafuh.,Kien ilu jgħix fl-inħawi għal madwar sentejn u l-ġirien kienu jafuh.,kotbafilbut_1,KOR
+KFB1-398,"Dawn il-ħrejjef xterrdu f'ħafna pajjiżi b'lingwi differenti, u għadhom popolari sa llum.","Dawn il-ħrejjef xterdu f'ħafna pajjiżi b'lingwi differenti, u għadhom popolari sal-lum.",kotbafilbut_1,ORT
+KFB1-2632,u wara n-Nautilus tfaċċa f'wiċċ il-baħar.,u wara n-Nautilus tfaċċa f'wiċċ il-baħar.,kotbafilbut_1,KOR
+KFB1-4460,"Inti ibqa' hawn,"" kompla Holmes.","Inti ibqa' hawn,"" kompla Holmes.",kotbafilbut_1,KOR
+KFB1-2996,"Barra minn hekk, jien għandi l-mannara.","Barra minn hekk, jien għandi l-mannara.",kotbafilbut_1,KOR
+KFB1-704,"Wara dan l-Ispirtu urieh x'kien il-Milied għal nies li kienu jgħixu f'inħawi mbiegħda, minsijin.","Wara dan, l-ispirtu wrieh x'kien il-Milied għal nies li kienu jgħixu fi nħawi mbiegħda, minsijin.",kotbafilbut_1,ORT
+KFB1-431,Imnieħru kien mixrub u sfigurat.,Imnieħru kien mixrub u sfigurat.,kotbafilbut_1,KOR
+KFB1-292,"""Nixħet xi ftit ċagħaq fil-buqar ħalli l-ilma jitla' fil-wiċċ.""","""Nixħet xi ftit ċagħaq fil-buqar ħalli l-ilma jitla' fil-wiċċ.""",kotbafilbut_1,KOR
+KFB1-4513,"""Naħseb qed nisimgħu ġej.""","""Naħseb qed nisimgħu ġej.""",kotbafilbut_1,KOR
+KFB1-145,"Darba waħda ċawla rat ċinju u qaltlu, ""Kemm inti sabiħ.","Darba waħda ċawla rat ċinju u qaltlu, ""Kemm inti sabiħ!",kotbafilbut_1,ORT
+KFB1-3535,Biss ma kellux dirgħajn.,Biss ma kellux dirgħajn.,kotbafilbut_1,KOR
+KFB1-2033,"""Smajt lis-Sid jgħid lis-Sinjura li biegħ lil Harry tiegħi u lilek, Ziju Tom, lil xi kummerċjant, u li ġej għada filgħodu għalikom.""","""Smajt lis-Sid jgħid lis-Sinjura li biegħ lil Harry tiegħi u lilek, ziju Tom, lil xi kummerċjant, u li ġej għada filgħodu għalikom.""",kotbafilbut_1,ORT
+KFB1-3985,"Fid-dawl tal-fanali tat-triq setgħu jaraw demm iċċarċar ma' ħaddejn Lucy, u wiċċha ma kienx jidher sabiħ bħalma deher meta kienet qisha rieqda fil-qabar il-lejl ta' qabel.","Fid-dawl tal-fanali tat-triq setgħu jaraw demm iċarċar ma' ħaddejn Lucy, u wiċċha ma kienx jidher sabiħ bħalma deher meta kienet qisha rieqda fil-qabar, il-lejl ta' qabel.",kotbafilbut_1,ORT
+KFB1-1165,Għalhekk irridkom toqogħdu attenti għaliex jista' jittanta jibgħat għajnuna lil Malta u jattakkalkom il-flotta fil-Mediterran.,Għalhekk irridkom toqogħdu attenti għaliex jista' jittanta jibgħat għajnuna lil Malta u jattakkalkom il-flotta fil-Mediterran.,kotbafilbut_1,KOR
+KFB1-2050,Imma smajt x'qal is-Sid; jekk naħrab ikollu jbiegħ lilkom kollha.,Imma smajt x'qal is-Sid: jekk naħrab ikollu jbigħ lilkom kollha.,kotbafilbut_1,ORT
+KFB1-2624,"Stajna nagħmlu dan għax kien hemm l-ilma taħt is-silġ, iżda l-unika problema kienet li ma konniex nistgħu nitilgħu fil-wiċċ għall-arja.","Stajna nagħmlu dan għax kien hemm l-ilma taħt is-silġ, iżda l-unika problema kienet li ma stajniex nitilgħu fil-wiċċ għall-arja.",kotbafilbut_1,ORT
+KFB1-3949,"""Mela qed tiġġennen!"" għajjat Seward.","""Mela qed tiġġennen!"" għajjat Seward.",kotbafilbut_1,KOR
+KFB1-339,Kienet l-ewwel darba li qatt ra ljun.,Kienet l-ewwel darba li qatt ra ljun.,kotbafilbut_1,KOR
+KFB1-4366,Stapleton deher ħerqan ħafna biex jitħabbeb ma' Sir Henry.,Stapleton deher ħerqan ħafna biex jitħabbeb ma' Sir Henry.,kotbafilbut_1,KOR
+KFB1-2973,"Bl-għajnuna tar-raġel tat-tiben, qattret ftit żejt f'għonq ir-raġel tal-landa, imbagħad ftit f'dirgħajh u fl-aħħar ftit f'riġlejh.","Bl-għajnuna tar-raġel tat-tiben, qattret ftit żejt f'għonq ir-raġel tal-landa, imbagħad ftit f'dirgħajh u fl-aħħar ftit f'riġlejh.",kotbafilbut_1,KOR
+KFB1-265,"""Nirringrazzjak, Sur Seqer,"" għajtet in-nemla.","""Nirringrazzjak, Sur Seqer,"" għajtet in-nemla.",kotbafilbut_1,KOR
+KFB1-2424,"Jekk tridu tistgħu tibqgħu magħna, imma qatt ma tistgħu tmorru lura darkom.","Jekk tridu tistgħu tibqgħu magħna, imma qatt ma tistgħu tmorru lura darkom.",kotbafilbut_1,KOR
+KFB1-4016,"Għandna bżonn insibu l-kaxxi li għad hemm f'Carfax ħalli nisterilizzawhom bl-ostji kkonsagrati, u Dracula ma jkunx jista' jużahom aktar biex jinħeba.","Għandna bżonn insibu l-kaxxi li għad hemm f'Carfax ħalli nisterilizzawhom bl-ostji kkonsagrati, u Dracula ma jkunx jista' jużahom aktar biex jinħeba.",kotbafilbut_1,KOR
+KFB1-1771,"L-ewwel mexxa l-armata sal-Imdina u n-Naxxar, iżda mbagħad waqaf hemm u stenna sa l-għada filgħodu biex jiddeċiedi x'kien imissu jagħmel.","L-ewwel mexxa l-armata sal-Imdina u n-Naxxar, iżda mbagħad waqaf hemm u stenna sal-għada filgħodu biex jiddeċiedi x'kien imissu jagħmel.",kotbafilbut_1,ORT
+KFB1-271,"F'dak il-waqt, in-nemla telgħet ma' siequ u gidmitu.","F'dak il-waqt, in-nemla telgħet ma' siequ u gidmitu.",kotbafilbut_1,KOR
+KFB1-696,"""Spirtu,"" lissen Scrooge minn taħt l-ilsien, ""Għidli, iċ-Ċkejken Tim se jgħix?""","""Spirtu,"" lissen Scrooge minn taħt l-ilsien, ""għidli, iċ-ċkejken Tim se jgħix?""",kotbafilbut_1,ORT
+KFB1-747,"""Se turini affarijiet li se jiġru fil-ġejjieni?""","""Se turini affarijiet li se jiġru fil-ġejjieni?""",kotbafilbut_1,KOR
+KFB1-244,"Għax kien żaqqieq, mhux biss ma ħax l-għadma fir-riflessjoni, imma tilef l-għadma l-vera wkoll, u spiċċa tilef kollox.","Għax kien żaqqieq, mhux biss ma ħax l-għadma fir-riflessjoni, imma tilef l-għadma l-vera wkoll, u spiċċa tilef kollox.",kotbafilbut_1,KOR
+KFB1-317,Jien ma jogħġbunix ħodor għax ikunu qarsa.,Jien ma jogħġobnix aħdar għax ikun qares.,kotbafilbut_1,ORT
+KFB1-476,"""Is-Sur Marley?"" staqsa wieħed minnhom?","""Is-Sur Marley?"" staqsa wieħed minnhom.",kotbafilbut_1,ORT
+KFB1-2032,"""Iva biegħu!"" wieġbet Eliża b'leħen sod.","""Iva, biegħu!"" wieġbet Eliża b'leħen sod.",kotbafilbut_1,ORT
+KFB1-957,"Wara kollox kien xtaq pupazz li jiċċaqlaq, għalhekk kien kuntent bih.",Wara kollox kien xtaq pupazz li jiċċaqlaq; għalhekk kien kuntent bih.,kotbafilbut_1,ORT
+KFB1-3223,Lanqas biss jistħoqqilhom ikunu lsiera tiegħi!,Lanqas biss jistħoqqilhom ikunu lsiera tiegħi!,kotbafilbut_1,KOR
+KFB1-813,Scrooge reġa' dar lejn l-Ispirtu.,Scrooge reġa' dar lejn l-ispirtu.,kotbafilbut_1,ORT
+KFB1-1914,"""Jaħasra, kemm se jispiċċa ħażin, miskin,"" bdiet tgħid f'qalbha.","'Jaħasra, kemm se jispiċċa ħażin, miskin!' bdiet tgħid f'qalbha.",kotbafilbut_1,ORT
+KFB1-4234,"Il-paġni kienu ttajpjati, imma kellhom ħafna korrezzjonijiet u annotazzjonijiet bl-idejn.","Il-paġni kienu ttajpjati, imma kellhom ħafna korrezzjonijiet u annotazzjonijiet bl-idejn.",kotbafilbut_1,KOR
+KFB1-1297,L-uffiċjali Ottomani issa kienu ċerti li bit-tmexxija tiegħu l-assedju ma kienx se jdum ma jintemm favurihom.,"L-uffiċjali Ottomani issa kienu ċerti li, bit-tmexxija tiegħu, l-assedju ma kienx se jdum ma jintemm favurihom.",kotbafilbut_1,ORT
+KFB1-1804,Kienet ukoll umiljazzjoni personali.,Kienet ukoll umiljazzjoni personali.,kotbafilbut_1,KOR
+KFB1-3724,"""Tażżardawx tmissuh!"" għajjat Dracula.","""Tażżardawx tmissuh!"" għajjat Dracula.",kotbafilbut_1,KOR
+KFB1-250,"U l-għolliq iddispjaċih jisma' dan, għal fil-fatt iż-żnuber kellha raġun.","U l-għollieq iddispjaċieh jisma' dan, għax fil-fatt iż-żnuber kellha raġun.",kotbafilbut_1,ORT
+KFB1-2461,Lill-Kaptan ma konniex narawh ta' spiss.,Lill-Kaptan ma konniex narawh ta' spiss.,kotbafilbut_1,KOR
+KFB1-545,Il-fantażma ma tax kas il-kumment ta' Scrooge.,Il-fantażma ma tax kas il-kumment ta' Scrooge.,kotbafilbut_1,KOR
+KFB1-738,"Scrooge ħares madwaru, imma l-Ispirtu kien telaq.","Scrooge ħares madwaru, imma l-ispirtu kien telaq.",kotbafilbut_1,ORT
+KFB1-310,Darba volpi ra għanqud għeneb.,Darba volpi ra għanqud għeneb.,kotbafilbut_1,KOR
+KFB1-2941,Kull meta jaqa' kien jinfaqa' jidħaq bħal miġnun hekk kif Dorothy kienet tgħinu jqum fuq saqajh.,"Kull meta jaqa' kien jinfaqa' jidħaq bħal miġnun, hekk kif Dorothy kienet tgħinu jqum fuq saqajh.",kotbafilbut_1,ORT
+KFB1-1131,"L-Ordni kien oriġinarjament għaqda, jew fratellanza, ta' reliġjużi.","L-Ordni kien oriġinarjament għaqda, jew fratellanza, ta' reliġjużi.",kotbafilbut_1,KOR
+KFB1-1449,"Fejn qabel kien deċiż li joqtol kull Kavallier u Malti li kien hemm fuq il-gżira, issa beda jaħseb kienx aħjar joffrix lill-Kavallieri l-istess kundizzjonijiet li t-Torok kienu tawhom f'Rodi.","Fejn qabel kien deċiż li joqtol kull Kavallier u Malti li kien hemm fuq il-gżira, issa beda jaħseb kienx aħjar joffrix lill-Kavallieri l-istess kundizzjonijiet li t-Torok kienu tawhom f'Rodi.",kotbafilbut_1,KOR
+KFB1-4522,Ħalqu u għajnejh kien qed jiddu b'dija stramba imma qawwija.,Ħalqu u għajnejh kienu qed jiddu b'dija stramba imma qawwija.,kotbafilbut_1,ORT
+KFB1-15,"Il-vuċi tiegħu kienet qawwija u soda, u kienet faċilment iġġiblek suġġizzjoni.","Il-vuċi tiegħu kienet qawwija u soda, u kienet faċilment iġġiblek suġġizzjoni.",kotbafilbut_1,KOR
+KFB1-2769,"Verne qatta' tfulitu f'Nantes, il-belt fi Franza fejn kien twieled nhar it-8 ta' Frar, 1828.","Verne qatta' tfulitu f'Nantes, il-belt fi Franza fejn kien twieled nhar it-8 ta' Frar, 1828.",kotbafilbut_1,KOR
+KFB1-920,"Ommu għallmitu jaqra, u kien iħobb jgħarbel il-librerija żgħira ta' missieru.","Ommu għallmitu jaqra, u kien iħobb jgħarbel il-librerija żgħira ta' missieru.",kotbafilbut_1,KOR
+KFB1-3029,"Issa li kien qabeż darba l-iljun ħassu aktar qalbieni, u qabeż lura biex ikun jista' jrikkeb lill-oħrajn: l-ewwel lil Dorothy u 'l Toto, imbagħad lir-raġel tal-landa.","Issa li kien qabeż darba, l-iljun ħassu aktar qalbieni u qabeż lura biex ikun jista' jrikkeb lill-oħrajn: l-ewwel lil Dorothy u 'l Toto, imbagħad lir-raġel tal-landa.",kotbafilbut_1,ORT
+KFB1-3626,"""Hemm għalfejn tmur hemm?""","""Hemm għalfejn tmur hemm?""",kotbafilbut_1,KOR
+KFB1-2544,"Din ma fhimthiex, għax ma stajniex ngħaddu mill-Baħar l-Aħmar għall-Mediterran permezz ta' dgħajsa.","Din ma fhimthiex, għax ma stajniex ngħaddu mill-Baħar l-Aħmar għall-Mediterran permezz ta' dgħajsa.",kotbafilbut_1,KOR
+KFB1-38,"""Forsi kien fis-sakra,"" weġibt jien.","""Forsi kien fis-sakra,"" weġibt jien.",kotbafilbut_1,KOR
+KFB1-363,"""Jekk naqbad niġri l-ors se jarani u jagħmel għalija.""","""Jekk naqbad niġri l-ors se jarani u jagħmel għalija.""",kotbafilbut_1,KOR
+KFB1-3471,"Ir-raġel tat-tiben poġġa bilqiegħda fuq it-tron, waqt li l-oħrajn poġġew quddiemu.","Ir-raġel tat-tiben poġġa bilqiegħda fuq it-tron, waqt li l-oħrajn poġġew quddiemu.",kotbafilbut_1,KOR
+KFB1-182,L-Aħwa,L-aħwa,kotbafilbut_1,ORT
+KFB1-3033,"""Irfist nannakola u qtiltha, jaħasra,"" beda jgħid.","""Irfist nannakola u qtiltha, jaħasra,"" beda jgħid.",kotbafilbut_1,KOR
+KFB1-2983,Ir-raġel tal-landa qagħad jaħsibha xi ftit.,Ir-raġel tal-landa qagħad jaħsibha xi ftit.,kotbafilbut_1,KOR
+KFB1-1194,Bħalma tafu kull Kavallier jeħtieġ li jiġi hawn Malta f'każ ta' emerġenza.,"Bħalma tafu, kull Kavallier jeħtieġ li jiġi hawn Malta f'każ ta' emerġenza.",kotbafilbut_1,ORT
+KFB1-2852,"""Riedu jtiru bil-ferħ malli raw li issa mejta, u bagħtu messaġġier biex iġibni hawn mill-aktar fis.","""Riedu jtiru bil-ferħ malli raw li issa mejta, u bagħtu messaġġier biex iġibni hawn mill-aktar fis.",kotbafilbut_1,KOR
+KFB1-3182,"""Imma jien qatt ma ridt noqtolha, lis-Saħħara l-Ħażina.","""Imma jien qatt ma ridt noqtolha, lis-Saħħara l-Ħażina.",kotbafilbut_1,KOR
+KFB1-1121,Minn dak iż-żmien il-ħrafa daret madwar id-dinja kollha u saret popolari immens.,Minn dak iż-żmien il-ħrafa daret madwar id-dinja kollha u saret popolari immens.,kotbafilbut_1,KOR
+KFB1-2235,"Jekk il-kaċċaturi kienu qed ifittxu raġel, mara u tifel, żgur ma kinux se jagħtu kas żewġt irġiel sinjuri u mara żagħżugħa mat-tifla tagħha.","Jekk il-kaċċaturi kienu qed ifittxu raġel, mara u tifel, żgur ma kinux se jagħtu kas żewġt irġiel sinjuri u mara żagħżugħa mat-tifla tagħha.",kotbafilbut_1,KOR
+KFB1-2667,In-Nautilus baqa' miexi taħt is-silġ.,In-Nautilus baqa' miexi taħt is-silġ.,kotbafilbut_1,KOR
+KFB1-3126,"""Ġejna biex naraw lis-Saħħar ta' Oż,"" wieġbet Dorothy.","""Ġejna biex naraw lis-Saħħar ta' Oż,"" wieġbet Dorothy.",kotbafilbut_1,KOR
+KFB1-1182,Fl-1565 kellu sebgħin sena - eżatt l-istess età tal-avversarju tiegħu Sulejman il-Kbir.,Fl-1565 kellu sebgħin sena - eżatt l-istess età tal-avversarju tiegħu Sulejman il-Kbir.,kotbafilbut_1,KOR
+KFB1-3780,Jonathan kien mitluf.,Jonathan kien mitluf.,kotbafilbut_1,KOR
+KFB1-614,"Kienet oħtu, li kienet ġiet biex tieħdu d-dar għall-Milied.""","Kienet oħtu, li kienet ġiet biex tieħdu d-dar għall-Milied.",kotbafilbut_1,ORT
+KFB1-1466,"Minħabba l-kanuni ta' Sant' Anġlu li kienu jkopru l-parti l-kbira tal-Port il-Kbir, Mustafà ma setax idaħħal xwieni hemm biex ikun jista' jattakka l-fortifikazzjonijiet mill-baħar.","Minħabba l-kanuni ta' Sant'Anġlu li kienu jkopru l-parti l-kbira tal-Port il-Kbir, Mustafà ma setax idaħħal xwieni hemm, biex ikun jista' jattakka l-fortifikazzjonijiet mill-baħar.",kotbafilbut_1,ORT
+KFB1-401,Miet fil-belt ta' Delfi.,Miet fil-belt ta' Delfi.,kotbafilbut_1,KOR
+KFB1-3042,Fuq in-naħa l-oħra tal-irdum it-triq tal-madum safrani kienet tkompli sejra.,"Fuq in-naħa l-oħra tal-irdum, it-triq tal-madum safrani kienet tkompli sejra.",kotbafilbut_1,ORT
+KFB1-934,"Jekk inqisu l-popolarità ta' kittieb skont kemm kien maħbub fi żmienu, nistgħu ngħidu li Charles Dickens kien wieħed mill-aqwa kittieba Ingliżi.","Jekk inqisu l-popolarità ta' kittieb skont kemm kien maħbub fi żmienu, nistgħu ngħidu li Charles Dickens kien wieħed mill-aqwa kittieba Ingliżi.",kotbafilbut_1,KOR
+KFB1-2419,"Jiena jisimni l-Kaptan Nemo, u qegħdin fis-sottomarin tiegħi, in-Nautilus.""","Jiena jisimni l-Kaptan Nemo, u qegħdin abbord is-sottomarin tiegħi, in-Nautilus.",kotbafilbut_1,ORT
+KFB1-3407,Meta kien żagħżugħ kien iħobb jittajjar bil-blalen tal-arja.,Meta kien żagħżugħ kien iħobb jittajjar bil-blalen tal-arja.,kotbafilbut_1,KOR
+KFB1-2641,"Kellna l-ilma quddiemna, u ħsibna li stajna ngħaddu minnu u jwassalna għal wiċċ il-baħar.","Kellna l-ilma quddiemna, u ħsibna li stajna ngħaddu minnu u jwassalna għal wiċċ il-baħar.",kotbafilbut_1,KOR
+KFB1-3396,"""Dik kienet ċajta sempliċi minn tiegħi,"" spjega Oż.","""Dik kienet ċajta sempliċi minn tiegħi,"" spjega Oż.",kotbafilbut_1,KOR
+KFB1-726,"Kollha nfaqgħu jidħqu, u għamlu brindisi għaz-Ziju Scrooge, li kien iweġibhom kieku l-Ispirtu tah ċans, imma minflok ħadu miegħu f'pajjiżi oħra biex jurih kif kienu jqattgħu il-Milied hemmhekk.","Kollha nfaqgħu jidħqu, u xorbu għas-saħħa taz-ziju Scrooge, li kien iweġibhom kieku l-ispirtu tah ċans, imma minflok ħadu miegħu f'pajjiżi oħra biex jurih kif kienu jqattgħu l-Milied hemmhekk.",kotbafilbut_1,QTP_H
+KFB1-826,"Fuq il-lapida , Scrooge lemaħ ismu...","Fuq il-lapida, Scrooge lemaħ ismu...",kotbafilbut_1,ORT
+KFB1-1521,"L-Insara għamlu kontrattakk, imma malli l-Kavallier li kien qed imexxihom, Zanoguerra, inqatel, it-Torok għamlu sforz akbar u dik il-parti ta' Senglea kienet fil-periklu li taqa' f'idejn it-Torok għal kollox.","L-Insara għamlu kontrattakk, imma malli l-Kavallier li kien qed imexxihom, Zanoguerra, inqatel, it-Torok għamlu sforz akbar u dik il-parti ta' Senglea, kienet fil-periklu li taqa' f'idejn it-Torok għalkollox.",kotbafilbut_1,ORT
+KFB1-4365,L-għada filgħodu Stapleton ġie biex jiltaqa' ma' Sir Henry.,L-għada filgħodu Stapleton ġie biex jiltaqa' ma' Sir Henry.,kotbafilbut_1,KOR
+KFB1-4036,F'qasir żmien tfaċċaw tlitt iklieb tal-kaċċa li kien ħalla barra d-dar.,F'qasir żmien tfaċċaw tlitt iklieb tal-kaċċa li kien ħalla jistennew barra d-dar.,kotbafilbut_1,ORT
+KFB1-136,"""Mela nagħmlu kollha.""","""Mela naqblu kollha.""",kotbafilbut_1,ORT
+KFB1-628,"Kien hemm ikel mill-aktar bnin: kull għamla ta' laħam u ħaxix, ħelu u xorb.","Kien hemm ikel mill-aktar bnin: kull għamla ta' laħam u ħaxix, ħelu u xorb.",kotbafilbut_1,KOR
+KFB1-334,Għalhekk ħallew lin-nagħaġ jirgħu waħidhom u telqu mal-ilpup.,Għalhekk ħallew lin-nagħaġ jirgħaw waħidhom u telqu mal-ilpup.,kotbafilbut_1,ORT
+KFB1-390,"Hekk ikollok ħafna aktar għasafar x'tiekol.""","Hekk ikollok ħafna aktar għasafar x'tiekol.""",kotbafilbut_1,KOR
+KFB1-3959,"Mingħajr ma tniffes, Van Helsin għamillu sinjal biex joħorġu barra mill-kripta bis-skiet.","Mingħajr ma tniffes, Van Helsing għamillu sinjal biex joħorġu barra mill-kripta fis-skiet.",kotbafilbut_1,ORT
+KFB1-3235,"Malli r-raġel tat-tiben lemaħ liċ-ċawl riesaq lejhom, talab lil sħabu joqogħdu minn tulhom fl-art, waqt li hu ħataf lill-ewwel ċawla minn għonqha u ħanxarulha.","Malli r-raġel tat-tiben lemaħ liċ-ċawl riesaq lejhom, talab lil sħabu joqogħdu minn tulhom fl-art, waqt li hu ħataf lill-ewwel ċawla minn għonqha u ħanxarulha.",kotbafilbut_1,KOR
+KFB1-1817,L-Imperu sfaxxa uffiċjalment għal kollox mat-tmiem tal-Ewwel Gwerra Dinjija fl-1918.,L-Imperu sfaxxa uffiċjalment għalkollox mat-tmiem tal-Ewwel Gwerra Dinjija fl-1918.,kotbafilbut_1,ORT
+KFB1-400,"Minn kittieba bikrija nafu li Esopu kien ilsir fil-belt ta' Samos, li permezz tal-għerf tiegħu irnexxielu jingħata l-ħelsien.","Minn kittieba bikrija nafu li Esopu kien ilsir fil-belt ta' Samos, li permezz tal-għerf tiegħu rnexxielu jingħata l-ħelsien.",kotbafilbut_1,ORT
+KFB1-710,"Il-viżjoni nbidlet, u issa ra lil neputih, Fred, waqt festin tal-Milied.","Il-viżjoni nbidlet, u issa ra lil neputih, Fred, waqt festin tal-Milied.",kotbafilbut_1,KOR
+KFB1-1039,"Fil-fatt din kienet saħħâra, u malli lemħet lil Pinokkjo bagħtet lis-sefturi tagħha - kelb u ċawla - biex iniżżluh mis-siġra u jeħduh f'darha.","Fil-fatt din kienet saħħara, u malli lemħet lil Pinokkjo bagħtet lis-sefturi tagħha - kelb u ċawla - biex iniżżluh mis-siġra u jeħduh f'darha.",kotbafilbut_1,ORT
+KFB1-3372,"Tassew dehrilhom li f'dak il-waqt li l-leħen beda ġej min-naħa tat-tron, għalkemm baqgħu ma raw 'il ħadd.","Tassew dehrilhom li f'dak il-waqt il-leħen beda ġej min-naħa tat-tron, għalkemm baqgħu ma raw 'il ħadd.",kotbafilbut_1,ORT
+KFB1-46,Dik hija tip ta' siġra tal-palm għolja madwar ħamsin pied.,"Dik hija tip ta' siġra tal-palm, għolja madwar ħamsin pied.",kotbafilbut_1,ORT
+KFB1-1561,"Fuq in-naħa tal-Bastjun ta' Kastilja issa dehret fetħa kbira fis-swar, u t-Torok minnufih daru għal hemm.","Fuq in-naħa tal-Bastjun ta' Kastilja issa dehret fetħa kbira fis-swar, u t-Torok minnufih daru għal hemm.",kotbafilbut_1,KOR
+KFB1-4411,"Spjegali li ried li kulħadd jaħsbu għadu Londra, jien inkluż.","Spjegali li ried li kulħadd jaħseb li kien għadu Londra, jien inkluż.",kotbafilbut_1,ORT
+KFB1-4453,Staqsiena ridniex immorru miegħu.,Staqsiena ridniex immorru miegħu.,kotbafilbut_1,KOR
+KFB1-1112,"Hemmhekk beda jaħdem ma' wieħed espert fil-manuskritti (kotba miktubin bl'id, mhux stampati) Taljani.","Hemmhekk beda jaħdem ma' wieħed espert fil-manuskritti (kotba miktubin bl-id, mhux stampati) Taljani.",kotbafilbut_1,ORT
+KFB1-2513,"""Araw hemm!"" qabeż Ned waqt li pponta lejn xi siġar.","""Araw hemm!"" qabeż Ned waqt li pponta lejn xi siġar.",kotbafilbut_1,KOR
+KFB1-1223,Il-flotta Torka ta' madwar 200 ġifen ma żammitx rotta lejn il-Port il-Kbir.,Il-flotta Torka ta' madwar 200 ġifen ma żammitx rotta lejn il-Port il-Kbir.,kotbafilbut_1,KOR
+KFB1-3434,Oż ferra ftit likwidu minn flixkun aħdar ġo skutella u qal lill-iljun li dak il-likwidu kien il-kuraġġ.,Oż ferra ftit likwidu minn flixkun aħdar ġo skutella u qal lill-iljun li dak il-likwidu kien il-kuraġġ.,kotbafilbut_1,KOR
+KFB1-3023,L-għada filgħodu ma damux mixjin wisq qabel ma sabu quddiemhom gandott fond u wiesa' li ftit li xejn setgħu jaqsmu kif ġieb u laħaq.,L-għada filgħodu ma damux mixjin wisq qabel ma sabu quddiemhom gandott fond u wiesa' li ftit li xejn setgħu jaqsmu kif ġieb u laħaq.,kotbafilbut_1,KOR
+KFB1-2421,Imma l-biċċa hi li intom problema għalija.,Imma l-biċċa hi li intom problema għalija.,kotbafilbut_1,KOR
+KFB1-1508,"L-Insara żammew sod hekk kif bdew jisparaw lura mill-kenn ta' xi bini, u t-taqbid baqa' sejjer għal xi sitt siegħat.","L-Insara żammew sod hekk kif bdew jisparaw lura mill-kenn ta' xi bini, u t-taqbid baqa' sejjer għal xi sitt sigħat.",kotbafilbut_1,ORT
+KFB1-1750,"Don Garcia reġa' dar lura, imma Don Cardona baqa' jinsisti u qabad rotta lejn Għawdex.","Don Garcia reġa' dar lura, imma Don Cardona baqa' jinsisti u qabad rotta lejn Għawdex.",kotbafilbut_1,KOR
+KFB1-4447,Għalissa nistgħu biss nobsru għala huwa għadu ta' Sir Henry.,Għalissa nistgħu biss nobsru għala huwa għadu ta' Sir Henry.,kotbafilbut_1,KOR
+KFB1-3463,"""Ma nistax!","""Ma nistax!",kotbafilbut_1,KOR
+KFB1-1799,Miraturi fuq ix-xwieni li kienu qed jistennewhom bdew jisparaw fuq il-Kavallieri.,"Miraturi fuq ix-xwieni li kienu qed jistennewhom, bdew jisparaw fuq il-Kavallieri.",kotbafilbut_1,ORT
+KFB1-338,Darba volpi ltaqa' ma' ljun.,Darba volpi ltaqa' ma' ljun.,kotbafilbut_1,KOR
+KFB1-215,Bdiet tiżreġ u tiżreġ kemm tiflaħ.,Bdiet tisreġ u tisreġ kemm tiflaħ.,kotbafilbut_1,ORT
+KFB1-1341,"Kienu qalbenin daqs is-suldati tagħhom, u ma beżgħux iduru madwar it-trunċieri u l-pożizzjonijiet tal-kanuni biex jagħtu l-ordnijiet, anki jekk kienu fil-periklu li jintlaqtu mill-għadu.","Kienu qalbenin daqs is-suldati tagħhom, u ma beżgħux iduru madwar it-trunċieri u l-pożizzjonijiet tal-kanuni biex jagħtu l-ordnijiet; anki jekk kienu fil-periklu li jintlaqtu mill-għadu.",kotbafilbut_1,ORT
+KFB1-11,"Kont nilgħab ir-rugby, għalhekk ftit guffaġni ma kenitx tinkwetani.","Kont nilgħab ir-rugby, għalhekk ftit guffaġni ma kenitx tinkwetani.",kotbafilbut_1,KOR
+KFB1-1520,It-Torok sabu x-xoqqa f'moxtha biex jiġru lejn il-fetħa u jippruvaw jidħlu.,It-Torok sabu x-xoqqa f'moxtha biex jiġru lejn il-fetħa u jippruvaw jidħlu.,kotbafilbut_1,KOR
+KFB1-3328,"Iżda meta raw li l-ħbieb kienu qatgħuha li jmorru lura Belt l-Iżmeraldi, tawh landa taż-żejt magħmula minn fidda pura.","Iżda meta raw li l-ħbieb kienu qatgħuha li jmorru lura Belt l-Iżmeraldi, tawh landa taż-żejt magħmula minn fidda pura.",kotbafilbut_1,KOR
+KFB1-4531,Holmes telaq jiġri wara l-kelb.,Holmes telaq jiġri wara l-kelb.,kotbafilbut_1,KOR
+KFB1-3004,"""Imissek tistħi bik innifsek: iljun kbir bħalek jagħmel l-arja ma' kelb ċkejken!""","""Imissek tistħi bik innifsek - iljun kbir bħalek jagħmel l-arja ma' kelb ċkejken!""",kotbafilbut_1,ORT
+KFB1-2864,"Kien f'dan il-waqt li l-Manċikini, li sa issa kienu baqgħu siekta jisimgħu lil Dorothy u lis-Saħħara tat-Tramuntana jitkellmu bejniethom, qabdu jgħajtu u jippuntaw lejn kantuniera tad-dar fejn kien hemm mgħaffġa s-Saħħara tal-Lvant.","Kien f'dan il-waqt li l-Munchkins, li sa issa kienu baqgħu siekta jisimgħu lil Dorothy u lis-Saħħara tat-Tramuntana jitkellmu bejniethom, qabdu jgħajtu u jippuntaw lejn kantuniera tad-dar fejn kien hemm mgħaffġa s-Saħħara tal-Lvant.",kotbafilbut_1,ORT
+KFB1-3115,"Il-ħbieb tagħna komplew mixjin tul it-triq tal-madum safrani, ir-raġel tat-tiben jgħanni ma' kull pass li jagħmel.",Il-ħbieb tagħna komplew mixjin tul it-triq tal-madum safrani; ir-raġel tat-tiben jgħanni ma' kull pass li jagħmel.,kotbafilbut_1,ORT
+KFB1-3477,"""Għaliex ma ssejjaħx lix-Xadini tal-Ġwienaħ biex jeħduk huma sal-Kansas?""","""Għaliex ma ssejjaħx lix-Xadini tal-Ġwienaħ biex jeħduk huma sal-Kansas?""",kotbafilbut_1,KOR
+KFB1-2322,Minn New York baħħarna 'l isfel tul il-kosta tal-Atlantiku tal-Amerka ta' Fuq u l-Amerka t'Isfel sakemm dorna lejn l-oċejan Paċifiki.,Minn New York baħħarna 'l isfel tul il-kosta Atlantika tal-Amerka ta' Fuq u l-Amerka t'Isfel sakemm dorna lejn l-Oċean Paċifiku.,kotbafilbut_1,ORT
+KFB1-2571,"""Se nittanta naħrab illejla,"" qalli Ned.","""Se nittanta naħrab illejla,"" qalli Ned.",kotbafilbut_1,KOR
+KFB1-2913,"""Tajba ħafna, grazzi.","""Tajba ħafna, grazzi.",kotbafilbut_1,KOR
+KFB1-101,"Aħna ma jimpurtaniex minn dak il-post.""","Aħna ma jimpurtaniex minn dak il-post.""",kotbafilbut_1,KOR
+KFB1-3694,Telaq mingħajr aktar kliem.,Telaq mingħajr aktar kliem.,kotbafilbut_1,KOR
+KFB1-171,"Qabeż fuqu, u daqshekk għamel il-ħaruf!","Qabeż fuqu, u daqshekk għamel il-ħaruf!",kotbafilbut_1,KOR
+KFB1-107,Jien naf naqbeż għoli ħafna.,Jien naf naqbeż għoli ħafna.,kotbafilbut_1,KOR
+KFB1-3624,"Il-lejl ta' qabel, pereżempju, il-mara ta' sid il-lukanda fejn kien straħ għal-lejl dehret prattikament imwerwra malli qalilha fejn kien sejjer.","Il-lejl ta' qabel, pereżempju, il-mara ta' sid il-lukanda fejn kien straħ għal-lejl dehret prattikament imwerwra malli qalilha fejn kien sejjer.",kotbafilbut_1,KOR
+KFB1-4587,Ħaġa waħda biss kienet għadu mhux ċara għalija.,Ħaġa waħda biss kienet għadha mhix ċara għalija.,kotbafilbut_1,ORT
+KFB1-3782,"Jonathan issa kien waħdu f'dak il-kastell, ma dawk it-tliet nisa misħutin.","Jonathan issa kien waħdu f'dak il-kastell, ma' dawk it-tliet nisa misħutin.",kotbafilbut_1,ORT
+KFB1-3437,"""Iżda wara kollox, diġà kellhom dak li riedu.","'Iżda wara kollox, diġà kellhom dak li riedu.",kotbafilbut_1,ORT
+KFB1-4291,Wara stajt naċċerta li miet b'attakk ta' qalb.,Wara stajt naċċerta li miet b'attakk ta' qalb.,kotbafilbut_1,KOR
+KFB1-3502,"""X'post sabiħ dan,"" qal l-iljun.","""X'post sabiħ dan!"" qal l-iljun.",kotbafilbut_1,ORT
+KFB1-4346,"""Imma ili ngħix hawn dawn l-aħħar sentejn biss.""","""Imma ili ngħix hawn għal dawn l-aħħar sentejn.""",kotbafilbut_1,ORT
+KFB1-3862,"Waqt li kienu qed jiċċaċċraw, Seward tkellem fuq xi problemi li kellu dwar pazjent li kien hemm fil-manikomju.","Waqt li kienu qed jiċċaċċraw, Seward tkellem fuq xi problemi li kellu dwar pazjent li kien hemm fil-manikomju.",kotbafilbut_1,KOR
+KFB1-4010,Mina qaltilna li kaxxi minn fuq dik l-iskuna ttieħdu Londra.,Mina qaltilna li kaxxi minn fuq dik l-iskuna ttieħdu Londra.,kotbafilbut_1,KOR
+KFB1-4266,"Tfaċċa ż-żiemel ta' Hugo, bla nifs u bir-ragħwa f'ħalqu.","Tfaċċa ż-żiemel ta' Hugo, bla nifs u bir-ragħwa f'ħalqu.",kotbafilbut_1,KOR
+KFB1-1040,Is-saħħâra poġġietu f'sodda u tagħtu ftit mediċina biex jiġi f'tiegħu.,Is-saħħara poġġietu f'sodda u tatu ftit mediċina biex jiġi f'tiegħu.,kotbafilbut_1,ORT
+KFB1-3605,Baum twieled u trabba fi New York.,Baum twieled u trabba fi New York.,kotbafilbut_1,KOR
+KFB1-2760,Lega kienet bejn wieħed u ieħor ftit inqas minn ħames kilometri.,"Lega kienet, bejn wieħed u ieħor, ftit inqas minn ħames kilometri.",kotbafilbut_1,ORT
+KFB1-2120,Clare għadda xi flus lil Haley u ħadu b'idejn xulxin.,St Clare għadda xi flus lil Haley u ħadu b'idejn xulxin.,kotbafilbut_1,ORT
+KFB1-1524,"Waqt dan l-attakk doppju, Mustafà ta l-ordni biex isir it-tielet avvanz.","Waqt dan l-attakk doppju, Mustafà ta l-ordni biex isir it-tielet avvanz.",kotbafilbut_1,KOR
+KFB1-153,Dejjem kienet issib xi ħaġa x'tiekol.,Dejjem kienet issib xi ħaġa x'tiekol.,kotbafilbut_1,KOR
+KFB1-2248,"""Iva, lil Tom xtrajtu jien.","""Iva, lil Tom xtrajtu jien.",kotbafilbut_1,KOR
+KFB1-481,M'hemmx id-djar għall-foqra?,M'hemmx id-djar għall-foqra?,kotbafilbut_1,KOR
+KFB1-3669,"Hawn fi Transilvanja l-affarijiet ma jsirux kif isiru l-Ingilterra.""","Hawn fit-Transilvanja l-affarijiet ma jsirux kif isiru fl-Ingilterra.""",kotbafilbut_1,ORT
+KFB1-3807,"Riħ qawwi, kiesaħ, resaq mill-baħar.","Riħ qawwi, kiesaħ, resaq mill-baħar.",kotbafilbut_1,KOR
+KFB1-4252,"Fetħet it-tieqa tal-kamra, bdiet tixxabbat mal-ħajt, u rnexxielha tinżel, u telqet tiġri kemm tiflaħ 'il bogħod mill-villa.","Fetħet it-tieqa tal-kamra, bdiet tixxabbat mal-ħajt, u rnexxielha tinżel, u telqet tiġri kemm tiflaħ 'il bogħod mill-villa.",kotbafilbut_1,KOR
+KFB1-1762,"Dawn ħallew lill-priġunieri jisimgħuhom jgħidu li l-għajnuna minn Sqallija kienet ta' madwar 16,000 suldat.","Dawn ħallew lill-priġunieri jisimgħuhom jgħidu li l-għajnuna minn Sqallija kienet ta' madwar 16,000 suldat.",kotbafilbut_1,KOR
+KFB1-750,"L-Ispirtu ma qal xejn, imma pponta 'l quddiem.","L-ispirtu ma qal xejn, imma pponta 'l quddiem.",kotbafilbut_1,ORT
+KFB1-1785,De Valette intebaħ li l-battalja kienet għadha ma spiċċatx.,De Valette ntebaħ li l-battalja kienet għadha ma spiċċatx.,kotbafilbut_1,ORT
+KFB1-3572,Glinda tbissmet.,Glinda tbissmet.,kotbafilbut_1,KOR
+KFB1-3523,"Wara dan, reġa' lura lejn il-mergħa fejn kienu qed jistennewh l-annimali u l-ħbieb tiegħu.","Wara dan, reġa' lura lejn il-mergħa fejn kienu qed jistennewh l-annimali u l-ħbieb tiegħu.",kotbafilbut_1,KOR
+KFB1-405,Maż-żmien ħafna kittieba oħra ġabru l-ħrejjef fil-kitbiet tagħhom.,Maż-żmien ħafna kittieba oħra ġabru l-ħrejjef fil-kitbiet tagħhom.,kotbafilbut_1,KOR
+KFB1-757,"""U lil min ħalla flusu?"" staqsa ieħor.","""U lil min ħalla flusu?"" staqsa ieħor.",kotbafilbut_1,KOR
+KFB1-2711,"Bla kliem ta' xejn, Nemo mar lura fil-kabina tiegħu.","Bla kliem ta' xejn, Nemo mar lura fil-kabina tiegħu.",kotbafilbut_1,KOR
+KFB1-2670,F'daqqa kien hemm ħoss qawwi u għajnejja nfetħu beraħ.,F'daqqa kien hemm ħoss qawwi u għajnejja nfetħu beraħ.,kotbafilbut_1,KOR
+KFB1-3483,"Aħna ngħixu biss f'din l-art, u ma nistgħux nitilqu minn hawn.","Aħna ngħixu biss f'din l-art, u ma nistgħux nitilqu minn hawn.",kotbafilbut_1,KOR
+KFB1-97,Raġel darba mar f'post fejn qatt ma kien mar qabel.,Raġel darba mar f'post fejn qatt ma kien mar qabel.,kotbafilbut_1,KOR
+KFB1-1333,Bla dubju ta' xejn il-Kavallieri ta' Sant' Iermu ħadu dan il-kliem bħala offiża.,"Bla dubju ta' xejn, il-Kavallieri ta' Sant'Iermu ħadu dan il-kliem bħala offiża.",kotbafilbut_1,ORT
+KFB1-4444,Holmes tbissem.,Holmes tbissem.,kotbafilbut_1,KOR
+KFB1-2791,Ir-rumanz sar popolari ħafna u Verne kiseb il-fama ta' kittieb żagħżugħ ta' kalibru għoli.,Ir-rumanz sar popolari ħafna u Verne kiseb il-fama ta' kittieb żagħżugħ ta' kalibru għoli.,kotbafilbut_1,KOR
+KFB1-2854,"""Tassew!"" qabżet Dorothy.","""Tassew!"" qabżet Dorothy.",kotbafilbut_1,KOR
+KFB1-186,"It-tifel ħa pjaċir b'dak li ra, u qal lil oħtu, ""Kemm jien ħelu!","It-tifel ħa pjaċir b'dak li ra, u qal lil oħtu, ""Kemm jien ħelu!",kotbafilbut_1,KOR
+KFB1-3383,"Il-kelb qomos lejn il-ġenb bil-ħasda, u laqat paraventu li kien fir-rokna tas-sala.","Il-kelb qomos lejn il-ġenb bil-ħasda, u laqat paraventu li kien fir-rokna tas-sala.",kotbafilbut_1,KOR
+KFB1-4066,Mina kienet qed tolfoq.,Mina kienet qed tolfoq.,kotbafilbut_1,KOR
+KFB1-2058,Il-Ħarba ta' Eliża,3: Il-Ħarba ta' Eliża,kotbafilbut_1,ORT
+KFB1-3630,"Ix-xwejħa kienet dehret kemxejn konfuża għal ftit ħin, u dlonk poġġietlu l-kurċifiss li kellha madwar għonqu.","Ix-xwejħa kienet dehret kemxejn konfuża għal ftit ħin, u dlonk poġġietlu l-kurċifiss li kellha madwar għonqu.",kotbafilbut_1,KOR
+KFB1-148,"Iċ-ċawla nnutat li ċ-ċinju kien dejjem fl-ilma, u ħasbet, ""Forsi jekk nidħol fl-ilma nsir bajda jien ukoll.""","Iċ-ċawla nnutat li ċ-ċinju kien dejjem fl-ilma, u ħasbet, ""Forsi jekk nidħol fl-ilma nsir bajda jien ukoll.""",kotbafilbut_1,KOR
+KFB1-28,M'hemm imkien bħalu!,M'hemm imkien bħalu!,kotbafilbut_1,KOR
+KFB1-3526,Il-ħbieb komplew mixjin fil-masġar.,Il-ħbieb komplew mixjin fil-masġar.,kotbafilbut_1,KOR
+KFB1-3402,"""Dak kien aktar faċli għalija.","""Dak kien aktar faċli għalija.",kotbafilbut_1,KOR
+KFB1-692,"""Milied hieni lilkom kollha, għeżież tiegħi!","""Milied hieni lilkom kollha, għeżież tiegħi!",kotbafilbut_1,KOR
+KFB1-2866,"""Tant kienet xiħa li tmermret taħt ix-xemx!","""Tant kienet xiħa li tmermret taħt ix-xemx!",kotbafilbut_1,KOR
+KFB1-1386,"Disa' Kavallieri nqabdu priġunieri: ħames Spanjoli, tliet Taljani u Franċiż.","Disa' Kavallieri nqabdu priġunieri: ħames Spanjoli, tliet Taljani u Franċiż.",kotbafilbut_1,KOR
+KFB1-1845,"Diżertur: Suldat li jaħrab mill-armata, ġeneralment bil-għan li ma jibqax jiġġieled.","Diżertur: Suldat li jaħrab mill-armata, ġeneralment bil-għan li ma jibqax jiġġieled.",kotbafilbut_1,KOR
+KFB1-4354,"""Naf ngħaddi bejniethom biex nilħaq il-post fejn nista' naqbad il-friefet.","""Naf ngħaddi bejniethom biex nilħaq il-post fejn nista' naqbad il-friefet.",kotbafilbut_1,KOR
+KFB1-3533,F'ħin minnhom tfaċċa minn wara l-blat l-aktar raġel stramb li l-ħbieb tagħna kienu qatt raw b'għajnejhom.,"F'ħin minnhom, tfaċċa minn wara l-blat, l-aktar raġel stramb li l-ħbieb tagħna kienu qatt raw b'għajnejhom.",kotbafilbut_1,ORT
+KFB1-1599,"Jien biħsiebni nilbes uniformi ta' suldat normali biex jekk jidħlu u jsibuni ma jagħrfunix, u joqtluni mas-suldati komuni.","Jien biħsiebni nilbes uniformi ta' suldat normali, biex jekk jidħlu u jsibuni ma jagħrfunix, u joqtluni mas-suldati komuni.",kotbafilbut_1,ORT
+KFB1-3861,"Seward, speċjalista fil-mard tal-moħħ, kellu daru biswit manikomju, u l-ħbieb ta' spiss kienu jiltaqgħu f'dik id-dar.","Seward, speċjalista fil-mard tal-moħħ, kellu daru maġenb manikomju, u l-ħbieb ta' spiss kienu jiltaqgħu f'dik id-dar.",kotbafilbut_1,QTP_H
+KFB1-701,"M'hawnx biżżejjed nies foqra fid-dinja?""","M'hawnx biżżejjed nies foqra fid-dinja?""",kotbafilbut_1,KOR
+KFB1-3028,Il-ħbieb kollha bdew jgħajtu bil-ferħ.,Il-ħbieb kollha bdew jgħajtu bil-ferħ.,kotbafilbut_1,KOR
+KFB1-2969,Tant issaddadt li lanqas biss nista' niċċaqlaq.,Tant issaddadt li lanqas biss nista' niċċaqlaq.,kotbafilbut_1,KOR
+KFB1-1708,De Valette irrifjuta li jagħmel dan.,De Valette rrifjuta li jagħmel dan.,kotbafilbut_1,ORT
+KFB1-2953,"Meta Dorothy stembħet, ix-xemx kienet qed iddawwal l-għorfa.","Meta Dorothy stenbħet, ix-xemx kienet qed iddawwal l-għorfa.",kotbafilbut_1,ORT
+KFB1-454,"""Il-Milied it-tajjeb, Zi!"" għajtet viċi ferrieħa.","""Il-Milied it-tajjeb, zi!"" għajtet vuċi ferrieħa.",kotbafilbut_1,ORT
+KFB1-2868,"Iż-żarbun tal-fidda huwa tiegħek, issa, għażiża tiegħi; dak tista' tilbsu int.""","Iż-żarbun tal-fidda huwa tiegħek issa, għażiża tiegħi; dak tista' tilbsu int.""",kotbafilbut_1,ORT
+KFB1-2040,U l-kummerċant kien qed jinsisti wisq.,U l-kummerċjant kien qed jinsisti wisq.,kotbafilbut_1,ORT
+KFB1-3609,L-ewwel ktieb tas-Saħħâr ta' Oż ħareġ fl-1900.,L-ewwel ktieb tas-Saħħar ta' Oż ħareġ fl-1900.,kotbafilbut_1,ORT
+KFB1-2315,Ġimgħa wara rċevejt ittra:,Ġimgħa wara rċevejt ittra:,kotbafilbut_1,KOR
+KFB1-609,L-ispirtu xejjer idu.,L-ispirtu xejjer idu.,kotbafilbut_1,KOR
+KFB1-167,"Mela xrobt l-ilma tiegħi,"" qal il-lupu.","Mela xrobt l-ilma tiegħi,"" qal il-lupu.",kotbafilbut_1,KOR
+KFB1-730,"""Ħajti ddum biss sa nofsillejl.""","""Ħajti ddum biss sa nofsillejl.""",kotbafilbut_1,KOR
+KFB1-3708,"Għajjien mejjet, daħal fiha.","Għajjien mejjet, daħal fiha.",kotbafilbut_1,KOR
+KFB1-2074,Qajjem pandemonju.,Qajjem pandemonju sħiħ!,kotbafilbut_1,ORT
+KFB1-3475,"Issa li Oż m'għadux magħna, ma nafx kif inkun nista' mmur lura hemm.""","Issa li Oż m'għadux magħna, ma nafx kif inkun nista' mmur lura hemm.""",kotbafilbut_1,KOR
+KFB1-1622,B'hekk il-Ġannizzeri kienu jkunu jistgħu jaqsmu minn ġot-torri għal fuq is-swar.,B'hekk il-Ġannizzari kienu jkunu jistgħu jaqsmu minn ġot-torri għal fuq is-swar.,kotbafilbut_1,ORT
+KFB1-587,Biex ngħinek.,Biex ngħinek.,kotbafilbut_1,KOR
+KFB1-1401,Ir-risposta ta' de Valette kienet pronta u daqstant kiefra.,Ir-risposta ta' de Valette kienet pronta u daqstant kiefra.,kotbafilbut_1,KOR
+KFB1-3045,"""Naħseb li naf x'nagħmel,"" qal fl-aħħar ir-raġel tat-tiben.","""Naħseb li naf x'nagħmel,"" qal fl-aħħar ir-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-3224,"Morru qattgħuhom trietaq!""","Morru qattgħuhom trietaq!""",kotbafilbut_1,KOR
+KFB1-1700,"Malli waqaf il-bumbardament, Mustafà nnifsu mexxa offensiva oħra fuq il-forti San Mikiel.","Malli waqaf il-bumbardament, Mustafà nnifsu mexxa offensiva oħra fuq il-forti San Mikiel.",kotbafilbut_1,KOR
+KFB1-3088,"La kellu ċ-ċans jiġbdu lura u lanqas jitilqu hekk kif iċ-ċattra baqgħet titkaxkar mal-ilma ġieri, u l-imsejken raġel tat-tiben baqa' wara, iggranfat mal-moqdief f'nofs ix-xmara.","La kellu ċ-ċans jiġbdu lura u lanqas jitilqu, hekk kif iċ-ċattra baqgħet titkaxkar mal-ilma ġieri u l-imsejken raġel tat-tiben baqa' wara, iggranfat mal-moqdief, f'nofs ix-xmara.",kotbafilbut_1,ORT
+KFB1-3759,"Qalbu ma dehretx li kienet qed tħabbat, u wiċċu kien kollu demm.","Qalbu ma dehritx li kienet qed tħabbat, u wiċċu kien miksi bid-demm.",kotbafilbut_1,QTP_H
+KFB1-2981,"""Sejrin sa Belt l-Iżmeraldi, biex inkellmu lis-Saħħar ta' Oż.","""Sejrin sa Belt l-Iżmeraldi biex inkellmu lis-Saħħar ta' Oż.",kotbafilbut_1,ORT
+KFB1-4314,"""Dak ma kienx miexi bil-mod.","""Dak ma kienx miexi bil-mod.",kotbafilbut_1,KOR
+KFB1-1379,Fl-għodwa tat-23 parti mill-flotta Torka għaddiet viċin il-forti u sparat sensiela ta' kannunati.,"Fl-għodwa tat-23, parti mill-flotta Torka għaddiet viċin il-forti u sparat sensiela ta' kannunati.",kotbafilbut_1,ORT
+KFB1-2089,"Mument minnhom, qisu f'ħolma, lemħet persuna quddiemha, b'idejha miftuħin biex jilqgħuha.","Mument minnhom, qisu f'ħolma, lemħet raġel quddiemha, b'idejh miftuħin biex jilqagħha.",kotbafilbut_1,QTP_H
+KFB1-2175,"Kif kienu marbutin fil-ktajjen fuq il-lanċa, Legree mall-ewwel wera li kien sid aħrax.","Kif kienu marbutin bil-ktajjen fuq il-lanċa, Legree mill-ewwel wera li kien sid aħrax.",kotbafilbut_1,ORT
+KFB1-3217,Għalhekk permezz tagħha kienet tista' tara minn bogħod liema bħalu.,Għalhekk permezz tagħha kienet tista' tara minn bogħod liema bħalu.,kotbafilbut_1,KOR
+KFB1-3852,"Għalkemm issa qiegħed jirkupra qed jistaqsi għalik.""","Għalkemm issa qiegħed jirkupra fil-kunvent tagħna, qed jistaqsi għalik.""",kotbafilbut_1,ORT
+KFB1-3711,3: Priġunier,Kapitlu 3: Priġunier,kotbafilbut_1,ORT
+KFB1-4456,"Din ma kontx naf biha jien, imma żammejt ħalqi magħluq.","Din ma kontx naf biha jien, imma żammejt ħalqi magħluq.",kotbafilbut_1,KOR
+KFB1-2657,Iżda xorta waħda bqajna naħdmu.,Iżda xorta waħda bqajna naħdmu.,kotbafilbut_1,KOR
+KFB1-3180,"M'għandekx il-marka tal-bewsa tas-Saħħara t-Tajba fuq moħħok?""","M'għandekx il-marka tal-bewsa tas-Saħħara t-Tajba fuq moħħok?""",kotbafilbut_1,KOR
+KFB1-2076,Il-kamra li kienet fiha kellha bieb li kien jagħti għan-naħa tax-xmara.,Il-kamra li kienet fiha kellha bieb li kien jagħti għan-naħa tax-xmara.,kotbafilbut_1,KOR
+KFB1-441,Il-linka fl-inkjostru kienet kważi ffriżata.,Il-linka fil-klamar kienet kważi ffriżata.,kotbafilbut_1,QTP_H
+KFB1-3426,"Ix-xwejjaħ talbu l-permess biex jaqlagħlu rasu u jneħħilu t-tiben kollu li kellu fiha, minflok, poġġielu f'rasu taħlita ta' nuħħala, msiemer u labar.",Ix-xwejjaħ talbu l-permess biex jaqlagħlu rasu u jneħħilu t-tiben kollu li kellu fiha.,kotbafilbut_1,ORT
+KFB1-2051,U s-Sid m'għandux tort.,"U s-Sid m'għandux tort, Chloe, ikun jista' jieħu ħsiebkom ...""",kotbafilbut_1,QTP_H
+KFB1-2541,"""Naħseb li se nerġgħu lura lejn il-Golf Għarbi u mbagħad ninżlu tul il-kosta tal-Afrika,"" weġibtu jien.","""Naħseb li se nerġgħu lura lejn il-Golf Għarbi u mbagħad ninżlu tul il-kosta tal-Afrika,"" weġibtu jien.",kotbafilbut_1,KOR
+KFB1-1301,"Dragut kien niżel ħafna drabi f'Malta, u kien niżel ukoll f'Għawdex darbtejn, fl-1561 u l-1563.","Dragut kien niżel ħafna drabi f'Malta, u kien niżel ukoll f'Għawdex darbtejn, fl-1561 u l-1563.",kotbafilbut_1,KOR
+KFB1-1781,"Bit-tama li forsi jkollu rebħa tal-aħħar, ordna x-xwieni jieqfu u jniżżlu 9,000 suldat l-art biex jattakka lill-għadu.","Bit-tama li forsi jkollu rebħa tal-aħħar, ordna x-xwieni jieqfu u jniżżlu 9,000 suldat l-art, biex jattakka lill-għadu.",kotbafilbut_1,ORT
+KFB1-4591,Lanqas Holmes ma seta' jagħtini tweġiba għal dan.,Lanqas Holmes ma seta' jagħtini tweġiba għal dan.,kotbafilbut_1,KOR
+KFB1-1304,Għalhekk ma ħax pjaċir meta ra li Mustafa u Pjalì kienu bdew l-assedju mingħajru.,"Għalhekk, ma ħax pjaċir meta ra li Mustafa u Pialì kienu bdew l-assedju mingħajru.",kotbafilbut_1,ORT
+KFB1-236,"""Ara ftit!",'Ara ftit!,kotbafilbut_1,ORT
+KFB1-2599,Nemo beda jimxi mgħaġġel taħt il-baħar.,Nemo beda jimxi mgħaġġel taħt il-baħar.,kotbafilbut_1,KOR
+KFB1-520,"Fuq il-kuker poġġa taġen żgħir bi ftit soppa fih, fuq nar inemnem.","Fuq il-kuker poġġa kazzola żgħira bi ftit soppa fiha, fuq nar inemnem.",kotbafilbut_1,QTP_H
+KFB1-2573,Jien kont bejn ħaltejn.,Jien kont bejn ħaltejn.,kotbafilbut_1,KOR
+KFB1-3280,B'daħqa sfurzata kaxkret lil Dorothy fil-kċina u hemmhekk ġiegħlitna taħsel il-borom u t-twaġen.,B'daħqa sfurzata kaxkret lil Dorothy fil-kċina u hemmhekk ġegħlitha taħsel il-borom u t-twaġen.,kotbafilbut_1,ORT
+KFB1-3186,"Bid-dmugħ f'għajnejha, Dorothy ħarġet mis-sala tat-tron u reġgħet ma' ħbiebha.","Bid-dmugħ f'għajnejha, Dorothy ħarġet mis-sala tat-tron u reġgħet iltaqgħet ma' ħbiebha.",kotbafilbut_1,ORT
+KFB1-2768,"Meta l-vapur wasal f'port sab lil missieru qed jistennieh biex jieħdu lura d-dar, u Verne ħa r-ruħ meta rah.","Meta l-vapur wasal f'port sab lil missieru qed jistennieh biex jieħdu lura d-dar, u Verne ħa r-ruħ meta rah.",kotbafilbut_1,KOR
+KFB1-735,"""M'hemmx ħabsijiet?"" wieġbu l-Ispirtu, hekk kif ħares lejh biċ-ċiera.","""M'hemmx ħabsijiet?"" staqsieh l-ispirtu, hekk kif ħares lejh biċ-ċiera.",kotbafilbut_1,QTP_H
+KFB1-4328,"Bqajna siktin hekk kif għaddejna biswit dik l-art għerija, kollha blat u siġar mgħawġin u mingħajr weraq.","Bqajna siktin hekk kif għaddejna maġenb dik l-art għerja, kollha blat u siġar mgħawġin u mingħajr weraq.",kotbafilbut_1,QTP_H
+KFB1-2106,"Irrid inkun naf min se jkun sidu, ħalli nsibu u nerġa' nixtrih lura mingħandu malli jkollna l-flus.""","Irrid inkun naf min se jkun sidu, ħalli nsibu u nerġa' nixtrih lura mingħandu malli jkollna l-flus.""",kotbafilbut_1,KOR
+KFB1-2679,Stajna nieħdu nifs!,Stajna nieħdu nifs!,kotbafilbut_1,KOR
+KFB1-3229,Is-saħħara rrabjat aktar minn qabel malli rat li Dorothy u sħabha kienu għadhom ħajjin.,Is-saħħara rrabjat aktar minn qabel malli rat li Dorothy u sħabha kienu għadhom ħajjin.,kotbafilbut_1,KOR
+KFB1-2761,Jules Verne (1828-1905),Jules Verne (1828-1905),kotbafilbut_1,KOR
+KFB1-592,Kienu fis-suq ta' raħal żgħir.,Kienu fis-suq ta' raħal żgħir.,kotbafilbut_1,KOR
+KFB1-1303,"Għalkemm uffiċjalment Dragut ma kienx jagħmel parti mill-armata Ottomana, kemm ir-reputazzjoni tiegħu ta' ġeneral eċċellenti kif ukoll l-ordni ċar mingħand Sulejman innifsu kien ifisser li hu issa kien il-mexxej ewlieni tal-armata, u kemm Mustafà kif ukoll Pjalì kellhom joqogħdu għat-tmexxija tiegħu.","Għalkemm, uffiċjalment, Dragut ma kienx jagħmel parti mill-armata Ottomana, kemm ir-reputazzjoni tiegħu ta' ġeneral eċċellenti kif ukoll l-ordni ċar mingħand Sulejman innifsu, kien ifisser li hu issa kien il-mexxej ewlieni tal-armata.",kotbafilbut_1,ORT
+KFB1-1387,Ħames suldati Maltin irnexxielhom jaqbżu fil-baħar u jgħumu sal-Birgu.,Ħames suldati Maltin irnexxielhom jaqbżu fil-baħar u jgħumu sal-Birgu.,kotbafilbut_1,KOR
+KFB1-4320,Sir Henry baqa' kwiet u jisma' b'attenzjoni kbira hekk kif Mortimer irrakkuntalu l-istorja tas-Saħta tal-Baskerville.,Sir Henry baqa' kwiet u jisma' b'attenzjoni kbira hekk kif Mortimer irrakkuntalu l-istorja tas-Saħta ta' Baskerville.,kotbafilbut_1,ORT
+KFB1-3338,"""Hawnhekk intlifna għal kollox!""","""Hawnhekk intlifna għalkollox!""",kotbafilbut_1,ORT
+KFB1-3821,"F'qasir żmien, għeb qalb il-lapidi taċ-ċimiterju ħdejn il-knisja.","F'qasir żmien, għeb qalb il-lapidi taċ-ċimiterju ħdejn il-knisja.",kotbafilbut_1,KOR
+KFB1-2987,"""Iva,"" kompla r-raġel tat-tiben.","""Iva,"" kompla r-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-4525,Tant konna xxukkjati li ħallejnih jgħaddi minn ħdejna qabel ma ġejna f'tagħna.,Tant konna xxukkjati li ħallejnieh jgħaddi minn ħdejna qabel ma ġejna f'tagħna.,kotbafilbut_1,ORT
+KFB1-3297,"""Din inżommha jien, u xi waħda minn dawn il-jiem se noħodlok l-oħra wkoll, issa tara!""","""Din inżommha jien, u xi waħda minn dawn il-jiem se noħodlok l-oħra wkoll, issa tara!""",kotbafilbut_1,KOR
+KFB1-904,"Bħalma jħobb jgħid iċ-Ċkejken Tim, ""Alla jbierek lilna lkoll!""","Bħalma jħobb jgħid iċ-ċkejken Tim, ""Alla jbierek lilna lkoll!""",kotbafilbut_1,ORT
+KFB1-4240,"Il-ħabib tiegħi Sherlock Holmes ta' spiss kien ikun involut f'każijiet strambi ta' investigazzjoni kriminali, imma l-ebda minnhom ma' hi stramba daqs din li se nirrakkonta hawn.","Il-ħabib tiegħi Sherlock Holmes ta' spiss kien ikun involut f'każijiet strambi ta' investigazzjoni kriminali, imma l-ebda minnhom ma hi stramba daqs din li se nirrakkonta hawn.",kotbafilbut_1,ORT
+KFB1-1279,"Malli ra dan, Mustafà ordna lill-Ġannizzeri biex jattakkaw.","Malli ra dan, Mustafà ordna lill-Ġannizzari biex jattakkaw.",kotbafilbut_1,ORT
+KFB1-933,"Dickens kellu għaxart itfal, u kollha kien iħobbhom.","Dickens kellu għaxart itfal, u kollha kien iħobbhom.",kotbafilbut_1,KOR
+KFB1-4505,Hija kwistjoni ta' ħajja jew mewt.,Hija kwistjoni ta' ħajja jew mewt.,kotbafilbut_1,KOR
+KFB1-2308,Hemmhekk laqgħuni xi ġurnalisti.,Hemmhekk laqgħuni xi ġurnalisti.,kotbafilbut_1,KOR
+KFB1-1555,"Ma kienx hemm rokna waħda fil-belt ħielsa mill-bombi, u mietu ħafna Maltin - irġiel, nisa u tfal.","Ma kienx hemm rokna waħda fil-belt ħielsa mill-bombi, u mietu ħafna Maltin - irġiel, nisa u tfal.",kotbafilbut_1,KOR
+KFB1-4168,Mela din kienet il-moħba ewlenija tar-re tal-vampiri.,Mela din kienet il-moħba ewlenija tar-re tal-vampiri.,kotbafilbut_1,KOR
+KFB1-4023,"""Żommuhom viċin qalbkom,"" qalilhom.","""Żommuhom viċin qalbkom,"" qalilhom.",kotbafilbut_1,KOR
+KFB1-4082,Kollha kellhom burdata ħażina sakemm reġgħu marru lura d-dar ta' Seward.,Kollha kellhom burdata ħażina sakemm reġgħu marru lura d-dar ta' Seward.,kotbafilbut_1,KOR
+KFB1-706,"Għan-nies li kienu jgħixu fuq il-fanali tal-portijiet, imdawrin bil-baħar u l-maltempati.","Għan-nies li kienu jgħixu fuq il-fanali tal-portijiet, imdawrin bil-baħar u l-maltempati.",kotbafilbut_1,KOR
+KFB1-4315,"Dak kien qed jiġri, jaħrab.","Dak kien qed jiġri, jaħrab.",kotbafilbut_1,KOR
+KFB1-3070,"Minħabba din il-ġrajja xejn sabiħa, il-ħbieb tagħna issa kienu aktar ħerqana minn qabel biex ifittxu joħorġu minn dik il-foresta.","Minħabba din il-ġrajja xejn sabiħa, il-ħbieb tagħna issa kienu aktar ħerqana minn qabel biex ifittxu joħorġu minn dik il-foresta.",kotbafilbut_1,KOR
+KFB1-745,Scrooge beda jitriegħed bil-biża'.,Scrooge beda jitriegħed bil-biża'.,kotbafilbut_1,KOR
+KFB1-1939,"Akkumpanjah sad-daħla tal-labirint u hemmhekk sellimlu għall-aħħar darba, għax kien ċert li Tesew kien se jsib mewtu hemm ġew.","Wasslu sad-daħla tal-labirint u hemmhekk sellimlu għall-aħħar darba, għax kien ċert li Tesew kien se jsib mewtu hemm ġew.",kotbafilbut_1,QTP_H
+KFB1-4524,"B'passi twal u mgħaġġla, l-annimal kompla miexi wara Sir Henry.","B'passi twal u mgħaġġla, l-annimal kompla miexi wara Sir Henry.",kotbafilbut_1,KOR
+KFB1-2862,Is-Sħaħar tal-Lvant u tal-Punent huma sħaħar ħżiena.,Is-Sħaħar tal-Lvant u tal-Punent huma sħaħar ħżiena.,kotbafilbut_1,KOR
+KFB1-3954,"Hemmhekk tkun tista' tara b'għajnejk.""","Hemmhekk tkun tista' tara b'għajnejk.""",kotbafilbut_1,KOR
+KFB1-513,"Stenna li se jara l-wara ta' ras Marley, b'xagħru twil marbut, imma ra biss il-viti u l-iskorfini tal-bieb.","Stenna li se jara l-wara ta' ras Marley, b'xagħru twil marbut, imma ra biss il-viti u l-iskorfini tal-bieb.",kotbafilbut_1,KOR
+KFB1-81,"Ġej il-lupu!"" u kulħadd ġera biex jgħinu.","Ġej il-lupu!"" u kulħadd ġera biex jgħinu.",kotbafilbut_1,KOR
+KFB1-4573,Wara dan ra kif jagħmel biex jitħabbeb ma' Sir Charles.,Wara dan ra kif jagħmel biex jitħabbeb ma' Sir Charles.,kotbafilbut_1,KOR
+KFB1-1308,Ra wkoll kif l-armata Ottomana kienet mifruxa fuq l-Għolja Xiberras u l-Għolja tas-Salvatur biex ikunu jistgħu jibbumbardjaw kemm Sant' Iermu kif ukoll Sant' Anġlu.,"Ra wkoll kif l-armata Ottomana kienet mifruxa fuq l-Għolja Xiberras u l-Għolja tas-Salvatur, biex ikunu jistgħu jibbumbardjaw kemm Sant'Iermu kif ukoll Sant'Anġlu.",kotbafilbut_1,ORT
+KFB1-4182,Il-ħin rawh għaddej bil-mod waqt li qagħdu jistennew matul il-ġurnata.,Il-ħin rawh għaddej bil-mod waqt li qagħdu jistennew matul il-ġurnata.,kotbafilbut_1,KOR
+KFB1-914,Charles Dickens (1812 - 1870),Charles Dickens (1812-1870),kotbafilbut_1,ORT
+KFB1-4416,"""Dak ir-raġel mhux gustuż daqs kemm jidher,"" qalli.","""Dak ir-raġel mhux gustuż daqskemm jidher,"" qalli.",kotbafilbut_1,ORT
+KFB1-3979,"Nerġgħu niġu għada billejl.""","Nerġgħu niġu għada billejl.""",kotbafilbut_1,KOR
+KFB1-2198,"Wara tmiem il-ġurnata u l-użin tal-qoton miġbur, Legree sejjaħ lil Tom biex ikellmu.","Wara tmiem il-ġurnata u l-użin tal-qoton miġbur, Legree sejjaħ lil Tom biex ikellmu.",kotbafilbut_1,KOR
+KFB1-774,"""Kieku ma kienx daqshekk stramb,"" qabeż it-tieni raġel, ""forsi kien ikun hemm xi ħadd li kien idur bih sakemm imut.","""Kieku ma kienx daqshekk stramb,"" qabeż it-tieni raġel, ""forsi kien ikun hemm xi ħadd li kien idur bih sakemm imut.",kotbafilbut_1,KOR
+KFB1-329,"Aħna m'għandniex għalfejn naħdmu, u xorta nsibu x'nieklu.""","Aħna m'għandniex għalfejn naħdmu, u xorta nsibu x'nieklu.""",kotbafilbut_1,KOR
+KFB1-2054,Dalgħodu qalli li kien qed jippjana jaħrab mis-Sid tiegħu.,Dalgħodu qalli li kien qed jippjana li jaħrab mis-Sid tiegħu.,kotbafilbut_1,ORT
+KFB1-2001,"""Ħa ngħidlek, żidli lil dan it-tfajjel ma' Tom u nkunu tajjeb.""","""Ħa ngħidlek, żidli lil dan it-tfajjel ma' Tom u nkunu tajjeb.""",kotbafilbut_1,KOR
+KFB1-943,"""Le, le,"" beda jaħseb.","""Le, le,"" beda jaħseb.",kotbafilbut_1,KOR
+KFB1-822,"""Ggħidli, Spirtu,"" staqsa Scrooge.","""Għidli, Spirtu,"" staqsa Scrooge.",kotbafilbut_1,ORT
+KFB1-4164,"Kif daħal, mar ifittex mall-ewwel il-kappella mitluqa.","Kif daħal, mar ifittex mill-ewwel il-kappella l-mitluqa.",kotbafilbut_1,ORT
+KFB1-909,Robinson Crusoe: Personaġġ fir-rumanz bl-istess isem ta' Daniel Defoe.,Robinson Crusoe: Personaġġ fir-rumanz bl-istess isem ta' Daniel Defoe.,kotbafilbut_1,KOR
+KFB1-2516,"Jien u Conseil minnufih tlajna fuq id-dgħajsa, imma Ned ma riedx iħalli l-ikel warajh, u waqt li ppprova jitfa' kollox fid-dgħasja, xita lanez bdiet nieżla madwarna.","Jien u Conseil minnufih irkibna d-dgħajsa, imma Ned ma riedx iħalli l-ikel warajh, u waqt li pprova jitfa' kollox fid-dgħajsa, xita ta' lanez bdiet nieżla madwarna.",kotbafilbut_1,QTP_H
+KFB1-181,Tagħlima: Xi drabi aħjar tikkuntenta b'li għandek.,Tagħlima: Xi drabi aħjar tikkuntenta b'li għandek.,kotbafilbut_1,KOR
+KFB1-164,"""Mela kilt l-ikel tiegħi,"" kompla l-lupu.","""Mela kilt l-ikel tiegħi,"" kompla l-lupu.",kotbafilbut_1,KOR
+KFB1-1523,"Dawn qasmu l-puntun mill-Birgu għal Senglea, waslu fuq il-post malajr, u rnexxielhom jimbuttaw lit-Torok lura.","Dawn qasmu l-puntun mill-Birgu għal Senglea, waslu fuq il-post malajr, u rnexxielhom jimbuttaw lit-Torok lura.",kotbafilbut_1,KOR
+KFB1-451,"Għax l-għada kien il-Milied, u l-ħwienet kienu kollha mixgħulin u mimlijin b'kull tip ta' ikel - dundjani u wiżż, larinġ u tuffieħ, karawett, kejkijiet u ħelu ta' kull għamla u lewn - iżda mhux kulħadd kellu biżżejjed flus biex jixtrihom.","Għax l-għada kien il-Milied, u l-ħwienet kienu kollha mixgħulin u mimlijin b'kull tip ta' ikel - dundjani u wiżż, larinġ u tuffieħ, karawett, kejkijiet u ħelu ta' kull għamla u lewn - iżda mhux kulħadd kellu biżżejjed flus biex jixtrihom.",kotbafilbut_1,KOR
+KFB1-2538,5 Id-Deheb ta' Nemo,Kapitlu 5: Id-Deheb ta' Nemo,kotbafilbut_1,ORT
+KFB1-3478,"""X'idea tajba!"" wieġbet Dorothy fil-pront.","""X'idea tajba!"" wieġbet Dorothy fil-pront.",kotbafilbut_1,KOR
+KFB1-4390,Qal li x-xagħra kienet diġà tal-biża' kif kienet; raġel misterjuż moħbi u josserva lin-nies kien jonqosha!,Qal li x-xagħra kienet diġà tal-biża' kif kienet; raġel misterjuż moħbi u josserva lin-nies kien jonqosha!,kotbafilbut_1,KOR
+KFB1-1311,"""Kien ikun aħjar kieku segwejtu l-idea oriġinali ta' Mustafà - tieħdu t-tramuntana tal-gżira l-ewwel u tħallu 'l Sant' Iermu għall-aħħar.","""Kien ikun aħjar kieku segwejtu l-idea oriġinali ta' Mustafà - tieħdu t-Tramuntana tal-gżira l-ewwel, u tħallu 'l Sant'Iermu għall-aħħar.",kotbafilbut_1,ORT
+KFB1-3978,"""Żgur mhux se jemmen, bħalma għamilt int, sakemm ma jarax b'għajnejh.","""Żgur mhux se jemmen, bħalma għamilt int, sakemm ma jarax b'għajnejh.",kotbafilbut_1,KOR
+KFB1-1111,"Imma Collodi ma xtaqx isir qassis, u għalhekk mar jitgħallem f'kulleġġ f'Firenze.","Imma Collodi ma xtaqx isir qassis, u għalhekk mar jitgħallem f'kulleġġ f'Firenze.",kotbafilbut_1,KOR
+KFB1-4181,"""Issa qegħdin f'idejn Alla.""","""Issa qegħdin f'idejn Alla.""",kotbafilbut_1,KOR
+KFB1-1287,Ftit ftit il-Ġannizzeri bdew jimbuttaw lill-Kavallieri lura sakemm reġgħu ħatfu t-trunċieri u rebħu aktar art quddiem il-forti.,"Ftit ftit, il-Ġannizzari bdew jimbuttaw lill-Kavallieri lura, sakemm reġgħu ħatfu t-trunċieri u rebħu aktar art quddiem il-forti.",kotbafilbut_1,ORT
+KFB1-3590,"Minnufih, bdiet tittajjar fl-ajru, u kulma semgħet kien ir-riħ ivenven ġo widnejha.","Minnufih, bdiet tittajjar fl-ajru, u kulma semgħet kien ir-riħ ivenven ġo widnejha.",kotbafilbut_1,KOR
+KFB1-3860,"Ftit żmien wara li Lucy waslet lura Londra, Arthur Holmwood mar iżur lit-Tabib Seward.","Ftit żmien wara li Lucy waslet lura Londra, Arthur Holmwood mar iżur lit-Tabib Seward.",kotbafilbut_1,KOR
+KFB1-4452,Sar jaf li Stapleton kien stieden lil Sir Henry biex imur għandu dakinhar filgħaxija.,Sar jaf li Stapleton kien stieden lil Sir Henry biex imur għandu dakinhar filgħaxija.,kotbafilbut_1,KOR
+KFB1-3300,Is-Saħħara l-Ħażina werżqet twerżiqa li twaħħax.,Is-Saħħara l-Ħażina werżqet twerżiqa li twaħħax.,kotbafilbut_1,KOR
+KFB1-3310,"Grupp minnhom beda l-vjaġġ u baqa' jfittex matul dak il-jum u parti kbira mill-jum ta' wara, sakemm fl-aħħar waslu f'dik il-pjanura kollha blat fejn ir-raġel tal-landa nstab kollu mgħattan u mibrux.","Grupp minnhom beda l-vjaġġ u baqa' jfittex matul dak il-jum u parti kbira mill-jum ta' wara, sakemm fl-aħħar waslu f'dik il-pjanura kollha blat fejn ir-raġel tal-landa nstab kollu mgħattan u mibrux.",kotbafilbut_1,KOR
+KFB1-4190,"""Qed nara xi żwiemel oħra!"" għajtet Mina.","""Qed nara xi żwiemel oħra!"" għajtet Mina.",kotbafilbut_1,KOR
+KFB1-3125,"""Għalfejn ġejtu f'Belt i-Iżmeraldi?"" staqsa.","""Għalfejn ġejtu f'Belt l-Iżmeraldi?"" staqsa.",kotbafilbut_1,ORT
+KFB1-327,"""Għaliex taħdmu għalih?"" qal wieħed mill-ilpup.","""Għaliex taħdmu għalih?"" qal wieħed mill-ilpup.",kotbafilbut_1,KOR
+KFB1-1790,"Malli l-kavallerija fl-Imdina raw dan, ħarġu huma wkoll u għamlu għall-armata Torka.","Malli l-kavallerija fl-Imdina raw dan, ħarġu huma wkoll u għamlu għall-armata Torka.",kotbafilbut_1,KOR
+KFB1-2490,"Ma jistax jiċċaqlaq,"" wieġeb bil-kalma kollha.","Ma jistax jiċċaqlaq,"" wieġeb bil-kalma kollha.",kotbafilbut_1,KOR
+KFB1-2006,"""Nippreferi ma nbiegħux lanqas.""","""Nippreferi ma nbigħux lanqas.""",kotbafilbut_1,ORT
+KFB1-2007,"Imma Haley baqa' jinsisti, tant li fl-aħħar, biex isikktu darba għal dejjem Shelby qal, ""Issa naħsibha.","Imma Haley baqa' jinsisti, tant li fl-aħħar, biex isikktu darba għal dejjem, Shelby qal, ""Issa naħsibha.",kotbafilbut_1,ORT
+KFB1-1858,Pattulja: Grupp żgħir ta' suldati li xogħolhom hu li jgħassu biċċa art jew post.,Pattulja: Grupp żgħir ta' suldati li xogħolhom hu li jgħassu biċċa art jew post.,kotbafilbut_1,KOR
+KFB1-4311,"""Le,"" wieġeb Mortimer.","""Le,"" wieġeb Mortimer.",kotbafilbut_1,KOR
+KFB1-312,"Ħa nipprova naqbeż u nara nilħaqhomx.""","Ħa nipprova naqbeż u nara nilħqux.""",kotbafilbut_1,ORT
+KFB1-832,M'hemmx tama għalija?,M'hemmx tama għalija?,kotbafilbut_1,KOR
+KFB1-3079,Kienet art kollha miksija b'għelieqi ħodor u mlewna b'kull tip ta' ward.,Kienet art kollha miksija b'għelieqi ħodor u mlewna b'kull tip ta' ward.,kotbafilbut_1,KOR
+KFB1-1201,"Dawn naturalment setgħu iħarsu l-ibliet min-naħa tal-baħar biss, iżda min-naħa tal-art il-Birgu u Senglea kienu mħarsa minn swar għoljin.","Dawn naturalment setgħu jħarsu l-ibliet min-naħa tal-baħar biss, iżda min-naħa tal-art, il-Birgu u Senglea kienu mħarsa minn swar għoljin.",kotbafilbut_1,ORT
+KFB1-3966,"Issa Lucy kienet hemm, mimduda qisha rieqda.","Issa Lucy kienet hemm, mimduda qisha rieqda.",kotbafilbut_1,KOR
+KFB1-3941,"Ara, fid-dinja jiġru ħafna affarijiet strambi.","Ara, fid-dinja jiġru ħafna affarijiet strambi.",kotbafilbut_1,KOR
+KFB1-2134,F'dak l-istess lejl wieħed mill-ġirien ġie javżahom li raw xi kaċċaturi tal-iskjavi fir-raħal qrib.,F'dak l-istess lejl wieħed mill-ġirien ġie javżahom li raw xi kaċċaturi tal-iskjavi fir-raħal qrib.,kotbafilbut_1,KOR
+KFB1-2209,"""Iva, lest li naħdem iebes lejl u nhar.","""Iva, lest li naħdem iebes lejl u nhar.",kotbafilbut_1,KOR
+KFB1-3976,Seward beda jirtogħod bix-xokk ta' dan kollu.,Seward beda jirtogħod bix-xokk ta' dan kollu.,kotbafilbut_1,KOR
+KFB1-1481,Billi kienet fil-baxx ma kenitx tidher sew u x'aktarx it-Torok kienu għadhom ma jafux biha.,"Billi kienet fil-baxx, ma kenitx tidher sew u x'aktarx it-Torok kienu għadhom ma jafux biha.",kotbafilbut_1,ORT
+KFB1-777,"""Spirtu,"" lissen Scrooge.","""Spirtu,"" lissen Scrooge.",kotbafilbut_1,KOR
+KFB1-799,"""Kien iħobbu tant, liċ-Ċkejken Tim,"" qalet is-Sinjura Cratchit.","""Kien iħobbu tant liċ-ċkejken Tim!"" qalet is-Sinjura Cratchit.",kotbafilbut_1,ORT
+KFB1-54,"It-tagħlim tagħhom huwa siewi llum daqskemm kien 2,500 sena ilu meta Esopu kien għadu ħaj.","It-tagħlim tagħhom huwa siewi llum daqskemm kien 2,500 sena ilu meta Esopu kien għadu ħaj.",kotbafilbut_1,KOR
+KFB1-2972,Dorothy marret tiġri u f'kemm ilna ngħidu ġiet lura bil-landa taż-żejt.,Dorothy marret tiġri u f'kemm ilna ngħidu ġiet lura bil-landa taż-żejt.,kotbafilbut_1,KOR
+KFB1-3335,"Ma kien hemm l-ebda triq li setgħet teħodhom lejn il-Belt, iżda huma kienu jafu li sakemm jibqgħu mixjin lejn il-lvant, minn fejn kienet titla' x-xemx, kienu fit-triq it-tajba.","Ma kien hemm l-ebda triq li setgħet teħodhom lejn il-Belt, iżda huma kienu jafu li sakemm jibqgħu mixjin lejn il-Lvant, minn fejn kienet titla' x-xemx, kienu fit-triq it-tajba.",kotbafilbut_1,ORT
+KFB1-1920,Arjadne wegħditu li taħseb f'xi ħaġa.,Arjadne wegħditu li taħseb f'xi ħaġa.,kotbafilbut_1,KOR
+KFB1-4275,"Minn dak iż-żmien, is-Saħta tal-Baskerville għaddiet minn ġenerazzjoni għal oħra, hekk kif missier u iben, wieħed wara l-ieħor, mietu jew f'xi inċidenti vjolenti jew b'xi diżgrazzja oħra.","Minn dak iż-żmien, is-Saħta ta' Baskerville għaddiet minn ġenerazzjoni għal oħra, hekk kif missier u iben, wieħed wara l-ieħor, mietu f'xi inċidenti vjolenti jew b'xi diżgrazzja oħra.",kotbafilbut_1,ORT
+KFB1-3702,"Kellu bżonn isib mod biex jitlaq minn dak il-post mill-aktar fis u jmur lura l-Ingilterra u l-għarusa tiegħu, Mina.",Kellu bżonn isib mod biex jitlaq minn dak il-post mill-aktar fis u jmur lura l-Ingilterra fejn l-għarusa tiegħu Mina.,kotbafilbut_1,ORT
+KFB1-1701,Waqt l-attakk intlaqat u kellu jibqa' mistoħbi qalb it-tifrik sa nżul ix-xemx qabel ma seta' jitkaxkar lura sal-linji tiegħu mingħajr ma jinqabad.,"Waqt l-attakk, intlaqat u kellu jibqa' mistoħbi qalb it-tifrik, sa nżul ix-xemx, qabel ma seta' jitkaxkar lura sal-linji tiegħu, mingħajr ma jinqabad.",kotbafilbut_1,ORT
+KFB1-3293,"""Tini dik iż-żarbuna lura!"" werżqet Dorothy.","""Tini dik iż-żarbuna lura!"" werżqet Dorothy.",kotbafilbut_1,KOR
+KFB1-2161,"""Tom, qabel ma mietet Eva wegħedtha li neħilsek.","""Tom, qabel ma mietet Eva wegħedtha li neħilsek.",kotbafilbut_1,KOR
+KFB1-1136,Minn Malta l-[Kavallieri] kienu ta' spiss jattakkaw l-iġfna merkantili tal-Imperu Ottoman bix-xwieni żgħar u ħfief tagħhom.,"Minn Malta, il-Kavallieri kienu ta' spiss jattakkaw l-iġfna merkantili tal-Imperu Ottoman bix-xwieni żgħar u ħfief tagħhom.",kotbafilbut_1,ORT
+KFB1-987,Minnufih għajnu marret bih.,Minnufih għajnu marret bih.,kotbafilbut_1,KOR
+KFB1-4053,F'daqqa waħda semgħu għajta twaħħax mill-kamra ta' Renfield.,F'daqqa waħda semgħu għajta twaħħax miċ-ċella ta' Renfield.,kotbafilbut_1,ORT
+KFB1-3699,"Kien qed jitkaxkar 'l isfel mal-ħajt, qisu farfett il-lejl enormi!","Kien qed jitkaxkar 'l isfel mal-ħajt, qisu farfett il-lejl enormi!",kotbafilbut_1,KOR
+KFB1-3057,"Dorothy qasmet l-ewwel, bil-kelb fi ħdanha; wara qasam ir-raġel tal-landa, u warajh ir-raġel tat-tiben.","Dorothy qasmet l-ewwel, bil-kelb fi ħdanha; wara qasam ir-raġel tal-landa, u warajh ir-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-3246,"Minnufih instama' l-ħoss ivenven ta' ħafna ġwienaħ iħabbtu fil-bogħod, u miegħu ħafna daħk.","Minnufih instama' l-ħoss ivenven ta' ħafna ġwienaħ iħabbtu fil-bogħod, u miegħu ħafna daħq.",kotbafilbut_1,ORT
+KFB1-1394,"Kienu tilfu 8,000 mill-aħjar suldati li kellhom, kwart tal-forza armata kollha li kienu ġabu minn Kostantinopli.","Kienu tilfu 8,000 mill-aħjar suldati li kellhom, kwart tal-forza armata kollha li kienu ġabu minn Kostantinopli.",kotbafilbut_1,KOR
+KFB1-2637,Dak il-lejl smajna ħoss kbir.,Dak il-lejl smajna ħoss kbir.,kotbafilbut_1,KOR
+KFB1-768,Kienu qed iġorru ħafna ħwejjeġ.,Kienu qed iġorru ħafna ħwejjeġ.,kotbafilbut_1,KOR
+KFB1-4327,"Kien inżul ix-xemx, u kien hemm żiffa kiesħa xxoqq il-għadam.","Kien inżul ix-xemx, u kien hemm żiffa kiesħa xxoqq il-għadam.",kotbafilbut_1,KOR
+KFB1-3090,L-iljun tkellem fl-istess waqt malli r-raġel tal-landa kien se jaqbad jibki t-telfa ta' seħibhom.,L-iljun tkellem fl-istess waqt malli r-raġel tal-landa kien se jaqbad jibki t-telfa ta' seħibhom.,kotbafilbut_1,KOR
+KFB1-3215,Issa tajjeb li tkunu tafu li s-Saħħara l-Ħażina tal-Punent kellha għajn waħda.,Issa tajjeb li tkunu tafu li s-Saħħara l-Ħażina tal-Punent kellha għajn waħda.,kotbafilbut_1,KOR
+KFB1-285,"Intom qed tieħdu gost, imm' aħna le!""","Intom qed tieħdu gost, imm'aħna le!""",kotbafilbut_1,ORT
+KFB1-4536,"Jien ersaqt lejh bil-mod, bil-pistola tiegħi ippuntata lejh, imma l-kelb kien mejjet.","Jien ersaqt lejh bil-mod, bil-pistola tiegħi ppuntata lejh, imma l-kelb kien mejjet.",kotbafilbut_1,ORT
+KFB1-428,Kien raġel egoist u xħiħ li qatt ma għamel xi att ta' karità lil xi ħadd jew ta xi flus lil min ma kellux.,Kien raġel egoist u xħiħ li qatt ma għamel xi att ta' karità lil xi ħadd jew ta xi flus lil min ma kellux.,kotbafilbut_1,KOR
+KFB1-4092,"""Jinsab f'kamra mudlama.","""Jinsab f'kamra mudlama.",kotbafilbut_1,KOR
+KFB1-2332,Fil-Mediterran?,Fil-Mediterran?,kotbafilbut_1,KOR
+KFB1-2717,"Għal ġimgħa sħiħa jien, Conseil u Ned ma rajna la lill-Kaptan u lanqas lil niesu.","Għal ġimgħa sħiħa jien, Conseil u Ned la rajna lill-Kaptan u lanqas lil niesu.",kotbafilbut_1,ORT
+KFB1-2079,Eliża ġriet kemm felħet sakemm waslet fejn l-ilma.,Eliża ġriet kemm felħet sakemm waslet fejn l-ilma.,kotbafilbut_1,KOR
+KFB1-3389,"""Inti ħafna aktar minn hekk,"" kompla r-raġel tat-tiben bil-korla.","""Inti ħafna aktar minn hekk,"" kompla r-raġel tat-tiben bil-korla.",kotbafilbut_1,KOR
+KFB1-722,Fred tant beda jidħaq bil-qawwi li għoddu waqa' minn fuq is-siġġu.,Fred tant beda jidħaq bil-qawwi li għoddu waqa' minn fuq is-siġġu.,kotbafilbut_1,KOR
+KFB1-951,"Ġeppetto mar kuntent lura daru, u bla telf ta' żmien beda jaħdem fuq il-biċċa għuda biex jagħmel il-pupazz.","Ġeppetto mar kuntent lura lejn daru, u bla telf ta' żmien beda jaħdem fuq il-biċċa għuda biex jagħmel il-pupazz.",kotbafilbut_1,ORT
+KFB1-4009,"Huwa ċar li Dracula, fil-forma ta' kelb kbir, ġie l-Ingilterra minn fuq l-iskuna nkaljata f'Whitby.","Huwa ċar li Dracula, fil-forma ta' kelb kbir, ġie l-Ingilterra minn fuq l-iskuna inkaljata f'Whitby.",kotbafilbut_1,ORT
+KFB1-2262,dan...,dan ...,kotbafilbut_1,ORT
+KFB1-989,F'daqqa waħda xi ħadd ħabbat mal-bieb ta' barra.,F'daqqa waħda xi ħadd ħabbat mal-bieb ta' barra.,kotbafilbut_1,KOR
+KFB1-3212,Dorothy kienet għadha liebsa l-libsa ħelwa tal-bellus li kienet libset biex tidher quddiem Oż.,Dorothy kienet għadha liebsa l-libsa ħelwa tal-bellus li kienet libset biex tidher quddiem Oż.,kotbafilbut_1,KOR
+KFB1-1759,"Naturalment de Valette kien diġà jaf li l-armata minn Sqallija kienet waslet, imma ma kienx xandar l-aħbar lis-suldati u liċ-ċivili.","Naturalment, de Valette kien diġà jaf li l-armata minn Sqallija kienet waslet, imma ma kienx xandar l-aħbar lis-suldati u liċ-ċivili.",kotbafilbut_1,ORT
+KFB1-4072,"Imma kien għad hemm kaxxa nieqsa, u ma setgħu isibuha b'xejn.","Imma kien għad hemm kaxxa nieqsa, u ma setgħu jsibuha mkien.",kotbafilbut_1,QTP_H
+KFB1-326,"Huwa jafdana bin-ngħaġ tiegħu biex nipproteġuhom mil-lupi.""","Huwa jafdana bin-nagħaġ tiegħu biex nipproteġuhom mill-ilpup.""",kotbafilbut_1,ORT
+KFB1-2608,"F'ħin minnhom il-Kaptan waqaf jimxi, u beda jħażżeż fir-ramel taħt il-baħar: ""ATLANTIS"".","F'ħin minnhom il-Kaptan waqaf jimxi, u beda jħażżeż fir-ramel taħt il-baħar: ""ATLANTIS"".",kotbafilbut_1,KOR
+KFB1-1383,Żewġ Kavallieri li kienu feruti u ma setgħux iżommu fuq saqajhom ġabu siġġijiet biex jiġġieldu bilqiegħda.,Żewġ Kavallieri li kienu feruti u ma setgħux iżommu fuq saqajhom ġabu siġġijiet biex jiġġieldu bilqiegħda.,kotbafilbut_1,KOR
+KFB1-1724,Dan seta' jġiegħel lit-Torok jaħsbu li kien hemm ħafna aktar suldati qed jiddefendu l-Imdina.,Dan seta' jġiegħel lit-Torok jaħsbu li kien hemm ħafna aktar suldati qed jiddefendu l-Imdina.,kotbafilbut_1,KOR
+KFB1-1086,Meta ma kienx jipprattika l-kutrumbajsi kien jagħmel ħafna xogħol ta' tagħbija.,Meta ma kienx jipprattika l-kutrumbajsi kien jagħmel ħafna xogħol ta' tagħbija.,kotbafilbut_1,KOR
+KFB1-2523,"""Illum il-Papwani ma jistgħux jidħlu fin-Nautilus għax il-bibien magħluqin.","""Illum il-Papwani ma jistgħux jidħlu fin-Nautilus għax il-bibien magħluqin.",kotbafilbut_1,KOR
+KFB1-341,Ftit żmien wara reġa' ltaqa' mal-iljun.,Ftit żmien wara reġa' ltaqa' mal-iljun.,kotbafilbut_1,KOR
+KFB1-147,"Ma jogħġobnix l-iswed ta' rixi.""","Ma jogħġobnix l-iswed ta' rixi.""",kotbafilbut_1,KOR
+KFB1-4006,"Malli Van Helsing temm l-ispjega tiegħu, l-oħrajn baqgħu siekta u ma tniffsux.","Malli Van Helsing temm l-ispjega tiegħu, l-oħrajn baqgħu siekta u ma tniffsux.",kotbafilbut_1,KOR
+KFB1-1107,Ommu kienet ħajjata u missieru kien kok.,Ommu kienet ħajjata u missieru kien kok.,kotbafilbut_1,KOR
+KFB1-848,Iċ-ċpar kien telaq u x-xemx kienet qed tiżreġ fuq kollox u kulħadd.,Iċ-ċpar kien telaq u x-xemx kienet qed tisreġ fuq kollox u kulħadd.,kotbafilbut_1,ORT
+KFB1-966,Wara ftit sema' leħen ftit 'il bogħod.,Wara ftit sema' leħen ftit 'il bogħod.,kotbafilbut_1,KOR
+KFB1-4352,"Waqt li kompla jingħi beda jagħti b'rasu , iżda aktar ma jissara, aktar beda nieżel 'l isfel, sakemm għeb għal kollox.","Waqt li kompla jingħi beda jagħti b'rasu, iżda aktar ma jissara, aktar beda nieżel 'l isfel, sakemm għeb għalkollox.",kotbafilbut_1,ORT
+KFB1-1492,Dawn tqabdu mat-Torok fil-baħar sakemm imbuttawhom lura.,Dawn tqabdu mat-Torok fil-baħar sakemm imbuttawhom lura.,kotbafilbut_1,KOR
+KFB1-2203,Tom talbu biex ma jġegħelux jagħmel dan.,Tom talbu biex ma jġegħlux jagħmel dan.,kotbafilbut_1,ORT
+KFB1-3806,"Darba wara nofsinhar, waqt li kienu qed jitkellmu max-xwejjaħ sajjied, dalma kbira għattiet ix-xemx.","Darba waranofsinhar, waqt li kienu fil-bajja qed jitkellmu ma' xwejjaħ sajjied, dalma kbira għattiet ix-xemx.",kotbafilbut_1,ORT
+KFB1-661,"Fejn se toħodni?""","Fejn se toħodni?""",kotbafilbut_1,KOR
+KFB1-1002,Ħataf il-kowt u ħareġ barra fil-borra nieżla.,Ħataf il-kowt u ħareġ barra fil-borra nieżla.,kotbafilbut_1,KOR
+KFB1-4011,"Skont l-investigazzjonijiet tiegħi dawn il-kaxxi ħaduhom Carfax, bieb ma' bieb ma' din id-dar, u li l-Konti xtara ftit żmien ilu.","Skont l-investigazzjonijiet tiegħi dawn il-kaxxi ħaduhom Carfax, bieb ma' bieb ma' din id-dar, u li l-Konti xtara ftit żmien ilu.",kotbafilbut_1,KOR
+KFB1-284,"""Tieħdu pjaċir kieku kontu żrinġijiet u xi ħadd joqgħod jissuttalkom il-ġebel?","""Tieħdu pjaċir kieku kontu żrinġijiet u xi ħadd joqgħod jissuttalkom il-ġebel?",kotbafilbut_1,KOR
+KFB1-4015,"""Xi kaxxi neħħewhom mill-post ilbieraħ,"" kompla Van Helsing, ""u nafu li Renfield tah ferħ ta' ġenn fl-istess waqt, il-ħin kollu jgħajjat u jokrob għax kienu qed jisirqulu lis-'Sinjur tiegħu'.","""Xi kaxxi neħħewhom mill-post ilbieraħ,"" kompla Van Helsing, ""u nafu li Renfield tah ferħ ta' ġenn, fl-istess waqt il-ħin kollu jgħajjat u jokrob għax kienu qed jisirqulu 'lis-Sinjur tiegħu'.",kotbafilbut_1,ORT
+KFB1-4331,Ftit minuti wara lħaqna r-rixtellu l-kbir.,Ftit minuti wara lħaqna r-rixtellu l-kbir.,kotbafilbut_1,KOR
+KFB1-1879,"Fis-sulari ta' fuq, il-ħitan kienu kollha mżewqa b'affreski ta' żfin, festeġġar u divertiment.","Fis-sulari ta' fuq, il-ħitan kienu kollha mżewqa b'affreski ta' żfin, festi u divertiment.",kotbafilbut_1,ORT
+KFB1-4464,"""Iva, imma Sur Holmes, dak huwa eżatt x'għidtli ma nagħmilx!"" wieġeb Sir Henry, kemxejn konfuż.","""Iva, imma Sur Holmes, dak huwa eżatt x'għedtli biex ma nagħmilx!"" wieġeb Sir Henry, kemxejn konfuż.",kotbafilbut_1,ORT
+KFB1-1203,"L-ebda wieħed minn dawn ma kien kbir daqs forti, imma kollha kienu armati sa snienhom xorta waħda.","L-ebda wieħed minn dawn ma kien kbir daqs forti, imma kollha kienu armati sa snienhom xorta waħda.",kotbafilbut_1,KOR
+KFB1-1990,"Huwa bniedem rett, onest u abbli; tista' tafdah għal kollox biex imexxi razzett waħdu.","Huwa bniedem rett, onest u abbli: Tista' tafdah għalkollox biex imexxi razzett waħdu.",kotbafilbut_1,ORT
+KFB1-24,"L-istampa ma kienet tfisser xejn għalija, għax il-post m'għaraftux.",L-istampa ma kienet tfisser xejn għalija għax il-post m'għaraftux.,kotbafilbut_1,ORT
+KFB1-4461,"""Ftakar li wegħidtni li ssegwi l-istruzzjonijiet li nagħtik mingħajr mistoqsijiet.","""Ftakar li wegħidtni li ssegwi l-istruzzjonijiet li nagħtik mingħajr mistoqsijiet.",kotbafilbut_1,KOR
+KFB1-3901,"Meta sema bil-marda tagħha, Quincey Morris mar iżurha wkoll, biex jara setgħax ikun ta' għajnuna.","Meta sema' bil-marda tagħha, Quincey Morris mar iżurha wkoll biex jara setax ikun ta' xi għajnuna.",kotbafilbut_1,ORT
+KFB1-3898,"""Inti għalissa agħmel sempliċement kif qed ngħidlek, oqgħod fuq kliemi.""","""Inti għalissa agħmel sempliċement kif qed ngħidlek, oqgħod fuq kliemi.""",kotbafilbut_1,KOR
+KFB1-3946,"""Qed tgħidli li Lucy ġiet attakkata minn farfett il-lejl kbir, u li issa qiegħed hawn f'Londra?""","""Qed tgħidli li Lucy ġiet attakkata minn farfett il-lejl kbir, u li issa qiegħed hawn f'Londra?""",kotbafilbut_1,KOR
+KFB1-875,Ġejt għall-ikla!,Ġejt għall-ikla!,kotbafilbut_1,KOR
+KFB1-4364,"Il-mewt tal-poni u dik il-karba misterjuża kexkxuni sew, u meta mort lura f'Baskerville Hall kont għadni ftit inkwetat.","Il-mewt tal-poni u dik il-karba misterjuża kexkxuni sew, u meta mort lura f'Baskerville Hall kont għadni ftit inkwetat.",kotbafilbut_1,KOR
+KFB1-938,Kienet biċċa għuda normali; ma kellha xejn speċjali.,Kienet biċċa għuda normali; ma kellha xejn speċjali.,kotbafilbut_1,KOR
+KFB1-2687,"""Dak ix-xini!"" għajjat Ned.","""Dak ix-xini!"" għajjat Ned.",kotbafilbut_1,KOR
+KFB1-2394,"""Dawk żgur se joqtluna!""","""Dawk żgur se joqtluna!""",kotbafilbut_1,KOR
+KFB1-4201,"Jonathan u Quincey daħlu f'nofshom, u xi uħud miż-żingari ħarġu s-skieken u bdew ifajruhom lejhom.","Jonathan u Quincey daħlu f'nofshom, u xi wħud miż-żingari ħarġu s-skieken u bdew ifajruhom lejhom.",kotbafilbut_1,ORT_H
+KFB1-4577,"F'Londra xtara l-ikbar u l-aktar kelb salvaġġ li seta' jsib, fost il-bejjiegħa ta' klieb tal-ġlied.","F'Londra xtara l-ikbar u l-aktar kelb salvaġġ li seta' jsib, fost il-bejjiegħa ta' klieb tal-ġlied.",kotbafilbut_1,KOR
+KFB1-3505,"Ftit 'il bogħod, f'mergħa mdawra bis-siġar, sabu mijiet ta' annimali miġburin flimkien.","Ftit 'il bogħod, f'mergħa mdawra bis-siġar, sabu mijiet ta' annimali miġburin flimkien.",kotbafilbut_1,KOR
+KFB1-385,Ftit wara wasal in-nassab.,Ftit wara wasal in-nassab.,kotbafilbut_1,KOR
+KFB1-3935,"Dawn it-trabi wara ftit żmien kienu qed jinstabu, ħajjin, imma b'marki strambi f'għonqhom.","Dawn it-trabi wara ftit żmien kienu qed jinstabu ħajjin, imma b'marki strambi fuq għonqhom.",kotbafilbut_1,ORT
+KFB1-4203,Dawn mall-ewwel xeħtu s-skieken tagħhom mal-art.,Dawn mill-ewwel xeħtu s-skieken tagħhom mal-art.,kotbafilbut_1,ORT
+KFB1-3774,"Jonathan beda jgħajjat u jxejjer kemm jiflaħ biex jiġbdilhom l-attenzjoni, iżda kien kollu għalxejn.","Jonathan beda jgħajjat u jxejjer kemm jiflaħ biex jiġbdilhom l-attenzjoni, iżda kien kollu għalxejn.",kotbafilbut_1,KOR
+KFB1-2291,"""Ma jistax ikun li kienet baliena,"" kienu jgħidu x-xjentisti.","""Ma jistax ikun li kienet baliena,"" kienu jgħidu x-xjentisti.",kotbafilbut_1,KOR
+KFB1-4594,"Seta' jagħmel dan mingħajr ma kellu bżonn jiġi l-Ingilterra, u jevita li n-nies tal-post jagħrfuh.","Seta' jagħmel dan mingħajr ma kellu bżonn jiġi l-Ingilterra, u jevita li n-nies tal-post jagħrfuh.",kotbafilbut_1,KOR
+KFB1-936,Din hija l-ġrajja stramba ta' biċċa njama - li saret pupazz - li sar tifel ta' veru!,Din hija l-ġrajja stramba ta' biċċa injama - li saret pupazz - li sar tifel ta' veru!,kotbafilbut_1,ORT
+KFB1-4271,"Ftit metri 'l bogħod sabu l-ġisem tat-tfajla, mejta.","Ftit metri 'l bogħod sabu l-ġisem tat-tfajla, mejta.",kotbafilbut_1,KOR
+KFB1-2360,"""Int waqajt fl-ilma, u jien ridt nibqa' miegħek!"" weġibni pront pront.","""Int waqajt fl-ilma, u jien ridt nibqa' miegħek!"" weġibni pront pront.",kotbafilbut_1,KOR
+KFB1-201,"Nistgħu niftħuha u nieħdu d-deheb kollu f'salt.""","Nistgħu niftħuha u nieħdu d-deheb kollu f'salt.""",kotbafilbut_1,KOR
+KFB1-3208,"""Mela kif se nsibuha?""","""Mela kif se nsibuha?""",kotbafilbut_1,KOR
+KFB1-1332,"Nippreferi nħalli l-forti f'idejn nies li nista' nafda!""","Nippreferi nħalli l-forti f'idejn nies li nista' nafda!""",kotbafilbut_1,KOR
+KFB1-3016,"""Forsi s-Saħħar ta' Oż ikun jista' jgħinek,"" qaltlu bil-ħlewwa.","""Forsi s-Saħħar ta' Oż ikun jista' jgħinek,"" qaltlu bil-ħlewwa.",kotbafilbut_1,KOR
+KFB1-2708,Għexieren ta' nies spiċċaw fl-ilma.,Għexieren ta' nies spiċċaw fl-ilma.,kotbafilbut_1,KOR
+KFB1-1934,"""Inti u dieħel fil-labirint,"" spjegat Arjadne, ""ħoll l-ispag ftit ftit.","""Inti u dieħel fil-labirint,"" spjegat Arjadne, ""ħoll l-ispaga ftit ftit.",kotbafilbut_1,ORT
+KFB1-935,L-Avventuri ta' Pinokkjo,L-Avventuri ta' Pinokkjo,kotbafilbut_1,KOR
+KFB1-2418,"""Jekk jogħġobkom isimgħuni sew, it-tlieta li intom.","""Jekk jogħġobkom isimgħuni sew, it-tlieta li intom.",kotbafilbut_1,KOR
+KFB1-566,"It-tieqa nfetħet waħidha, u l-fantażma għola fl-arja u tar 'il barra fid-dlam tal-lejl.","It-tieqa nfetħet waħidha, u l-fantażma għola fl-arja u tar 'il barra fid-dlam tal-lejl.",kotbafilbut_1,KOR
+KFB1-1854,Il-Musulmani jridu bilfors jagħmlu pellegrinaġġ għall-Mekka mill-inqas darba f'ħajjithom.,Il-Musulmani jridu bilfors jagħmlu pellegrinaġġ għall-Mekka mill-inqas darba f'ħajjithom.,kotbafilbut_1,KOR
+KFB1-4112,"Lil Jonathan tgħidlu xejn, imma Mina qed titbiddel.","Lil Jonathan tgħidlu xejn, imma Mina qed tinbidel.",kotbafilbut_1,ORT
+KFB1-2872,"""Jiġini eżatt!","""Jiġini eżatt!",kotbafilbut_1,KOR
+KFB1-3030,3 Belt l-Iżmeraldi,Belt l-Iżmeraldi,kotbafilbut_1,ORT
+KFB1-1205,"Għalkemm l-Imdina kienet ġiet fortifikata fi żmien il-ħakma Għarbija madwar l-1048, is-swar tagħha kienu kemxejn qodma u dgħajfa.","Għalkemm l-Imdina kienet ġiet fortifikata fi żmien il-ħakma Għarbija madwar l-1048, is-swar tagħha kienu kemxejn qodma u dgħajfa.",kotbafilbut_1,KOR
+KFB1-2467,U ħafna minnhom huma tajbin ħafna għall-ikel.,U ħafna minnhom huma tajbin ħafna għall-ikel.,kotbafilbut_1,KOR
+KFB1-1645,Granata waqgħet viċin de Valette u ferietu f'siequ.,Granata waqgħet viċin de Valette u ferietu f'siequ.,kotbafilbut_1,KOR
+KFB1-3417,Jaħsbu wkoll li jien setgħan ħafna aktar mis-sħaħar li hawn.,Jaħsbu wkoll li jien setgħan ħafna aktar mis-sħaħar li hawn.,kotbafilbut_1,KOR
+KFB1-3476,"""Kont qed naħseb,"" qabeż ir-raġel tat-tiben.","""Kont qed naħseb,"" qabeż ir-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-3653,"Il-Konti fetaħ bieb ieħor, li kien jagħti għal kamra tas-sodda.","Il-Konti Dracula fetaħ bieb ieħor, li kien jagħti għal kamra tas-sodda.",kotbafilbut_1,ORT
+KFB1-2861,"""Mill-erba' sħaħar li hawn fl-art ta' Oż, tnejn minnhom huma tajbin: jien u s-Saħħara tan-Nofsinhar.","""Mill-erba' sħaħar li hawn fl-art ta' Oż, tnejn minnhom huma tajbin: jien u s-Saħħara tan-Nofsinhar.",kotbafilbut_1,KOR
+KFB1-1792,F'qasir żmien kull suldat beda jiġri għal rasu.,"F'qasir żmien, kull suldat beda jiġri għal rasu.",kotbafilbut_1,ORT
+KFB1-1430,"Il-Viċi-Re għalhekk xorta bagħat magħhom 600 suldat mill-armata tiegħu, taħt Don Juan de Cardona, imma ta l-ordni li ħadd ma jinżel mix-xwieni qabel ma jaraw il-qagħda ta' Sant' Iermu.","Il-Viċirè għalhekk xorta bagħat magħhom 600 suldat mill-armata tiegħu, taħt Don Juan de Cardona, imma ta l-ordni li ħadd ma jinżel mix-xwieni qabel ma jaraw il-qagħda ta' Sant'Iermu.",kotbafilbut_1,ORT
+KFB1-2826,"Iżda d-dar damet sigħat sħaħ tittajjar fl-arja, u sadanittant ma ġara xejn aktar tal-biża'.","Iżda d-dar damet sigħat sħaħ tittajjar fl-arja, u sadanittant ma ġara xejn aktar tal-biża'.",kotbafilbut_1,KOR
+KFB1-3368,"Għalfejn tridu tkellmuni?""","Għalfejn tridu tkellmuni?""",kotbafilbut_1,KOR
+KFB1-3367,"""Jien Oż, il-Kbir, u s-Setgħan.","""Jien Oż, il-Kbir u s-Setgħan.",kotbafilbut_1,ORT
+KFB1-3100,Ħadd minnhom ma kien jaf kif setgħu jsalvawh.,Ħadd minnhom ma kien jaf kif setgħu jsalvawh.,kotbafilbut_1,KOR
+KFB1-4198,Imma issa ħbiebhom kienu laħqu liż-żingari.,Imma issa ħbiebhom kienu laħqu liż-żingari.,kotbafilbut_1,KOR
+KFB1-1013,"Hekk jew hekk, dejjem seta' jmur l-iskola l-għada, hux?","Hekk jew hekk, dejjem seta' jmur l-iskola l-għada, hux?",kotbafilbut_1,KOR
+KFB1-1928,Iżda Arjadne kellha pjan ieħor.,Iżda Arjadne kellha pjan ieħor.,kotbafilbut_1,KOR
+KFB1-3449,Għandi seba' mitt sena biex infittex nibda nibni l-ballun.,Għandi seba' mitt sena biex infittex nibda nibni l-ballun.,kotbafilbut_1,KOR
+KFB1-3856,"""Dażgur li għandek tmur,"" weġbitha pronta Lucy.","""Dażgur li għandek tmur!"" weġbitha pronta Lucy.",kotbafilbut_1,ORT
+KFB1-3056,"""Ejjew naqsmu l-pont mill-aktar fis!""","""Ejjew naqsmu l-pont mill-aktar fis!""",kotbafilbut_1,KOR
+KFB1-3909,"""Qed nibża' li l-agħar għadu ġej.""","""Qed nibża' li l-agħar għadu ġej.""",kotbafilbut_1,KOR
+KFB1-126,Il-Ġolġol u l-qattusa,Il-ġolġol u l-qattusa,kotbafilbut_1,ORT
+KFB1-3604,"Ħadem kemm felaħ biex ix-xogħol tiegħu jidher fit-teatru, u l-film Is-Saħħâr ta' Oż tal-1939 huwa l-aktar verżjoni magħrufa tal-ktieb.","Ħadem kemm felaħ biex ix-xogħol tiegħu jidher fit-teatru, u l-film Is-Saħħar ta' Oż tal-1939 huwa l-aktar verżjoni magħrufa tal-ktieb.",kotbafilbut_1,ORT
+KFB1-2935,"Niġi bil-qalb kollha.""","Niġi bil-qalb kollha.""",kotbafilbut_1,KOR
+KFB1-3204,Il-Gwardjan tal-Bieb ta' Belt l-Iżmeraldi ħadilhom lura n-nuċċalijiet u reġa' poġġiehom fil-kaxxa l-kbira li kellu.,Il-Gwardjan tal-Bieb ta' Belt l-Iżmeraldi ħadilhom lura n-nuċċalijiet u reġa' poġġiehom fil-kaxxa l-kbira li kellu.,kotbafilbut_1,KOR
+KFB1-1347,"L-ewwel balla spiċċat mal-art viċin tal-uffiċjali Ottomani, u għalkemm ma laqtet lil ħadd direttament, l-isplużjoni tajret ħafna biċċiet ta' ġebel u żrar kullimkien.","L-ewwel balla spiċċat mal-art, viċin tal-uffiċjali Ottomani, u għalkemm ma laqtet lil ħadd direttament, l-isplużjoni tajret ħafna biċċiet ta' ġebel u żrar kullimkien.",kotbafilbut_1,ORT
+KFB1-3055,"""Għaġġlu!"" qabeż ir-raġel tat-tiben.","""Għaġġlu!"" qabeż ir-raġel tat-tiben.",kotbafilbut_1,KOR
+KFB1-355,L-Ors u l-vjaġġaturi,L-ors u l-vjaġġaturi,kotbafilbut_1,ORT
+KFB1-4284,"Mortimer kompla jgħidilna li Sir Charles kellu kumplikazzjoni f'qalbu, u din l-imġiba kienet qed tgħarraqlu saħħtu aktar.","Mortimer kompla jgħidilna li Sir Charles kellu kumplikazzjoni f'qalbu, u din l-imġiba kienet qed tgħarraqlu saħħtu aktar.",kotbafilbut_1,KOR
+KFB1-2730,F'daqqa waħda bdejna nisimgħu l-għagħa min-nies ta' Nemo.,F'daqqa waħda bdejna nisimgħu l-għagħa min-nies ta' Nemo.,kotbafilbut_1,KOR
+KFB1-827,<c>EBENEZER SCROOGE</c>,EBENEZER SCROOGE,kotbafilbut_1,ORT
+KFB1-1639,"Malli Mustafà ra li l-Kavallieri kienu skoprew il-mina taħt Senglea, ordna lil Pjalì biex ma jistenniex aktar u jfittex itajjar dik tal-Birgu.","Malli Mustafà ra li l-Kavallieri kienu skoprew il-mina taħt Senglea, ordna lil Pialì biex ma jistenniex aktar u jfittex itajjar dik tal-Birgu.",kotbafilbut_1,ORT
+KFB1-3040,Dorothy bdiet tibża' b'dak li qalilha l-iljun.,Dorothy bdiet tibża' b'dak li qalilha l-iljun.,kotbafilbut_1,KOR
+KFB1-984,"Beda jħabbat bieb bieb, imma ħadd ma ried jagħtih x'jiekol.","Beda jħabbat bieb bieb, imma ħadd ma ried jagħtih x'jiekol.",kotbafilbut_1,KOR
+KFB1-3281,Fil-jiem li għaddew Dorothy kellha bilfors taħdem iebes.,Fil-jiem li għaddew Dorothy kellha bilfors taħdem iebes.,kotbafilbut_1,KOR
+KFB1-4568,"Anzi, kien iżżewweġ u kellu tifel, li semma Rodger bħalu.","Anzi, kien iżżewweġ u kellu tifel, li semma Rodger bħalu.",kotbafilbut_1,KOR
+KFB1-2188,"Mal-mogħdija taż-żmien, Tom għamel mill-aħjar biex jipprova jidra l-ħajja l-ġdida li messitu.","Mal-mogħdija taż-żmien, Tom għamel mill-aħjar biex jipprova jidra l-ħajja l-ġdida li messitu.",kotbafilbut_1,KOR
+KFB1-4243,"Il-karta kienet kollha sfaret biż-żmien, u kellha d-data 'Baskerville Hall 1742'.","Il-karta kienet sfaret kollha biż-żmien, u kellha d-data 'Baskerville Hall 1742'.",kotbafilbut_1,ORT
+KFB1-2443,"""Qrajt ħafna mill-kotba tiegħek dwar l-annimali, Sur Aronnax,"" qalli l-Kaptan.","""Qrajt ħafna mill-kotba tiegħek dwar l-annimali, Sur Aronnax,"" qalli l-Kaptan.",kotbafilbut_1,KOR
+KFB1-362,"""X'nista' nagħmel,"" ħaseb ir-raġel li baqa' isfel.","""X'nista' nagħmel?"" ħaseb ir-raġel li baqa' isfel.",kotbafilbut_1,ORT
+KFB1-2349,"Qed tilgħab bina!""","Qed tilgħab bina!""",kotbafilbut_1,KOR
+KFB1-345,"Hekk kif beda jiġri qal bejnu u bejn ruħu, ""L-aħħar darba l-iljun ma kilnix.""","Hekk kif beda jiġri qal bejnu u bejn ruħu, 'L-aħħar darba l-iljun ma kilnix.'",kotbafilbut_1,ORT
+KFB1-4377,"Taħseb li tassew nista' nkun fil-periklu?""","Taħseb li tassew nista' nkun fil-periklu?""",kotbafilbut_1,KOR
+KFB1-4239,Il-Kelb tal-Baskerville: Avventura ta' Sherlock Holmes,Il-Kelb ta' Baskerville,kotbafilbut_1,QTP_H
+KFB1-711,"Wara li lagħbu l-logħba tat-tiġieġa l-għamja, issa kienu qed jilagħbu logħba bil-mistoqsijiet, ""Iva jew Le"".","Wara li lagħbu l-logħba tat-tiġieġa l-għamja, issa kienu qed jilagħbu logħba bil-mistoqsijiet, Iva jew Le.",kotbafilbut_1,ORT
+KFB1-3205,"Wara dan, fetaħ il-bieb il-kbir ta' Belt l-Iżmeraldi.","Wara dan, fetaħ il-bieb il-kbir ta' Belt l-Iżmeraldi.",kotbafilbut_1,KOR
+KFB1-3565,"Biss nixtieqek tagħtini l-kappa tad-deheb qabel.""","Biss nixtieqek li qabel tagħtini l-kappa tad-deheb.""",kotbafilbut_1,ORT
+KFB1-4407,"""Holmes!"" għajjatt.","""Holmes!"" għajjatt.",kotbafilbut_1,KOR
+KFB1-3551,Iżda x-Xadini tal-Ġwienaħ kienu qed jittajru 'l fuq wisq biex l-Irjus Imrietel jilħquhom.,Iżda x-Xadini tal-Ġwienaħ kienu qed jittajru 'l fuq wisq biex l-Irjus Imrietel jilħquhom.,kotbafilbut_1,KOR
+KFB1-3325,6 Raġel tassew qarrieqi,Raġel tassew qarrieqi,kotbafilbut_1,ORT
+KFB1-10,Jien kont żagħżugħ u b'saħħti.,Jien kont żagħżugħ u b'saħħti.,kotbafilbut_1,KOR
+KFB1-1683,Kien hemm saħansitra każijiet meta l-uffiċjali kellhom jużaw il-bsaten biex iżommu lis-suldati f'posthom.,Kien hemm saħansitra każijiet meta l-uffiċjali kellhom jużaw il-bsaten biex iżommu lis-suldati f'posthom.,kotbafilbut_1,KOR
+KFB1-2116,"Missierha kien se jaqbeż warajha, imma Tom laħaq qabeż qablu.","Missierha kien se jaqbeż warajha, imma Tom laħaq qabeż qablu.",kotbafilbut_1,KOR
+KFB1-4357,"""Alla magħna!","""Alla magħna!",kotbafilbut_1,KOR
+KFB1-1834,Għal aktar tagħrif tista' żżur dan is-sit: https://heritagemalta.mt/explore/the-palace-armoury/.,Għal aktar tagħrif tista' żżur dan is-sit.,kotbafilbut_1,QTP_H
+KFB1-793,L-Ispirtu ħadu fid-dar ta' Bob Cratchit.,L-ispirtu ħadu fid-dar ta' Bob Cratchit.,kotbafilbut_1,ORT
+KFB1-3363,Iżda xejn minn dan.,Iżda xejn minn dan.,kotbafilbut_1,KOR
+KFB1-4544,Rasu u l-ġogi kienu qed jiddu b'dawl ħadrani.,Rasu u l-ġogi kienu qed jiddu b'dawl ħadrani.,kotbafilbut_1,KOR
+KFB1-2802,"U bejn is-sema u l-art ma kienx hemm siġra waħda, ma kenitx tidher dar waħda.",U bejn is-sema u l-art ma kienx hemm siġra waħda u ma kenitx tidher dar waħda.,kotbafilbut_1,ORT
+KFB1-2674,In-Nautilus baqa' jħabbat u jħabbat mas-silġ.,In-Nautilus baqa' jħabbat u jħabbat mas-silġ.,kotbafilbut_1,KOR
+KFB1-94,"Għalhekk ma marrux, u l-lupu qatel lin-ngħaġ kollha.","Għalhekk ma marrux, u l-lupu qatel lin-nagħaġ kollha.",kotbafilbut_1,ORT
+KFB1-3560,Dorothy rrakkuntat l-avventura kollha tagħha fil-pajjiż ta' Oż.,Dorothy irrakkuntat l-avventura kollha tagħha fil-pajjiż ta' Oż.,kotbafilbut_1,ORT
+KFB1-129,"Il-ġrieden bdew jgħidu bejniethom, ""Ma nistgħu nibqgħu sejrin hekk.","Il-ġrieden bdew jgħidu bejniethom, ""Ma nistgħux nibqgħu sejrin hekk.",kotbafilbut_1,ORT
+KFB1-2891,Il-Manċikini sellmu lil Dorothy wkoll u telqu lura lejn djarhom.,Il-Munchkins sellmu lil Dorothy ukoll u telqu lura lejn djarhom.,kotbafilbut_1,ORT
+KFB1-2371,U ħassejtni stramb.,U ħassejtni stramb.,kotbafilbut_1,KOR
+KFB1-3837,Mina osservat li kellha xi marki ħomor fuq għonqha.,Mina osservat li kellha xi marki ħomor fuq għonqha.,kotbafilbut_1,KOR
+KFB1-3539,"""Mhux faċli li tgħaddu minn hawn daqskemm qed taħsbu,"" qalilhom ir-raġel imbaċċaċ bit-tbissima ta' wieħed makakk.","""Mhux faċli li tgħaddu minn hawn daqskemm qed taħsbu,"" qalilhom ir-raġel imbaċċaċ bit-tbissima ta' wieħed makakk.",kotbafilbut_1,KOR
+KFB1-3332,"Forsi ssibha ta' għajnuna jekk xi darba ssib ruħek f'xi inkwiet.""","Forsi ssibha ta' għajnuna, jekk xi darba ssib ruħek f'xi inkwiet.""",kotbafilbut_1,ORT
+KFB1-3228,"Beda jtajjar li-irjus tal-ilpup waħda wara l-oħra, u f'qasir żmien, kien hemm erbgħin lupu mejjet fejn saqajh.","Beda jtajjar l-irjus tal-ilpup waħda wara l-oħra, u f'qasir żmien, kien hemm erbgħin lupu mejjet fejn saqajh.",kotbafilbut_1,ORT
+KFB1-4521,Kien kelb; kelb enormi iswed.,Kien kelb; kelb enormi iswed.,kotbafilbut_1,KOR
+KFB1-2995,"""Il-marka li ħallietlek fuq moħħok il-bewsa tas-Saħħara t-twajba teħilsek minn kull għawġ.","""Il-marka li ħallietlek fuq moħħok il-bewsa tas-Saħħara t-twajba teħilsek minn kull għawġ.",kotbafilbut_1,KOR
+KFB1-2263,dan li minn dejjem xtaqt!,dan li minn dejjem xtaqt!,kotbafilbut_1,KOR
+KFB1-1900,"Dan beda jsir kull sena, u kull pajjiż kien ikollu jibgħat għadd ta' żgħażagħ, tfajliet u ġuvintur, kull meta kien imissu.","Dan beda jsir kull sena, u kull pajjiż kien ikollu jibgħat għadd ta' żgħażagħ, tfajliet u ġuvintur, kull meta kien imissu.",kotbafilbut_1,KOR
+KFB1-3762,"U kien biħsiebu jmur Londra, qalb dawk il-miljuni ta' nies innoċenti!","U kien biħsiebu jmur Londra, qalb dawk il-miljuni ta' nies innoċenti!",kotbafilbut_1,KOR
+KFB1-814,"""Nitolbok, urini kif se nkun jien f'dan iż-żmien.""","""Nitolbok, urini kif se nkun jien f'dan iż-żmien.""",kotbafilbut_1,KOR
+KFB1-3230,"Reġgħet nefħet fis-suffara tagħha, u din id-darba ġew ħdejha ħafna ċawl kbir iswed.","Reġgħet nefħet fis-suffara tagħha, u din id-darba ġew ħdejha ħafna ċawl kbir iswed.",kotbafilbut_1,KOR
+KFB1-1932,Il-Minotawr żġur mhux se jagħtini ċans norbtu.,Il-minotawru żgur mhux se jagħtini ċans norbtu.,kotbafilbut_1,ORT
+KFB1-4374,Minn leħnu stajt nara li kien ftit imbeżża'.,Minn leħnu stajt nara li kien ftit imbeżża'.,kotbafilbut_1,KOR
+KFB1-3688,"Jonathan kesaħ hekk kif ħass lill-Konti warajh, imma ma kienx hemm riflessjoni tiegħi fil-mera!","Jonathan kesaħ hekk kif ħass lill-Konti warajh, imma ma rax ir-riflessjoni tiegħu fil-mera!",kotbafilbut_1,ORT
+KFB1-2912,"Int kif int?"" staqsieha dak.","Int kif int?"" staqsieha dak.",kotbafilbut_1,KOR
+KFB1-1865,U naturalment Żeus minn dejjem ra li l-ġid u l-poter ta' ibnu kienu dejjem jiżdiedu maż-żmien.,"U naturalment, Żeus minn dejjem ra li l-ġid u l-poter ta' ibnu kienu dejjem jiżdiedu maż-żmien.",kotbafilbut_1,ORT
+KFB1-1658,"Il-parti l-aktar dgħajfa tiegħu hija l-qiegħ, il-bażi fejn hemm ir-roti.""","Il-parti l-aktar dgħajfa tiegħu hija l-qiegħ, il-bażi fejn hemm ir-roti.""",kotbafilbut_1,KOR
+KFB1-516,"Għamel sforz biex jiftakar li Marley kien ilu seba' snin mejjet, u ma baqax jaħseb aktar dwar dan sakemm wasal fuq.","Għamel sforz biex jiftakar li Marley kien ilu seba' snin mejjet, u ma baqax jaħseb aktar dwar dan sakemm wasal fuq.",kotbafilbut_1,KOR
+KFB1-1857,Palizzata kienet ringiela ta' zkuk ippuntati li setgħu jservu ta' barriera fuq l-art jew taħt wiċċ l-ilma.,Palizzata: Kienet ringiela ta' zkuk ippuntati li setgħu jservu ta' barriera fuq l-art jew taħt wiċċ l-ilma.,kotbafilbut_1,ORT
+KFB1-2645,Erġajna smajna l-ħoss.,Erġajna smajna l-ħoss.,kotbafilbut_1,KOR
+KFB1-2243,"George Shelby kien bin is-Sinjur u s-Sinjura Shelby, l-ewwel sidien ta' Tom.","George Shelby kien bin is-Sinjur u s-Sinjura Shelby, l-ewwel sidien ta' Tom.",kotbafilbut_1,KOR
+KFB1-1277,Kienu għadhom qed iħaffru aktar trunċieri meta fil-għodwa tad-29 ta' Mejju grupp żgħir ta' suldati ħarġu mill-forti u attakkaw lill-għadu.,"Kienu għadhom qed iħaffru aktar trunċieri meta fil-għodwa tad-29 ta' Mejju, grupp żgħir ta' suldati ħarġu mill-forti u attakkaw lill-għadu.",kotbafilbut_1,ORT
+KFB1-2336,Bosta kienu fuq ix-xwiek biex jerġgħu lura darhom.,Bosta kienu fuq ix-xwiek biex jerġgħu lura darhom.,kotbafilbut_1,KOR
+KFB1-950,Naturalment ma qallu xejn dwar il-leħen.,Naturalment ma qallu xejn dwar il-leħen.,kotbafilbut_1,KOR
+KFB1-3482,"""Ma nistgħux.","""Ma nistgħux.",kotbafilbut_1,KOR
+KFB1-3986,Wiċċha issa kien qed jarmi ħarsa ta' mibegħda u ħażen liema bħalu.,Wiċċha issa kien qed jarmi ħarsa ta' mibegħda u ħażen liema bħalu.,kotbafilbut_1,KOR
+KFB1-3068,"Qalbi għadha tħabbat sitta sitta b'dak l-eċċitament kollu!""","Qalbi għadha tħabbat sitta sitta b'dak l-eċċitament kollu!""",kotbafilbut_1,KOR
+KFB1-1120,"L-istorja ħarġet f'episodji f'gazzetta tat-tfal, Giornale per i Bambini.","L-istorja ħarġet f'episodji f'gazzetta tat-tfal, Giornale per i Bambini.",kotbafilbut_1,KOR
+KFB1-4096,"""Jista' jkun xi vapur se jitlaq minn Londra,"" qal Van Helsing.","""Jista' jkun xi vapur se jitlaq minn Londra,"" qal Van Helsing.",kotbafilbut_1,KOR
+KFB1-2597,Toroq fil-baħar?,Toroq fil-baħar?,kotbafilbut_1,KOR
+KFB1-2204,Kif sema' dan il-kliem Legree ħataf frosta u beda jfajjarha fuq Tom bl-addoċċ.,Kif sema' dan il-kliem Legree ħataf frosta u beda jfajjarha fuq Tom bl-addoċċ.,kotbafilbut_1,KOR
+KFB1-419,Din il-ġrajja seħħet ftit wara li r-[Reġina Vittorja] ħadet it-tron tal-Ingilterra.,Din il-ġrajja seħħet ftit wara li r-Reġina Vittorja ħadet it-tron tal-Ingilterra.,kotbafilbut_1,ORT
+KFB1-922,"Madankollu, lil bintu l-kbira ħallsilha biex tattendi l-Akkademja Rjali tal-Mużika.","Madankollu, lil bintu l-kbira ħallsilha biex tattendi l-Akkademja Rjali tal-Mużika.",kotbafilbut_1,KOR
+KFB1-3779,Imma f'qasir żmien ma baqax jisma' l-għana tagħhom.,Imma f'qasir żmien ma baqax jisma' l-għana tagħhom.,kotbafilbut_1,KOR
+KFB1-477,"""Marley mejjet.","""Marley mejjet.",kotbafilbut_1,KOR
+KFB1-2035,"""Imma x'għamel biex is-Sid irid ibiegħu?""","""Imma x'għamel biex is-Sid irid ibigħu?""",kotbafilbut_1,ORT
+KFB1-3740,Qatagħha li jagħmel bħalu.,Qatagħha li jagħmel bħalu.,kotbafilbut_1,KOR
+KFB1-1692,"Din id-darba, wara t-tagħlima li ħadu mill-ewwel torri, użaw ġebel tqil bħala bażi, u mexxewh lejn il-fdalijiet tal-Bastjun ta' Kastilja.","Din id-darba, wara t-tagħlima li ħadu mill-ewwel torri, użaw ġebel tqil bħala bażi, u mexxewh lejn il-fdalijiet tal-Bastjun ta' Kastilja.",kotbafilbut_1,KOR
+KFB1-3799,Kien dan tal-aħħar li Lucy aċċettat li tiżżewweġ.,Kien dan tal-aħħar li Lucy għażlet li tiżżewweġ.,kotbafilbut_1,QTP_H
+KFB1-3788,"B'determinazzjoni qawwija qam fuq saqajh u reġa' beda jfittex mod kif jaħrab minn dak il-kastell, dak il-pajjiż misħut, u lura Londra u għand il-maħbuba tiegħu.","B'determinazzjoni qawwija qam fuq saqajh u reġa' beda jfittex mod kif jaħrab minn dak il-kastell, dak il-pajjiż misħut, u lura Londra u għand il-maħbuba tiegħu.",kotbafilbut_1,KOR
+KFB1-3571,"""U jien?"" staqsiet Dorothy, kollha ħerqana.","""U jien?"" staqsiet Dorothy, kollha ħerqana.",kotbafilbut_1,KOR
+KFB1-1471,"L-ispiji ta' de Valette naturalment raw x'kien qed jiġri u malajr wissew lill-Granmastru, li mall-ewwel fehem x'kien l-iskop tat-Torok.","L-ispiji ta' de Valette naturalment raw x'kien qed jiġri u malajr wissew lill-Gran Mastru, li mill-ewwel fehem x'kien l-iskop tat-Torok.",kotbafilbut_1,ORT
+KFB1-2601,"Għalkemm saqajja kienu qed imissu l-art taħti, l-art stess kienet qed tiċċaqlaq ma' kull pass li kont qed nagħmel.","Għalkemm saqajja kienu qed imissu l-art taħti, l-art stess kienet qed tiċċaqlaq ma' kull pass li kont qed nagħmel.",kotbafilbut_1,KOR
+KFB1-1202,"Il-ħitan tal-forti [San Mikiel] kienu jdawru 'l Senglea kollha, waqt li fuq in-naħa tal-art il-Birgu kienet imħarsa mill-Bastjun ta' Kastilja, kif ukoll il-Bastjuni iżgħar ta' Auvergne, ta' Franza, ta' Aragona u ta' Kastilja.","Il-ħitan tal-forti San Mikiel kienu jdawru 'l Senglea kollha, waqt li fuq in-naħa tal-art, il-Birgu kienet imħarsa mill-Bastjun ta' Kastilja, kif ukoll mill-Bastjuni iżgħar ta' Auvergne, ta' Franza, ta' Aragona u ta' Kastilja.",kotbafilbut_1,ORT
+KFB1-2438,Hu huwa l-uniku ħabib tagħna.,Hu huwa l-uniku ħabib tagħna.,kotbafilbut_1,KOR
+KFB1-2626,"Madwar tliet mitt metru 'l isfel ġejna taħt is-silġ, u reġa' kellna l-ilma quddiemna minn fejn stajna ngħaddu.","Ġejna madwar tliet mitt metru 'l isfel taħt is-silġ, u reġa' kellna l-ilma quddiemna minn fejn stajna ngħaddu.",kotbafilbut_1,ORT
+KFB1-1669,"Malli tiġi sparata, il-balal kienu jduru b'qawwa liema bħalha minħabba l-katina li kienet iżżommhom flimkien.","Malli tiġi sparata, il-balal kienu jduru b'qawwa liema bħalha minħabba l-katina li kienet iżżommhom flimkien.",kotbafilbut_1,KOR
+KFB1-4430,"Fuq il-ħitan kien hemm il-kwadri tal-ġenerazzjonijiet kollha tal-familja Baskerville, li kienu jmorru lura xi tliet mitt sena.","Fuq il-ħitan kien hemm il-kwadri tal-ġenerazzjonijiet kollha tal-familja Baskerville, li kienu jmorru lura xi tliet mitt sena.",kotbafilbut_1,KOR
+KFB1-1970,Lil Arjadne telquha waħidha fuq il-gżira.,Lil Arjadne telquha waħidha fuq il-gżira.,kotbafilbut_1,KOR
+KFB1-3110,"Ħalli nipprova,"" kompla l-għarnuq.","Ħalli nipprova,"" kompla l-għarnuq.",kotbafilbut_1,KOR
+KFB1-2151,"Sidu ma kienx wieħed iebes, u bintu Evangeline kienet ħadet grazzja miegħu u xtaqitu jkun il-qaddej personali tagħha, biex joqgħod magħha waqt il-passiġġati tagħha fil-kampanja u waqt li tmur tirkeb iż-żiemel.","Sidu ma kienx wieħed iebes, u bintu Evangeline kienet ħadet grazzja miegħu u xtaqitu jkun il-qaddej personali tagħha, biex joqgħod magħha waqt il-passiġġati li tagħmel fil-kampanja u waqt li tmur tirkeb iż-żiemel.",kotbafilbut_1,ORT
+KFB1-820,"Issa kienu quddiem rixtellu kbir tal-ħadid, li kien iwassal għal kappella żgħira, mitluqa.","Issa kienu quddiem rixtellu kbir tal-ħadid, li kien iwassal għal kappella żgħira, mitluqa.",kotbafilbut_1,KOR
+KFB1-1997,"""Ersaq 'l hawn, ġuvnott,"" qal Shelby.","""Ersaq 'l hawn, ġuvnott,"" qal Shelby.",kotbafilbut_1,KOR
+KFB1-4498,"Ftit wara ħareġ, sakkar il-gabbana u reġa' daħal ir-razzett u ħdejn Sir Henry.","Ftit wara ħareġ, sakkar il-gabbana u reġa' daħal ir-razzett u ħdejn Sir Henry.",kotbafilbut_1,KOR
+KFB1-3054,"""Dawk il-Kaldiżi!"" lissen l-iljun, imwerwer.","""Dawk il-Kalidahs!"" lissen l-iljun, imwerwer.",kotbafilbut_1,ORT
+KFB1-1248,"Nhar il-21 ta' Mejju, hekk kif it-Torok lestew jarmaw il-kamp ewlieni tagħhom il-Marsa, bdew l-attakk fuq Kastilja.","Nhar il-21 ta' Mejju, hekk kif it-Torok lestew jarmaw il-kamp ewlieni tagħhom il-Marsa, bdew l-attakk fuq Kastilja.",kotbafilbut_1,KOR
+KFB1-3773,"Kienu grupp ta' [żingari], u milli jidher kienu jafu b'xi mod kif jidħlu u joħorġu mill-kastell, għax kienu qed joħorġu l-kaxex minn fil-kripta u jistivawhom fuq il-karettuni.","Kienu grupp ta' żingari, u milli jidher kienu jafu b'xi mod kif jidħlu u joħorġu mill-kastell, għax kienu qed joħorġu l-kaxxi mill-kripta u jistivawhom fuq il-karettuni.",kotbafilbut_1,ORT
+KFB1-2712,Imxejt warajh u minn barra ħarist fil-kabina.,Imxejt warajh u minn barra ħarist fil-kabina.,kotbafilbut_1,KOR
+KFB1-992,"""Ma nistax niftaħ il-bieb,"" beda jgħajjat, ""M'għandix saqajn!""","""Ma nistax niftaħ il-bieb,"" beda jgħajjat.",kotbafilbut_1,ORT
+KFB1-2190,"Legree, min-naħa tiegħu, bħas-sidien l-oħra li Tom kellu qablu, beda jinnota kemm Tom kien jaħdem iebes u dejjem jagħmel xogħlu sew, u kien qed jaħseb li jaħtru sorveljant fuq l-ilsiera l-oħra.","Legree, min-naħa tiegħu, bħas-sidien l-oħra li Tom kellu qablu, beda jinnota kemm Tom kien jaħdem iebes u dejjem jagħmel xogħlu sew, u kien qed jaħseb li jaħtru sorveljant fuq l-ilsiera l-oħra.",kotbafilbut_1,KOR
+KFB1-4292,"Barrymore qalli li ma kienx hemm marki oħra fl-art madwar il-kadavru, imma jien ilmaħt xi marki ftit metri 'l bogħod, qabel ma laħqu għebu minħabba x-xita li kienet qed tagħmel.""","Barrymore qalli li ma kienx hemm marki oħra fl-art madwar il-kadavru, imma jien ilmaħt xi marki ftit metri 'l bogħod, qabel ma laħqu għebu minħabba x-xita li kienet qed tagħmel.""",kotbafilbut_1,KOR
+KFB1-1046,Fl-aħħar tant twal li Pinokkjo ma setax joħroġ mill-kamra.,Fl-aħħar tant twal li Pinokkjo ma setax joħroġ mill-kamra.,kotbafilbut_1,KOR
+KFB1-1888,Kull meta kien jitkellem kienet tinstema' n-naħqa ta' barri li kienet triegħed kullimkien u n-nies bdiet tibża' minnu u bdiet issejjaħlu l-Minotawr.,"Kull meta kien jitkellem, kienet tinstema' l-għajta ta' barri li kienet triegħed kullimkien u n-nies bdiet tibża' minnu u bdiet issejjaħlu ""l-minotawru"" (it-toru ta' Minos).",kotbafilbut_1,QTP
+KFB1-2469,"""Siġar?"" tennejt jien.","""Siġar?"" tennejt jien.",kotbafilbut_1,KOR
+KFB1-2847,"naħseb li ħadt xi żball, Sinjura,"" qalet bl-edukazzjoni kollha li kienu għallmuha zijietha.","iżda naħseb li ħadt xi żball, Sinjura,"" qalet bl-edukazzjoni kollha li kienu għallmuha zijietha.",kotbafilbut_1,ORT
+KFB1-3597,"Minn fejn ġejt?""","Minn fejn ġejt?""",kotbafilbut_1,KOR
+KFB1-615,"""Dejjem kienet xipli,"" qal Scrooge.","""Dejjem kienet xipli,"" qal Scrooge.",kotbafilbut_1,KOR
+KFB1-1318,"Permezz ta' slielem, bdew jitilgħu mal-ħitan hekk kif il-kaptan tagħhom beda jinkuraġġihom: ""Ljuni tal-Iżlam!","Permezz ta' slielem, bdew jitilgħu mal-ħitan hekk kif il-kaptan tagħhom beda jinkuraġġihom: ""Iljuni tal-Iżlam!",kotbafilbut_1,ORT
+KFB1-1863,Ħafna żmien ilu - kważi qabel ma bdiet tinkiteb l-istorja tal-bniedem - is-Sultan Minos kien jaħkem fuq il-gżira sabiħa ta' Kreta.,Ħafna żmien ilu - kważi qabel ma bdiet tinkiteb l-istorja tal-bniedem - is-Sultan Minos kien jaħkem fuq il-gżira sabiħa ta' Kreta.,kotbafilbut_1,KOR
+KFB1-2343,Bqajna nħarsu lejha tersaq lejna mingħajr ma stajna nagħmlu xejn.,Bqajna nħarsu lejha tersaq lejna mingħajr ma stajna nagħmlu xejn.,kotbafilbut_1,KOR
+KFB1-2449,Aktar tard Ned u Conseil saqsewni dwar il-Kaptan.,Aktar tard Ned u Conseil saqsewni dwar il-Kaptan.,kotbafilbut_1,KOR
+KFB1-2136,"Xi ġirien oħra sabulhom karettun biex ikunu jistgħu jkomplu triqithom, u bdew vjaġġ ieħor.","Xi ġirien oħra sabulhom karettun biex ikunu jistgħu jkomplu triqithom, u bdew vjaġġ ieħor.",kotbafilbut_1,KOR
+KFB1-1065,"Pinokkjo xorta pprova jfittex lil Ġeppetto, sakemm wasal fi gżira fejn kulħadd kien iħobb jaħdem bla waqfien, tant li n-nies kienu jsejħu l-gżira l-Pajjiż tan-Naħal.","Pinokkjo xorta pprova jfittex lil Ġeppetto, sakemm wasal fi gżira fejn kulħadd kien iħobb jaħdem bla waqfien, tant li n-nies kienu jsejħu l-gżira bħala l-Pajjiż tan-Naħal.",kotbafilbut_1,ORT
+KFB1-1772,"Fl-għodwa tat-8 ta' Settembru, id-difensuri tal-Birgu u ta' San Mikiel ħarsu 'l barra minn fuq it-tifrik tal-fortifikazzjonijiet u raw xena ta' deżolazzjoni.","Fl-għodwa tat-8 ta' Settembru, id-difensuri tal-Birgu u ta' San Mikiel ħarsu 'l barra minn fuq it-tifrik tal-fortifikazzjonijiet u raw xena ta' deżolazzjoni.",kotbafilbut_1,KOR
+KFB1-4558,"F'gabbana qadima, sibna wkoll katina kemxejn ħoxna, ftit għadam imgerrmin, u landa bil-fosfru li Stapleton kien uża biex jidlek lill-kelb bih.","F'gabbana qadima, sibna wkoll katina kemxejn ħoxna, ftit għadam imgerrmin, u landa bil-fosfru li Stapleton kien uża biex jidlek lill-kelb bih.",kotbafilbut_1,KOR
+KFB1-131,"Wara ħafna diskussjoni, ġurdien xwejjaħ qal, ""Naf x'nagħmlu.","Wara ħafna diskussjoni, ġurdien xwejjaħ qal, ""Naf x'nagħmlu.",kotbafilbut_1,KOR
+KFB1-3701,Issa kien kompletament imwerwer.,Issa kien kompletament imwerwer.,kotbafilbut_1,KOR
+KFB1-3481,Iżda r-re tax-xadini mejjel rasu.,Iżda r-re tax-xadini mejjel rasu.,kotbafilbut_1,KOR
+KFB1-77,Nibda ngħajjat li ġej il-lupu.,Nibda ngħajjat li ġej il-lupu.,kotbafilbut_1,KOR
+KFB1-3450,"Nistgħu nagħmluh minn biċċiet tal-ħarir, u nużaw basket kbir li jiddendel taħtu, ħalli nkunu nistgħu nirkbu fih.""","Nistgħu nagħmluh minn biċċiet tal-ħarir, u nużaw basket kbir li jiddendel taħtu, ħalli nkunu nistgħu nirkbu fih.""",kotbafilbut_1,KOR
+KFB1-2898,"Wara li mxiet fit-tul, waqfet biex tistrieħ.",Wara li mxiet fit-tul waqfet biex tistrieħ.,kotbafilbut_1,ORT
+KFB1-2052,"Ħares lejn is-sodda fejn kienu għadhom reqdin uliedu, ħeba wiċċu fl-idejn kbar li kellu, u nfaqa' jibki.","Ħares lejn is-sodda fejn kienu għadhom reqdin uliedu, ħeba wiċċu fl-idejn kbar li kellu, u nfaqa' jibki.",kotbafilbut_1,KOR
+KFB1-4139,Hekk kif bdiet nieżla x-xemx Van Helsing waqqaf il-karozzin u xerred biċċiet tal-ostja kkonsagrata madwarhom għall-protezzjoni.,Hekk kif bdiet nieżla x-xemx Van Helsing waqqaf il-karozzin u xerred biċċiet tal-ostja kkonsagrata madwarhom għall-protezzjoni.,kotbafilbut_1,KOR
+KFB1-724,"Zijuk Scrooge!""","Zijuk Scrooge!""",kotbafilbut_1,KOR
+KFB1-1314,"B'dan l-ordni l-attakk fuq Sant' Iermu sar aktar qalil u bla waqfien, tant li l-forti beda jaqla' madwar 7,000 bomba kull jum.","B'din l-ordni, l-attakk fuq Sant'Iermu sar aktar qalil u bla waqfien, tant li l-forti beda jaqla' madwar 7,000 bomba kull jum.",kotbafilbut_1,ORT
+KFB1-3924,"B'xorti tajba Seward kien hemm, dak il-ħin, u l-Professur Van Helsing kien hemm ukoll.","B'xorti tajba, Seward kien hemm dak il-ħin, u l-Professur Van Helsing kien hemm ukoll.",kotbafilbut_1,ORT
+KFB1-1851,Malta bħala rigal: Fil-fatt Karlu V kien ta 'l Malta lill-Ordni bir-renta ta' bies (falkun tal-kaċċa) kull sena.,Malta bħala rigal: Fil-fatt Karlu V kien ta 'l Malta lill-Ordni bir-renta ta' bies (falkun tal-kaċċa) kull sena.,kotbafilbut_1,KOR
+KFB1-2317,Nibżgħu li xi darba se tispiċċa biex toqtol lil xi nies.,Nibżgħu li xi darba se tispiċċa biex toqtol lil xi nies.,kotbafilbut_1,KOR
+KFB1-3938,"""L-istess kreatura li attakkat lil Lucy!"" qabeż Seward.","""L-istess kreatura li attakkat lil Lucy!"" qabeż Seward.",kotbafilbut_1,KOR
+KFB1-872,"""U se nagħtihom bl-interessi wkoll!"" kompla Scrooge.","""U se nagħtihom bl-interessi wkoll!"" kompla Scrooge.",kotbafilbut_1,KOR
+KFB1-1372,Madankollu Montserrat ntlaqat u miet fuq il-post.,"Madankollu, Montserrat ntlaqat u miet fuq il-post.",kotbafilbut_1,ORT
+KFB1-1855,"Merċenarju: Suldat li kien jiġġieled mhux għar-reliġjon jew għall-politika, imma sempliċement biex jaqla' x'jiekol.","Merċenarju: Suldat li kien jiġġieled mhux għar-reliġjon jew għall-politika, imma sempliċement biex jaqla' x'jiekol.",kotbafilbut_1,KOR
+KFB1-2965,"""Iva, jien kont,"" wieġeb ir-raġel tal-landa.","""Iva, jien kont,"" wieġeb ir-raġel tal-landa.",kotbafilbut_1,KOR
+KFB1-4462,Irridek tmur għand Stapleton illejla kif ippjanat.,Irridek tmur għand Stapleton illejla kif ippjanat.,kotbafilbut_1,KOR
+KFB1-1319,"F'isem Allaħ ħalli nifirdu l-erwieħ u l-irjus ta' dawn il-misħutin Kavallieri minn ġisimhom!""","F'isem Allah, ħalli nifirdu l-erwieħ u l-irjus ta' dawn il-misħutin Kavallieri minn ġisimhom!""",kotbafilbut_1,ORT
+KFB1-2560,Ma saqsejtux minn fejn kien ġab dak id-deheb kollu.,Ma saqsejtux minn fejn kien ġab dak id-deheb kollu.,kotbafilbut_1,KOR
+KFB1-4502,"""Riesaq lejna, Watson.","""Riesaq lejna, Watson.",kotbafilbut_1,KOR
+KFB1-2635,"Bqajna hemm madwar tlitt ijiem, u stajna naraw gzuz ta' annimali u ħut differenti.","Bqajna hemm madwar tlitt ijiem, u stajna naraw gzuz ta' annimali u ħut differenti.",kotbafilbut_1,KOR
+KFB1-3725,"""Dak huwa tiegħi!","""Dak huwa tiegħi!",kotbafilbut_1,KOR
+KFB1-3530,Kienu kważi waslu ħdejn il-blat meta nstemgħet vuċi ħarxa tgħajjat.,Kienu kważi waslu ħdejn il-blat meta nstemgħet vuċi ħarxa tgħajjat.,kotbafilbut_1,KOR
+KFB1-375,"Minħabba munqaru twil, l-għarnuq ma setax jiekol sew.","Minħabba munqaru twil, l-għarnuq ma setax jiekol sew.",kotbafilbut_1,KOR
+KFB1-1908,"Hekk kif ix-xini jkun ġej lura wara l-missjoni, il-kaptan kellu jtella' l-qalgħa l-bajda biex in-nies f'Ateni jkunu jistgħu jaraw mill-bogħod li Tesew kien irnexxielu joqtol lill-Minotawr.","Hekk kif ix-xini jkun ġej lura wara l-missjoni, il-kaptan kellu jtella' l-qala' abjad biex in-nies f'Ateni jkunu jistgħu jaraw mill-bogħod li Tesew kien irnexxielu joqtol lill-minotawru.",kotbafilbut_1,ORT
+KFB1-333,"""Ħa niġu magħkom.""","""Ħa niġu magħkom.""",kotbafilbut_1,KOR
+KFB1-4322,"""Mela kollox sew,"" lissen Holmes, ""Ftehmna x'għandu jsir.","""Mela kollox sew,"" lissen Holmes, ""ftehimna x'għandu jsir.",kotbafilbut_1,ORT
+KFB1-3950,"""Lucy mejta!""","""Lucy mejta!""",kotbafilbut_1,KOR
+KFB1-2365,"""Mur int, Conseil.","""Mur int, Conseil.",kotbafilbut_1,KOR
+KFB1-1604,F'qasir żmien Malta kienet se taqa' taħt idejn l-Imperu Ottoman.,"F'qasir żmien, Malta kienet se taqa' taħt idejn l-Imperu Ottoman!",kotbafilbut_1,ORT
+KFB1-1118,"Collodi kellu l-idea li juża karattru simpatiku imma mqareb biex jgħaddi l-messaġġi u t-tagħlim tiegħu permezz ta' allegorija: jgħaddi messaġġ jew tagħlima permezz ta' karattru, lok jew simbolu.","Collodi kellu l-idea li juża karattru simpatiku imma mqareb biex jgħaddi l-messaġġi u t-tagħlim tiegħu permezz ta' allegorija: jgħaddi messaġġ jew tagħlima permezz ta' karattru, lok jew simbolu.",kotbafilbut_1,KOR
+KFB1-3490,"""Kif nista' mmur sal-kastell tagħha?"" staqsiet Dorothy.","""Kif nista' mmur sal-kastell tagħha?"" staqsiet Dorothy.",kotbafilbut_1,KOR
+KFB1-4471,"""Watson, m'aħna sejrin imkien,"" qalli.","""Watson, m'aħna sejrin imkien,"" qalli.",kotbafilbut_1,KOR
+KFB1-3621,"Kien għajjien mejjet, u għajnu bdiet tmur bih wara vjaġġ twil mill-Ingilterra għal Transilvanja, pajjiż li għal Jonathan kien stramb u misterjuż mhux bil-ftit.","Kien għajjien mejjet, u għajnu bdiet tmur bih wara vjaġġ twil mill-Ingilterra għat-Transilvanja, pajjiż li għal Jonathan kien stramb u misterjuż mhux ftit.",kotbafilbut_1,ORT
+KFB1-1943,"U l-ħin kollu, baqa' jħoll il-kobba naqra naqra.",U l-ħin kollu baqa' jħoll il-kobba naqra naqra.,kotbafilbut_1,ORT
+KFB1-2958,"""Dak x'kien?""","""Dak x'kien?""",kotbafilbut_1,KOR
+KFB1-3878,"""Dażgur, mela le?""","""Dażgur, mela le!""",kotbafilbut_1,ORT
+KFB1-4553,L-għada filgħodu Dr Mortimer mexxiena 'l barra mill-għadira ta' Grimpen.,L-għada filgħodu Dr Mortimer mexxiena 'l barra mill-għadira ta' Grimpen.,kotbafilbut_1,KOR
+KFB1-3899,U Seward għamel kif qallu Van Helsing.,U Seward għamel kif qallu Van Helsing.,kotbafilbut_1,KOR
+KFB1-2376,U beda jitbissem.,U beda jitbissem.,kotbafilbut_1,KOR
+KFB1-4450,"Għal issa lil Sir Henry tgħidlu xejn.""","Għalissa lil Sir Henry tgħidlu xejn.""",kotbafilbut_1,ORT
+KFB1-1342,Dragut kien fuq ix-xwiek biex ifittex jaħtaf il-forti ta' Sant' Iermu.,Dragut kien fuq ix-xwiek biex ifittex jaħtaf il-forti ta' Sant'Iermu.,kotbafilbut_1,ORT
+KFB1-320,"Fil-verità kien jaf li kienu tajbin ħafna u li kienu jogħġbuh, imma qal hekk għax ma setax jeħodhom.","Fil-verità kien jaf li kien tajjeb ħafna u li kien jogħġbu, imma qal hekk għax ma setax jieħdu.",kotbafilbut_1,ORT
+KFB1-1619,"L-idea kienet li jagħmluh għoli aktar mis-swar, ħalli l-miraturi mill-quċċata jkunu jistgħu jisparaw fuq id-difensuri fuq is-swar.","L-idea kienet li jagħmluh għoli aktar mis-swar, ħalli l-miraturi mill-quċċata, ikunu jistgħu jisparaw fuq id-difensuri fuq is-swar.",kotbafilbut_1,ORT
+KFB1-4144,Iċ-ċpar beda jagħqad u Van Helsing intebaħ li beda jieħu l-forom ta' tliet nisa.,Iċ-ċpar beda jagħqad u Van Helsing intebaħ li beda jieħu l-forom ta' tliet nisa.,kotbafilbut_1,KOR
+KFB1-2060,"Kellha f'rasha taħwida waħda ta' ħsibijiet dwar il-periklu li kienu fih hi u binha, u l-periklu li kien fih żewġha.","Kellha f'rasha taħwida waħda ta' ħsibijiet dwar il-periklu li kienu fih hi u binha, u l-periklu li kien fih żewġha.",kotbafilbut_1,KOR
+KFB1-2945,"Baqgħu mixjin tul it-triq, bil-kelb jiġri quddiem.","Baqgħu mixjin tul it-triq, bil-kelb jiġri quddiem.",kotbafilbut_1,KOR
+KFB1-2219,Dar lejn żewġ sorveljanti oħra li kienu qed jisimgħu l-argument.,Dar lejn żewġ sorveljanti oħra li kienu qed jisimgħu l-argument.,kotbafilbut_1,KOR
+KFB1-1673,Kien f'dan iż-żmien li t-Torok bdew jibżgħu li x'aktarx setgħu jitilfu l-battalja.,Kien f'dan iż-żmien li t-Torok bdew jibżgħu li x'aktarx setgħu jitilfu l-battalja.,kotbafilbut_1,KOR
+KFB1-1942,Kellu jmiss il-ħitan madwaru biex ikun jista' jimxi tul il-kuruturi u d-dawrien ikkumplikati tal-labirint.,Kellu jmiss il-ħitan madwaru biex ikun jista' jimxi tul il-kuruturi u d-dawrien ikkumplikati tal-labirint.,kotbafilbut_1,KOR
+KFB1-260,"Mill-ajru lemaħha seqer, u ra li kienet fil-periklu.","Mill-ajru lemaħha seqer, u ra li kienet fil-periklu.",kotbafilbut_1,KOR
+KFB1-4030,Hemmhekk sabu l-kaxxi mimlijin ħamrija.,Hemmhekk sabu l-kaxxi mimlijin ħamrija.,kotbafilbut_1,KOR
+KFB1-2039,Jew ibiegħ lil dawn it-tnejn jew ibiegħ lil kulħadd.,Jew ibigħ lil dawn it-tnejn jew ibigħ lil kulħadd.,kotbafilbut_1,ORT
+KFB1-689,"Is-Sinjura Cratchit ġabitha mill-kċina, imma ħadd ma lmenta li kienet kemxejn żgħira għal familja daqshekk kbira.","Is-Sinjura Cratchit ġabitha mill-kċina, imma ħadd ma lmenta li kienet kemxejn żgħira għal familja daqshekk kbira.",kotbafilbut_1,KOR
+KFB1-901,Ma baqax jara spirti.,Ma baqax jara spirti.,kotbafilbut_1,KOR
+KFB1-2306,Naturalment għal xjentist bħali dawn l-istejjer kienu tassew interessanti.,Naturalment għal xjentist bħali dawn l-istejjer kienu tassew interessanti.,kotbafilbut_1,KOR
+KFB1-2026,"X'inqalgħalha?""","Xi nqalgħalha?""",kotbafilbut_1,ORT
+KFB1-2892,"Issa li baqgħet waħedha ma' Toto, Dorothy ppreparat għall-vjaġġ li kellha tagħmel.","Issa li baqgħet waħedha ma' Toto, Dorothy ippreparat għall-vjaġġ li kellha tagħmel.",kotbafilbut_1,ORT
+KFB1-4428,Wara dan tela' f'kamartu.,"Wara dan, tela' f'kamartu.",kotbafilbut_1,ORT
+KFB1-138,Jien xiħ wisq.,Jien xiħ wisq.,kotbafilbut_1,KOR
+KFB1-1917,"""Bħala bint Minos dik żgur taf xi sigrieti dwar il-labarinit,"" qal bejnu u bejn ruħu.","'Bħala bint Minos dik żgur taf xi sigrieti dwar il-labirint,' qal bejnu u bejn ruħu.",kotbafilbut_1,ORT
+KFB1-1828,Baqa' sempliċement il-Granmastru tal-Ordni ta' San Ġwann sa mewtu nhar il-21 t'Awwissu tal-1568.,"Baqa' sempliċement il-Gran Mastru tal-Ordni ta' San Ġwann, sa mewtu nhar il-21 t'Awwissu tal-1568.",kotbafilbut_1,ORT
+KFB1-1573,X'kien qed jiġri?,X'kien qed jiġri?,kotbafilbut_1,KOR

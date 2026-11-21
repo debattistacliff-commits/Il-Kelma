@@ -1,0 +1,214 @@
+{
+  "name": "English",
+  "order": 1,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "voices": [
+    "en-GB-SoniaNeural"
+  ],
+  "fixer": false,
+  "common_words": "the this that you your we please is are was have would can and with good morning friend hello how today yesterday my much there i to of for on from but or not do did will he she they take home",
+  "buddy": {
+    "greeting": "Hello {user}! I’m {buddy}.",
+    "api_busy": "The local API could not start. Port 3420 is in use.",
+    "shortcut_changed": "A shortcut changed. You can see the active keys in Settings.",
+    "key_used": "{key_name} is in use. Choose another key.",
+    "typing_box": "Click in the box where you type first.",
+    "clip_missing": "I can’t find the box I’m clipped to.",
+    "clipped": "I’m clipped to this box.",
+    "unclipped": "You can drag me now.",
+    "language": "Now I write in English.",
+    "nothing_heard": "I didn’t hear any words. Try again.",
+    "phrase_failed": "I couldn’t find a phrase. Check the local AI helper and try again.",
+    "phrase_ready": "I found something you can say.",
+    "phrase_saved": "I saved your phrase!",
+    "phrase_save_failed": "I couldn’t save the phrase. Try Put it in again.",
+    "confirm_retry": "Try saying “iva” again, or choose Put it in.",
+    "word_saved": "I learned your correction!",
+    "fix_input": "Enter what I heard and the words you meant.",
+    "fix_failed": "I couldn’t save the fix. Try again.",
+    "voices_off": "Online voices are off.",
+    "voices_failed": "I can’t reach the online voices. Try again soon.",
+    "select_text": "Select some text, then press Read again.",
+    "no_message": "I couldn’t find a message above the typing box.",
+    "mic_disconnected": "Your microphone disconnected. Check Settings.",
+    "mic_reconnected": "Your microphone is back.",
+    "no_mic": "Choose a microphone in Settings.",
+    "mic_open": "I couldn’t open your microphone. Try another one.",
+    "mic_read": "I couldn’t get sound from {name}.",
+    "mic_test_wait": "Wait for the microphone test to finish.",
+    "silence": "I can’t hear you. Check your microphone.",
+    "no_sound": "I didn’t hear anything. Try again.",
+    "wav_failed": "I couldn’t read the test audio.",
+    "paste_history": "I couldn’t paste. Your text is in History.",
+    "paste_clipboard": "I couldn’t paste. Your text is on the clipboard.",
+    "pasted": "Your text is in!",
+    "thanks": "You’re welcome, {user}!",
+    "laugh": "You made me laugh, {user}!",
+    "task_failed": "I couldn’t finish. Try again.",
+    "say_idea": "Tell me your idea. Press Help me say it when you’re done.",
+    "say_iva": "Say “iva” to use this phrase.",
+    "say_option": "Say a number to pick a phrase, or “iva” to use it."
+  },
+  "buddy_feedback": {
+    "greeting": [
+      "rest",
+      false
+    ],
+    "api_busy": [
+      "oops",
+      true
+    ],
+    "shortcut_changed": [
+      "oops",
+      true
+    ],
+    "key_used": [
+      "oops",
+      true
+    ],
+    "typing_box": [
+      "oops",
+      true
+    ],
+    "clip_missing": [
+      "oops",
+      true
+    ],
+    "clipped": [
+      "rest",
+      false
+    ],
+    "unclipped": [
+      "rest",
+      false
+    ],
+    "language": [
+      "idea",
+      true
+    ],
+    "nothing_heard": [
+      "oops",
+      true
+    ],
+    "phrase_failed": [
+      "oops",
+      true
+    ],
+    "phrase_ready": [
+      "idea",
+      false
+    ],
+    "phrase_saved": [
+      "party",
+      false
+    ],
+    "phrase_save_failed": [
+      "oops",
+      true
+    ],
+    "confirm_retry": [
+      "oops",
+      false
+    ],
+    "word_saved": [
+      "party",
+      false
+    ],
+    "fix_input": [
+      "oops",
+      true
+    ],
+    "fix_failed": [
+      "oops",
+      true
+    ],
+    "voices_off": [
+      "sad",
+      true
+    ],
+    "voices_failed": [
+      "sad",
+      true
+    ],
+    "select_text": [
+      "oops",
+      true
+    ],
+    "no_message": [
+      "oops",
+      true
+    ],
+    "mic_disconnected": [
+      "sleep",
+      true
+    ],
+    "mic_reconnected": [
+      "rest",
+      false
+    ],
+    "no_mic": [
+      "sleep",
+      true
+    ],
+    "mic_open": [
+      "sleep",
+      true
+    ],
+    "mic_read": [
+      "sleep",
+      true
+    ],
+    "mic_test_wait": [
+      "oops",
+      false
+    ],
+    "silence": [
+      "sleep",
+      true
+    ],
+    "no_sound": [
+      "oops",
+      true
+    ],
+    "wav_failed": [
+      "oops",
+      true
+    ],
+    "paste_history": [
+      "oops",
+      true
+    ],
+    "paste_clipboard": [
+      "oops",
+      true
+    ],
+    "pasted": [
+      "done",
+      false
+    ],
+    "thanks": [
+      "shy",
+      false
+    ],
+    "laugh": [
+      "laugh",
+      false
+    ],
+    "task_failed": [
+      "oops",
+      true
+    ],
+    "say_idea": [
+      "listen",
+      false
+    ],
+    "say_iva": [
+      "listen",
+      false
+    ],
+    "say_option": [
+      "listen",
+      false
+    ]
+  }
+}

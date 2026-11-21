@@ -1,0 +1,24 @@
+edge-tts==7.3.1  # Online neural voices
+PySide6==6.8.3  # Desktop, tray and floating controls
+sounddevice==0.5.6  # Microphone input
+PyAudioWPatch==0.2.12.9  # Windows default playback loopback
+numpy==2.5.5  # Audio levels and PCM conversion
+faster-whisper==1.2.1  # Local Whisper and Silero VAD
+ctranslate2==4.9.0  # Graphics card inference runtime
+av==16.0.1  # Audio decoding with the API expected by faster-whisper
+huggingface-hub==2.4.0  # Model downloads
+pywin32==312  # Windows focus, key input and clipboard
+uiautomation==2.0.29  # Read and focus controls at a clipped point
+pygame==2.6.1  # Play MP3 in the app
+nvidia-cudnn-cu12==9.28.1.4  # GPU inference
+nvidia-cublas-cu12==12.9.2.10  # GPU inference
+onnx-asr[cpu]==0.12.0  # Parakeet CPU inference
+pillow==13.0.0  # Screen capture and OCR image scaling
+winrt-runtime==4.2.0
+winrt-Windows.Foundation==4!10.0.28000.2957
+winrt-Windows.Foundation.Collections==4!10.0.28000.2957
+winrt-Windows.Globalization==4!10.0.28000.2957
+winrt-Windows.Graphics.Imaging==4!10.0.28000.2957
+winrt-Windows.Media.Ocr==4!10.0.28000.2957
+winrt-Windows.Storage.Streams==4!10.0.28000.2957
+wordfreq==3.1.1  # Common English/Italian words for comment language detection
