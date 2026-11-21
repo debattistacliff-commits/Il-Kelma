@@ -34,3 +34,5 @@ config.local.json
 VISION.md
 benchmark*.py
 PUBLIC_EXCLUDE.txt
+
+*.lnk
