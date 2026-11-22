@@ -215,7 +215,7 @@ class Engine:
     def fix(self, text):
         return fix(text)
 
-    def speak(self, text, language=None):
+    def speak(self, text, language=None, rate="+0%"):
         from .tts import audio_bytes
 
-        return audio_bytes(text, language)
+        return audio_bytes(text, language, rate=rate)

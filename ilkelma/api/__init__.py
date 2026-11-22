@@ -4,12 +4,14 @@ from email.parser import BytesParser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import logging
+from pathlib import Path
 from threading import Thread
 from urllib.parse import parse_qs, urlsplit
 
 from ilkelma.languages import packs
 
 LIMIT = 25 * 1024 * 1024
+PHONE_PAGE = Path(__file__).with_name("phone.html")
 
 
 def server_for(engine, port=3420, *, online_voices=lambda: True):
@@ -29,7 +31,11 @@ def server_for(engine, port=3420, *, online_voices=lambda: True):
 
         def local(self):
             host = self.headers.get("Host", "").split(":")[0]
-            if host in ("127.0.0.1", "localhost") and not self.headers.get("Origin"):
+            origin = self.headers.get("Origin")
+            # Only local clients, or Il-Kelma's own phone page (same origin, e.g. through a USB cable).
+            served = self.server.server_port
+            own_page = origin in (f"http://localhost:{served}", f"http://127.0.0.1:{served}")
+            if host in ("127.0.0.1", "localhost") and (not origin or own_page):
                 return True
             self.reply(403, {"error": "Use a local HTTP client."})
             return False
@@ -37,8 +43,11 @@ def server_for(engine, port=3420, *, online_voices=lambda: True):
         def do_GET(self):
             if not self.local():
                 return
-            if self.path == "/health":
+            path = urlsplit(self.path).path
+            if path == "/health":
                 self.reply(200, {"status": "ok", "version": "0.2"})
+            elif path == "/phone":
+                self.reply(200, PHONE_PAGE.read_bytes(), "text/html; charset=utf-8")
             else:
                 self.reply(404, {"error": "Route not found."})
 
@@ -89,7 +98,11 @@ def server_for(engine, port=3420, *, online_voices=lambda: True):
                 elif route.path == "/transcribe":
                     self.reply(200, engine.transcribe(body, language))
                 elif online_voices():
-                    self.reply(200, engine.speak(text, language), "audio/mpeg")
+                    # Optional "rate": "-20%" is a slower, calmer reading for learners.
+                    rate = data.get("rate", "+0%") if route.path == "/speak" and "data" in locals() else "+0%"
+                    if not isinstance(rate, str) or not rate.endswith("%") or not rate[:-1].lstrip("+-").isdigit():
+                        rate = "+0%"
+                    self.reply(200, engine.speak(text, language, rate=rate), "audio/mpeg")
                 else:
                     self.reply(503, {"error": "Online voices are off."})
             except (ValueError, TimeoutError) as error:

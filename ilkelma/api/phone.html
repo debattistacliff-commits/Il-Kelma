@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="mt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B1024">
+<title>Il-Kelma</title>
+<style>
+:root{--bg:#0B1024;--paper:rgba(22,28,56,.86);--fg:#EEF1FA;--soft:#A9B3D6;--edge:linear-gradient(90deg,#00E5FF,#8B5CFF,#FF4FD8,#00E5FF)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:"Lexend","Segoe UI",system-ui,sans-serif}
+body{display:flex;flex-direction:column;padding:16px 16px calc(16px + env(safe-area-inset-bottom));gap:14px;overflow:hidden;position:relative}
+.blob{position:fixed;border-radius:50%;filter:blur(60px);opacity:.55;z-index:0;animation:drift 14s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(20px,-16px)}}
+header,main,nav{position:relative;z-index:1}
+header{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:22px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+h1{margin:0;font:700 26px "Fredoka","Segoe UI",sans-serif;background:var(--edge);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200%}
+.lang{margin-left:auto;display:flex;gap:6px}
+.lang button{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:var(--fg);border-radius:999px;padding:6px 12px;font-family:inherit;font-weight:600;font-size:14px}
+.lang button.on{background:linear-gradient(135deg,#00E5FF,#8B5CFF);border-color:transparent}
+main{flex:1;min-height:0;display:flex;flex-direction:column;background:var(--paper);border-radius:30px;padding:18px;border:1.5px solid transparent;background-clip:padding-box;box-shadow:0 0 0 1.5px rgba(139,92,255,.5),0 20px 50px rgba(0,0,0,.4)}
+#text{flex:1;width:100%;border:0;outline:0;resize:none;background:transparent;color:var(--fg);font-family:"Lexend","Segoe UI",system-ui,sans-serif;font-size:26px;font-weight:500;line-height:1.7;letter-spacing:.5px;word-spacing:3px}
+#text::placeholder{color:#6F7AA3}
+.buddy{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--soft);min-height:34px}
+.dot{width:12px;height:12px;border-radius:50%;background:#22C55E;box-shadow:0 0 0 5px rgba(34,197,94,.2)}
+.dot.listen{background:#FF4F7A;box-shadow:0 0 0 6px rgba(255,79,122,.25);animation:pulse 1s infinite}
+.dot.busy{background:#FFB020;box-shadow:0 0 0 6px rgba(255,176,32,.25);animation:pulse 1s infinite}
+@keyframes pulse{50%{transform:scale(1.35)}}
+nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;padding:10px 6px;border-radius:30px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.orb{display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;color:var(--fg);font-family:inherit;font-weight:700;font-size:13px}
+.orb span{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:inset 0 2px 0 rgba(255,255,255,.5)}
+.orb i{font-style:normal;font-size:11px;color:var(--soft);margin-top:-5px}
+.speak span{background:radial-gradient(circle at 30% 25%,#6FE3FF,#12A5D8 70%)}
+.speak.rec span{background:radial-gradient(circle at 30% 25%,#FF9AB0,#E0245E 70%)}
+.read span{background:radial-gradient(circle at 30% 25%,#74F0B4,#17A673 70%)}
+.fix span{background:radial-gradient(circle at 30% 25%,#FFD978,#F29A0B 70%)}
+.copy span{background:radial-gradient(circle at 30% 25%,#C2A6FF,#7247E8 70%)}
+</style>
+</head>
+<body>
+<div class="blob" style="width:320px;height:320px;left:-120px;top:-80px;background:#3B3F9A"></div>
+<div class="blob" style="width:300px;height:300px;right:-120px;top:40%;background:#5B2D80;animation-delay:-5s"></div>
+<header><h1>Il-Kelma</h1>
+  <div class="lang"><button data-l="mt" class="on">Malti</button><button data-l="en">EN</button><button data-l="it">IT</button></div>
+</header>
+<main>
+  <div class="buddy"><span id="dot" class="dot"></span><span id="say">Agħfas Tkellem u tkellem.</span></div>
+  <textarea id="text" placeholder="Il-kliem jidher hawn… · Your words appear here…"></textarea>
+</main>
+<nav>
+  <button class="orb speak" id="speak"><span>🎤</span>Tkellem<i>Speak</i></button>
+  <button class="orb read" id="read"><span>🔊</span>Aqra<i>Read</i></button>
+  <button class="orb fix" id="fix"><span>✨</span>Irranġa<i>Fix letters</i></button>
+  <button class="orb copy" id="copy"><span>📋</span>Ikkopja<i>Copy</i></button>
+</nav>
+<script>
+const $ = (id) => document.getElementById(id);
+let lang = "mt", recording = null, audio = null;
+const status = (text, mood = "") => { $("say").textContent = text; $("dot").className = "dot " + mood; };
+document.querySelectorAll(".lang button").forEach((b) => b.onclick = () => {
+  document.querySelectorAll(".lang button").forEach((x) => x.classList.toggle("on", x === b));
+  lang = b.dataset.l;
+});
+
+function wav(samples, rate) {
+  const data = new DataView(new ArrayBuffer(44 + samples.length * 2));
+  const put = (o, s) => [...s].forEach((c, i) => data.setUint8(o + i, c.charCodeAt(0)));
+  put(0, "RIFF"); data.setUint32(4, 36 + samples.length * 2, true); put(8, "WAVEfmt ");
+  data.setUint32(16, 16, true); data.setUint16(20, 1, true); data.setUint16(22, 1, true);
+  data.setUint32(24, rate, true); data.setUint32(28, rate * 2, true); data.setUint16(32, 2, true);
+  data.setUint16(34, 16, true); put(36, "data"); data.setUint32(40, samples.length * 2, true);
+  samples.forEach((v, i) => data.setInt16(44 + i * 2, Math.max(-1, Math.min(1, v)) * 0x7fff, true));
+  return new Blob([data], { type: "audio/wav" });
+}
+
+async function startRecording() {
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true } });
+  const context = new AudioContext({ sampleRate: 16000 });
+  const source = context.createMediaStreamSource(stream);
+  const node = context.createScriptProcessor(4096, 1, 1);
+  const chunks = [];
+  node.onaudioprocess = (e) => chunks.push(new Float32Array(e.inputBuffer.getChannelData(0)));
+  source.connect(node); node.connect(context.destination);
+  recording = { stream, context, node, chunks };
+  $("speak").classList.add("rec"); status("Qed nisma'… agħfas mill-ġdid meta tlesti.", "listen");
+}
+
+async function stopRecording() {
+  const { stream, context, node, chunks } = recording; recording = null;
+  node.disconnect(); stream.getTracks().forEach((t) => t.stop());
+  const rate = context.sampleRate; await context.close();
+  $("speak").classList.remove("rec"); status("Qed nikteb…", "busy");
+  const samples = new Float32Array(chunks.reduce((n, c) => n + c.length, 0));
+  let at = 0; chunks.forEach((c) => { samples.set(c, at); at += c.length; });
+  const reply = await fetch("/transcribe?lang=" + lang, { method: "POST", headers: { "Content-Type": "audio/wav" }, body: wav(samples, rate) });
+  const result = await reply.json();
+  if (!reply.ok || !result.text) { status(result.error || "Ma smajtx. Erġa' pprova.", ""); return; }
+  const box = $("text"); box.value = (box.value.trim() ? box.value.trimEnd() + " " : "") + result.text;
+  status("Lest! ✔", "");
+}
+
+$("speak").onclick = async () => {
+  try { recording ? await stopRecording() : await startRecording(); }
+  catch (error) { recording = null; $("speak").classList.remove("rec"); status("Il-mikrofonu: " + error.message, ""); }
+};
+
+$("read").onclick = async () => {
+  const text = $("text").value.trim(); if (!text) return status("Ikteb jew tkellem l-ewwel.");
+  if (audio && !audio.paused) { audio.pause(); return status("Waqaft."); }
+  status("Qed naqra…", "busy");
+  const reply = await fetch("/speak", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text, lang }) });
+  if (!reply.ok) return status("Il-vuċi mhix disponibbli.");
+  audio = new Audio(URL.createObjectURL(await reply.blob())); audio.onended = () => status("Lest! ✔"); audio.play();
+};
+
+$("fix").onclick = async () => {
+  const text = $("text").value.trim(); if (!text) return;
+  const reply = await fetch("/fix", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text }) });
+  const result = await reply.json(); if (reply.ok) { $("text").value = result.text; status("Irranġajt l-ittri! ✨"); }
+};
+
+$("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText($("text").value); status("Ikkopjat! Issa waħħlu fiċ-chat. 📋"); }
+  catch { $("text").select(); document.execCommand("copy"); status("Ikkopjat! 📋"); }
+};
+</script>
+</body>
+</html>

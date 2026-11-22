@@ -206,7 +206,7 @@ class FakeEngine:
     def transcribe(self, audio, language):
         return {"text": audio.decode(), "language": language or "en"}
 
-    def speak(self, text, language):
+    def speak(self, text, language, rate="+0%"):
         return b"mp3"
 
 
@@ -260,6 +260,12 @@ class ApiTests(unittest.TestCase):
         with self.assertRaises(HTTPError) as error:
             self.request("/fix", {"text": "hi"}, Origin="https://example.com")
         self.assertEqual(error.exception.code, 403)
+
+    def test_phone_page_and_its_own_origin(self):
+        page = self.request("/phone").read().decode("utf-8")
+        self.assertIn("Il-Kelma", page)
+        own = f"http://localhost:{self.server.server_port}"
+        self.assertEqual(json.load(self.request("/fix", {"text": "hi"}, Origin=own)), {"text": "HI"})
 
     def test_bad_language(self):
         with self.assertRaises(HTTPError) as error:
