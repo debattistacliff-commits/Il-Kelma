@@ -9,7 +9,7 @@ import sys
 from contextlib import contextmanager
 from threading import Lock, get_ident
 
-from ilkelma.languages import packs
+from ilkelma.languages import chosen, packs
 from .learned_words import WordStore
 from .maltese_fix import fix
 from .tidy import collapse_repeats, punctuate, tidy
@@ -51,7 +51,7 @@ def choose_language(catalog, probs, detected, text=""):
     if not probs:
         if detected in catalog:
             return detected
-        return next((code for code, pack in catalog.items() if detected in pack.get("auto_aliases", [])), "en")
+        return next((code for code, pack in catalog.items() if detected in pack.get("auto_aliases", [])), "en" if "en" in catalog else "mt")
     words = set(text.lower().replace(",", " ").replace(".", " ").replace("?", " ").split())
     for code, pack in catalog.items():
         common = set(pack.get("common_words", "").split())
@@ -182,33 +182,33 @@ class Engine:
 
     def transcribe_idea(self, audio):
         # Use the multilingual model without forcing the output language onto the recording.
-        catalog = packs()
-        repository = catalog["en"]["model"]
+        catalog = chosen()
+        repository = packs()["en"]["model"]
         with self.foreground():
             text, detected = self.raw(audio, repository)
             language = choose_language(catalog, self.last_language_probs, detected, text)
             if text and detected not in catalog and language == "mt":
-                text, _ = self.raw(audio, catalog["mt"]["model"], "mt")
+                text, _ = self.raw(audio, packs()["mt"]["model"], "mt")
         return {"text": collapse_repeats(text), "language": language}
 
     def transcribe(self, audio, language=None):
-        catalog = packs()
+        catalog = chosen()
         with self.foreground():
             backend = self.backend
             if language is None:
-                text, language = self.raw(audio, catalog["en"]["model"])
+                text, language = self.raw(audio, packs()["en"]["model"])
                 detected = language
                 language = choose_language(catalog, getattr(self, "last_language_probs", {}), detected, text)
                 if backend == "parakeet":
                     text = self.recognize_parakeet(audio)
-                elif language != detected or catalog[language]["model"] != catalog["en"]["model"]:
-                    text, _ = self.raw(audio, catalog[language]["model"], language)
+                elif language != detected or packs()[language]["model"] != packs()["en"]["model"]:
+                    text, _ = self.raw(audio, packs()[language]["model"], language)
             elif backend == "parakeet":
                 text = self.recognize_parakeet(audio)
             else:
-                text, _ = self.raw(audio, catalog[language]["model"], language)
+                text, _ = self.raw(audio, packs()[language]["model"], language)
         text = collapse_repeats(text)
-        if catalog[language]["fixer"]:
+        if packs()[language]["fixer"]:
             text = fix(text, lang=language)
         return {"text": punctuate(text, language), "language": language}
 

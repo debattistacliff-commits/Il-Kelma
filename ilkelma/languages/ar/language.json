@@ -1,0 +1,39 @@
+{
+  "name": "العربية",
+  "english_name": "Arabic",
+  "order": 19,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "ar-EG-SalmaNeural"
+  ],
+  "lcid": "0x01",
+  "ocr": "ar-SA",
+  "script": "Arabic",
+  "says": "يقول",
+  "comment_status": [
+    "أقرأ التعليقات",
+    "توقفت"
+  ],
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#007A3D\"/><text x=\"15\" y=\"21\" font-size=\"17\" text-anchor=\"middle\" fill=\"#FFFFFF\" font-family=\"Segoe UI, Arial\">ع</text>",
+  "common_words": "في من على أنا أنت شكرا مرحبا السلام صباح الخير جدا نعم لا كيف اليوم صديقي",
+  "buddy": {
+    "greeting": "مرحبا يا {user}! أنا {buddy}.",
+    "language": "الآن أكتب بالعربية.",
+    "typing_box": "اضغط أولاً في المربع الذي تكتب فيه.",
+    "nothing_heard": "لم أسمع أي كلمات. حاول مرة أخرى.",
+    "select_text": "حدد نصاً ثم اضغط اقرأ مرة أخرى.",
+    "pasted": "نصك موجود الآن!",
+    "thanks": "على الرحب والسعة يا {user}!",
+    "laugh": "أضحكتني يا {user}!",
+    "silence": "لا أسمعك. تحقق من الميكروفون.",
+    "no_sound": "لم أسمع شيئاً. حاول مرة أخرى.",
+    "task_failed": "لم أستطع الإنهاء. حاول مرة أخرى.",
+    "voices_failed": "لا أستطيع الوصول إلى الأصوات عبر الإنترنت. حاول بعد قليل.",
+    "no_mic": "اختر ميكروفوناً من الإعدادات.",
+    "mic_disconnected": "انفصل الميكروفون. تحقق من الإعدادات.",
+    "mic_reconnected": "عاد الميكروفون.",
+    "no_message": "لم أجد رسالة فوق مربع الكتابة.",
+    "paste_clipboard": "لم أستطع اللصق. نصك في الحافظة."
+  }
+}

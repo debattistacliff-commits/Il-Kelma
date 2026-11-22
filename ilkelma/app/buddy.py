@@ -12,13 +12,12 @@ from PySide6.QtWebChannel import QWebChannel
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWidgets import QApplication
 
-from ilkelma.languages import packs
+from ilkelma.languages import buddy_message, chosen_codes, flag_svg, packs
 from .buddy_native import protect_windows
 from .widgets import TOOL
 
 FLAGS = TOOL | Qt.WindowType.WindowDoesNotAcceptFocus
 SIZE = 104
-LANGUAGES = ("mt", "en", "it")
 STATE_MOODS = {"idle": "rest", "listening": "listen", "busy": "think",
                "reading": "read", "check": "rest", "preview": "idea"}
 
@@ -37,11 +36,12 @@ def reaction(text):
 
 
 def next_language(language):
-    return LANGUAGES[(LANGUAGES.index(language) + 1) % len(LANGUAGES)] if language in LANGUAGES else "en"
+    languages = chosen_codes()
+    return languages[(languages.index(language) + 1) % len(languages)] if language in languages else languages[0]
 
 
 def feedback(language, key, **values):
-    message = packs()[language or "mt"]["buddy"][key]
+    message = buddy_message(language, key)[0]
     mood, speak = packs()["en"]["buddy_feedback"][key]
     return message.format(**values), mood, speak
 
@@ -81,7 +81,14 @@ class Buddy(QWebEngineView):
         self.native_timer = QTimer(self, interval=100)
         self.native_timer.timeout.connect(self.protect_native_windows)
         self.refresh()
-        self.load(QUrl.fromLocalFile(str(Path(__file__).with_name("buddy.html"))))
+        self.load_page()
+
+    def load_page(self):
+        """Load the page with a flag for each chosen language."""
+        path = Path(__file__).with_name("buddy.html")
+        flags = "".join(flag_svg(code, hidden=index > 0) for index, code in enumerate(chosen_codes()))
+        self.loaded = False
+        self.setHtml(path.read_text(encoding="utf-8").replace("<!--FLAGS-->", flags), QUrl.fromLocalFile(str(path)))
 
     def protect_native_windows(self):
         protect_windows(int(self.winId()))
@@ -172,6 +179,7 @@ class Buddy(QWebEngineView):
         state = dict(x=x - bounds.x(), y=y - bounds.y(), side=side, vertical=vertical,
                      open=self.open, context=self.context, clipped=self.clipped, name=self.name,
                      language=(self.language or "mt").upper(), message=self.message,
+                     languageName=packs().get(self.language or "mt", {}).get("name", ""),
                      comments=self.comments_active, commentsReading=self.comments_reading,
                      listenActive=self.listen_active,
                      mood=self.temporary_mood or ("read" if self.comments_reading else self.base_mood))

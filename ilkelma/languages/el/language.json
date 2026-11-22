@@ -1,0 +1,39 @@
+{
+  "name": "Ελληνικά",
+  "english_name": "Greek",
+  "order": 17,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "el-GR-AthinaNeural"
+  ],
+  "lcid": "0x08",
+  "ocr": "el-GR",
+  "script": "Greek",
+  "says": "λέει",
+  "comment_status": [
+    "Διαβάζω τα σχόλια",
+    "Σταμάτησα"
+  ],
+  "flag": "<rect y=\"0.00\" width=\"30\" height=\"3.33\" fill=\"#0D5EAF\"/><rect y=\"3.33\" width=\"30\" height=\"3.33\" fill=\"#FFFFFF\"/><rect y=\"6.67\" width=\"30\" height=\"3.33\" fill=\"#0D5EAF\"/><rect y=\"10.00\" width=\"30\" height=\"3.33\" fill=\"#FFFFFF\"/><rect y=\"13.33\" width=\"30\" height=\"3.33\" fill=\"#0D5EAF\"/><rect y=\"16.67\" width=\"30\" height=\"3.33\" fill=\"#FFFFFF\"/><rect y=\"20.00\" width=\"30\" height=\"3.33\" fill=\"#0D5EAF\"/><rect y=\"23.33\" width=\"30\" height=\"3.33\" fill=\"#FFFFFF\"/><rect y=\"26.67\" width=\"30\" height=\"3.33\" fill=\"#0D5EAF\"/><rect width=\"16.67\" height=\"16.67\" fill=\"#0D5EAF\"/><rect x=\"6.67\" width=\"3.33\" height=\"16.67\" fill=\"#FFFFFF\"/><rect y=\"6.67\" width=\"16.67\" height=\"3.33\" fill=\"#FFFFFF\"/>",
+  "common_words": "και το να είναι δεν ευχαριστώ γεια καλημέρα πολύ ναι όχι εγώ εσύ εμείς φίλε τι πώς σήμερα",
+  "buddy": {
+    "greeting": "Γεια σου, {user}! Είμαι ο {buddy}.",
+    "language": "Τώρα γράφω στα ελληνικά.",
+    "typing_box": "Πρώτα κάνε κλικ στο κουτί όπου γράφεις.",
+    "nothing_heard": "Δεν άκουσα λέξεις. Δοκίμασε ξανά.",
+    "select_text": "Επίλεξε ένα κείμενο και πάτα ξανά Ανάγνωση.",
+    "pasted": "Το κείμενό σου μπήκε!",
+    "thanks": "Παρακαλώ, {user}!",
+    "laugh": "Με έκανες να γελάσω, {user}!",
+    "silence": "Δεν σε ακούω. Έλεγξε το μικρόφωνο.",
+    "no_sound": "Δεν άκουσα τίποτα. Δοκίμασε ξανά.",
+    "task_failed": "Δεν μπόρεσα να τελειώσω. Δοκίμασε ξανά.",
+    "voices_failed": "Δεν φτάνω τις διαδικτυακές φωνές. Δοκίμασε σε λίγο.",
+    "no_mic": "Διάλεξε μικρόφωνο στις Ρυθμίσεις.",
+    "mic_disconnected": "Το μικρόφωνο αποσυνδέθηκε. Έλεγξε τις Ρυθμίσεις.",
+    "mic_reconnected": "Το μικρόφωνο επέστρεψε.",
+    "no_message": "Δεν βρήκα μήνυμα πάνω από το κουτί.",
+    "paste_clipboard": "Δεν μπόρεσα να επικολλήσω. Το κείμενο είναι στο πρόχειρο."
+  }
+}

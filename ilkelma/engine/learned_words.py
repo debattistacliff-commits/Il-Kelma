@@ -220,6 +220,11 @@ class WordStore:
                 choices[wrong] = None, count
         return {wrong: right for wrong, (right, _) in choices.items() if right}
 
+    def spelling(self):
+        """Learned patterns plus the words from the Learn book; learned ones win."""
+        from ilkelma.learn import book_patterns
+        return book_patterns() | self.patterns()
+
     def read(self, sql):
         if self.path.is_file():
             try:

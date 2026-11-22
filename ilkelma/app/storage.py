@@ -18,7 +18,8 @@ DEFAULTS = {"language": "", "mic": None, "write_key": "F9", "read_key": "F10",
             "user_name": windows_first_name(), "buddy_name": "Kelma", "buddy_speaks": True,
             "learn_read_words": True, "engine": "whisper", "help_key": "F8",
             "comment_language": "auto", "comment_author": True, "comment_speed": "normal",
-            "comment_skip_greetings": False, "comment_mentions_only": False}
+            "comment_skip_greetings": False, "comment_mentions_only": False,
+            "my_languages": ["mt", "en", "it"]}
 
 
 def load(name, fallback):

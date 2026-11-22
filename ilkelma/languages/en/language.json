@@ -210,5 +210,14 @@
       "listen",
       false
     ]
-  }
+  },
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#012169\"/><path d=\"M0 0L30 30M30 0L0 30\" stroke=\"#FFFFFF\" stroke-width=\"6\"/><path d=\"M0 0L30 30M30 0L0 30\" stroke=\"#C8102E\" stroke-width=\"2\"/><path d=\"M15 0V30M0 15H30\" stroke=\"#FFFFFF\" stroke-width=\"10\"/><path d=\"M15 0V30M0 15H30\" stroke=\"#C8102E\" stroke-width=\"6\"/>",
+  "english_name": "English",
+  "says": "says",
+  "comment_status": [
+    "Reading comments",
+    "Stopped"
+  ],
+  "lcid": "0x09",
+  "ocr": "en-GB"
 }

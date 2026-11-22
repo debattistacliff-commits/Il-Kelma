@@ -1,0 +1,39 @@
+{
+  "name": "中文",
+  "english_name": "Chinese",
+  "order": 21,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "zh-CN-XiaoxiaoNeural"
+  ],
+  "lcid": "0x04",
+  "ocr": "zh-Hans-CN",
+  "script": "Han",
+  "says": "说",
+  "comment_status": [
+    "我在读评论",
+    "我停下了"
+  ],
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#EE1C25\"/><path transform=\"translate(9 10) scale(5)\" d=\"M0,-1L0.2245,-0.309L0.951,-0.309L0.363,0.118L0.588,0.809L0,0.382L-0.588,0.809L-0.363,0.118L-0.951,-0.309L-0.2245,-0.309Z\" fill=\"#FFFF00\"/>",
+  "common_words": "",
+  "buddy": {
+    "greeting": "你好，{user}！我是{buddy}。",
+    "language": "现在我用中文写。",
+    "typing_box": "请先点一下你打字的框。",
+    "nothing_heard": "我没听到话。请再试一次。",
+    "select_text": "选中一些文字，再按一次朗读。",
+    "pasted": "你的文字已经放进去了！",
+    "thanks": "不客气，{user}！",
+    "laugh": "你把我逗笑了，{user}！",
+    "silence": "我听不到你。请检查麦克风。",
+    "no_sound": "我什么也没听到。请再试一次。",
+    "task_failed": "我没能完成。请再试一次。",
+    "voices_failed": "连不上在线语音。请稍后再试。",
+    "no_mic": "请在设置里选一个麦克风。",
+    "mic_disconnected": "麦克风断开了。请检查设置。",
+    "mic_reconnected": "麦克风回来了。",
+    "no_message": "我在输入框上面没找到消息。",
+    "paste_clipboard": "没能粘贴。你的文字在剪贴板里。"
+  }
+}

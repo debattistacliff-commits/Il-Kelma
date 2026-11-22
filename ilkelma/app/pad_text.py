@@ -46,7 +46,7 @@ class Pages:
 
 def fix_letters(text):
     text = corrected(text, "mt")
-    return fix(apply_corrections(text, WordStore().patterns()), lang="mt")
+    return fix(apply_corrections(text, WordStore().spelling()), lang="mt")
 
 
 def suggestions(word, language):

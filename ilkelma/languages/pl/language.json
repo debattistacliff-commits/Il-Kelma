@@ -1,0 +1,38 @@
+{
+  "name": "Polski",
+  "english_name": "Polish",
+  "order": 14,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "pl-PL-ZofiaNeural"
+  ],
+  "lcid": "0x15",
+  "ocr": "pl-PL",
+  "says": "mówi",
+  "comment_status": [
+    "Czytam komentarze",
+    "Przestałem"
+  ],
+  "flag": "<rect width=\"30\" height=\"15\" fill=\"#FFFFFF\"/><rect y=\"15\" width=\"30\" height=\"15\" fill=\"#DC143C\"/>",
+  "common_words": "jest nie się jak już dziękuję cześć dzień dobry bardzo tak też jestem mam ale czy tylko wszystko dobrze przyjaciel ty my co",
+  "buddy": {
+    "greeting": "Cześć, {user}! Jestem {buddy}.",
+    "language": "Teraz piszę po polsku.",
+    "typing_box": "Najpierw kliknij pole, w którym piszesz.",
+    "nothing_heard": "Nie usłyszałem słów. Spróbuj jeszcze raz.",
+    "select_text": "Zaznacz tekst i naciśnij jeszcze raz Czytaj.",
+    "pasted": "Twój tekst już jest!",
+    "thanks": "Proszę bardzo, {user}!",
+    "laugh": "Rozśmieszyłeś mnie, {user}!",
+    "silence": "Nie słyszę cię. Sprawdź mikrofon.",
+    "no_sound": "Nic nie usłyszałem. Spróbuj jeszcze raz.",
+    "task_failed": "Nie udało mi się skończyć. Spróbuj jeszcze raz.",
+    "voices_failed": "Nie mogę połączyć się z głosami online. Spróbuj za chwilę.",
+    "no_mic": "Wybierz mikrofon w Ustawieniach.",
+    "mic_disconnected": "Mikrofon się odłączył. Sprawdź Ustawienia.",
+    "mic_reconnected": "Mikrofon wrócił.",
+    "no_message": "Nie znalazłem wiadomości nad polem.",
+    "paste_clipboard": "Nie udało się wkleić. Twój tekst jest w schowku."
+  }
+}

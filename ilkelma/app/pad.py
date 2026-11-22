@@ -10,7 +10,7 @@ from threading import Event
 from PySide6.QtCore import QByteArray, QEasingCurve, QEvent, QPoint, QPointF, QPropertyAnimation, QRectF, QSize, Qt, QTimer, Signal
 from PySide6.QtGui import QColor, QFont, QFontDatabase, QIcon, QKeySequence, QPainter, QPalette
 from PySide6.QtGui import QPainterPath, QPixmap, QRadialGradient, QShortcut
-from PySide6.QtGui import QTextBlockFormat, QTextCursor
+from PySide6.QtGui import QTextBlockFormat, QTextCharFormat, QTextCursor
 from PySide6.QtWidgets import (
     QApplication, QComboBox, QFrame, QGridLayout, QHBoxLayout, QLabel,
     QListWidget, QListWidgetItem, QMenu, QPushButton, QScrollArea, QTextEdit, QVBoxLayout, QWidgetAction, QWidget,
@@ -18,7 +18,11 @@ from PySide6.QtWidgets import (
 
 from maltese_text import WORD
 from ilkelma.engine.tts import play_words
-from .learning import confirm_phrase
+from ilkelma.languages import chosen, flag_svg
+from ilkelma.engine.conversation import same, talk
+from ilkelma.engine.spellcheck import unknown_spans
+from .learn import LearnView, plain
+from .learning import confirm_phrase, learn_word
 from .pad_text import Pages, fix_letters, qt_position, suggestions
 from .storage import DATA
 from .pad_widgets import CHIP_GRADIENT, DockAction, SizeSlider, Swatch, ToggleSwitch, gradient, shadow
@@ -47,7 +51,6 @@ FONTS = ("Lexend", "Atkinson Hyperlegible", "Andika", "Comic Neue")
 SPACES = {"Normal": (160, 0, 0), "Wide": (190, 1, 4), "Extra": (220, 2.5, 10)}
 MARKS = {"Yellow": "#FFE066", "Green": "#A6F0C6", "Pink": "#FFC2DA", "Blue": "#BFE0FF"}
 NAMES = ("Il-Karta", "Il-Pinna", "Il-Kitba", "Kelma Pad")
-FLAGS = ("mt", "en", "it")
 ROOT = Path(__file__).resolve().parents[2]
 ICONS = {
     "speak": '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
@@ -58,6 +61,7 @@ ICONS = {
     "close": '<path d="m6 6 12 12M6 18 18 6"/>',
     "ruler": '<path d="M2 15 15 2l7 7L9 22zM5 12l3 3m0-6 2 2m1-5 3 3m0-6 2 2"/>',
     "buddy": '<path d="M21 11a8.8 8.8 0 0 1-9 9 9 9 0 0 1-4-.9L3 21l1.8-5.5A9 9 0 1 1 21 11zM9 11h.1m5.9 0h.1"/>',
+    "learn": '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5zM4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>',
     "history": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
     "new": '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M12 12v6M9 15h6"/>',
     "settings": '<path d="M12 22a10 10 0 1 1 10-10c0 2.5-2 3-4 3h-2a2 2 0 0 0-1 3.7A1.6 1.6 0 0 1 12 22zM8 8h.1M6 13h.1M13 6h.1M17 10h.1"/>',
@@ -232,7 +236,6 @@ class Pad(QWidget):
         self.picked = None
         buddy_html = Path(__file__).with_name("buddy.html").read_text(encoding="utf-8")
         self.art = dict(re.findall(r'id="m-([\w-]+)">(\s*<svg.*?</svg>)', buddy_html, re.S))
-        self.flags = re.findall(r'<svg class="flag"[^>]*>.*?</svg>', buddy_html, re.S)
         self.fonts = set()
         for path in (ROOT / "assets" / "fonts").glob("*.ttf"):
             font_id = QFontDatabase.addApplicationFont(str(path))
@@ -255,6 +258,8 @@ class Pad(QWidget):
         self.editor.document().clearUndoRedoStacks()
         self.editor.textChanged.connect(self.edited)
         self.boundary.connect(self.highlight_word)
+        self.spell_timer = QTimer(self, singleShot=True, interval=900)
+        self.spell_timer.timeout.connect(self.check_words)
         self.autosave = QTimer(self, interval=3500)
         self.autosave.timeout.connect(self.save_page)
         self.flash_timer = QTimer(self, singleShot=True, interval=2000)
@@ -291,8 +296,20 @@ class Pad(QWidget):
         self.title.setObjectName("padTitle")
         header.addWidget(self.title)
         self.language_box = QComboBox()
-        for flag, code, label in zip(self.flags, FLAGS, ("Malti", "English", "Italiano")):
-            svg = re.sub(r' style="[^"]*"', "", flag)
+        self.fill_languages()
+        self.language_box.setIconSize(QSize(24, 24))
+        self.language_box.setToolTip("Writing language / Lingwa tal-kitba")
+        header.addWidget(self.language_box)
+        header.addStretch()
+        self.build_rest(main, bar, header)
+
+    def fill_languages(self):
+        """One flag for each language the user chose in Settings."""
+        self.language_box.blockSignals(True)
+        self.language_box.clear()
+        for code, pack in chosen().items():
+            svg = re.sub(r' style="[^"]*"', "", flag_svg(code))
+            label = pack["name"]
             pixmap = svg_pixmap(svg).scaled(24, 24, Qt.AspectRatioMode.IgnoreAspectRatio,
                                              Qt.TransformationMode.SmoothTransformation)
             circle = QPixmap(24, 24)
@@ -304,17 +321,17 @@ class Pad(QWidget):
                 painter.setClipPath(mask)
                 painter.drawPixmap(0, 0, pixmap)
             self.language_box.addItem(QIcon(circle), label, code)
-        self.language_box.setIconSize(QSize(24, 24))
-        self.language_box.setToolTip("Writing language / Lingwa tal-kitba")
         language = self.host.settings.get("language")
-        self.language_box.setCurrentIndex(FLAGS.index(language) if language in FLAGS else 0)
-        header.addWidget(self.language_box)
-        header.addStretch()
+        self.language_box.setCurrentIndex(max(0, self.language_box.findData(language)))
+        self.language_box.blockSignals(False)
+
+    def build_rest(self, main, bar, header):
         self.saved = QLabel(SAVED_TEXT)
         self.saved.setObjectName("saved")
         self.saved.setAlignment(Qt.AlignmentFlag.AlignCenter)
         header.addWidget(self.saved)
         for icon, label, action in (
+            ("learn", "Tgħallem", self.toggle_learn),
             ("history", "Old pages", self.show_history),
             ("new", "New page", self.new_page),
             ("settings", "Make it yours", self.toggle_panel),
@@ -324,6 +341,10 @@ class Pad(QWidget):
             header.addWidget(button)
             if icon == "history":
                 self.history_button = button
+            if icon == "learn":
+                self.learn_button = button
+                button.setCheckable(True)
+                button.setToolTip("Learn Maltese / Tgħallem il-Malti")
             if icon == "settings":
                 self.panel_button = button
                 button.setCheckable(True)
@@ -344,8 +365,14 @@ class Pad(QWidget):
         self.editor.tapped.connect(self.tap_word)
         self.editor.typed_boundary.connect(self.autofix_word)
         self.editor.sentence_finished.connect(self.read_sentence)
-        self.language_box.currentIndexChanged.connect(lambda: self.apply_helpers())
+        self.language_box.currentIndexChanged.connect(lambda: (self.apply_helpers(), self.check_words()))
         paper_layout.addWidget(self.editor)
+        self.learn = LearnView()
+        self.learn.mode.connect(lambda mode: self.start_talk() if mode == "talk" else None)
+        self.talk_history = None
+        self.unknown = []
+        self.learn.hide()
+        paper_layout.addWidget(self.learn, 1)
         self.phrases = QWidget()
         self.phrase_layout = QVBoxLayout(self.phrases)
         self.phrases.hide()
@@ -386,10 +413,15 @@ class Pad(QWidget):
         toolbar.setContentsMargins(18, 10, 18, 10)
         toolbar.setSpacing(8)
         for icon, label, action, colours in (
-            ("speak", "Speak\nTkellem", lambda: self.dictate("speak"), ("#76E8FA", "#0FA3C9")),
+            ("speak", "Speak\nTkellem", lambda: self.ask_buddy() if self.learning() else (
+                self.host.pad_capture("speak", "mt", self.talk_turn) if self.talk_history is not None
+                else self.dictate("speak")),
+             ("#76E8FA", "#0FA3C9")),
             ("read", "Read\nAqra", self.toggle_read, ("#80EDC1", "#1F9E6E")),
-            ("fix", "Fix letters\nIrranġa", self.fix, ("#FFD978", "#F29A0B")),
-            ("help", "Help me\nGħinni", lambda: self.dictate("help"), ("#C2A6FF", "#7247E8")),
+            ("fix", "Fix letters\nIrranġa", lambda: self.approve_entry() if self.learning() else self.fix(),
+             ("#FFD978", "#F29A0B")),
+            ("help", "Help me\nGħinni", lambda: self.send_typed() if self.talk_history is not None
+             else self.dictate("help"), ("#C2A6FF", "#7247E8")),
             ("paste", "Put it in the chat\nDaħħlu fiċ-chat", self.put_in_chat, None),
         ):
             if icon == "paste":
@@ -648,6 +680,18 @@ class Pad(QWidget):
             #saved {{color:#155E45;background:rgba(255,255,255,172);border-radius:13px;
                 padding:4px 8px;font-weight:700;}}
             #paper {{background:{paper};border-radius:36px;border:1px solid rgba(255,255,255,200);}}
+            #learnView QLabel {{color:{fg};}}
+            #learnTitle {{font-size:40px;font-weight:800;}}
+            #learnDetails {{font-size:21px;}}
+            #learnAnswer {{font-size:30px;padding:12px 18px;border-radius:20px;color:{fg};
+                background:rgba(255,255,255,{40 if dark else 200});border:2px solid #7B5CFF;}}
+            #learnStatus {{font-size:14px;font-weight:800;padding:5px 14px;border-radius:13px;
+                background:rgba(255,193,7,60);color:{fg};}}
+            #learnStatus[ok="true"] {{background:rgba(34,197,94,70);}}
+            #learnChip, #learnChipOn {{font-size:15px;font-weight:700;padding:8px 16px;border-radius:19px;
+                border:1px solid rgba(255,255,255,200);}}
+            #learnChip {{background:rgba(255,255,255,{40 if dark else 170});color:{fg};}}
+            #learnChipOn {{background:qlineargradient(x1:0,y1:0,x2:1,y2:1,stop:0 #4F8CFF,stop:1 #7B5CFF);color:white;}}
             QTextEdit {{background:transparent;color:{fg};border:0;
                 selection-background-color:#1961a8;selection-color:white;}}
             #wordCount {{color:{fg};font-weight:700;padding-right:8px;}}
@@ -885,6 +929,10 @@ class Pad(QWidget):
         self.clear_flash()
         self.close_card()
         self.update_count()
+        if self.unknown:
+            self.unknown = []
+            self.paint_marks()
+        self.spell_timer.start()
         self.saved.setText("Saving…")
         self.saved.setToolTip("Saving… · Qed nissejvja…")
 
@@ -905,6 +953,8 @@ class Pad(QWidget):
             self.dismiss_inline()
             self.host.cancel_pad_capture()
             self.editor.clear()
+            self.talk_history = None
+            self.unknown = []
             self.apply_style()
             self.editor.document().clearUndoRedoStacks()
             self.saved.setText(SAVED_TEXT)
@@ -976,12 +1026,178 @@ class Pad(QWidget):
             selection.format.setBackground(QColor(colour))
             selection.format.setForeground(QColor("#10233D"))
             selections.append(selection)
+        for start, end in self.unknown:
+            selection = QTextEdit.ExtraSelection()
+            selection.cursor = self.selection(start, end)
+            selection.format.setUnderlineStyle(QTextCharFormat.UnderlineStyle.WaveUnderline)
+            selection.format.setUnderlineColor(QColor("#E5484D"))
+            selections.append(selection)
         self.editor.setExtraSelections(selections)
         self.editor.viewport().update()
+
+    def check_words(self):
+        """Underline words that may be misspelled (Maltese pages only)."""
+        if self.language != "mt":
+            self.unknown = []
+        else:
+            text = self.editor.toPlainText()
+            self.unknown = [(qt_position(text, a), qt_position(text, b)) for a, b in unknown_spans(text, extra=("ikkoreġiha",))
+                            if not text[max(0, a - 1):a] in ("💬", "📖")]
+        self.paint_marks()
+        return len(self.unknown)
+
+    def append_line(self, text):
+        cursor = QTextCursor(self.editor.document())
+        cursor.movePosition(QTextCursor.MoveOperation.End)
+        prefix = "" if not self.editor.toPlainText() or self.editor.toPlainText().endswith("\n") else "\n"
+        cursor.insertText(prefix)
+        start = cursor.position()  # Qt positions: an emoji counts as two
+        cursor.insertText(text)
+        end = cursor.position()
+        cursor.insertText("\n")
+        self.editor.setTextCursor(cursor)
+        self.editor.ensureCursorVisible()
+        return start, end
+
+    def start_talk(self):
+        if self.learning():
+            self.toggle_learn()
+        self.new_page()
+        self.talk_history = []
+        self.append_line("💬 Ejja nitkellmu · Let's talk")
+        self.mood("idea", "Agħfas Tkellem u għidli xi ħaġa! · Press Speak and talk to me!")
+
+    def talk_turn(self, said):
+        said = said.strip()
+        if not said:
+            return
+        self.append_line("🙂 Inti: " + said)
+        self.mood("think" if "think" in self.art else "idea", "Qed naħseb… · Thinking…")
+        session = self.talk_history
+        history = list(session or [])
+
+        def work():
+            return talk(said, history)
+
+        def finished(result):
+            if self.talk_history is not session or session is None:
+                return  # the page changed while Kelma was thinking
+            correct, reply = result
+            if not same(said, correct):
+                self.append_line("✏️ Tgħid hekk · Say it like this: " + correct)
+            start, end = self.append_line("💬 Kelma: " + reply)
+            self.talk_history.append((correct, reply))
+            self.check_words()
+            cursor = self.selection(start + len("💬 Kelma: ".encode("utf-16-le")) // 2, end)
+            self.read(cursor)
+
+        self.host.run(work, finished)
+
+    def send_typed(self):
+        """In a talk page: send the line you typed at the end."""
+        lines = self.editor.toPlainText().rstrip("\n").split("\n")
+        typed = lines[-1].strip() if lines else ""
+        if not typed or typed[0] in "💬🙂✏📖":
+            self.mood("idea", "Ikteb sentenza, imbagħad agħfas Għinni. · Type a sentence, then press Help me.")
+            return
+        document = self.editor.document()
+        cursor = QTextCursor(document)
+        cursor.movePosition(QTextCursor.MoveOperation.End)
+        end = cursor.position()
+        text = document.toPlainText().rstrip("\n")
+        cursor.setPosition(qt_position(text, text.rfind("\n") + 1))
+        cursor.setPosition(end, QTextCursor.MoveMode.KeepAnchor)
+        cursor.removeSelectedText()
+        self.talk_turn(typed)
+
+    def toggle_learn(self):
+        learning = self.learn.isHidden()
+        self.stop_read()
+        self.dismiss_inline()
+        self.editor.setVisible(not learning)
+        self.word_count.setVisible(not learning)
+        self.learn.setVisible(learning)
+        self.learn_button.setChecked(learning)
+        self.learn_button.setIcon(action_icon("learn", "white" if learning else "#14213D"))
+        self.mood("idea" if learning else "rest",
+                  "Agħżel u isma'." if learning else "Ikteb jew tkellem.")
+
+    def learning(self):
+        return not self.learn.isHidden()
+
+    def read_entry(self, after=None):
+        text = self.learn.speak_text
+        if not text:
+            self.mood("idea", "L-ewwel wieġeb! · Answer first!")
+            return
+        self.stop_read()
+        stop = self.reading = Event()
+        self.read_button.setText("Stop\nWaqqaf")
+        self.read_button.setIcon(action_icon("stop"))
+        self.mood("read", "Qed naqra…")
+
+        def work():
+            try:
+                play_words(text, "mt", stop, lambda a, b: self.boundary.emit(stop, a, b),
+                           online=bool(self.host.settings.get("voices", True)))
+                return True
+            except Exception:
+                logging.exception("Kelma Pad could not read the Learn entry")
+                return False
+
+        def finished(ok):
+            if self.reading is stop:
+                self.stop_read()
+                self.learn.mark_word(0, 0)
+                if not ok:
+                    self.mood("oops", "Could not read aloud. / Ma stajtx naqra.")
+                elif after:
+                    self.mood("idea", after)
+
+        self.host.run(work, finished)
+
+    def ask_buddy(self):
+        question = self.learn.quiz["question"] if self.learn.quiz else None
+
+        def answer(heard):
+            if question is not None:
+                quiz = self.learn.quiz
+                if not quiz or quiz["question"] is not question or quiz["done"]:
+                    return
+                self.learn.answer.setText(heard.strip().rstrip(".!?"))
+                self.quiz_feedback(self.learn.check_answer())
+                return
+            if self.learn.go_to(heard):
+                meaning = "Tfisser: " + self.learn.entry["meaning_mt"]
+                self.mood("idea", meaning)
+                self.read_entry(after=meaning)
+            else:
+                self.mood("oops", "Għadni ma nafx dik. / I don't know that one yet.")
+
+        self.mood("listen", "Staqsini… / Ask me…")
+        self.host.pad_capture("speak", "mt", answer)
+
+    def quiz_feedback(self, result):
+        if result == "right":
+            self.mood("party", "Tajjeb ħafna!", brief=True)
+        elif result == "letters":
+            self.mood("idea", "Kważi! Ara l-ittri.", brief=True)
+        elif result == "wrong":
+            self.mood("oops", "Erġa' pprova! · Try again!", brief=True)
+
+    def approve_entry(self):
+        if self.learn.quiz:
+            self.quiz_feedback(self.learn.check_answer())
+            return
+        self.learn.approve()
+        self.mood("party", "Grazzi! Issa tidher għal kulħadd.", brief=True)
 
     def toggle_read(self):
         if self.reading:
             self.stop_read()
+            return
+        if self.learning():
+            self.read_entry()
             return
         cursor = self.editor.textCursor()
         if cursor.hasSelection():
@@ -1028,6 +1244,9 @@ class Pad(QWidget):
         self.host.run(work, finished)
 
     def highlight_word(self, stop, start, end):
+        if self.reading is stop and not stop.is_set() and self.learning():
+            self.learn.mark_word(start, end)
+            return
         if self.reading is stop and not stop.is_set():
             self.read_span = (start, end)
             self.paint_marks()
@@ -1090,7 +1309,8 @@ class Pad(QWidget):
             logging.exception("Could not find Pad word suggestions")
             alternatives = []
         for index, alternate in enumerate(alternatives):
-            button = self.button(alternate, lambda value=alternate: self.insert(cursor, value))
+            button = self.button(alternate, lambda value=alternate: (
+                self.remember_spelling(cursor.selectedText(), value), self.insert(cursor, value)))
             if index == 0:
                 button.setIcon(action_icon("fix", "#7359C8"))
             button.setToolTip("Replace word / Ibdel il-kelma")
@@ -1157,7 +1377,10 @@ class Pad(QWidget):
                     text += " "
             if text:
                 self.insert(destination, text)
-                self.mood("done", "Daħħalt it-test.", brief=True)
+                if replacing and original_word and text.casefold() != original_word.casefold():
+                    self.remember_spelling(original_word, text, by_voice=True)
+                else:
+                    self.mood("done", "Daħħalt it-test.", brief=True)
 
         def choose(idea, options):
             for option in options:
@@ -1173,6 +1396,21 @@ class Pad(QWidget):
             self.mood("idea", "Choose a sentence. / Agħżel sentenza.")
 
         self.host.pad_capture(mode, language, choose if mode == "help" else insert)
+
+    def remember_spelling(self, wrong, right, *, by_voice=False):
+        """You told Buddy the right word: next time it is written right by itself.
+        By voice she only learns letter fixes (hadt -> ħadt): a mishearing (hadt -> hot) is not learned."""
+        wrong, right = wrong.strip(" .,!?"), right.strip(" .,!?")
+        if " " in wrong or " " in right or not wrong or wrong.casefold() == right.casefold():
+            return
+        if by_voice and plain(wrong) != plain(right):
+            self.mood("done", "Bdiltha. · Changed it.", brief=True)
+            return
+        try:
+            learn_word(self.language, wrong, right)
+            self.mood("party", f"Tgħallimt: {right}! · I learned it!", brief=True)
+        except (OSError, ValueError):
+            logging.exception("Could not remember the spelling")
 
     def put_in_chat(self):
         text = self.editor.toPlainText()

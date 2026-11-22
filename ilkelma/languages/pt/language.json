@@ -1,0 +1,38 @@
+{
+  "name": "Português",
+  "english_name": "Portuguese",
+  "order": 13,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "pt-PT-RaquelNeural"
+  ],
+  "lcid": "0x16",
+  "ocr": "pt-PT",
+  "says": "diz",
+  "comment_status": [
+    "Estou a ler os comentários",
+    "Parei"
+  ],
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#FF0000\"/><rect width=\"12\" height=\"30\" fill=\"#006600\"/><circle cx=\"12\" cy=\"15\" r=\"5\" fill=\"#FFCC00\"/>",
+  "common_words": "os uma não você obrigado obrigada olá bom dia muito também está estou isso tudo bem eu sim amigo nós então ainda",
+  "buddy": {
+    "greeting": "Olá, {user}! Eu sou o {buddy}.",
+    "language": "Agora escrevo em português.",
+    "typing_box": "Primeiro clica na caixa onde escreves.",
+    "nothing_heard": "Não ouvi palavras. Tenta outra vez.",
+    "select_text": "Seleciona um texto e carrega outra vez em Ler.",
+    "pasted": "O teu texto já está!",
+    "thanks": "De nada, {user}!",
+    "laugh": "Fizeste-me rir, {user}!",
+    "silence": "Não te ouço. Verifica o microfone.",
+    "no_sound": "Não ouvi nada. Tenta outra vez.",
+    "task_failed": "Não consegui acabar. Tenta outra vez.",
+    "voices_failed": "Não chego às vozes online. Tenta daqui a pouco.",
+    "no_mic": "Escolhe um microfone nas Definições.",
+    "mic_disconnected": "O microfone desligou-se. Verifica as Definições.",
+    "mic_reconnected": "O microfone voltou.",
+    "no_message": "Não encontrei nenhuma mensagem acima da caixa.",
+    "paste_clipboard": "Não consegui colar. O teu texto está na área de transferência."
+  }
+}

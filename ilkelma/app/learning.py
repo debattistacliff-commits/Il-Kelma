@@ -24,7 +24,7 @@ def phrase_key(text):
 
 def aliases(entry):
     return {phrase_key(value) for value in
-            [*(entry[code] for code in LANGUAGES), *entry.get("aliases", [])]}
+            [*(entry[code] for code in LANGUAGES if entry.get(code)), *entry.get("aliases", [])]}
 
 
 def remembered(book, idea, language):

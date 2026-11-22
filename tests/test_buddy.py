@@ -46,7 +46,13 @@ class BuddyFeedbackTests(unittest.TestCase):
     def test_feedback_keys_have_matching_localized_bubbles(self):
         entries = packs()["en"]["buddy_feedback"]
         for code, pack in packs().items():
-            self.assertEqual(set(pack["buddy"]), set(entries))
+            if code in ("mt", "en", "it"):
+                self.assertEqual(set(pack["buddy"]), set(entries))
+            else:  # newer packs translate the common messages; the rest fall back to English
+                self.assertLessEqual(set(pack["buddy"]), set(entries))
+                self.assertTrue({"greeting", "language", "pasted"} <= set(pack["buddy"]))
+            for field in ("name", "english_name", "voices", "model", "flag", "says", "comment_status", "lcid"):
+                self.assertIn(field, pack, f"{code} {field}")
             self.assertEqual(feedback(code, "select_text")[1:], ("oops", True))
             self.assertEqual(feedback(code, "no_mic")[1], "sleep")
             self.assertEqual(feedback(code, "voices_failed")[1], "sad")

@@ -56,5 +56,14 @@
     "say_idea": "Għidli l-idea tiegħek. Meta tlesti, agħfas Help me say it.",
     "say_iva": "Għid “iva” biex tuża din il-frażi.",
     "say_option": "Għid numru biex tagħżel frażi, jew “iva” biex tużaha."
-  }
+  },
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#FFFFFF\"/><rect x=\"15\" width=\"15\" height=\"30\" fill=\"#CF142B\"/><rect x=\"3\" y=\"3\" width=\"8\" height=\"8\" fill=\"#B5B5B5\" stroke=\"#CF142B\" stroke-width=\"0.8\"/><path d=\"M7 4v6M4 7h6\" stroke=\"#8C8C8C\" stroke-width=\"1.6\"/>",
+  "english_name": "Maltese",
+  "says": "tgħid",
+  "comment_status": [
+    "Qed naqra l-kummenti",
+    "Waqaft"
+  ],
+  "lcid": "0x3A",
+  "ocr": "en-GB"
 }

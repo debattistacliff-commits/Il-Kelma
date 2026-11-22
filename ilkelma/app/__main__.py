@@ -15,7 +15,7 @@ from PySide6.QtGui import QFont, QFontDatabase
 from PySide6.QtMultimedia import QMediaDevices, QAudio
 from PySide6.QtWidgets import (
     QApplication, QCheckBox, QComboBox, QDialog, QFormLayout, QGridLayout, QHBoxLayout,
-    QLabel, QLineEdit, QListWidget, QMainWindow, QMenu, QProgressBar, QPushButton, QScrollArea, QSystemTrayIcon,
+    QLabel, QLineEdit, QListWidget, QListWidgetItem, QMainWindow, QMenu, QProgressBar, QPushButton, QScrollArea, QSystemTrayIcon,
     QVBoxLayout, QWidget,
 )
 
@@ -30,7 +30,7 @@ from ilkelma.engine.phrasing import DEFAULT_MODEL
 from ilkelma.engine.stt import Engine
 from ilkelma.engine.tts import announce, play
 from ilkelma.engine.windows import Desktop, ForegroundTracker, screen_origins
-from ilkelma.languages import packs
+from ilkelma.languages import buddy_message, chosen, packs, set_chosen
 
 from .hotkeys import (
     COMMENTS_FALLBACKS, HELP_FALLBACKS, KEYS, POINT_FALLBACKS, READ_FALLBACKS, Hotkeys, bind_startup,
@@ -71,6 +71,9 @@ class Window(QMainWindow):
         super().__init__()
         self.application = application
         self.settings = DEFAULTS | load("settings", {})
+        set_chosen(self.settings["my_languages"])
+        if self.settings["language"] and self.settings["language"] not in chosen():
+            self.settings["language"] = ""
         self.history = load("history", [])[:20]
         backend = self.settings["engine"]
         self.engine = Engine(backend=backend if backend in ("whisper", "parakeet") else "whisper")
@@ -215,12 +218,22 @@ class Window(QMainWindow):
         form.addRow(self.setup)
         form.addRow(meter_row)
         self.language = QComboBox()
-        self.language.addItem("Auto", "")
-        for code, pack in packs().items():
-            self.language.addItem(pack["name"], code)
-        self.language.setCurrentIndex(max(0, self.language.findData(self.settings["language"])))
+        self.fill_language_box()
         self.language.currentIndexChanged.connect(self.language_changed)
         form.addRow("Speech language", self.language)
+        self.my_languages = QListWidget()
+        self.my_languages.setAccessibleName("My languages")
+        self.my_languages.setToolTip("Tick the languages you use. They go on Buddy's flag.")
+        self.my_languages.setMaximumHeight(180)
+        for code, pack in packs().items():
+            item = QListWidgetItem(f'{pack["name"]}  ·  {pack["english_name"]}')
+            item.setData(Qt.ItemDataRole.UserRole, code)
+            flags = item.flags() | Qt.ItemFlag.ItemIsUserCheckable
+            item.setFlags(flags & ~Qt.ItemFlag.ItemIsEnabled if code == "mt" else flags)
+            item.setCheckState(Qt.CheckState.Checked if code in chosen() else Qt.CheckState.Unchecked)
+            self.my_languages.addItem(item)
+        self.my_languages.itemChanged.connect(self.my_languages_changed)
+        form.addRow("My languages / Il-lingwi tiegħi", self.my_languages)
         self.backend = QComboBox()
         self.backend.addItem("Whisper", "whisper")
         self.backend.addItem("Parakeet", "parakeet")
@@ -418,6 +431,29 @@ class Window(QMainWindow):
         bounds = self.desktop.box_bounds(self.clipped)
         box = QRect(logical(*bounds[:2]), logical(*bounds[2:])) if bounds else QRect(logical(x, y), logical(x, y))
         self.buddy.set_position(buddy_position(box, screen.availableGeometry(), SIZE, SIZE + 18))
+
+    def fill_language_box(self):
+        self.language.blockSignals(True)
+        self.language.clear()
+        self.language.addItem("Auto", "")
+        for code, pack in chosen().items():
+            self.language.addItem(pack["name"], code)
+        self.language.setCurrentIndex(max(0, self.language.findData(self.settings["language"])))
+        self.language.blockSignals(False)
+
+    def my_languages_changed(self, _item=None):
+        codes = [self.my_languages.item(row).data(Qt.ItemDataRole.UserRole)
+                 for row in range(self.my_languages.count())
+                 if self.my_languages.item(row).checkState() == Qt.CheckState.Checked]
+        set_chosen(codes)
+        self.change("my_languages", list(chosen()))
+        if self.settings["language"] not in chosen():
+            self.change("language", "")
+            self.buddy.language = ""
+        self.fill_language_box()
+        self.buddy.load_page()
+        if self.pad is not None:
+            self.pad.fill_languages()
 
     def language_changed(self):
         language = self.language.currentData()
@@ -782,7 +818,7 @@ class Window(QMainWindow):
                 result = self.engine.transcribe(audio, language)
                 text = result["text"]
                 if language == "mt":
-                    text = apply_corrections(text, WordStore().patterns())
+                    text = apply_corrections(text, WordStore().spelling())
                 return (corrected(text, result["language"]),) if text else None
             except Exception:
                 logging.exception("Kelma Pad dictation failed")
@@ -884,10 +920,12 @@ class Window(QMainWindow):
             self.calibrate_mics()
 
     def apply_devices(self):
-        if self.preferred is None:
-            self.preferred = legacy_microphone(self.devices, self.settings["mic"])
-            if self.preferred:
-                self.remember_mic(self.preferred)
+        if self.preferred not in self.devices:
+            # Also when Windows gives the same microphone a new ID (another USB port): find it by name.
+            same_name = legacy_microphone(self.devices, self.settings["mic"])
+            twins = [i for i, d in self.devices.items() if legacy_microphone({i: d}, self.settings["mic"])]
+            if same_name and len(twins) == 1:
+                self.remember_mic(same_name)
         preferred = self.preferred in self.devices
         self.active_mic = self.preferred if preferred else fallback_microphone(self.devices, self.peaks)
         self.microphone.blockSignals(True)
@@ -1096,6 +1134,7 @@ class Window(QMainWindow):
     def bubble(self, message, *, after=None, hold=None, speak_message=True, offline=False, **values):
         language = self.settings["language"] or "mt"
         text, mood, speak = feedback(language, message, **values)
+        language = buddy_message(language, message)[1]
         self.buddy.show_message(text, mood, hold)
         if speak and speak_message and self.settings["buddy_speaks"]:
             self.stop_bubble_audio.set()

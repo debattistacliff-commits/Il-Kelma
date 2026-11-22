@@ -156,7 +156,8 @@ class RecorderTests(unittest.TestCase):
 
 class TextTests(unittest.TestCase):
     def test_languages_and_order(self):
-        self.assertEqual(list(packs()), ["en", "mt", "it"])
+        self.assertEqual(list(packs())[:3], ["en", "mt", "it"])
+        self.assertGreaterEqual(len(packs()), 17)
         for text, code in (("Nixtieq ngħidlek xi ħaġa", "mt"),
                            ("Good morning, how are you?", "en"),
                            ("Buongiorno, vorrei raccontarti qualcosa", "it")):

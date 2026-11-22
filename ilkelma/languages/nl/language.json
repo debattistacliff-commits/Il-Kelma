@@ -1,0 +1,38 @@
+{
+  "name": "Nederlands",
+  "english_name": "Dutch",
+  "order": 15,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "nl-NL-ColetteNeural"
+  ],
+  "lcid": "0x13",
+  "ocr": "nl-NL",
+  "says": "zegt",
+  "comment_status": [
+    "Ik lees de reacties",
+    "Ik ben gestopt"
+  ],
+  "flag": "<rect width=\"30\" height=\"10\" fill=\"#AE1C28\"/><rect y=\"10\" width=\"30\" height=\"10\" fill=\"#FFFFFF\"/><rect y=\"20\" width=\"30\" height=\"10\" fill=\"#21468B\"/>",
+  "common_words": "het een niet ik dat ook je jij wij zijn heb dank bedankt hoi goedemorgen heel mooi ja nee goed vriend vandaag hoe wat",
+  "buddy": {
+    "greeting": "Hoi {user}! Ik ben {buddy}.",
+    "language": "Nu schrijf ik in het Nederlands.",
+    "typing_box": "Klik eerst in het vak waar je typt.",
+    "nothing_heard": "Ik hoorde geen woorden. Probeer het opnieuw.",
+    "select_text": "Selecteer tekst en druk nog eens op Lezen.",
+    "pasted": "Je tekst staat erin!",
+    "thanks": "Graag gedaan, {user}!",
+    "laugh": "Je liet me lachen, {user}!",
+    "silence": "Ik hoor je niet. Controleer je microfoon.",
+    "no_sound": "Ik hoorde niets. Probeer het opnieuw.",
+    "task_failed": "Het lukte niet. Probeer het opnieuw.",
+    "voices_failed": "Ik kan de online stemmen niet bereiken. Probeer het straks.",
+    "no_mic": "Kies een microfoon in Instellingen.",
+    "mic_disconnected": "Je microfoon is losgekoppeld. Kijk in Instellingen.",
+    "mic_reconnected": "Je microfoon is terug.",
+    "no_message": "Ik vond geen bericht boven het typvak.",
+    "paste_clipboard": "Plakken lukte niet. Je tekst staat op het klembord."
+  }
+}

@@ -21,17 +21,13 @@ from ilkelma.engine.screen_ocr import (
     prepare, read_chat,
 )
 from ilkelma.engine.tts import announce, play
+from ilkelma.languages import packs
 from ilkelma.engine.windows import screen_origins
 from .buddy_native import exclude_app_windows
 from .learning import corrected
 from .storage import load, save
 
 
-COMMENT_STATUS = {
-    "mt": ("Qed naqra l-kummenti", "Waqaft"),
-    "en": ("Reading comments", "Stopped"),
-    "it": ("Sto leggendo i commenti", "Mi sono fermato"),
-}
 
 
 def comments_key(process, title):
@@ -333,7 +329,8 @@ class ScreenReader(QObject):
         QTimer.singleShot(100, self.poll)
 
     def comment_status(self, reading):
-        return COMMENT_STATUS.get(self.language, COMMENT_STATUS["mt"])[0 if reading else 1]
+        pack = packs().get(self.language) or packs()["mt"]
+        return pack.get("comment_status", packs()["en"]["comment_status"])[0 if reading else 1]
 
     def stop_comments(self, message=True):
         self.queue.clear()

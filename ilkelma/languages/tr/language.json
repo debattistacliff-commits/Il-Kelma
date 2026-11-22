@@ -1,0 +1,38 @@
+{
+  "name": "Türkçe",
+  "english_name": "Turkish",
+  "order": 23,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "tr-TR-EmelNeural"
+  ],
+  "lcid": "0x1F",
+  "ocr": "tr-TR",
+  "says": "diyor",
+  "comment_status": [
+    "Yorumları okuyorum",
+    "Durdum"
+  ],
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#E30A17\"/><circle cx=\"12\" cy=\"15\" r=\"6\" fill=\"#FFFFFF\"/><circle cx=\"13.5\" cy=\"15\" r=\"4.8\" fill=\"#E30A17\"/><path transform=\"translate(19.5 15) scale(2.6) rotate(-18)\" d=\"M0,-1L0.2245,-0.309L0.951,-0.309L0.363,0.118L0.588,0.809L0,0.382L-0.588,0.809L-0.363,0.118L-0.951,-0.309L-0.2245,-0.309Z\" fill=\"#FFFFFF\"/>",
+  "common_words": "ve bir bu ben sen biz değil evet hayır teşekkürler merhaba günaydın çok nasıl bugün arkadaş iyi var yok ne",
+  "buddy": {
+    "greeting": "Merhaba {user}! Ben {buddy}.",
+    "language": "Artık Türkçe yazıyorum.",
+    "typing_box": "Önce yazdığın kutuya tıkla.",
+    "nothing_heard": "Hiç kelime duymadım. Tekrar dene.",
+    "select_text": "Bir metin seç, sonra yine Oku'ya bas.",
+    "pasted": "Metnin yerinde!",
+    "thanks": "Rica ederim, {user}!",
+    "laugh": "Beni güldürdün, {user}!",
+    "silence": "Seni duyamıyorum. Mikrofonu kontrol et.",
+    "no_sound": "Hiçbir şey duymadım. Tekrar dene.",
+    "task_failed": "Bitiremedim. Tekrar dene.",
+    "voices_failed": "Çevrimiçi seslere ulaşamıyorum. Birazdan dene.",
+    "no_mic": "Ayarlar'dan bir mikrofon seç.",
+    "mic_disconnected": "Mikrofonun bağlantısı kesildi. Ayarlar'a bak.",
+    "mic_reconnected": "Mikrofon geri geldi.",
+    "no_message": "Yazma kutusunun üstünde mesaj bulamadım.",
+    "paste_clipboard": "Yapıştıramadım. Metnin panoda."
+  }
+}

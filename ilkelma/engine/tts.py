@@ -165,7 +165,7 @@ def play_words(text, language, stop, mark, *, online=False):
             if stop.is_set():
                 return
             voice = Dispatch("SAPI.SpVoice")
-            primary = {"mt": 0x3A, "en": 0x09, "it": 0x10}[language]
+            primary = int(packs()[language].get("lcid", "0x09"), 16)
             for token in voice.GetVoices():
                 locales = token.GetAttribute("Language").split(";")
                 if any(int(locale, 16) & 0x3FF == primary for locale in locales if locale):

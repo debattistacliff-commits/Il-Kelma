@@ -1,0 +1,38 @@
+{
+  "name": "Español",
+  "english_name": "Spanish",
+  "order": 10,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "es-ES-ElviraNeural"
+  ],
+  "lcid": "0x0A",
+  "ocr": "es-ES",
+  "says": "dice",
+  "comment_status": [
+    "Estoy leyendo los comentarios",
+    "He parado"
+  ],
+  "flag": "<rect width=\"30\" height=\"30\" fill=\"#AA151B\"/><rect y=\"7.5\" width=\"30\" height=\"15\" fill=\"#F1BF00\"/>",
+  "common_words": "el los las del una por pero muy está estoy gracias hola buenos días qué cómo también hay usted nosotros tengo quiero mucho amigo bueno sí",
+  "buddy": {
+    "greeting": "¡Hola, {user}! Soy {buddy}.",
+    "language": "Ahora escribo en español.",
+    "typing_box": "Primero haz clic en la casilla donde escribes.",
+    "nothing_heard": "No he oído palabras. Inténtalo otra vez.",
+    "select_text": "Selecciona un texto y pulsa Leer otra vez.",
+    "pasted": "¡Tu texto ya está!",
+    "thanks": "¡De nada, {user}!",
+    "laugh": "¡Me has hecho reír, {user}!",
+    "silence": "No te oigo. Revisa el micrófono.",
+    "no_sound": "No he oído nada. Inténtalo otra vez.",
+    "task_failed": "No he podido terminar. Inténtalo otra vez.",
+    "voices_failed": "No llego a las voces en línea. Inténtalo pronto.",
+    "no_mic": "Elige un micrófono en Ajustes.",
+    "mic_disconnected": "El micrófono se ha desconectado. Revisa Ajustes.",
+    "mic_reconnected": "El micrófono ha vuelto.",
+    "no_message": "No he encontrado ningún mensaje encima de la casilla.",
+    "paste_clipboard": "No he podido pegar. Tu texto está en el portapapeles."
+  }
+}

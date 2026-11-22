@@ -19,6 +19,7 @@ from ilkelma.engine.language import detect
 from ilkelma.engine.learned_words import WordStore, tokens
 from maltese_fix import ARTICLES, match_case
 from ilkelma.engine.maltese_fix import fix
+from ilkelma.languages import packs
 
 
 @dataclass(frozen=True)
@@ -52,7 +53,7 @@ def ink_brightness(image, box):
 
 
 async def recognize(image, language="mt", *, sample_ink=False):
-    preferred = "it-IT" if language == "it" else "en-GB"
+    preferred = packs().get(language, {}).get("ocr", "en-GB")
     engine = (OcrEngine.try_create_from_language(Language(preferred))
               or OcrEngine.try_create_from_language(Language("en-US"))
               or OcrEngine.try_create_from_user_profile_languages())
@@ -326,5 +327,5 @@ def prepare(text, fallback, corrections):
 
 def prepare_maltese(text, corrections):
     text = unicodedata.normalize("NFC", text)
-    text = apply_patterns(text, WordStore().patterns())
+    text = apply_patterns(text, WordStore().spelling())
     return corrections(fix(text, lang="mt"), "mt")

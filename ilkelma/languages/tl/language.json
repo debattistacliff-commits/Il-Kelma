@@ -1,0 +1,39 @@
+{
+  "name": "Filipino",
+  "english_name": "Filipino",
+  "order": 20,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "fil-PH-BlessicaNeural"
+  ],
+  "lcid": "0x64",
+  "ocr": "en-US",
+  "wordfreq": "fil",
+  "says": "ay nagsabi",
+  "comment_status": [
+    "Binabasa ko ang mga komento",
+    "Tumigil ako"
+  ],
+  "flag": "<rect width=\"30\" height=\"15\" fill=\"#0038A8\"/><rect y=\"15\" width=\"30\" height=\"15\" fill=\"#CE1126\"/><path d=\"M0 0L13 15L0 30Z\" fill=\"#FFFFFF\"/><circle cx=\"4.5\" cy=\"15\" r=\"2.2\" fill=\"#FCD116\"/>",
+  "common_words": "ang ng mga sa ako ikaw ka salamat po opo kumusta magandang umaga hindi oo ito iyan tayo kami ninyo talaga naman lang",
+  "buddy": {
+    "greeting": "Kumusta, {user}! Ako si {buddy}.",
+    "language": "Ngayon nagsusulat ako sa Filipino.",
+    "typing_box": "I-click muna ang kahon kung saan ka nagta-type.",
+    "nothing_heard": "Wala akong narinig na salita. Subukan ulit.",
+    "select_text": "Pumili ng teksto, tapos pindutin ulit ang Basahin.",
+    "pasted": "Nandiyan na ang teksto mo!",
+    "thanks": "Walang anuman, {user}!",
+    "laugh": "Pinatawa mo ako, {user}!",
+    "silence": "Hindi kita marinig. Tingnan ang mikropono.",
+    "no_sound": "Wala akong narinig. Subukan ulit.",
+    "task_failed": "Hindi ko natapos. Subukan ulit.",
+    "voices_failed": "Hindi ko maabot ang online na boses. Subukan mamaya.",
+    "no_mic": "Pumili ng mikropono sa Settings.",
+    "mic_disconnected": "Nadiskonekta ang mikropono. Tingnan ang Settings.",
+    "mic_reconnected": "Bumalik na ang mikropono.",
+    "no_message": "Wala akong nakitang mensahe sa itaas ng kahon.",
+    "paste_clipboard": "Hindi ko ma-paste. Nasa clipboard ang teksto mo."
+  }
+}

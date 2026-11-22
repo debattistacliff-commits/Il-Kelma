@@ -1,0 +1,3490 @@
+{
+  "note": "Draft entries. Each one stays 'not checked' until a Maltese speaker approves it in the app.",
+  "categories": [
+    {
+      "id": "idjomi",
+      "icon": "💬",
+      "mt": "L-Idjomi",
+      "en": "Idioms",
+      "entries": [
+        {
+          "text": "Għandu qalbu tad-deheb",
+          "meaning_mt": "Persuna tajba, ġeneruża u li tgħin lill-oħrajn.",
+          "meaning_en": "A kind, generous person who helps others.",
+          "example": "Marija dejjem tgħin lil kulħadd. Għandha qalbha tad-deheb.",
+          "keys": [
+            "qalbu",
+            "qalbha",
+            "deheb"
+          ]
+        },
+        {
+          "text": "Qiegħed fuq ix-xwiek",
+          "meaning_mt": "Inkwetat u ma jistax jistenna.",
+          "meaning_en": "Anxious, cannot wait.",
+          "example": "Qiegħed fuq ix-xwiek sakemm joħorġu r-riżultati.",
+          "keys": [
+            "xwiek"
+          ]
+        },
+        {
+          "text": "Għandu rasu iebsa",
+          "meaning_mt": "Ma jibdilx fehmtu faċilment.",
+          "meaning_en": "Stubborn.",
+          "example": "Ma tistax tikkonvinċih, għandu rasu iebsa.",
+          "keys": [
+            "rasu",
+            "iebsa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiel",
+      "icon": "📜",
+      "mt": "Il-Qwiel",
+      "en": "Proverbs",
+      "entries": [
+        {
+          "text": "Mhux kull ma jleqq deheb",
+          "meaning_mt": "Mhux dak kollu li jidher sabiħ huwa tajjeb.",
+          "meaning_en": "All that glitters is not gold.",
+          "example": "Oqgħod attent b'dik l-offerta. Mhux kull ma jleqq deheb.",
+          "keys": [
+            "jleqq"
+          ]
+        },
+        {
+          "text": "Aħjar tard milli qatt",
+          "meaning_mt": "Aħjar tagħmel xi ħaġa tard milli xejn.",
+          "meaning_en": "Better late than never.",
+          "example": "Wasalt fl-aħħar, imma aħjar tard milli qatt.",
+          "keys": [
+            "tard",
+            "qatt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbi",
+      "icon": "🔁",
+      "mt": "Il-Verbi",
+      "en": "Verbs",
+      "entries": [
+        {
+          "text": "Ħa, nieħu, ħu",
+          "meaning_mt": "Il-verb ħa: ħadt, nieħu, ħu.",
+          "meaning_en": "The verb 'to take' in Maltese.",
+          "example": "Ħadt il-ktieb. Nieħu l-kafè kull filgħodu. Ħu din!",
+          "keys": [
+            "ħa",
+            "nieħu",
+            "jieħu",
+            "ħadt",
+            "ħu",
+            "take"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nieħu",
+                  "ma niħux"
+                ],
+                [
+                  "inti",
+                  "tieħu",
+                  "ma tiħux"
+                ],
+                [
+                  "huwa",
+                  "jieħu",
+                  "ma jiħux"
+                ],
+                [
+                  "hija",
+                  "tieħu",
+                  "ma tiħux"
+                ],
+                [
+                  "aħna",
+                  "nieħdu",
+                  "ma niħdux"
+                ],
+                [
+                  "intom",
+                  "tieħdu",
+                  "ma tiħdux"
+                ],
+                [
+                  "huma",
+                  "jieħdu",
+                  "ma jiħdux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ħadt",
+                  "ma ħadtx"
+                ],
+                [
+                  "inti",
+                  "ħadt",
+                  "ma ħadtx"
+                ],
+                [
+                  "huwa",
+                  "ħa",
+                  "ma ħax"
+                ],
+                [
+                  "hija",
+                  "ħadet",
+                  "ma ħaditx"
+                ],
+                [
+                  "aħna",
+                  "ħadna",
+                  "ma ħadniex"
+                ],
+                [
+                  "intom",
+                  "ħadtu",
+                  "ma ħadtux"
+                ],
+                [
+                  "huma",
+                  "ħadu",
+                  "ma ħadux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ħu",
+                  "tiħux"
+                ],
+                [
+                  "intom",
+                  "ħudu",
+                  "tiħdux"
+                ]
+              ]
+            }
+          ],
+          "en_forms": [
+            "take",
+            "takes",
+            "took"
+          ],
+          "link": "https://verb.mt/he/ha"
+        },
+        {
+          "text": "Kiteb, nikteb, ikteb",
+          "meaning_mt": "Il-verb kiteb: ktibt, nikteb, ikteb.",
+          "meaning_en": "The verb 'to write' in Maltese.",
+          "example": "Jiena nikteb. Huwa kiteb.",
+          "keys": [
+            "kiteb",
+            "nikteb",
+            "ktibt",
+            "write"
+          ],
+          "en_forms": [
+            "write",
+            "writes",
+            "wrote"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nikteb",
+                  "ma niktibx"
+                ],
+                [
+                  "inti",
+                  "tikteb",
+                  "ma tiktibx"
+                ],
+                [
+                  "huwa",
+                  "jikteb",
+                  "ma jiktibx"
+                ],
+                [
+                  "hija",
+                  "tikteb",
+                  "ma tiktibx"
+                ],
+                [
+                  "aħna",
+                  "niktbu",
+                  "ma niktbux"
+                ],
+                [
+                  "intom",
+                  "tiktbu",
+                  "ma tiktbux"
+                ],
+                [
+                  "huma",
+                  "jiktbu",
+                  "ma jiktbux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ktibt",
+                  "ma ktibtx"
+                ],
+                [
+                  "inti",
+                  "ktibt",
+                  "ma ktibtx"
+                ],
+                [
+                  "huwa",
+                  "kiteb",
+                  "ma kitibx"
+                ],
+                [
+                  "hija",
+                  "kitbet",
+                  "ma kitbitx"
+                ],
+                [
+                  "aħna",
+                  "ktibna",
+                  "ma ktibniex"
+                ],
+                [
+                  "intom",
+                  "ktibtu",
+                  "ma ktibtux"
+                ],
+                [
+                  "huma",
+                  "kitbu",
+                  "ma kitbux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ikteb",
+                  "tiktibx"
+                ],
+                [
+                  "intom",
+                  "iktbu",
+                  "tiktbux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Fehem, nifhem, ifhem",
+          "meaning_mt": "Il-verb fehem: fhimt, nifhem, ifhem.",
+          "meaning_en": "The verb 'to understand' in Maltese.",
+          "example": "Jiena nifhem. Huwa fehem.",
+          "keys": [
+            "fehem",
+            "nifhem",
+            "fhimt",
+            "understand"
+          ],
+          "en_forms": [
+            "understand",
+            "understands",
+            "understood"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nifhem",
+                  "ma nifhimx"
+                ],
+                [
+                  "inti",
+                  "tifhem",
+                  "ma tifhimx"
+                ],
+                [
+                  "huwa",
+                  "jifhem",
+                  "ma jifhimx"
+                ],
+                [
+                  "hija",
+                  "tifhem",
+                  "ma tifhimx"
+                ],
+                [
+                  "aħna",
+                  "nifhmu",
+                  "ma nifhmux"
+                ],
+                [
+                  "intom",
+                  "tifhmu",
+                  "ma tifhmux"
+                ],
+                [
+                  "huma",
+                  "jifhmu",
+                  "ma jifhmux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "fhimt",
+                  "ma fhimtx"
+                ],
+                [
+                  "inti",
+                  "fhimt",
+                  "ma fhimtx"
+                ],
+                [
+                  "huwa",
+                  "fehem",
+                  "ma fehimx"
+                ],
+                [
+                  "hija",
+                  "fehmet",
+                  "ma fehmitx"
+                ],
+                [
+                  "aħna",
+                  "fhimna",
+                  "ma fhimniex"
+                ],
+                [
+                  "intom",
+                  "fhimtu",
+                  "ma fhimtux"
+                ],
+                [
+                  "huma",
+                  "fehmu",
+                  "ma fehmux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ifhem",
+                  "tifhimx"
+                ],
+                [
+                  "intom",
+                  "ifhmu",
+                  "tifhmux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Ħareġ, noħroġ, oħroġ",
+          "meaning_mt": "Il-verb ħareġ: ħriġt, noħroġ, oħroġ.",
+          "meaning_en": "The verb 'to go out' in Maltese.",
+          "example": "Jiena noħroġ. Huwa ħareġ.",
+          "keys": [
+            "ħareġ",
+            "noħroġ",
+            "ħriġt",
+            "out"
+          ],
+          "en_forms": [
+            "go out",
+            "goes out",
+            "went out"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "noħroġ",
+                  "ma noħroġx"
+                ],
+                [
+                  "inti",
+                  "toħroġ",
+                  "ma toħroġx"
+                ],
+                [
+                  "huwa",
+                  "joħroġ",
+                  "ma joħroġx"
+                ],
+                [
+                  "hija",
+                  "toħroġ",
+                  "ma toħroġx"
+                ],
+                [
+                  "aħna",
+                  "noħorġu",
+                  "ma noħorġux"
+                ],
+                [
+                  "intom",
+                  "toħorġu",
+                  "ma toħorġux"
+                ],
+                [
+                  "huma",
+                  "joħorġu",
+                  "ma joħorġux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ħriġt",
+                  "ma ħriġtx"
+                ],
+                [
+                  "inti",
+                  "ħriġt",
+                  "ma ħriġtx"
+                ],
+                [
+                  "huwa",
+                  "ħareġ",
+                  "ma ħariġx"
+                ],
+                [
+                  "hija",
+                  "ħarġet",
+                  "ma ħarġitx"
+                ],
+                [
+                  "aħna",
+                  "ħriġna",
+                  "ma ħriġniex"
+                ],
+                [
+                  "intom",
+                  "ħriġtu",
+                  "ma ħriġtux"
+                ],
+                [
+                  "huma",
+                  "ħarġu",
+                  "ma ħarġux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "oħroġ",
+                  "toħroġx"
+                ],
+                [
+                  "intom",
+                  "oħorġu",
+                  "toħorġux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Daħal, nidħol, idħol",
+          "meaning_mt": "Il-verb daħal: dħalt, nidħol, idħol.",
+          "meaning_en": "The verb 'to come in' in Maltese.",
+          "example": "Jiena nidħol. Huwa daħal.",
+          "keys": [
+            "daħal",
+            "nidħol",
+            "dħalt",
+            "in"
+          ],
+          "en_forms": [
+            "come in",
+            "comes in",
+            "came in"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nidħol",
+                  "ma nidħolx"
+                ],
+                [
+                  "inti",
+                  "tidħol",
+                  "ma tidħolx"
+                ],
+                [
+                  "huwa",
+                  "jidħol",
+                  "ma jidħolx"
+                ],
+                [
+                  "hija",
+                  "tidħol",
+                  "ma tidħolx"
+                ],
+                [
+                  "aħna",
+                  "nidħlu",
+                  "ma nidħlux"
+                ],
+                [
+                  "intom",
+                  "tidħlu",
+                  "ma tidħlux"
+                ],
+                [
+                  "huma",
+                  "jidħlu",
+                  "ma jidħlux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "dħalt",
+                  "ma dħaltx"
+                ],
+                [
+                  "inti",
+                  "dħalt",
+                  "ma dħaltx"
+                ],
+                [
+                  "huwa",
+                  "daħal",
+                  "ma daħalx"
+                ],
+                [
+                  "hija",
+                  "daħlet",
+                  "ma daħlitx"
+                ],
+                [
+                  "aħna",
+                  "dħalna",
+                  "ma dħalniex"
+                ],
+                [
+                  "intom",
+                  "dħaltu",
+                  "ma dħaltux"
+                ],
+                [
+                  "huma",
+                  "daħlu",
+                  "ma daħlux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "idħol",
+                  "tidħolx"
+                ],
+                [
+                  "intom",
+                  "idħlu",
+                  "tidħlux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Xorob, nixrob, ixrob",
+          "meaning_mt": "Il-verb xorob: xrobt, nixrob, ixrob.",
+          "meaning_en": "The verb 'to drink' in Maltese.",
+          "example": "Jiena nixrob. Huwa xorob.",
+          "keys": [
+            "xorob",
+            "nixrob",
+            "xrobt",
+            "drink"
+          ],
+          "en_forms": [
+            "drink",
+            "drinks",
+            "drank"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nixrob",
+                  "ma nixrobx"
+                ],
+                [
+                  "inti",
+                  "tixrob",
+                  "ma tixrobx"
+                ],
+                [
+                  "huwa",
+                  "jixrob",
+                  "ma jixrobx"
+                ],
+                [
+                  "hija",
+                  "tixrob",
+                  "ma tixrobx"
+                ],
+                [
+                  "aħna",
+                  "nixorbu",
+                  "ma nixorbux"
+                ],
+                [
+                  "intom",
+                  "tixorbu",
+                  "ma tixorbux"
+                ],
+                [
+                  "huma",
+                  "jixorbu",
+                  "ma jixorbux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "xrobt",
+                  "ma xrobtx"
+                ],
+                [
+                  "inti",
+                  "xrobt",
+                  "ma xrobtx"
+                ],
+                [
+                  "huwa",
+                  "xorob",
+                  "ma xorobx"
+                ],
+                [
+                  "hija",
+                  "xorbot",
+                  "ma xorbotx"
+                ],
+                [
+                  "aħna",
+                  "xrobna",
+                  "ma xrobniex"
+                ],
+                [
+                  "intom",
+                  "xrobtu",
+                  "ma xrobtux"
+                ],
+                [
+                  "huma",
+                  "xorbu",
+                  "ma xorbux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ixrob",
+                  "tixrobx"
+                ],
+                [
+                  "intom",
+                  "ixorbu",
+                  "tixorbux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "xrobniex"
+          ]
+        },
+        {
+          "text": "Ħadem, naħdem, aħdem",
+          "meaning_mt": "Il-verb ħadem: ħdimt, naħdem, aħdem.",
+          "meaning_en": "The verb 'to work' in Maltese.",
+          "example": "Jiena naħdem. Huwa ħadem.",
+          "keys": [
+            "ħadem",
+            "naħdem",
+            "ħdimt",
+            "work"
+          ],
+          "en_forms": [
+            "work",
+            "works",
+            "worked"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "naħdem",
+                  "ma naħdimx"
+                ],
+                [
+                  "inti",
+                  "taħdem",
+                  "ma taħdimx"
+                ],
+                [
+                  "huwa",
+                  "jaħdem",
+                  "ma jaħdimx"
+                ],
+                [
+                  "hija",
+                  "taħdem",
+                  "ma taħdimx"
+                ],
+                [
+                  "aħna",
+                  "naħdmu",
+                  "ma naħdmux"
+                ],
+                [
+                  "intom",
+                  "taħdmu",
+                  "ma taħdmux"
+                ],
+                [
+                  "huma",
+                  "jaħdmu",
+                  "ma jaħdmux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ħdimt",
+                  "ma ħdimtx"
+                ],
+                [
+                  "inti",
+                  "ħdimt",
+                  "ma ħdimtx"
+                ],
+                [
+                  "huwa",
+                  "ħadem",
+                  "ma ħadimx"
+                ],
+                [
+                  "hija",
+                  "ħadmet",
+                  "ma ħadmitx"
+                ],
+                [
+                  "aħna",
+                  "ħdimna",
+                  "ma ħdimniex"
+                ],
+                [
+                  "intom",
+                  "ħdimtu",
+                  "ma ħdimtux"
+                ],
+                [
+                  "huma",
+                  "ħadmu",
+                  "ma ħadmux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "aħdem",
+                  "taħdimx"
+                ],
+                [
+                  "intom",
+                  "aħdmu",
+                  "taħdmux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Ħasel, naħsel, aħsel",
+          "meaning_mt": "Il-verb ħasel: ħsilt, naħsel, aħsel.",
+          "meaning_en": "The verb 'to wash' in Maltese.",
+          "example": "Jiena naħsel. Huwa ħasel.",
+          "keys": [
+            "ħasel",
+            "naħsel",
+            "ħsilt",
+            "wash"
+          ],
+          "en_forms": [
+            "wash",
+            "washes",
+            "washed"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "naħsel",
+                  "ma naħsilx"
+                ],
+                [
+                  "inti",
+                  "taħsel",
+                  "ma taħsilx"
+                ],
+                [
+                  "huwa",
+                  "jaħsel",
+                  "ma jaħsilx"
+                ],
+                [
+                  "hija",
+                  "taħsel",
+                  "ma taħsilx"
+                ],
+                [
+                  "aħna",
+                  "naħslu",
+                  "ma naħslux"
+                ],
+                [
+                  "intom",
+                  "taħslu",
+                  "ma taħslux"
+                ],
+                [
+                  "huma",
+                  "jaħslu",
+                  "ma jaħslux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ħsilt",
+                  "ma ħsiltx"
+                ],
+                [
+                  "inti",
+                  "ħsilt",
+                  "ma ħsiltx"
+                ],
+                [
+                  "huwa",
+                  "ħasel",
+                  "ma ħasilx"
+                ],
+                [
+                  "hija",
+                  "ħaslet",
+                  "ma ħaslitx"
+                ],
+                [
+                  "aħna",
+                  "ħsilna",
+                  "ma ħsilniex"
+                ],
+                [
+                  "intom",
+                  "ħsiltu",
+                  "ma ħsiltux"
+                ],
+                [
+                  "huma",
+                  "ħaslu",
+                  "ma ħaslux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "aħsel",
+                  "taħsilx"
+                ],
+                [
+                  "intom",
+                  "aħslu",
+                  "taħslux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "naħsilx",
+            "ħsilniex",
+            "ħsiltux"
+          ]
+        },
+        {
+          "text": "Fetaħ, niftaħ, iftaħ",
+          "meaning_mt": "Il-verb fetaħ: ftaħt, niftaħ, iftaħ.",
+          "meaning_en": "The verb 'to open' in Maltese.",
+          "example": "Jiena niftaħ. Huwa fetaħ.",
+          "keys": [
+            "fetaħ",
+            "niftaħ",
+            "ftaħt",
+            "open"
+          ],
+          "en_forms": [
+            "open",
+            "opens",
+            "opened"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "niftaħ",
+                  "ma niftaħx"
+                ],
+                [
+                  "inti",
+                  "tiftaħ",
+                  "ma tiftaħx"
+                ],
+                [
+                  "huwa",
+                  "jiftaħ",
+                  "ma jiftaħx"
+                ],
+                [
+                  "hija",
+                  "tiftaħ",
+                  "ma tiftaħx"
+                ],
+                [
+                  "aħna",
+                  "niftħu",
+                  "ma niftħux"
+                ],
+                [
+                  "intom",
+                  "tiftħu",
+                  "ma tiftħux"
+                ],
+                [
+                  "huma",
+                  "jiftħu",
+                  "ma jiftħux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "ftaħt",
+                  "ma ftaħtx"
+                ],
+                [
+                  "inti",
+                  "ftaħt",
+                  "ma ftaħtx"
+                ],
+                [
+                  "huwa",
+                  "fetaħ",
+                  "ma fetaħx"
+                ],
+                [
+                  "hija",
+                  "fetħet",
+                  "ma fetħitx"
+                ],
+                [
+                  "aħna",
+                  "ftaħna",
+                  "ma ftaħniex"
+                ],
+                [
+                  "intom",
+                  "ftaħtu",
+                  "ma ftaħtux"
+                ],
+                [
+                  "huma",
+                  "fetħu",
+                  "ma fetħux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "iftaħ",
+                  "tiftaħx"
+                ],
+                [
+                  "intom",
+                  "iftħu",
+                  "tiftħux"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": []
+        },
+        {
+          "text": "Bbukkja, nibbukkja, ibbukkja",
+          "meaning_mt": "Il-verb bbukkja: bbukkjajt, nibbukkja, ibbukkja.",
+          "meaning_en": "The verb 'to book' in Maltese.",
+          "example": "Jiena nibbukkja. Huwa bbukkja.",
+          "keys": [
+            "bbukkja",
+            "nibbukkja",
+            "bbukkjajt",
+            "book"
+          ],
+          "en_forms": [
+            "book",
+            "books",
+            "booked"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbukkja",
+                  "ma nibbukkjax"
+                ],
+                [
+                  "inti",
+                  "tibbukkja",
+                  "ma tibbukkjax"
+                ],
+                [
+                  "huwa",
+                  "jibbukkja",
+                  "ma jibbukkjax"
+                ],
+                [
+                  "hija",
+                  "tibbukkja",
+                  "ma tibbukkjax"
+                ],
+                [
+                  "aħna",
+                  "nibbukkjaw",
+                  "ma nibbukkjawx"
+                ],
+                [
+                  "intom",
+                  "tibbukkjaw",
+                  "ma tibbukkjawx"
+                ],
+                [
+                  "huma",
+                  "jibbukkjaw",
+                  "ma jibbukkjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbukkjajt",
+                  "ma bbukkjajtx"
+                ],
+                [
+                  "inti",
+                  "bbukkjajt",
+                  "ma bbukkjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbukkja",
+                  "ma bbukkjax"
+                ],
+                [
+                  "hija",
+                  "bbukkjat",
+                  "ma bbukkjatx"
+                ],
+                [
+                  "aħna",
+                  "bbukkjajna",
+                  "ma bbukkjajniex"
+                ],
+                [
+                  "intom",
+                  "bbukkjajtu",
+                  "ma bbukkjajtux"
+                ],
+                [
+                  "huma",
+                  "bbukkjaw",
+                  "ma bbukkjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbukkja",
+                  "tibbukkjax"
+                ],
+                [
+                  "intom",
+                  "ibbukkjaw",
+                  "tibbukkjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbukkjajniex",
+            "bbukkjajtu",
+            "bbukkjajtux",
+            "bbukkjajtx",
+            "bbukkjatx",
+            "bbukkjawx",
+            "jibbukkjax",
+            "nibbukkjawx",
+            "nibbukkjax"
+          ]
+        },
+        {
+          "text": "Bbenefika, nibbenefika, ibbenefika",
+          "meaning_mt": "Il-verb bbenefika: bbenefikajt, nibbenefika, ibbenefika.",
+          "meaning_en": "The verb 'to benefit' in Maltese.",
+          "example": "Jiena nibbenefika. Huwa bbenefika.",
+          "keys": [
+            "bbenefika",
+            "nibbenefika",
+            "bbenefikajt",
+            "benefit"
+          ],
+          "en_forms": [
+            "benefit",
+            "benefits",
+            "benefited"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbenefika",
+                  "ma nibbenefikax"
+                ],
+                [
+                  "inti",
+                  "tibbenefika",
+                  "ma tibbenefikax"
+                ],
+                [
+                  "huwa",
+                  "jibbenefika",
+                  "ma jibbenefikax"
+                ],
+                [
+                  "hija",
+                  "tibbenefika",
+                  "ma tibbenefikax"
+                ],
+                [
+                  "aħna",
+                  "nibbenefikaw",
+                  "ma nibbenefikawx"
+                ],
+                [
+                  "intom",
+                  "tibbenefikaw",
+                  "ma tibbenefikawx"
+                ],
+                [
+                  "huma",
+                  "jibbenefikaw",
+                  "ma jibbenefikawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbenefikajt",
+                  "ma bbenefikajtx"
+                ],
+                [
+                  "inti",
+                  "bbenefikajt",
+                  "ma bbenefikajtx"
+                ],
+                [
+                  "huwa",
+                  "bbenefika",
+                  "ma bbenefikax"
+                ],
+                [
+                  "hija",
+                  "bbenefikat",
+                  "ma bbenefikatx"
+                ],
+                [
+                  "aħna",
+                  "bbenefikajna",
+                  "ma bbenefikajniex"
+                ],
+                [
+                  "intom",
+                  "bbenefikajtu",
+                  "ma bbenefikajtux"
+                ],
+                [
+                  "huma",
+                  "bbenefikaw",
+                  "ma bbenefikawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbenefika",
+                  "tibbenefikax"
+                ],
+                [
+                  "intom",
+                  "ibbenefikaw",
+                  "tibbenefikawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbenefikajniex",
+            "bbenefikajtux",
+            "tibbenefikawx"
+          ]
+        },
+        {
+          "text": "Bbaża, nibbaża, ibbaża",
+          "meaning_mt": "Il-verb bbaża: bbażajt, nibbaża, ibbaża.",
+          "meaning_en": "The verb 'to base' in Maltese.",
+          "example": "Jiena nibbaża. Huwa bbaża.",
+          "keys": [
+            "bbaża",
+            "nibbaża",
+            "bbażajt",
+            "base"
+          ],
+          "en_forms": [
+            "base",
+            "bases",
+            "based"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbaża",
+                  "ma nibbażax"
+                ],
+                [
+                  "inti",
+                  "tibbaża",
+                  "ma tibbażax"
+                ],
+                [
+                  "huwa",
+                  "jibbaża",
+                  "ma jibbażax"
+                ],
+                [
+                  "hija",
+                  "tibbaża",
+                  "ma tibbażax"
+                ],
+                [
+                  "aħna",
+                  "nibbażaw",
+                  "ma nibbażawx"
+                ],
+                [
+                  "intom",
+                  "tibbażaw",
+                  "ma tibbażawx"
+                ],
+                [
+                  "huma",
+                  "jibbażaw",
+                  "ma jibbażawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbażajt",
+                  "ma bbażajtx"
+                ],
+                [
+                  "inti",
+                  "bbażajt",
+                  "ma bbażajtx"
+                ],
+                [
+                  "huwa",
+                  "bbaża",
+                  "ma bbażax"
+                ],
+                [
+                  "hija",
+                  "bbażat",
+                  "ma bbażatx"
+                ],
+                [
+                  "aħna",
+                  "bbażajna",
+                  "ma bbażajniex"
+                ],
+                [
+                  "intom",
+                  "bbażajtu",
+                  "ma bbażajtux"
+                ],
+                [
+                  "huma",
+                  "bbażaw",
+                  "ma bbażawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbaża",
+                  "tibbażax"
+                ],
+                [
+                  "intom",
+                  "ibbażaw",
+                  "tibbażawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbażajtux",
+            "bbażajtx",
+            "tibbażawx"
+          ]
+        },
+        {
+          "text": "Bbilanċja, nibbilanċja, ibbilanċja",
+          "meaning_mt": "Il-verb bbilanċja: bbilanċjajt, nibbilanċja, ibbilanċja.",
+          "meaning_en": "The verb 'to balance' in Maltese.",
+          "example": "Jiena nibbilanċja. Huwa bbilanċja.",
+          "keys": [
+            "bbilanċja",
+            "nibbilanċja",
+            "bbilanċjajt",
+            "balance"
+          ],
+          "en_forms": [
+            "balance",
+            "balances",
+            "balanced"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbilanċja",
+                  "ma nibbilanċjax"
+                ],
+                [
+                  "inti",
+                  "tibbilanċja",
+                  "ma tibbilanċjax"
+                ],
+                [
+                  "huwa",
+                  "jibbilanċja",
+                  "ma jibbilanċjax"
+                ],
+                [
+                  "hija",
+                  "tibbilanċja",
+                  "ma tibbilanċjax"
+                ],
+                [
+                  "aħna",
+                  "nibbilanċjaw",
+                  "ma nibbilanċjawx"
+                ],
+                [
+                  "intom",
+                  "tibbilanċjaw",
+                  "ma tibbilanċjawx"
+                ],
+                [
+                  "huma",
+                  "jibbilanċjaw",
+                  "ma jibbilanċjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbilanċjajt",
+                  "ma bbilanċjajtx"
+                ],
+                [
+                  "inti",
+                  "bbilanċjajt",
+                  "ma bbilanċjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbilanċja",
+                  "ma bbilanċjax"
+                ],
+                [
+                  "hija",
+                  "bbilanċjat",
+                  "ma bbilanċjatx"
+                ],
+                [
+                  "aħna",
+                  "bbilanċjajna",
+                  "ma bbilanċjajniex"
+                ],
+                [
+                  "intom",
+                  "bbilanċjajtu",
+                  "ma bbilanċjajtux"
+                ],
+                [
+                  "huma",
+                  "bbilanċjaw",
+                  "ma bbilanċjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbilanċja",
+                  "tibbilanċjax"
+                ],
+                [
+                  "intom",
+                  "ibbilanċjaw",
+                  "tibbilanċjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbilanċjajniex",
+            "bbilanċjajt",
+            "bbilanċjajtu",
+            "bbilanċjajtux",
+            "nibbilanċjax",
+            "tibbilanċjawx"
+          ]
+        },
+        {
+          "text": "Bbrilla, nibbrilla, ibbrilla",
+          "meaning_mt": "Il-verb bbrilla: bbrillajt, nibbrilla, ibbrilla.",
+          "meaning_en": "The verb 'to shine' in Maltese.",
+          "example": "Jiena nibbrilla. Huwa bbrilla.",
+          "keys": [
+            "bbrilla",
+            "nibbrilla",
+            "bbrillajt",
+            "shine"
+          ],
+          "en_forms": [
+            "shine",
+            "shines",
+            "shone"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbrilla",
+                  "ma nibbrillax"
+                ],
+                [
+                  "inti",
+                  "tibbrilla",
+                  "ma tibbrillax"
+                ],
+                [
+                  "huwa",
+                  "jibbrilla",
+                  "ma jibbrillax"
+                ],
+                [
+                  "hija",
+                  "tibbrilla",
+                  "ma tibbrillax"
+                ],
+                [
+                  "aħna",
+                  "nibbrillaw",
+                  "ma nibbrillawx"
+                ],
+                [
+                  "intom",
+                  "tibbrillaw",
+                  "ma tibbrillawx"
+                ],
+                [
+                  "huma",
+                  "jibbrillaw",
+                  "ma jibbrillawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbrillajt",
+                  "ma bbrillajtx"
+                ],
+                [
+                  "inti",
+                  "bbrillajt",
+                  "ma bbrillajtx"
+                ],
+                [
+                  "huwa",
+                  "bbrilla",
+                  "ma bbrillax"
+                ],
+                [
+                  "hija",
+                  "bbrillat",
+                  "ma bbrillatx"
+                ],
+                [
+                  "aħna",
+                  "bbrillajna",
+                  "ma bbrillajniex"
+                ],
+                [
+                  "intom",
+                  "bbrillajtu",
+                  "ma bbrillajtux"
+                ],
+                [
+                  "huma",
+                  "bbrillaw",
+                  "ma bbrillawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbrilla",
+                  "tibbrillax"
+                ],
+                [
+                  "intom",
+                  "ibbrillaw",
+                  "tibbrillawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbrillajna",
+            "bbrillajniex",
+            "bbrillajtu",
+            "bbrillajtux",
+            "bbrillajtx",
+            "bbrillatx",
+            "bbrillawx",
+            "jibbrillax",
+            "nibbrilla",
+            "nibbrillawx",
+            "nibbrillax",
+            "tibbrillawx"
+          ]
+        },
+        {
+          "text": "Bblokka, nibblokka, ibblokka",
+          "meaning_mt": "Il-verb bblokka: bblokkajt, nibblokka, ibblokka.",
+          "meaning_en": "The verb 'to block' in Maltese.",
+          "example": "Jiena nibblokka. Huwa bblokka.",
+          "keys": [
+            "bblokka",
+            "nibblokka",
+            "bblokkajt",
+            "block"
+          ],
+          "en_forms": [
+            "block",
+            "blocks",
+            "blocked"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibblokka",
+                  "ma nibblokkax"
+                ],
+                [
+                  "inti",
+                  "tibblokka",
+                  "ma tibblokkax"
+                ],
+                [
+                  "huwa",
+                  "jibblokka",
+                  "ma jibblokkax"
+                ],
+                [
+                  "hija",
+                  "tibblokka",
+                  "ma tibblokkax"
+                ],
+                [
+                  "aħna",
+                  "nibblokkaw",
+                  "ma nibblokkawx"
+                ],
+                [
+                  "intom",
+                  "tibblokkaw",
+                  "ma tibblokkawx"
+                ],
+                [
+                  "huma",
+                  "jibblokkaw",
+                  "ma jibblokkawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bblokkajt",
+                  "ma bblokkajtx"
+                ],
+                [
+                  "inti",
+                  "bblokkajt",
+                  "ma bblokkajtx"
+                ],
+                [
+                  "huwa",
+                  "bblokka",
+                  "ma bblokkax"
+                ],
+                [
+                  "hija",
+                  "bblokkat",
+                  "ma bblokkatx"
+                ],
+                [
+                  "aħna",
+                  "bblokkajna",
+                  "ma bblokkajniex"
+                ],
+                [
+                  "intom",
+                  "bblokkajtu",
+                  "ma bblokkajtux"
+                ],
+                [
+                  "huma",
+                  "bblokkaw",
+                  "ma bblokkawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibblokka",
+                  "tibblokkax"
+                ],
+                [
+                  "intom",
+                  "ibblokkaw",
+                  "tibblokkawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bblokkajna",
+            "bblokkajniex",
+            "bblokkajt",
+            "bblokkajtu",
+            "bblokkajtux",
+            "bblokkajtx",
+            "bblokkatx",
+            "bblokkawx",
+            "bblokkax",
+            "jibblokkawx",
+            "jibblokkax",
+            "nibblokkawx",
+            "nibblokkax",
+            "tibblokkaw",
+            "tibblokkawx",
+            "tibblokkax"
+          ]
+        },
+        {
+          "text": "Bbalzma, nibbalzma, ibbalzma",
+          "meaning_mt": "Il-verb bbalzma: bbalzmajt, nibbalzma, ibbalzma.",
+          "meaning_en": "The verb 'to embalm' in Maltese.",
+          "example": "Jiena nibbalzma. Huwa bbalzma.",
+          "keys": [
+            "bbalzma",
+            "nibbalzma",
+            "bbalzmajt",
+            "embalm"
+          ],
+          "en_forms": [
+            "embalm",
+            "embalms",
+            "embalmed"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbalzma",
+                  "ma nibbalzmax"
+                ],
+                [
+                  "inti",
+                  "tibbalzma",
+                  "ma tibbalzmax"
+                ],
+                [
+                  "huwa",
+                  "jibbalzma",
+                  "ma jibbalzmax"
+                ],
+                [
+                  "hija",
+                  "tibbalzma",
+                  "ma tibbalzmax"
+                ],
+                [
+                  "aħna",
+                  "nibbalzmaw",
+                  "ma nibbalzmawx"
+                ],
+                [
+                  "intom",
+                  "tibbalzmaw",
+                  "ma tibbalzmawx"
+                ],
+                [
+                  "huma",
+                  "jibbalzmaw",
+                  "ma jibbalzmawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbalzmajt",
+                  "ma bbalzmajtx"
+                ],
+                [
+                  "inti",
+                  "bbalzmajt",
+                  "ma bbalzmajtx"
+                ],
+                [
+                  "huwa",
+                  "bbalzma",
+                  "ma bbalzmax"
+                ],
+                [
+                  "hija",
+                  "bbalzmat",
+                  "ma bbalzmatx"
+                ],
+                [
+                  "aħna",
+                  "bbalzmajna",
+                  "ma bbalzmajniex"
+                ],
+                [
+                  "intom",
+                  "bbalzmajtu",
+                  "ma bbalzmajtux"
+                ],
+                [
+                  "huma",
+                  "bbalzmaw",
+                  "ma bbalzmawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbalzma",
+                  "tibbalzmax"
+                ],
+                [
+                  "intom",
+                  "ibbalzmaw",
+                  "tibbalzmawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbalzmajna",
+            "bbalzmajniex",
+            "bbalzmajt",
+            "bbalzmajtu",
+            "bbalzmajtux",
+            "bbalzmajtx",
+            "bbalzmatx",
+            "bbalzmawx",
+            "bbalzmax",
+            "ibbalzmaw",
+            "jibbalzmawx",
+            "jibbalzmax",
+            "nibbalzmawx",
+            "nibbalzmax",
+            "tibbalzmaw",
+            "tibbalzmawx",
+            "tibbalzmax"
+          ]
+        },
+        {
+          "text": "Bbumbardja, nibbumbardja, ibbumbardja",
+          "meaning_mt": "Il-verb bbumbardja: bbumbardjajt, nibbumbardja, ibbumbardja.",
+          "meaning_en": "The verb 'to bomb' in Maltese.",
+          "example": "Jiena nibbumbardja. Huwa bbumbardja.",
+          "keys": [
+            "bbumbardja",
+            "nibbumbardja",
+            "bbumbardjajt",
+            "bomb"
+          ],
+          "en_forms": [
+            "bomb",
+            "bombs",
+            "bombed"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbumbardja",
+                  "ma nibbumbardjax"
+                ],
+                [
+                  "inti",
+                  "tibbumbardja",
+                  "ma tibbumbardjax"
+                ],
+                [
+                  "huwa",
+                  "jibbumbardja",
+                  "ma jibbumbardjax"
+                ],
+                [
+                  "hija",
+                  "tibbumbardja",
+                  "ma tibbumbardjax"
+                ],
+                [
+                  "aħna",
+                  "nibbumbardjaw",
+                  "ma nibbumbardjawx"
+                ],
+                [
+                  "intom",
+                  "tibbumbardjaw",
+                  "ma tibbumbardjawx"
+                ],
+                [
+                  "huma",
+                  "jibbumbardjaw",
+                  "ma jibbumbardjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbumbardjajt",
+                  "ma bbumbardjajtx"
+                ],
+                [
+                  "inti",
+                  "bbumbardjajt",
+                  "ma bbumbardjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbumbardja",
+                  "ma bbumbardjax"
+                ],
+                [
+                  "hija",
+                  "bbumbardjat",
+                  "ma bbumbardjatx"
+                ],
+                [
+                  "aħna",
+                  "bbumbardjajna",
+                  "ma bbumbardjajniex"
+                ],
+                [
+                  "intom",
+                  "bbumbardjajtu",
+                  "ma bbumbardjajtux"
+                ],
+                [
+                  "huma",
+                  "bbumbardjaw",
+                  "ma bbumbardjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbumbardja",
+                  "tibbumbardjax"
+                ],
+                [
+                  "intom",
+                  "ibbumbardjaw",
+                  "tibbumbardjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbumbardjajna",
+            "bbumbardjajniex",
+            "bbumbardjajt",
+            "bbumbardjajtu",
+            "bbumbardjajtux",
+            "bbumbardjajtx",
+            "bbumbardjatx",
+            "bbumbardjawx",
+            "bbumbardjax",
+            "jibbumbardjawx",
+            "jibbumbardjax",
+            "nibbumbardja",
+            "nibbumbardjawx",
+            "nibbumbardjax",
+            "tibbumbardjaw",
+            "tibbumbardjawx",
+            "tibbumbardjax"
+          ]
+        },
+        {
+          "text": "Bbrejkja, nibbrejkja, ibbrejkja",
+          "meaning_mt": "Il-verb bbrejkja: bbrejkjajt, nibbrejkja, ibbrejkja.",
+          "meaning_en": "The verb 'to brake' in Maltese.",
+          "example": "Jiena nibbrejkja. Huwa bbrejkja.",
+          "keys": [
+            "bbrejkja",
+            "nibbrejkja",
+            "bbrejkjajt",
+            "brake"
+          ],
+          "en_forms": [
+            "brake",
+            "brakes",
+            "braked"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbrejkja",
+                  "ma nibbrejkjax"
+                ],
+                [
+                  "inti",
+                  "tibbrejkja",
+                  "ma tibbrejkjax"
+                ],
+                [
+                  "huwa",
+                  "jibbrejkja",
+                  "ma jibbrejkjax"
+                ],
+                [
+                  "hija",
+                  "tibbrejkja",
+                  "ma tibbrejkjax"
+                ],
+                [
+                  "aħna",
+                  "nibbrejkjaw",
+                  "ma nibbrejkjawx"
+                ],
+                [
+                  "intom",
+                  "tibbrejkjaw",
+                  "ma tibbrejkjawx"
+                ],
+                [
+                  "huma",
+                  "jibbrejkjaw",
+                  "ma jibbrejkjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbrejkjajt",
+                  "ma bbrejkjajtx"
+                ],
+                [
+                  "inti",
+                  "bbrejkjajt",
+                  "ma bbrejkjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbrejkja",
+                  "ma bbrejkjax"
+                ],
+                [
+                  "hija",
+                  "bbrejkjat",
+                  "ma bbrejkjatx"
+                ],
+                [
+                  "aħna",
+                  "bbrejkjajna",
+                  "ma bbrejkjajniex"
+                ],
+                [
+                  "intom",
+                  "bbrejkjajtu",
+                  "ma bbrejkjajtux"
+                ],
+                [
+                  "huma",
+                  "bbrejkjaw",
+                  "ma bbrejkjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbrejkja",
+                  "tibbrejkjax"
+                ],
+                [
+                  "intom",
+                  "ibbrejkjaw",
+                  "tibbrejkjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbrejkja",
+            "bbrejkjajna",
+            "bbrejkjajniex",
+            "bbrejkjajtu",
+            "bbrejkjajtux",
+            "bbrejkjajtx",
+            "bbrejkjatx",
+            "bbrejkjaw",
+            "bbrejkjawx",
+            "bbrejkjax",
+            "jibbrejkjawx",
+            "jibbrejkjax",
+            "nibbrejkja",
+            "nibbrejkjawx",
+            "nibbrejkjax",
+            "tibbrejkjaw",
+            "tibbrejkjawx"
+          ]
+        },
+        {
+          "text": "Bbojkottja, nibbojkottja, ibbojkottja",
+          "meaning_mt": "Il-verb bbojkottja: bbojkottjajt, nibbojkottja, ibbojkottja.",
+          "meaning_en": "The verb 'to boycott' in Maltese.",
+          "example": "Jiena nibbojkottja. Huwa bbojkottja.",
+          "keys": [
+            "bbojkottja",
+            "nibbojkottja",
+            "bbojkottjajt",
+            "boycott"
+          ],
+          "en_forms": [
+            "boycott",
+            "boycotts",
+            "boycotted"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbojkottja",
+                  "ma nibbojkottjax"
+                ],
+                [
+                  "inti",
+                  "tibbojkottja",
+                  "ma tibbojkottjax"
+                ],
+                [
+                  "huwa",
+                  "jibbojkottja",
+                  "ma jibbojkottjax"
+                ],
+                [
+                  "hija",
+                  "tibbojkottja",
+                  "ma tibbojkottjax"
+                ],
+                [
+                  "aħna",
+                  "nibbojkottjaw",
+                  "ma nibbojkottjawx"
+                ],
+                [
+                  "intom",
+                  "tibbojkottjaw",
+                  "ma tibbojkottjawx"
+                ],
+                [
+                  "huma",
+                  "jibbojkottjaw",
+                  "ma jibbojkottjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbojkottjajt",
+                  "ma bbojkottjajtx"
+                ],
+                [
+                  "inti",
+                  "bbojkottjajt",
+                  "ma bbojkottjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbojkottja",
+                  "ma bbojkottjax"
+                ],
+                [
+                  "hija",
+                  "bbojkottjat",
+                  "ma bbojkottjatx"
+                ],
+                [
+                  "aħna",
+                  "bbojkottjajna",
+                  "ma bbojkottjajniex"
+                ],
+                [
+                  "intom",
+                  "bbojkottjajtu",
+                  "ma bbojkottjajtux"
+                ],
+                [
+                  "huma",
+                  "bbojkottjaw",
+                  "ma bbojkottjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbojkottja",
+                  "tibbojkottjax"
+                ],
+                [
+                  "intom",
+                  "ibbojkottjaw",
+                  "tibbojkottjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbojkottjajna",
+            "bbojkottjajniex",
+            "bbojkottjajt",
+            "bbojkottjajtu",
+            "bbojkottjajtux",
+            "bbojkottjajtx",
+            "bbojkottjatx",
+            "bbojkottjawx",
+            "jibbojkottjax",
+            "nibbojkottja",
+            "nibbojkottjawx",
+            "nibbojkottjax",
+            "tibbojkottjaw",
+            "tibbojkottjawx"
+          ]
+        },
+        {
+          "text": "Bbaġitja, nibbaġitja, ibbaġitja",
+          "meaning_mt": "Il-verb bbaġitja: bbaġitjajt, nibbaġitja, ibbaġitja.",
+          "meaning_en": "The verb 'to budget' in Maltese.",
+          "example": "Jiena nibbaġitja. Huwa bbaġitja.",
+          "keys": [
+            "bbaġitja",
+            "nibbaġitja",
+            "bbaġitjajt",
+            "budget"
+          ],
+          "en_forms": [
+            "budget",
+            "budgets",
+            "budgeted"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbaġitja",
+                  "ma nibbaġitjax"
+                ],
+                [
+                  "inti",
+                  "tibbaġitja",
+                  "ma tibbaġitjax"
+                ],
+                [
+                  "huwa",
+                  "jibbaġitja",
+                  "ma jibbaġitjax"
+                ],
+                [
+                  "hija",
+                  "tibbaġitja",
+                  "ma tibbaġitjax"
+                ],
+                [
+                  "aħna",
+                  "nibbaġitjaw",
+                  "ma nibbaġitjawx"
+                ],
+                [
+                  "intom",
+                  "tibbaġitjaw",
+                  "ma tibbaġitjawx"
+                ],
+                [
+                  "huma",
+                  "jibbaġitjaw",
+                  "ma jibbaġitjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbaġitjajt",
+                  "ma bbaġitjajtx"
+                ],
+                [
+                  "inti",
+                  "bbaġitjajt",
+                  "ma bbaġitjajtx"
+                ],
+                [
+                  "huwa",
+                  "bbaġitja",
+                  "ma bbaġitjax"
+                ],
+                [
+                  "hija",
+                  "bbaġitjat",
+                  "ma bbaġitjatx"
+                ],
+                [
+                  "aħna",
+                  "bbaġitjajna",
+                  "ma bbaġitjajniex"
+                ],
+                [
+                  "intom",
+                  "bbaġitjajtu",
+                  "ma bbaġitjajtux"
+                ],
+                [
+                  "huma",
+                  "bbaġitjaw",
+                  "ma bbaġitjawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbaġitja",
+                  "tibbaġitjax"
+                ],
+                [
+                  "intom",
+                  "ibbaġitjaw",
+                  "tibbaġitjawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbaġitjajniex",
+            "bbaġitjajt",
+            "bbaġitjajtu",
+            "bbaġitjajtux",
+            "bbaġitjajtx",
+            "bbaġitjatx",
+            "bbaġitjawx",
+            "ibbaġitjaw",
+            "jibbaġitjax",
+            "nibbaġitja",
+            "nibbaġitjaw",
+            "nibbaġitjawx",
+            "nibbaġitjax",
+            "tibbaġitjaw",
+            "tibbaġitjawx",
+            "tibbaġitjax"
+          ]
+        },
+        {
+          "text": "Bbasta, nibbasta, ibbasta",
+          "meaning_mt": "Il-verb bbasta: bbastajt, nibbasta, ibbasta.",
+          "meaning_en": "The verb 'to be enough' in Maltese.",
+          "example": "Jiena nibbasta. Huwa bbasta.",
+          "keys": [
+            "bbasta",
+            "nibbasta",
+            "bbastajt",
+            "enough"
+          ],
+          "en_forms": [
+            "be enough",
+            "is enough",
+            "was enough"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbasta",
+                  "ma nibbastax"
+                ],
+                [
+                  "inti",
+                  "tibbasta",
+                  "ma tibbastax"
+                ],
+                [
+                  "huwa",
+                  "jibbasta",
+                  "ma jibbastax"
+                ],
+                [
+                  "hija",
+                  "tibbasta",
+                  "ma tibbastax"
+                ],
+                [
+                  "aħna",
+                  "nibbastaw",
+                  "ma nibbastawx"
+                ],
+                [
+                  "intom",
+                  "tibbastaw",
+                  "ma tibbastawx"
+                ],
+                [
+                  "huma",
+                  "jibbastaw",
+                  "ma jibbastawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbastajt",
+                  "ma bbastajtx"
+                ],
+                [
+                  "inti",
+                  "bbastajt",
+                  "ma bbastajtx"
+                ],
+                [
+                  "huwa",
+                  "bbasta",
+                  "ma bbastax"
+                ],
+                [
+                  "hija",
+                  "bbastat",
+                  "ma bbastatx"
+                ],
+                [
+                  "aħna",
+                  "bbastajna",
+                  "ma bbastajniex"
+                ],
+                [
+                  "intom",
+                  "bbastajtu",
+                  "ma bbastajtux"
+                ],
+                [
+                  "huma",
+                  "bbastaw",
+                  "ma bbastawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbasta",
+                  "tibbastax"
+                ],
+                [
+                  "intom",
+                  "ibbastaw",
+                  "tibbastawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbastajna",
+            "bbastajniex",
+            "bbastajt",
+            "bbastajtu",
+            "bbastajtux",
+            "bbastajtx",
+            "bbastawx",
+            "ibbastaw",
+            "jibbastawx",
+            "nibbastaw",
+            "nibbastawx",
+            "nibbastax",
+            "tibbastaw",
+            "tibbastawx",
+            "tibbastax"
+          ]
+        },
+        {
+          "text": "Bbottilja, nibbottilja, ibbottilja",
+          "meaning_mt": "Il-verb bbottilja: bbottiljajt, nibbottilja, ibbottilja.",
+          "meaning_en": "The verb 'to bottle' in Maltese.",
+          "example": "Jiena nibbottilja. Huwa bbottilja.",
+          "keys": [
+            "bbottilja",
+            "nibbottilja",
+            "bbottiljajt",
+            "bottle"
+          ],
+          "en_forms": [
+            "bottle",
+            "bottles",
+            "bottled"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nibbottilja",
+                  "ma nibbottiljax"
+                ],
+                [
+                  "inti",
+                  "tibbottilja",
+                  "ma tibbottiljax"
+                ],
+                [
+                  "huwa",
+                  "jibbottilja",
+                  "ma jibbottiljax"
+                ],
+                [
+                  "hija",
+                  "tibbottilja",
+                  "ma tibbottiljax"
+                ],
+                [
+                  "aħna",
+                  "nibbottiljaw",
+                  "ma nibbottiljawx"
+                ],
+                [
+                  "intom",
+                  "tibbottiljaw",
+                  "ma tibbottiljawx"
+                ],
+                [
+                  "huma",
+                  "jibbottiljaw",
+                  "ma jibbottiljawx"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "bbottiljajt",
+                  "ma bbottiljajtx"
+                ],
+                [
+                  "inti",
+                  "bbottiljajt",
+                  "ma bbottiljajtx"
+                ],
+                [
+                  "huwa",
+                  "bbottilja",
+                  "ma bbottiljax"
+                ],
+                [
+                  "hija",
+                  "bbottiljat",
+                  "ma bbottiljatx"
+                ],
+                [
+                  "aħna",
+                  "bbottiljajna",
+                  "ma bbottiljajniex"
+                ],
+                [
+                  "intom",
+                  "bbottiljajtu",
+                  "ma bbottiljajtux"
+                ],
+                [
+                  "huma",
+                  "bbottiljaw",
+                  "ma bbottiljawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "ibbottilja",
+                  "tibbottiljax"
+                ],
+                [
+                  "intom",
+                  "ibbottiljaw",
+                  "tibbottiljawx"
+                ]
+              ]
+            }
+          ],
+          "made": "rules",
+          "to_check": [
+            "bbottilja",
+            "bbottiljajna",
+            "bbottiljajniex",
+            "bbottiljajt",
+            "bbottiljajtu",
+            "bbottiljajtux",
+            "bbottiljajtx",
+            "bbottiljatx",
+            "bbottiljaw",
+            "bbottiljawx",
+            "bbottiljax",
+            "ibbottiljaw",
+            "jibbottiljawx",
+            "jibbottiljax",
+            "nibbottiljaw",
+            "nibbottiljawx",
+            "nibbottiljax",
+            "tibbottiljaw",
+            "tibbottiljawx",
+            "tibbottiljax"
+          ]
+        },
+        {
+          "text": "Mar, immur, mur",
+          "meaning_mt": "Il-verb mar: mort, immur, mur.",
+          "meaning_en": "The verb 'to go' in Maltese.",
+          "example": "Jiena immur. Huwa mar.",
+          "keys": [
+            "mar",
+            "immur",
+            "mort",
+            "go"
+          ],
+          "en_forms": [
+            "go",
+            "goes",
+            "went"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "immur",
+                  "ma mmurx"
+                ],
+                [
+                  "inti",
+                  "tmur",
+                  "ma tmurx"
+                ],
+                [
+                  "huwa",
+                  "imur",
+                  "ma jmurx"
+                ],
+                [
+                  "hija",
+                  "tmur",
+                  "ma tmurx"
+                ],
+                [
+                  "aħna",
+                  "immorru",
+                  "ma mmorrux"
+                ],
+                [
+                  "intom",
+                  "tmorru",
+                  "ma tmorrux"
+                ],
+                [
+                  "huma",
+                  "imorru",
+                  "ma jmorrux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "mort",
+                  "ma mortx"
+                ],
+                [
+                  "inti",
+                  "mort",
+                  "ma mortx"
+                ],
+                [
+                  "huwa",
+                  "mar",
+                  "ma marx"
+                ],
+                [
+                  "hija",
+                  "marret",
+                  "ma marritx"
+                ],
+                [
+                  "aħna",
+                  "morna",
+                  "ma morniex"
+                ],
+                [
+                  "intom",
+                  "mortu",
+                  "ma mortux"
+                ],
+                [
+                  "huma",
+                  "marru",
+                  "ma marrux"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "mur",
+                  "tmurx"
+                ],
+                [
+                  "intom",
+                  "morru",
+                  "tmorrux"
+                ]
+              ]
+            }
+          ],
+          "made": "by hand",
+          "to_check": []
+        },
+        {
+          "text": "Ta, nagħti, agħti",
+          "meaning_mt": "Il-verb ta: tajt, nagħti, agħti.",
+          "meaning_en": "The verb 'to give' in Maltese.",
+          "example": "Jiena nagħti. Huwa ta.",
+          "keys": [
+            "ta",
+            "nagħti",
+            "tajt",
+            "give"
+          ],
+          "en_forms": [
+            "give",
+            "gives",
+            "gave"
+          ],
+          "tables": [
+            {
+              "title": "Imperfett · present",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "nagħti",
+                  "ma nagħtix"
+                ],
+                [
+                  "inti",
+                  "tagħti",
+                  "ma tagħtix"
+                ],
+                [
+                  "huwa",
+                  "jagħti",
+                  "ma jagħtix"
+                ],
+                [
+                  "hija",
+                  "tagħti",
+                  "ma tagħtix"
+                ],
+                [
+                  "aħna",
+                  "nagħtu",
+                  "ma nagħtux"
+                ],
+                [
+                  "intom",
+                  "tagħtu",
+                  "ma tagħtux"
+                ],
+                [
+                  "huma",
+                  "jagħtu",
+                  "ma jagħtux"
+                ]
+              ]
+            },
+            {
+              "title": "Perfett · past",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "jiena",
+                  "tajt",
+                  "ma tajtx"
+                ],
+                [
+                  "inti",
+                  "tajt",
+                  "ma tajtx"
+                ],
+                [
+                  "huwa",
+                  "ta",
+                  "ma tax"
+                ],
+                [
+                  "hija",
+                  "tat",
+                  "ma tatx"
+                ],
+                [
+                  "aħna",
+                  "tajna",
+                  "ma tajniex"
+                ],
+                [
+                  "intom",
+                  "tajtu",
+                  "ma tajtux"
+                ],
+                [
+                  "huma",
+                  "taw",
+                  "ma tawx"
+                ]
+              ]
+            },
+            {
+              "title": "Imperattiv · command",
+              "head": [
+                "persuna",
+                "pożittiv",
+                "negattiv"
+              ],
+              "rows": [
+                [
+                  "inti",
+                  "agħti",
+                  "tagħtix"
+                ],
+                [
+                  "intom",
+                  "agħtu",
+                  "tagħtux"
+                ]
+              ]
+            }
+          ],
+          "made": "by hand",
+          "to_check": []
+        }
+      ]
+    },
+    {
+      "id": "pronomi",
+      "icon": "👤",
+      "mt": "Il-Pronomi",
+      "en": "Pronouns",
+      "entries": [
+        {
+          "text": "Jien, int, hu, hi",
+          "meaning_mt": "Il-pronomi personali fis-singular.",
+          "meaning_en": "I, you, he, she.",
+          "example": "Jien Malti. Int minn fejn int?",
+          "keys": [
+            "pronomi",
+            "jien"
+          ]
+        },
+        {
+          "text": "Aħna, intom, huma",
+          "meaning_mt": "Il-pronomi personali fil-plural.",
+          "meaning_en": "We, you (plural), they.",
+          "example": "Aħna sejrin il-baħar. Intom ġejjin?",
+          "keys": [
+            "aħna",
+            "intom",
+            "huma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "artiklu",
+      "icon": "🔤",
+      "mt": "L-Artiklu",
+      "en": "The article",
+      "entries": [
+        {
+          "text": "Il-, l-",
+          "meaning_mt": "L-artiklu definit. Quddiem vokali jsir l-.",
+          "meaning_en": "The definite article. Before a vowel: l-.",
+          "example": "il-kelb, l-ilma",
+          "keys": [
+            "artiklu"
+          ]
+        },
+        {
+          "text": "Ix-xemx",
+          "meaning_mt": "Quddiem ittri xemxin, l-artiklu jieħu l-ittra ta' warajh.",
+          "meaning_en": "Before sun letters the article copies the next letter.",
+          "example": "ix-xemx, it-tifel, iċ-ċikkulata",
+          "keys": [
+            "xemx",
+            "xemxin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ortografija",
+      "icon": "✍️",
+      "mt": "L-Ortografija",
+      "en": "Spelling",
+      "entries": [
+        {
+          "text": "Għ hija ittra waħda",
+          "meaning_mt": "Għ tinkiteb b'żewġ ittri imma hija ittra waħda.",
+          "meaning_en": "Għ is two characters but one letter.",
+          "example": "għajnuna, għalliem, għasfur",
+          "keys": [
+            "għ",
+            "ittra"
+          ]
+        },
+        {
+          "text": "Ħ u h",
+          "meaning_mt": "Ħ tinstema'. H waħedha ġeneralment ma tinstemax.",
+          "meaning_en": "Ħ is sounded. Plain h is usually silent.",
+          "example": "ħobż, ħafna · hawn, huwa",
+          "keys": [
+            "ħ"
+          ]
+        }
+      ]
+    }
+  ]
+}

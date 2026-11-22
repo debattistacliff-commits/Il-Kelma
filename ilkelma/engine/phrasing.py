@@ -3,9 +3,10 @@ import re
 from urllib.request import Request, urlopen
 
 from .maltese_fix import fix
+from ilkelma.languages import packs
 
 LOCAL_AI_URL = "http://127.0.0.1:11434/api/chat"
-LANGUAGES = {"mt": "Maltese", "en": "English", "it": "Italian"}
+LANGUAGES = {code: pack["english_name"] for code, pack in packs().items()}
 DEFAULT_MODEL = "gpt-oss:20b"
 
 
@@ -33,7 +34,7 @@ def generate(idea, language, model=DEFAULT_MODEL, *, keep_alive=0, timeout=240, 
         "messages": [
             {"role": "system", "content":
              f"Turn a spoken idea into one short chat sentence in {LANGUAGES[language]}. "
-             "The idea can mix Maltese, English and Italian or contain unfinished words. "
+             "The idea can mix Maltese, English and other languages or contain unfinished words. "
              "Keep the intended meaning exactly. Keep names, negation and details. "
              "Use an informal, friendly tone without adding content. "
              "Phrases like 'in Maltese' specify a language and are not part of the message. "

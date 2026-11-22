@@ -87,6 +87,7 @@ function render(next) {
   document.body.classList.toggle("clipped", state.clipped);
   document.querySelectorAll(".mood").forEach(el => el.classList.toggle("active", el.id === "m-" + state.mood));
   document.querySelectorAll(".flag").forEach(el => el.style.display = el.dataset.code === state.language ? "block" : "none");
+  document.querySelector("#b-lang .tip").innerHTML = `Language: ${state.languageName}<br><b>Lingwa</b>`;
   const clipTip = document.querySelector("#b-clip .tip");
   clipTip.innerHTML = state.clipped ? "Unclip<br><b>Aqla'</b>" : "Clip here<br><b>Waħħal hawn</b>";
   const comments = document.querySelector("#b-comments");

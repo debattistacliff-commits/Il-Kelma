@@ -1,0 +1,38 @@
+{
+  "name": "Română",
+  "english_name": "Romanian",
+  "order": 16,
+  "model": "dropbox-dash/faster-whisper-large-v3-turbo",
+  "fixer": false,
+  "voices": [
+    "ro-RO-AlinaNeural"
+  ],
+  "lcid": "0x18",
+  "ocr": "ro-RO",
+  "says": "spune",
+  "comment_status": [
+    "Citesc comentariile",
+    "M-am oprit"
+  ],
+  "flag": "<rect width=\"10\" height=\"30\" fill=\"#002B7F\"/><rect x=\"10\" width=\"10\" height=\"30\" fill=\"#FCD116\"/><rect x=\"20\" width=\"10\" height=\"30\" fill=\"#CE1126\"/>",
+  "common_words": "și este nu sunt mulțumesc bună salut foarte da ce cum pentru dar acum azi prieten bine eu tu noi voi aici",
+  "buddy": {
+    "greeting": "Salut, {user}! Eu sunt {buddy}.",
+    "language": "Acum scriu în română.",
+    "typing_box": "Mai întâi apasă în căsuța unde scrii.",
+    "nothing_heard": "N-am auzit niciun cuvânt. Încearcă din nou.",
+    "select_text": "Selectează un text, apoi apasă din nou Citește.",
+    "pasted": "Textul tău e acolo!",
+    "thanks": "Cu plăcere, {user}!",
+    "laugh": "M-ai făcut să râd, {user}!",
+    "silence": "Nu te aud. Verifică microfonul.",
+    "no_sound": "N-am auzit nimic. Încearcă din nou.",
+    "task_failed": "N-am putut termina. Încearcă din nou.",
+    "voices_failed": "Nu ajung la vocile online. Încearcă mai târziu.",
+    "no_mic": "Alege un microfon din Setări.",
+    "mic_disconnected": "Microfonul s-a deconectat. Verifică Setările.",
+    "mic_reconnected": "Microfonul s-a întors.",
+    "no_message": "N-am găsit niciun mesaj deasupra căsuței.",
+    "paste_clipboard": "N-am putut lipi. Textul tău e în clipboard."
+  }
+}
